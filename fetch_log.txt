@@ -1,0 +1,21 @@
+Fetching 4524 tickers | today=2026-06-02 | 180d target=2025-12-04
+  250/4524 done | ok=250
+  500/4524 done | ok=499
+  750/4524 done | ok=749
+  1000/4524 done | ok=999
+  1250/4524 done | ok=1249
+  1500/4524 done | ok=1499
+  1750/4524 done | ok=1748
+  2000/4524 done | ok=1998
+  2250/4524 done | ok=2247
+  2500/4524 done | ok=2484
+  2750/4524 done | ok=2694
+  3000/4524 done | ok=2817
+  3250/4524 done | ok=2873
+  3500/4524 done | ok=3045
+  3750/4524 done | ok=3293
+  4000/4524 done | ok=3536
+  4250/4524 done | ok=3783
+  4500/4524 done | ok=4033
+DONE. status counts: {'ok': 4056, 'no_data': 464, 'too_few_bars': 4}
+rows with ok: 4056

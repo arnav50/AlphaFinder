@@ -1,0 +1,31 @@
+rank,symbol,tier,live,entry,stop,ext_pct,vol_x,adv_cr,rs_vs_nifty,verdict,passed,fails,phase7_score
+12,PARAGMILK,TIER 1,243.97,241.08,226.07,1.2,2.6,13.68,23.7,GO,6,all pass,15
+1,JSWDULUX,TIER 1,3119.6,3233.2,3075.16,-3.5,10.7,5.53,8.8,WATCH (staging),5,triggered,16
+3,CGCL,TIER 1,201.36,204.9,193.12,-1.7,2.3,40.45,24.7,WATCH (staging),5,triggered,16
+4,GREAVESCOT,TIER 1,183.73,188.64,176.89,-2.6,1.9,18.46,22.5,WATCH (staging),5,triggered,16
+5,GRASIM,TIER 1,3101.6,3197.5,3075.76,-3.0,1.6,198.25,15.8,WATCH (staging),5,triggered,15
+10,MUFIN,TIER 1,122.48,128.18,120.9,-4.4,1.6,24.52,13.0,WATCH (staging),5,triggered,15
+11,AEGISLOG,TIER 1,760.5,792.3,744.09,-4.0,5.6,35.52,17.4,WATCH (staging),5,triggered,15
+13,LMW,TIER 1,15899.0,16198.0,15184.88,-1.8,1.7,4.23,9.7,WATCH (staging),5,triggered,15
+18,INFY,TIER 1,1222.6,1270.8,1210.5,-3.8,4.7,1282.85,6.2,WATCH (staging),5,triggered,14
+21,ELGIEQUIP,TIER 1,601.2,633.85,596.87,-5.2,11.6,17.12,16.5,WATCH (staging),5,triggered,14
+22,NBCC,TIER 1,102.24,105.75,99.57,-3.3,3.3,132.0,18.3,WATCH (staging),5,triggered,14
+25,HONASA,TIER 1,402.1,424.9,399.31,-5.4,2.2,32.46,40.1,WATCH (staging),5,triggered,14
+27,ANANTRAJ,TIER 1,548.0,564.85,529.03,-3.0,3.3,106.98,10.7,WATCH (staging),5,triggered,14
+28,TMB,TIER 1,740.45,767.95,717.83,-3.6,5.2,18.06,14.9,WATCH (staging),5,triggered,14
+30,MONARCH,TIER 1,338.8,348.8,324.21,-2.9,2.0,4.33,29.3,WATCH (staging),5,triggered,14
+19,SINDHUTRAD,TIER 1,25.99,28.2,25.97,-7.8,0.6,3.66,10.8,WATCH (staging),4,"triggered,vol_ok",14
+20,KEI,TIER 1,5222.0,5476.3,5163.62,-4.6,0.8,183.4,12.7,WATCH (staging),4,"triggered,vol_ok",14
+24,EQUITASBNK,TIER 1,70.9,74.6,70.16,-5.0,1.0,19.45,13.3,WATCH (staging),4,"triggered,vol_ok",14
+9,KPRMILL,TIER 1,1085.8,1012.0,956.45,7.3,3.5,19.32,15.9,WATCH (extended),5,not_ext,15
+6,TECHM,TIER 1,1472.3,1571.4,1497.98,-6.3,2.0,258.69,23.0,DROP (below stop),4,"alive,triggered",15
+7,DLINKINDIA,TIER 1,471.7,499.15,474.27,-5.5,1.5,5.29,23.5,DROP (below stop),4,"alive,triggered",15
+8,JSWENERGY,TIER 1,580.2,617.35,584.62,-6.0,2.5,201.22,25.7,DROP (below stop),4,"alive,triggered",15
+14,COFORGE,TIER 1,1420.9,1519.5,1423.31,-6.5,2.7,547.27,34.2,DROP (below stop),4,"alive,triggered",15
+15,GALAPREC,TIER 1,871.45,976.6,910.4,-10.8,2.0,2.42,25.7,DROP (below stop),4,"alive,triggered",15
+16,ASHAPURMIN,TIER 1,722.5,788.0,726.1,-8.3,8.2,41.73,41.5,DROP (below stop),4,"alive,triggered",15
+17,MOSCHIP,TIER 1,215.15,236.7,217.53,-9.1,3.2,57.6,19.3,DROP (below stop),4,"alive,triggered",15
+23,SUPRAJIT,TIER 1,465.45,507.0,477.32,-8.2,21.8,3.58,16.1,DROP (below stop),4,"alive,triggered",14
+26,MOREPENLAB,TIER 1,45.4,49.49,45.78,-8.3,7.5,16.38,10.2,DROP (below stop),4,"alive,triggered",14
+2,NUVAMA,TIER 1,1558.1,1647.9,1562.23,-5.4,1.2,89.23,30.5,DROP (below stop),3,"alive,triggered,vol_ok",16
+29,INDNIPPON,TIER 1,900.5,976.4,909.63,-7.8,26.7,1.38,15.8,DROP (below stop),3,"alive,liquid,triggered",14
