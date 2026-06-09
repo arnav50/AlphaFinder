@@ -1,0 +1,221 @@
+=== REFRESH START ===
+--- 01 universe ---
+NSE equity (EQ+BE): 2343
+BSE equity (active, ex Z/XT): 4384
+TOTAL universe after ISIN dedup (NSE preferred): 4512
+{'NSE': 2343, 'BSE': 2169}
+--- 02 prices ---
+Fetching 4512 tickers | today=2026-06-06 | 180d target=2025-12-08
+  250/4512 done | ok=250
+  500/4512 done | ok=499
+  750/4512 done | ok=749
+  1000/4512 done | ok=999
+  1250/4512 done | ok=1249
+  1500/4512 done | ok=1499
+  1750/4512 done | ok=1749
+  2000/4512 done | ok=1999
+  2250/4512 done | ok=2248
+  2500/4512 done | ok=2485
+  2750/4512 done | ok=2695
+  3000/4512 done | ok=2810
+  3250/4512 done | ok=2873
+  3500/4512 done | ok=3045
+  3750/4512 done | ok=3293
+  4000/4512 done | ok=3536
+  4250/4512 done | ok=3783
+  4500/4512 done | ok=4033
+DONE. status counts: {'ok': 4044, 'no_data': 465, 'too_few_bars': 3}
+rows with ok: 4044
+--- 03 filter ---
+ok rows: 4044
+>=25% return: 505
+after liquidity filter (>=50k sh OR >=Rs50L val): 341 (dropped 164)
+penny stocks (<Rs10 CMP) excluded: 11
+market cap matched: 319/330
+
+FINAL HITS: 330 | penny-flagged: 0
+by exchange: {'NSE': 308, 'BSE': 22}
+by cap: {'Small': 135, 'Mid': 89, 'Large': 64, 'Micro': 31, 'n/a': 11}
+
+Top 15 by return%:
+    symbol                              name exchange  price_180d_ago  price_today  return_pct cap_bucket
+   STLTECH     Sterlite Technologies Limited      NSE           97.34       619.25      536.17      Large
+  MTARTECH         Mtar Technologies Limited      NSE         2332.40      7535.50      223.08      Large
+    DEEDEV DEE Development Engineers Limited      NSE          208.12       671.15      222.48      Small
+ SANGINITA       Sanginita Chemicals Limited      NSE            9.85        31.57      220.51        n/a
+    540492        Starlineps Enterprises Ltd      BSE            3.46        10.93      215.90      Micro
+      UFBL         United Foodbrands Limited      NSE          178.80       506.00      183.00      Small
+      HFCL                      HFCL Limited      NSE           67.21       187.23      178.57      Large
+     GVPIL            GE Power India Limited      NSE          322.10       884.10      174.48        Mid
+  BLISSGVS          Bliss GVS Pharma Limited      NSE          162.19       438.35      170.27      Small
+  OMAXAUTO                Omax Autos Limited      NSE           88.60       234.72      164.92      Small
+MODISONLTD                   MODISON LIMITED      NSE          140.40       362.70      158.33      Small
+ BHAGYANGR         Bhagyanagar India Limited      NSE          123.85       306.65      147.60      Small
+      OMNI      Omnitech Engineering Limited      NSE          204.93       505.20      146.52        Mid
+  AEROFLEX       Aeroflex Industries Limited      NSE          172.89       419.75      142.78        Mid
+ ANTELOPUS    Antelopus Selan Energy Limited      NSE          374.35       899.35      140.24      Small
+--- 04 verify ---
+Verifying 330 hits (adjusted return + live price)...
+  50/330
+  100/330
+  150/330
+  200/330
+  250/330
+  300/330
+
+=== VERIFICATION SUMMARY ===
+corp_action flagged (raw vs adj gap > 8pt): 0
+price_mismatch flagged (>5% vs live):       0 (live price unavailable for 312)
+adjusted return < 25% (fall out):           0
+
+Top 15 (raw vs adjusted return, live price):
+    symbol                              name exchange  price_today  live_today  return_pct  adj_return_pct  corp_action  price_mismatch
+   STLTECH     Sterlite Technologies Limited      NSE       619.25         NaN      536.17          536.17        False           False
+  MTARTECH         Mtar Technologies Limited      NSE      7535.50         NaN      223.08          223.08        False           False
+    DEEDEV DEE Development Engineers Limited      NSE       671.15         NaN      222.48          222.48        False           False
+ SANGINITA       Sanginita Chemicals Limited      NSE        31.57         NaN      220.51          220.51        False           False
+    540492        Starlineps Enterprises Ltd      BSE        10.93       10.93      215.90          215.90        False           False
+      UFBL         United Foodbrands Limited      NSE       506.00         NaN      183.00          183.00        False           False
+      HFCL                      HFCL Limited      NSE       187.23         NaN      178.57          178.57        False           False
+     GVPIL            GE Power India Limited      NSE       884.10         NaN      174.48          174.48        False           False
+  BLISSGVS          Bliss GVS Pharma Limited      NSE       438.35         NaN      170.27          170.86        False           False
+  OMAXAUTO                Omax Autos Limited      NSE       234.72         NaN      164.92          167.88        False           False
+MODISONLTD                   MODISON LIMITED      NSE       362.70         NaN      158.33          158.33        False           False
+ BHAGYANGR         Bhagyanagar India Limited      NSE       306.65         NaN      147.60          147.60        False           False
+      OMNI      Omnitech Engineering Limited      NSE       505.20         NaN      146.52          146.52        False           False
+  AEROFLEX       Aeroflex Industries Limited      NSE       419.75         NaN      142.78          142.78        False           False
+ ANTELOPUS    Antelopus Selan Energy Limited      NSE       899.35         NaN      140.24          140.24        False           False
+--- 05 finalize ---
+  40/330 | last NITTAGELA live=nan
+  80/330 | last ACMESOLAR live=nan
+  120/330 | last CMPDI live=nan
+  160/330 | last VTL live=nan
+  200/330 | last MAHABANK live=nan
+  240/330 | last GMDCLTD live=nan
+  280/330 | last OLAELEC live=nan
+  320/330 | last ICICIAMC live=nan
+
+=== FINAL HARDENING SUMMARY ===
+total hits: 330
+robust return < 25% (drop): 29
+raw-vs-robust gap > 5pt:    109
+live 2nd-source price available: 22/330
+  of those, price mismatch >5%: 0  | median mismatch 0.00%
+--- 06 reconcile ---
+======================================================================
+PHASE 1 VERIFICATION CHECKPOINT
+======================================================================
+[OK] Total stocks with verified 180d return >= 25% : 321
+[OK] Duplicates removed (same co. NSE & BSE) via ISIN: dedup done in universe step
+     by exchange: {'NSE': 299, 'BSE': 22}
+     by cap     : {'Small': 133, 'Mid': 85, 'Large': 61, 'Micro': 31}
+[OK] Penny stocks (<Rs10) flagged (not removed)      : 0
+[OK] Cross-source price check (BSE twin / BSE live)   : 310/321 have 2nd source
+     agree within 5%: 309/310  | median mismatch 0.08%
+     NSE-only names w/ no BSE twin (Yahoo-only price) : 11
+[OK] Sorted by Return% descending                    : yes
+
+Top 20:
+ rank     symbol                               name exchange  price_180d_ago  price_today  return_pct_final cap_bucket  xsrc_mismatch_pct
+    1    STLTECH      Sterlite Technologies Limited      NSE           97.34       619.25            536.17      Large               0.02
+    2   MTARTECH          Mtar Technologies Limited      NSE         2332.40      7535.50            223.65      Large               0.07
+    3     DEEDEV  DEE Development Engineers Limited      NSE          208.12       671.15            220.51      Small               0.46
+    4  SANGINITA        Sanginita Chemicals Limited      NSE            9.85        31.57            220.18        NaN                NaN
+    5     540492         Starlineps Enterprises Ltd      BSE            3.46        10.93            215.90      Micro               0.00
+    6       UFBL          United Foodbrands Limited      NSE          178.80       506.00            183.00      Small               0.08
+    7       HFCL                       HFCL Limited      NSE           67.21       187.23            180.12      Large               0.02
+    8      GVPIL             GE Power India Limited      NSE          322.10       884.10            177.19        Mid               0.04
+    9   BLISSGVS           Bliss GVS Pharma Limited      NSE          162.19       438.35            172.72      Small               0.07
+   10       OMNI       Omnitech Engineering Limited      NSE          204.93       505.20            165.04        Mid               0.11
+   11   OMAXAUTO                 Omax Autos Limited      NSE           88.60       234.72            164.92      Small               0.42
+   12 MODISONLTD                    MODISON LIMITED      NSE          140.40       362.70            158.33      Small               0.12
+   13  BHAGYANGR          Bhagyanagar India Limited      NSE          123.85       306.65            143.37      Small               0.18
+   14   AEROFLEX        Aeroflex Industries Limited      NSE          172.89       419.75            141.92        Mid               0.06
+   15  ANTELOPUS     Antelopus Selan Energy Limited      NSE          374.35       899.35            140.24      Small               0.09
+   16    KSHINTL          KSH International Limited      NSE          355.00       819.45            138.63        Mid               0.13
+   17 ATLANTAELE        Atlanta Electricals Limited      NSE          863.90      2044.00            134.61        Mid               0.01
+   18     CPPLUS            Aditya Infotech Limited      NSE         1483.50      3501.90            133.62      Large               0.09
+   19   CONFIPET Confidence Petroleum India Limited      NSE           33.33        77.61            132.16      Small               0.14
+   20   SIGMAADV     SIGMA ADVANCED SYSTEMS LIMITED      NSE          189.11       435.80            131.92        Mid               0.01
+--- 07 sector ---
+  60/321
+  120/321
+  180/321
+  240/321
+  300/321
+sector coverage: 295 / 321
+sector
+Industrials               85
+Basic Materials           53
+Consumer Cyclical         39
+Healthcare                33
+n/a                       26
+Financial Services        25
+Technology                23
+Consumer Defensive        12
+Energy                     9
+Utilities                  8
+Communication Services     6
+Real Estate                2
+--- 09 ohlc ---
+  80/321 | ok=76
+  160/321 | ok=152
+  240/321 | ok=230
+  320/321 | ok=305
+DONE. stocks with usable OHLC: 306 | failed/short: 15
+bars per stock: min=63 median=353 max=354
+short/failed: ['KOVAI', 'NITTAGELA', 'NOVARTIND', 'COCKERILL', 'SEDEMAC', 'ELPROINTL', 'CMPDI', 'KPL', 'DECNGOLD', 'SAIPARENT', 'WELSPLSOL', 'MMWL', 'KISSHT', 'TIMEX', 'POWERICA']
+--- 10 indicators ---
+  80/306
+  160/306
+  240/306
+DONE. indicators for 306 stocks -> indicators.csv
+errors: 0
+    symbol   close  rsi  rsi_state     macd_pos ema_alignment  adx adx_regime supertrend
+      OMNI  505.20 70.1 overbought above_signal   n/a (short) 35.1   trending  green_buy
+   KSHINTL  819.45 67.4    neutral above_signal   n/a (short) 41.7   trending  green_buy
+    CPPLUS 3501.90 88.3 overbought above_signal       bullish 47.0   trending  green_buy
+ SANGINITA   31.57 87.5 overbought above_signal       bullish 55.1   trending  green_buy
+ATLANTAELE 2044.00 66.4    neutral above_signal   n/a (short) 41.9   trending  green_buy
+  OMAXAUTO  234.72 62.0    neutral below_signal       bullish 50.7   trending  green_buy
+    540492   10.93 42.6    neutral below_signal         mixed 37.9   trending   red_sell
+MODISONLTD  362.70 94.8 overbought above_signal       bullish 66.9   trending  green_buy
+    DEEDEV  671.15 79.7 overbought above_signal       bullish 49.6   trending  green_buy
+  AEROFLEX  419.75 61.0    neutral below_signal       bullish 39.3   trending  green_buy
+      UFBL  506.00 67.7    neutral below_signal       bullish 39.0   trending  green_buy
+ ANTELOPUS  899.35 73.2 overbought above_signal       bullish 44.4   trending  green_buy
+--- screen ---
+=== FUNNEL (each filter applied in order) ===
+  start (FINAL verified, >=Rs10, penny-free) : 321
+  1. 6M return >= 25%                         : 321
+  2. market cap >= 500 Cr                     : 279  (dropped 42)
+  3. 20D avg vol >= 2,00,000 shares           : 201  (dropped 78)
+  4. above 200-EMA                            : 181  (dropped 20)
+  5. above 50-EMA                             : 166  (dropped 15)
+  6. remove corp-action distorted             : 166  (dropped 0)
+
+FINAL PASSERS: 166  ->  SCREEN_above_ema.csv
+  by exchange: {'NSE': 164, 'BSE': 2}
+  by cap     : {'Small': 64, 'Mid': 53, 'Large': 49}
+  small-cap (listed separately): 64  ->  SCREEN_above_ema_smallcap.csv
+
+Data vintage: EOD 2026-06-05 (NOT real-time)
+
+=== TOP 15 ===
+ rank     Symbol Exchange     CMP  6M Return%  Market Cap (Cr)   Cap  Avg Vol (20D)
+    1    STLTECH      NSE  619.25      536.17         30234.66 Large        3883171
+    2   MTARTECH      NSE 7535.50      223.65         23194.73 Large        2102340
+    3     DEEDEV      NSE  671.15      220.51          4670.08 Small         378379
+    4       UFBL      NSE  506.00      183.00          1976.21 Small         874468
+    5       HFCL      NSE  187.23      180.12         28652.88 Large       65218014
+    6      GVPIL      NSE  884.10      177.19          5941.23   Mid         455644
+    7   BLISSGVS      NSE  438.35      172.72          4634.09 Small        4086565
+    8 MODISONLTD      NSE  362.70      158.33          1175.50 Small         426933
+    9   AEROFLEX      NSE  419.75      141.92          5557.89   Mid        2555277
+   10     CPPLUS      NSE 3501.90      133.62         41232.94 Large         439302
+   11   CONFIPET      NSE   77.61      132.16          2582.18 Small        4374635
+   12   SIGMAADV      NSE  435.80      131.92          7681.41   Mid         515579
+   13  IDEAFORGE      NSE  945.00      122.67          4093.62 Small         880319
+   14   BAJAJCON      NSE  552.05      114.43          7233.10   Mid         846959
+   15       BBOX      NSE 1072.90      103.93         19067.05   Mid        1739795
+=== REFRESH DONE ===

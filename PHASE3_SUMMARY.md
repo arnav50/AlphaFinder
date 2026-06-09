@@ -1,5 +1,5 @@
 # PHASE 3 — SUPPLY/DEMAND + SMC — SUMMARY
-Scan date 2026-06-02 · 311 stocks · daily primary, weekly structure overlay.
+Scan date 2026-06-02 · 295 stocks · daily primary, weekly structure overlay.
 
 ## ✓ VERIFICATION CHECKPOINT (Phase 3)
 - ✅ Demand & supply zones mapped on **daily and weekly** (`demand_zone_D/W`, `supply_zone_D/W`)
@@ -10,54 +10,53 @@ Scan date 2026-06-02 · 311 stocks · daily primary, weekly structure overlay.
 - ✅ **Premium/Discount** classification for every stock (`pd_zone`, `range_pos_pct`)
 
 ## Structural landscape
-- **Market structure (daily):** {'bullish (HH/HL)': 146, 'ranging': 123, 'bearish (LH/LL)': 42}
-- **Premium/Discount:** {'Premium': 297, 'Equilibrium': 7, 'Discount': 7}
-- **Last BoS direction:** {'bull': 239, 'bear': 70, 'none': 2}
-- **Liquidity swept recently:** {'none': 284, 'buy-side swept (bearish stop-hunt)': 20, 'sell-side swept (bullish stop-hunt)': 7}
-- **Unmitigated bullish order blocks (pullback support):** 149
-- **Price near a demand zone:** 55 · **approaching overhead supply (long risk):** 9
+- **Market structure (daily):** {'bullish (HH/HL)': 161, 'ranging': 99, 'bearish (LH/LL)': 35}
+- **Premium/Discount:** {'Premium': 284, 'Discount': 6, 'Equilibrium': 5}
+- **Last BoS direction:** {'bull': 232, 'bear': 63}
+- **Liquidity swept recently:** {'none': 276, 'buy-side swept (bearish stop-hunt)': 10, 'sell-side swept (bullish stop-hunt)': 9}
+- **Unmitigated bullish order blocks (pullback support):** 144
+- **Price near a demand zone:** 60 · **approaching overhead supply (long risk):** 14
 
-> **Key institutional read:** 297/311 names sit in **Premium** (expensive, extended) — smart-money playbook is to wait for a retracement into discount / an unmitigated demand OB rather than chase. Only 7 are currently in a discount zone.
+> **Key institutional read:** 284/295 names sit in **Premium** (expensive, extended) — smart-money playbook is to wait for a retracement into discount / an unmitigated demand OB rather than chase. Only 6 are currently in a discount zone.
 
 ## Stocks currently in DISCOUNT (institutional buy zone)
 | Symbol | Company | Range pos% | Structure(D) | Last BoS | Scorecard |
 |---|---|--:|---|---|---|
-| MANAKALUCO | Manaksia Aluminium Company Limited | 29.5 | bearish (LH/LL) | bear @ 34.41 on 2026-05-12 | NEUTRAL |
-| MCL | Madhav Copper Limited | 35.6 | ranging | bull @ 64.31 on 2026-05-15 | MILD BEARISH |
-| VIVIMEDLAB | Vivimed Labs Limited | 6.1 | bearish (LH/LL) | bear @ 6.46 on 2026-05-12 | BEARISH |
-| 540693 | Shish Industries Ltd | 39.9 | bearish (LH/LL) | bear @ 12.49 on 2026-05-13 | MILD BULLISH |
-| 513502 | Baroda Extrusion Ltd | 32.5 | bullish (HH/HL) | bull @ 9.54 on 2026-04-29 | BULLISH |
-| JINDALPOLY | Jindal Poly Films Limited | 43.9 | ranging | bear @ 675.8 on 2026-06-01 | BEARISH |
-| 540545 | Guru Krupa Gems and Jewellery Ltd | 41.7 | bullish (HH/HL) | bear @ 40.28 on 2026-05-22 | NEUTRAL |
+| TCIFINANCE | TCI Finance Limited | 38.3 | ranging | bull @ 13.99 on 2026-06-05 | BULLISH |
+| MANAKALUCO | Manaksia Aluminium Company Limited | 39.6 | ranging | bull @ 38.43 on 2026-06-09 | BULLISH |
+| HINDCOPPER | Hindustan Copper Limited | 39.4 | ranging | bear @ 528.0 on 2026-06-05 | BEARISH |
+| AVANTIFEED | Avanti Feeds Limited | 33.8 | bearish (LH/LL) | bear @ 1224.1 on 2026-05-29 | BEARISH |
+| 540545 | Guru Krupa Gems and Jewellery Ltd | 39.7 | ranging | bear @ 40.28 on 2026-05-22 | BEARISH |
+| DCMSIL | DCM Shriram International Limited | 34.7 | ranging | bull @ 63.47 on 2026-06-05 | BULLISH |
 
 ## High-conviction confluence: bullish structure + unmitigated demand OB + not in extreme premium
-**28 stocks** meet bullish-structure + unmitigated-bull-OB + range_pos<85%:
+**31 stocks** meet bullish-structure + unmitigated-bull-OB + range_pos<85%:
 | Symbol | Company | pos% | Bull OB | Demand zone | Scorecard |
 |---|---|--:|---|---|---|
-| MARKSANS | Marksans Pharma Limited | 78.8 | 210.02-218.02 (2026-05-22, UNMITIGATED) | 210.02-223.76 (Moderate, FRESH, 7.79% away) | BULLISH |
-| CUMMINSIND | Cummins India Limited | 82.3 | 5337.5-5419.5 (2026-05-25, UNMITIGATED) | 5335.5-5454.0 (Moderate, FRESH, 4.66% away) | BULLISH |
-| WOCKPHARMA | Wockhardt Limited | 65.9 | 1569.0-1614.7 (2026-05-22, UNMITIGATED) | 1382.0-1603.9 (Moderate, tested, 22.59% away) | BULLISH |
-| STEELXIND | STEEL EXCHANGE INDIA LIM | 80.4 | 9.91-10.75 (2026-05-25, UNMITIGATED) | 9.79-10.13 (Moderate, tested, 19.84% away) | BULLISH |
-| MAYURUNIQ | Mayur Uniquoters Ltd | 81.9 | 600.75-631.5 (2026-05-18, UNMITIGATED) | 594.45-631.5 (Moderate, FRESH, 18.01% away) | BULLISH |
-| GALAPREC | Gala Precision Engineeri | 76.5 | 825.95-844.05 (2026-05-20, UNMITIGATED) | 735.15-759.1 (Moderate, tested, 19.21% away) | BULLISH |
-| SPARC | Sun Pharma Advanced Rese | 68.4 | 179.2-189.29 (2026-05-21, UNMITIGATED) | 158.21-189.45 (Moderate, FRESH, 7.81% away) | BULLISH |
-| 526570 | Midwest Gold Ltd | 53.5 | 4050.0-4339.95 (2026-05-20, UNMITIGATED) | 2194.95-2396.55 (Moderate, tested, 92.65% away) | BULLISH |
-| 500449 | Hindustan Organic Chemic | 79.1 | 35.16-36.59 (2026-05-22, UNMITIGATED) | 35.16-40.52 (Moderate, FRESH, 1.83% away) | BULLISH |
-| ZIMLAB | Zim Laboratories Limited | 80.1 | 84.63-87.5 (2026-04-29, UNMITIGATED) | 65.52-71.0 (Moderate, tested, 46.35% away) | BULLISH |
-| MIRCELECTR | MIRC Electronics Limited | 70.5 | 32.5-34.3 (2026-05-05, UNMITIGATED) | 32.2-34.89 (Moderate, FRESH, 17.63% away) | BULLISH |
-| GANDHAR | Gandhar Oil Refinery (In | 63.8 | 139.51-142.71 (2026-05-13, UNMITIGATED) | 136.25-141.8 (Moderate, tested, 9.87% away) | BULLISH |
-| POWERINDIA | Hitachi Energy India Lim | 83.8 | 31645.0-32660.0 (2026-05-13, UNMITIGATED) | 31195.0-33730.0 (Moderate, FRESH, 4.08% away) | BULLISH |
-| 543916 | Hemant Surgical Industri | 74.3 | 298.0-329.95 (2026-05-08, UNMITIGATED) | 288.0-329.95 (Moderate, FRESH, 17.17% away) | BULLISH |
-| TRITURBINE | Triveni Turbine Limited | 72.6 | 590.0-612.4 (2026-05-18, UNMITIGATED) | 557.2-612.9 (Moderate, FRESH, 12.46% away) | BULLISH |
-| CRAFTSMAN | Craftsman Automation Lim | 76.9 | 7691.0-7843.5 (2026-05-06, UNMITIGATED) | 7611.0-7880.0 (Moderate, FRESH, 13.95% away) | BULLISH |
-| 535916 | Alacrity Securities Ltd | 73.8 | 58.99-60.0 (2026-04-29, UNMITIGATED) | 54.0-61.0 (Moderate, FRESH, 14.61% away) | BULLISH |
-| KOTYARK | Kotyark Industries Limit | 84.0 | 359.0-375.0 (2026-04-22, UNMITIGATED) | 271.0-338.0 (Moderate, tested, 24.39% away) | BULLISH |
-| MENONBE | Menon Bearings Limited | 69.8 | 125.21-127.79 (2026-05-05, UNMITIGATED) | 112.2-124.61 (Moderate, tested, 14.18% away) | MILD BULLISH |
-| DIACABS | Diamond Power Infrastruc | 82.7 | 168.3-176.0 (2026-05-12, UNMITIGATED) | 168.06-184.75 (Moderate, tested, 5.36% away) | MILD BULLISH |
-| SHADOWFAX | Shadowfax Technologies L | 81.7 | 139.0-145.32 (2026-04-17, UNMITIGATED) | 117.01-136.4 (Moderate, tested, 40.05% away) | MILD BULLISH |
-| KIRLPNU | Kirloskar Pneumatic Comp | 82.3 | 1325.0-1360.0 (2026-04-23, UNMITIGATED) | 1320.0-1374.3 (Moderate, FRESH, 14.86% away) | MILD BULLISH |
-| 539132 | Wardwizard Foods and Bev | 75.9 | 8.84-9.85 (2026-04-24, UNMITIGATED) | 8.88-9.8 (Moderate, tested, 20.41% away) | MILD BULLISH |
-| GKSL | Gujarat Kidney And Super | 71.8 | 120.01-129.9 (2026-05-05, UNMITIGATED) | 120.01-134.0 (Moderate, tested, 0.19% away) | NEUTRAL |
-| POWERICA | Powerica Limited | 80.8 | 441.45-456.15 (2026-04-24, UNMITIGATED) | none | NEUTRAL |
+| SERVOTECH | Servotech Renewable Powe | 78.9 | 92.8-94.87 (2026-05-27, UNMITIGATED) | 82.02-87.0 (Moderate, tested, 18.98% away) | BULLISH |
+| STEELXIND | STEEL EXCHANGE INDIA LIM | 77.6 | 9.91-10.75 (2026-05-25, UNMITIGATED) | 9.79-10.13 (Moderate, tested, 18.07% away) | BULLISH |
+| 524520 | KMC Speciality Hospitals | 77.4 | 95.11-96.9 (2026-05-26, UNMITIGATED) | 95.0-103.9 (Moderate, FRESH, 8.33% away) | BULLISH |
+| ATGL | Adani Total Gas Limited | 72.9 | 601.1-617.95 (2026-05-20, UNMITIGATED) | 614.3-731.4 (Moderate, tested, 2.84% away) | BULLISH |
+| INDOBORAX | Indo Borax & Chemicals L | 84.0 | 271.6-277.95 (2026-05-20, UNMITIGATED) | 268.7-284.45 (Moderate, FRESH, 26.24% away) | BULLISH |
+| WOCKPHARMA | Wockhardt Limited | 60.0 | 1569.0-1614.7 (2026-05-22, UNMITIGATED) | 1382.0-1603.9 (Moderate, tested, 17.69% away) | BULLISH |
+| IFCI | IFCI Limited | 82.9 | 66.95-71.45 (2026-06-01, UNMITIGATED) | 66.61-72.2 (Moderate, FRESH, 6.75% away) | BULLISH |
+| ZENTEC | Zen Technologies Limited | 84.5 | 1607.1-1676.9 (2026-06-01, UNMITIGATED) | 1582.3-1714.4 (Moderate, FRESH, 3.97% away) | BULLISH |
+| FCL | Fineotex Chemical Limite | 81.9 | 30.64-34.12 (2026-05-21, UNMITIGATED) | 30.55-35.8 (Moderate, FRESH, 11.34% away) | BULLISH |
+| SPORTKING | Sportking India Limited | 82.8 | 161.43-167.89 (2026-05-25, UNMITIGATED) | 136.5-167.89 (Moderate, FRESH, 5.93% away) | BULLISH |
+| BLUSPRING | Bluspring Enterprises Li | 84.7 | 77.91-82.6 (2026-06-03, UNMITIGATED) | 76.01-84.9 (Moderate, FRESH, 6.02% away) | BULLISH |
+| HFCL | HFCL Limited | 79.2 | 160.0-168.24 (2026-05-26, UNMITIGATED) | 106.8-133.4 (Moderate, FRESH, 33.44% away) | BULLISH |
+| RUBICON | Rubicon Research Limited | 73.2 | 957.1-988.0 (2026-05-27, UNMITIGATED) | 957.1-1206.7 (Moderate, tested, -3.0% away) | BULLISH |
+| STYLAMIND | Stylam Industries Limite | 84.9 | 2455.0-2585.6 (2026-05-12, UNMITIGATED) | 2231.7-2345.6 (Moderate, FRESH, 32.31% away) | BULLISH |
+| GHCLTEXTIL | GHCL Textiles Limited | 83.0 | 84.51-87.02 (2026-05-18, UNMITIGATED) | 84.51-91.47 (Moderate, tested, 5.91% away) | BULLISH |
+| VINDHYATEL | Vindhya Telelinks Limite | 84.8 | 1573.1-1659.8 (2026-05-22, UNMITIGATED) | 1369.0-1520.0 (Moderate, tested, 40.44% away) | BULLISH |
+| TRITURBINE | Triveni Turbine Limited | 68.2 | 590.0-612.4 (2026-05-18, UNMITIGATED) | 557.2-612.9 (Moderate, FRESH, 9.84% away) | BULLISH |
+| SPECTRUM | Spectrum Electrical Indu | 81.9 | 1437.0-1485.0 (2026-05-29, UNMITIGATED) | 1406.2-1490.0 (Moderate, FRESH, 12.97% away) | BULLISH |
+| SPARC | Sun Pharma Advanced Rese | 71.9 | 179.2-189.29 (2026-05-21, UNMITIGATED) | 158.21-189.45 (Moderate, FRESH, 10.42% away) | BULLISH |
+| GANDHAR | Gandhar Oil Refinery (In | 69.3 | 139.51-142.71 (2026-05-13, UNMITIGATED) | 136.25-141.8 (Moderate, tested, 12.37% away) | BULLISH |
+| 500449 | Hindustan Organic Chemic | 69.1 | 35.16-36.59 (2026-05-22, UNMITIGATED) | 35.16-40.52 (Moderate, tested, -4.47% away) | BULLISH |
+| POWERINDIA | Hitachi Energy India Lim | 81.6 | 31645.0-32660.0 (2026-05-13, UNMITIGATED) | 31195.0-33730.0 (Moderate, FRESH, 2.61% away) | BULLISH |
+| KOTYARK | Kotyark Industries Limit | 79.1 | 359.0-375.0 (2026-04-22, UNMITIGATED) | 271.0-338.0 (Moderate, tested, 20.47% away) | BULLISH |
+| LOKESHMACH | Lokesh Machines Limited | 84.1 | 216.8-224.7 (2026-04-09, UNMITIGATED) | 211.52-236.0 (Moderate, tested, 12.35% away) | BULLISH |
+| BHAGYANGR | Bhagyanagar India Limite | 80.4 | 214.0-222.0 (2026-04-24, UNMITIGATED) | 208.38-255.99 (Moderate, tested, 20.24% away) | BULLISH |
 
 **Files:** `PHASE3_SMC.csv` (full table) · per-stock SMC appended to `reports/<symbol>.md`.

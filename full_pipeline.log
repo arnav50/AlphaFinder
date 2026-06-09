@@ -1,0 +1,457 @@
+=== FULL PIPELINE START ===
+
+########## 01_universe ##########
+NSE equity (EQ+BE): 2343
+BSE equity (active, ex Z/XT): 4384
+TOTAL universe after ISIN dedup (NSE preferred): 4512
+{'NSE': 2343, 'BSE': 2169}
+
+########## 02_prices ##########
+Fetching 4512 tickers | today=2026-06-08 | 180d target=2025-12-10
+  250/4512 done | ok=250
+  500/4512 done | ok=499
+  750/4512 done | ok=749
+  1000/4512 done | ok=999
+  1250/4512 done | ok=1249
+  1500/4512 done | ok=1499
+  1750/4512 done | ok=1749
+  2000/4512 done | ok=1999
+  2250/4512 done | ok=2248
+  2500/4512 done | ok=2485
+  2750/4512 done | ok=2695
+  3000/4512 done | ok=2809
+  3250/4512 done | ok=2872
+  3500/4512 done | ok=3045
+  3750/4512 done | ok=3293
+  4000/4512 done | ok=3535
+  4250/4512 done | ok=3783
+  4500/4512 done | ok=4033
+DONE. status counts: {'ok': 4044, 'no_data': 465, 'too_few_bars': 3}
+rows with ok: 4044
+
+########## 03_filter_enrich ##########
+ok rows: 4044
+>=25% return: 506
+after liquidity filter (>=50k sh OR >=Rs50L val): 341 (dropped 165)
+penny stocks (<Rs10 CMP) excluded: 10
+market cap matched: 320/331
+
+FINAL HITS: 331 | penny-flagged: 0
+by exchange: {'NSE': 310, 'BSE': 21}
+by cap: {'Small': 138, 'Mid': 86, 'Large': 68, 'Micro': 28, 'n/a': 11}
+
+Top 15 by return%:
+    symbol                              name exchange  price_180d_ago  price_today  return_pct cap_bucket
+   STLTECH     Sterlite Technologies Limited      NSE           96.10       619.25      544.38      Large
+    540492        Starlineps Enterprises Ltd      BSE            3.29        10.93      232.22      Micro
+  MTARTECH         Mtar Technologies Limited      NSE         2279.50      7535.50      230.58      Large
+ SANGINITA       Sanginita Chemicals Limited      NSE            9.94        31.57      217.61        n/a
+    DEEDEV DEE Development Engineers Limited      NSE          215.95       671.15      210.79      Small
+  BLISSGVS          Bliss GVS Pharma Limited      NSE          150.00       438.35      192.23      Small
+      HFCL                      HFCL Limited      NSE           66.04       187.23      183.51      Large
+      UFBL         United Foodbrands Limited      NSE          178.80       506.00      183.00      Small
+     GVPIL            GE Power India Limited      NSE          314.10       884.10      181.47        Mid
+  OMAXAUTO                Omax Autos Limited      NSE           88.79       234.72      164.35      Small
+MODISONLTD                   MODISON LIMITED      NSE          139.31       362.70      160.35      Small
+ BHAGYANGR         Bhagyanagar India Limited      NSE          121.19       306.65      153.03      Small
+      OMNI      Omnitech Engineering Limited      NSE          204.93       505.20      146.52        Mid
+ ANTELOPUS    Antelopus Selan Energy Limited      NSE          369.75       899.35      143.23      Small
+  SIGMAADV    SIGMA ADVANCED SYSTEMS LIMITED      NSE          181.69       435.80      139.86        Mid
+
+########## 04_verify ##########
+Verifying 331 hits (adjusted return + live price)...
+  50/331
+  100/331
+  150/331
+  200/331
+  250/331
+  300/331
+
+=== VERIFICATION SUMMARY ===
+corp_action flagged (raw vs adj gap > 8pt): 0
+price_mismatch flagged (>5% vs live):       0 (live price unavailable for 310)
+adjusted return < 25% (fall out):           0
+
+Top 15 (raw vs adjusted return, live price):
+    symbol                              name exchange  price_today  live_today  return_pct  adj_return_pct  corp_action  price_mismatch
+   STLTECH     Sterlite Technologies Limited      NSE       619.25         NaN      544.38          544.38        False           False
+    540492        Starlineps Enterprises Ltd      BSE        10.93       10.93      232.22          232.22        False           False
+  MTARTECH         Mtar Technologies Limited      NSE      7535.50         NaN      230.58          230.58        False           False
+ SANGINITA       Sanginita Chemicals Limited      NSE        31.57         NaN      217.61          217.61        False           False
+    DEEDEV DEE Development Engineers Limited      NSE       671.15         NaN      210.79          210.79        False           False
+  BLISSGVS          Bliss GVS Pharma Limited      NSE       438.35         NaN      192.23          192.87        False           False
+      HFCL                      HFCL Limited      NSE       187.23         NaN      183.51          183.51        False           False
+      UFBL         United Foodbrands Limited      NSE       506.00         NaN      183.00          183.00        False           False
+     GVPIL            GE Power India Limited      NSE       884.10         NaN      181.47          181.47        False           False
+  OMAXAUTO                Omax Autos Limited      NSE       234.72         NaN      164.35          167.30        False           False
+MODISONLTD                   MODISON LIMITED      NSE       362.70         NaN      160.35          160.35        False           False
+ BHAGYANGR         Bhagyanagar India Limited      NSE       306.65         NaN      153.03          153.03        False           False
+      OMNI      Omnitech Engineering Limited      NSE       505.20         NaN      146.52          146.52        False           False
+ ANTELOPUS    Antelopus Selan Energy Limited      NSE       899.35         NaN      143.23          143.23        False           False
+  SIGMAADV    SIGMA ADVANCED SYSTEMS LIMITED      NSE       435.80         NaN      139.86          139.86        False           False
+
+########## 05_finalize ##########
+  40/331 | last NITTAGELA live=nan
+  80/331 | last ADANIPOWER live=nan
+  120/331 | last HIRECT live=nan
+  160/331 | last MWL live=nan
+  200/331 | last BODALCHEM live=nan
+  240/331 | last ANGELONE live=nan
+  280/331 | last KISSHT live=nan
+  320/331 | last PFC live=nan
+
+=== FINAL HARDENING SUMMARY ===
+total hits: 331
+robust return < 25% (drop): 32
+raw-vs-robust gap > 5pt:    112
+live 2nd-source price available: 21/331
+  of those, price mismatch >5%: 0  | median mismatch 0.00%
+
+########## 06_reconcile ##########
+======================================================================
+PHASE 1 VERIFICATION CHECKPOINT
+======================================================================
+[OK] Total stocks with verified 180d return >= 25% : 322
+[OK] Duplicates removed (same co. NSE & BSE) via ISIN: dedup done in universe step
+     by exchange: {'NSE': 301, 'BSE': 21}
+     by cap     : {'Small': 133, 'Mid': 86, 'Large': 64, 'Micro': 28}
+[OK] Penny stocks (<Rs10) flagged (not removed)      : 0
+[OK] Cross-source price check (BSE twin / BSE live)   : 311/322 have 2nd source
+     agree within 5%: 310/311  | median mismatch 0.07%
+     NSE-only names w/ no BSE twin (Yahoo-only price) : 11
+[OK] Sorted by Return% descending                    : yes
+
+Top 20:
+ rank     symbol                               name exchange  price_180d_ago  price_today  return_pct_final cap_bucket  xsrc_mismatch_pct
+    1    STLTECH      Sterlite Technologies Limited      NSE           96.10       619.25            536.17      Large               0.02
+    2     540492         Starlineps Enterprises Ltd      BSE            3.29        10.93            232.22      Micro               0.00
+    3   MTARTECH          Mtar Technologies Limited      NSE         2279.50      7535.50            223.65      Large               0.07
+    4  SANGINITA        Sanginita Chemicals Limited      NSE            9.94        31.57            220.18        NaN                NaN
+    5     DEEDEV  DEE Development Engineers Limited      NSE          215.95       671.15            210.79      Small               0.46
+    6   BLISSGVS           Bliss GVS Pharma Limited      NSE          150.00       438.35            192.23      Small               0.07
+    7       UFBL          United Foodbrands Limited      NSE          178.80       506.00            183.00      Small               0.08
+    8      GVPIL             GE Power India Limited      NSE          314.10       884.10            181.47        Mid               0.04
+    9       HFCL                       HFCL Limited      NSE           66.04       187.23            181.30      Large               0.02
+   10       OMNI       Omnitech Engineering Limited      NSE          204.93       505.20            165.04        Mid               0.11
+   11   OMAXAUTO                 Omax Autos Limited      NSE           88.79       234.72            164.35      Small               0.42
+   12 MODISONLTD                    MODISON LIMITED      NSE          139.31       362.70            158.33      Small               0.12
+   13  BHAGYANGR          Bhagyanagar India Limited      NSE          121.19       306.65            143.37      Small               0.18
+   14   AEROFLEX        Aeroflex Industries Limited      NSE          176.08       419.75            141.92        Mid               0.06
+   15  ANTELOPUS     Antelopus Selan Energy Limited      NSE          369.75       899.35            140.24      Small               0.09
+   16    KSHINTL          KSH International Limited      NSE          355.00       819.45            138.63        Mid               0.13
+   17   SIGMAADV     SIGMA ADVANCED SYSTEMS LIMITED      NSE          181.69       435.80            137.18        Mid               0.01
+   18 ATLANTAELE        Atlanta Electricals Limited      NSE          871.60      2044.00            134.51        Mid               0.01
+   19     CPPLUS            Aditya Infotech Limited      NSE         1473.20      3501.90            133.62      Large               0.09
+   20   CONFIPET Confidence Petroleum India Limited      NSE           33.15        77.61            132.16      Small               0.14
+
+########## 07_sector ##########
+  60/322
+  120/322
+  180/322
+  240/322
+  300/322
+sector coverage: 297 / 322
+sector
+Industrials               89
+Basic Materials           54
+Consumer Cyclical         39
+Healthcare                33
+n/a                       25
+Financial Services        25
+Technology                23
+Consumer Defensive        10
+Energy                     8
+Utilities                  8
+Communication Services     5
+Real Estate                3
+
+########## 08_report ##########
+Wrote PHASE1_REPORT.md with 322 stocks.
+
+########## 09_fetch_ohlc ##########
+  80/322 | ok=75
+  160/322 | ok=152
+  240/322 | ok=228
+  320/322 | ok=305
+DONE. stocks with usable OHLC: 307 | failed/short: 15
+bars per stock: min=63 median=351 max=352
+short/failed: ['KOVAI', 'NOVARTIND', 'NITTAGELA', 'COCKERILL', 'SEDEMAC', 'ELPROINTL', 'CMPDI', 'KPL', 'DECNGOLD', 'SAIPARENT', 'WELSPLSOL', 'MMWL', 'KISSHT', 'POWERICA', 'TIMEX']
+
+########## 10_indicators ##########
+  80/307
+  160/307
+  240/307
+DONE. indicators for 307 stocks -> indicators.csv
+errors: 0
+    symbol   close  rsi  rsi_state     macd_pos ema_alignment  adx adx_regime supertrend
+   KSHINTL  819.45 67.4    neutral above_signal   n/a (short) 41.7   trending  green_buy
+ATLANTAELE 2044.00 66.4    neutral above_signal   n/a (short) 41.9   trending  green_buy
+    CPPLUS 3501.90 88.3 overbought above_signal       bullish 47.0   trending  green_buy
+ SANGINITA   31.57 87.5 overbought above_signal       bullish 55.1   trending  green_buy
+  SIGMAADV  435.80 73.4 overbought above_signal       bullish 69.4   trending  green_buy
+  BLISSGVS  438.35 75.6 overbought above_signal       bullish 53.3   trending  green_buy
+    540492   10.93 42.6    neutral below_signal         mixed 37.9   trending   red_sell
+      UFBL  506.00 67.7    neutral below_signal       bullish 39.0   trending  green_buy
+ IDEAFORGE  945.00 72.4 overbought above_signal       bullish 40.2   trending  green_buy
+  BAJAJCON  552.05 58.2    neutral below_signal       bullish 53.9   trending  green_buy
+  MTARTECH 7535.50 58.3    neutral below_signal       bullish 39.7   trending  green_buy
+ BHAGYANGR  306.65 57.0    neutral below_signal       bullish 41.4   trending  green_buy
+
+########## 11_candles ##########
+DONE. 9291 candle patterns across 307 stocks
+candle_bias: {'bearish': 186, 'bullish': 95, 'neutral': 26}
+
+most common patterns:
+pattern
+Inside Bar              1126
+Outside Bar              860
+NR4                      718
+Doji                     662
+NR7                      586
+Three White Soldiers     462
+Three Black Crows        447
+Bearish Pin Bar          429
+Shooting Star            395
+Tweezer Top              386
+Bearish Engulfing        324
+Long-legged Doji         315
+Bullish Engulfing        287
+Bullish Pin Bar          279
+Morning Star             272
+
+########## 12_patterns ##########
+DONE. patterns for 307 stocks
+trend_structure: {'Uptrend (HH/HL)': 168, 'Sideways / range-bound': 101, 'Downtrend (LH/LL)': 38}
+
+chart patterns:
+chart_pattern
+Double Top                  114
+Double Bottom                62
+Rounding Bottom (saucer)     39
+Rising Wedge (bearish)       30
+Bull Flag / Pennant          30
+Head & Shoulders             11
+Inverse Head & Shoulders      9
+No clean pattern              5
+Ascending Triangle            3
+Descending Triangle           2
+Symmetrical Triangle          1
+Falling Wedge (bullish)       1
+
+########## 13_scorecard ##########
+=== SCORECARD DISTRIBUTION ===
+scorecard
+BULLISH         232
+MILD BULLISH     18
+NEUTRAL          24
+MILD BEARISH     15
+BEARISH          18
+
+confidence: {'medium': 166, 'low': 77, 'high': 64}
+total_score: min=-8.3 median=8.7 max=16.5
+
+=== TOP 15 by confluence score ===
+ ta_rank     symbol                                name  total_score scorecard confluence_confidence supertrend ema_alignment  adx
+       1   JNKINDIA                   JNK India Limited         16.5   BULLISH                  high  green_buy       bullish 25.9
+       2      SYRMA        Syrma SGS Technology Limited         16.4   BULLISH                  high  green_buy       bullish 45.6
+       3  IBULLSLTD                  Indiabulls Limited         16.2   BULLISH                  high  green_buy       bullish 39.6
+       4    SKYGOLD       SKY GOLD AND DIAMONDS LIMITED         15.8   BULLISH                  high  green_buy       bullish 43.6
+       5  STEELXIND        STEEL EXCHANGE INDIA LIMITED         15.5   BULLISH                  high  green_buy       bullish 27.0
+       6        E2E                E2E Networks Limited         15.2   BULLISH                  high  green_buy       bullish 39.5
+       7       ATGL             Adani Total Gas Limited         14.8   BULLISH                  high  green_buy       bullish 44.0
+       8       HSCL Himadri Speciality Chemical Limited         14.7   BULLISH                  high  green_buy       bullish 25.1
+       9   ADANIENT           Adani Enterprises Limited         14.7   BULLISH                  high  green_buy       bullish 52.6
+      10 NAHARSPING        Nahar Spinning Mills Limited         14.7   BULLISH                  high  green_buy       bullish 22.3
+      11  KIRLOSENG       Kirloskar Oil Engines Limited         14.5   BULLISH                medium  green_buy       bullish 29.8
+      12  PREMEXPLN          Premier Explosives Limited         14.5   BULLISH                  high  green_buy       bullish 28.6
+      13   APARINDS             Apar Industries Limited         14.5   BULLISH                medium  green_buy       bullish 31.2
+      14    SKIPPER                     Skipper Limited         14.4   BULLISH                  high  green_buy       bullish 43.9
+      15 LAURUSLABS                 Laurus Labs Limited         14.2   BULLISH                medium  green_buy       bullish 50.2
+
+=== BOTTOM 10 (weakest) ===
+ ta_rank     symbol                                        name  total_score scorecard supertrend        trend_structure
+     298 NATIONALUM          National Aluminium Company Limited         -5.0   BEARISH   red_sell Sideways / range-bound
+     299   AARTIIND                    Aarti Industries Limited         -5.5   BEARISH   red_sell Sideways / range-bound
+     300        PFC           Power Finance Corporation Limited         -5.8   BEARISH   red_sell      Downtrend (LH/LL)
+     301     540252                            Viram Suvarn Ltd         -6.3   BEARISH   red_sell      Downtrend (LH/LL)
+     302 AVANTIFEED                        Avanti Feeds Limited         -6.7   BEARISH   red_sell      Downtrend (LH/LL)
+     303        MCL                       Madhav Copper Limited         -7.0   BEARISH   red_sell Sideways / range-bound
+     304 GAUDIUMIVF        Gaudium IVF and Women Health Limited         -7.3   BEARISH  green_buy      Downtrend (LH/LL)
+     305     540492                  Starlineps Enterprises Ltd         -7.3   BEARISH   red_sell      Downtrend (LH/LL)
+     306     QPOWER Quality Power Electrical Equipments Limited         -7.8   BEARISH   red_sell      Downtrend (LH/LL)
+     307        KSR                        KSR Footwear Limited         -8.3   BEARISH   red_sell      Downtrend (LH/LL)
+
+########## 14_reports ##########
+Wrote 307 per-stock reports + PHASE2_SUMMARY.md
+scorecard dist: {'BULLISH': 232, 'MILD BULLISH': 18, 'NEUTRAL': 24, 'MILD BEARISH': 15, 'BEARISH': 18}
+
+########## 15_smc ##########
+  80/307
+  160/307
+  240/307
+DONE 307 stocks -> PHASE3_SMC.csv
+
+structure_D: {'bullish (HH/HL)': 156, 'ranging': 110, 'bearish (LH/LL)': 41}
+pd_zone: {'Premium': 296, 'Discount': 7, 'Equilibrium': 4}
+liquidity_swept: {'none': 275, 'buy-side swept (bearish stop-hunt)': 19, 'sell-side swept (bullish stop-hunt)': 13}
+bos_dir: {'bull': 242, 'bear': 65}
+near_supply: 11 | near_demand: 60 | bull_OB_unmitigated: 164
+
+########## 16_phase3_reports ##########
+Appended SMC to reports + wrote PHASE3_SUMMARY.md
+discount stocks: 7 | high-conviction confluence: 37
+
+########## 17_vcp_gann ##########
+  80/307
+  160/307
+  240/307
+DONE 307 -> PHASE4_VCP_GANN.csv
+vcp_quality: {'No VCP': 233, 'Moderate VCP': 66, 'Strong VCP': 8}
+vcp_status: {'forming / still basing': 107, 'AT PIVOT (actionable)': 92, 'BROKEN OUT (fresh)': 62, 'extended past pivot': 46}
+octave: {'8/8 (52w high)': 136, '7/8 (exhaustion)': 95, '6/8 (75%)': 46, '5/8': 17, '4/8 (50%)': 7, '3/8': 5, '2/8 (25%)': 1}
+above_1x1: {True: 282, False: 25}
+near_gann_cycle: 204 | near_cardinal: 138
+
+########## 18_phase4_reports ##########
+Appended Phase-4 to reports + wrote PHASE4_SUMMARY.md
+VCP at pivot: 39 | Strong VCP: 8 | Fresh breakouts: 14
+
+########## 19_day0 ##########
+  80/307
+  160/307
+  240/307
+DONE 307 -> PHASE5_DAY0.csv
+verified vol-spike Day0: 280/307
+
+Day0 RSI: avg=66.8 min=15.9 max=100.0
+Day0 ADX: avg=23.9 | Day0 vol x50d avg=5.14
+supertrend@day0: {'green': 281, 'red': 26}
+ema_alignment@day0: {'bearish': 118, 'n/a(short)': 79, 'crossing/mixed': 71, '20>50>200': 39}
+
+########## 20_fingerprint ##########
+Wrote PHASE5_FINGERPRINT.csv (28 rows) + PHASE5_SUMMARY.md  | N=307
+
+TOP 5 consistent:
+    indicator most_common_zone  consistency_pct
+    MACD hist          >0(pos)             96.3
+OBV direction   already_rising             91.5
+   Supertrend            green             91.5
+  BB position            upper             89.4
+ Bollinger %B             >100             84.2
+
+Fingerprint (numeric):
+      indicator    avg median most_common_zone  consistency_pct
+        RSI(14)   66.8   66.2            60-70             61.9
+  Stochastic %K   76.9   82.5           80-100             55.8
+  Stochastic %D   68.7   74.2            60-80             37.0
+   Bollinger %B  112.4  113.8             >100             84.2
+     BB width %   20.5   18.4            20-30             30.7
+        CCI(20)  150.4  141.2          100-200             55.7
+    Williams %R  -10.4   -7.8           -20..0             82.6
+        MFI(14)   73.0   74.7            60-80             49.0
+      MACD hist    9.1    2.9          >0(pos)             96.3
+        ADX(14)   23.9   21.4              <20             40.7
+          ATR %    4.4    4.3              3-5             59.9
+    % vs EMA200    3.7    3.6               <0             33.3
+% from 52w high  -19.0  -17.3         -30..-15             34.5
+  Vol × 50d-avg    5.1    3.3              2-4             34.2
+
+########## 21_phase6_score ##########
+Tier distribution: {'TIER 1': nan, 'TIER 2': 37.0, 'TIER 3': 152.0, 'EXCLUDE': 118.0}
+ALPHA LIST: 37 | score range 65-79
+section avgs: Ind 20.5 Struct 14.3 VCP 8.8 Gann 8.5
+
+TOP 20:
+ rank     symbol                                        name  ind_score_40  struct_score_25  vcp_score_20  gann_score_15  TOTAL_100   tier
+    1      AKUMS     Akums Drugs and Pharmaceuticals Limited            33               17            20              9         79 TIER 2
+    2    MIDHANI                  Mishra Dhatu Nigam Limited            33               22            15              9         79 TIER 2
+    3  CRAFTSMAN                Craftsman Automation Limited            30               17            20              9         76 TIER 2
+    4  IBULLSLTD                          Indiabulls Limited            25               20            20              9         74 TIER 2
+    5 DATAPATTNS               Data Patterns (India) Limited            30               15            20              9         74 TIER 2
+    6  NAM-INDIA  Nippon Life India Asset Management Limited            25               25            15              9         74 TIER 2
+    7   ANGELONE                           Angel One Limited            26               19            20              9         74 TIER 2
+    8     543787                                  Macfos Ltd            26               22            20              5         73 TIER 2
+    9  INOXINDIA                          INOX India Limited            32               12            20              9         73 TIER 2
+   10   SALSTEEL                        S.A.L. Steel Limited            30               17            20              5         72 TIER 2
+   11 NAHARSPING                Nahar Spinning Mills Limited            26               17            20              9         72 TIER 2
+   12 BANDHANBNK                        Bandhan Bank Limited            26               17            20              9         72 TIER 2
+   13       SCPL               Sheetal Cool Products Limited            25               17            20              9         71 TIER 2
+   14    ABSLAMC           Aditya Birla Sun Life AMC Limited            34               12            20              5         71 TIER 2
+   15     KINGFA Kingfa Science & Technology (India) Limited            28               22            11              9         70 TIER 2
+   16       KDDL                                KDDL Limited            21               20            20              9         70 TIER 2
+   17     CEMPRO                   Cemindia Projects Limited            21               22            16              9         68 TIER 2
+   18   DHANBANK                      Dhanlaxmi Bank Limited            22               17            20              9         68 TIER 2
+   19 CUMMINSIND                       Cummins India Limited            28               19            16              5         68 TIER 2
+   20  JSWENERGY                          JSW Energy Limited            22               17            20              9         68 TIER 2
+
+########## 22_prime_scan ##########
+PRIME FILTER constants (from Phase 5): {'RSI_MIN': 55, 'RSI_MAX': 75, 'ADX_MIN': 18, 'ADX_MAX': 30, 'VOL_SPIKE': 1.5, 'EMA200_MAX_EXT': 1.2, 'DIST_52WH_LO': -0.35, 'DIST_52WH_HI': -0.03, 'MIN_ADV_VALUE': 20000000.0, 'MIN_PRICE': 10}
+Confluence threshold: prime_score >= 6 of 9 criteria.
+In-sample backtest: applied prime filter to 307 known 25%+ winners AT their Day-0 bar.
+  -> 249/307 (81.1%) would have been flagged at initiation (RECALL).
+  (In-sample: bands derived from these same Day-0s; this is recall/consistency, not out-of-sample.)
+
+Scanning 4512 NSE+BSE tickers with the prime filter...
+  400/4512 | passers so far: 75
+  800/4512 | passers so far: 154
+  1200/4512 | passers so far: 241
+  1600/4512 | passers so far: 317
+  2000/4512 | passers so far: 409
+  2400/4512 | passers so far: 470
+  2800/4512 | passers so far: 473
+  3200/4512 | passers so far: 475
+  3600/4512 | passers so far: 476
+  4000/4512 | passers so far: 477
+  4400/4512 | passers so far: 478
+
+Stage-1 prime-filter passers: 478
+saved prime_passers.pkl / .csv
+
+########## 23_watchlist ##########
+Nifty 50 = 23367 | EMA50 23879 EMA200 24633 -> DOWNTREND
+crumb ok: True
+
+Stage-2 validated: 478 | FINAL watchlist (no bearish candle, RR>=3): 30
+sector breadth in watchlist: {'Consumer Cyclical': 8, 'Industrials': 7, 'Financial Services': 3, 'Real Estate': 3, 'Technology': 3, 'Healthcare': 2, 'Utilities': 2, 'Basic Materials': 1, 'Consumer Defensive': 1}
+ rank     symbol                                     name   close            vcp_status   rr  phase7_score   tier             sector
+    1       MMTC                             MMTC Limited   68.03    BROKEN OUT (fresh) 3.85            16 TIER 1        Industrials
+    2   EVEREADY        Eveready Industries India Limited  332.35    BROKEN OUT (fresh) 3.77            16 TIER 1        Industrials
+    3       IIFL                     IIFL Finance Limited  516.90    BROKEN OUT (fresh) 3.76            16 TIER 1 Financial Services
+    4    MIDHANI               Mishra Dhatu Nigam Limited  435.55 AT PIVOT (actionable) 3.24            16 TIER 1    Basic Materials
+    5 PSPPROJECT                     PSP Projects Limited  873.45 AT PIVOT (actionable) 3.18            16 TIER 1        Industrials
+    6      AURUM                   Aurum PropTech Limited  190.08    BROKEN OUT (fresh) 4.25            15 TIER 1        Real Estate
+    7    FILATEX                    Filatex India Limited   51.85    BROKEN OUT (fresh) 4.07            15 TIER 1  Consumer Cyclical
+    8 TRAVELFOOD             Travel Food Services Limited 1283.80 AT PIVOT (actionable) 4.06            15 TIER 1  Consumer Cyclical
+    9      AKUMS  Akums Drugs and Pharmaceuticals Limited  553.80    BROKEN OUT (fresh) 4.06            15 TIER 1         Healthcare
+   10     WELENT              Welspun Enterprises Limited  541.40    BROKEN OUT (fresh) 3.99            15 TIER 1        Industrials
+   11  GUJGASLTD                      Gujarat Gas Limited  400.50 AT PIVOT (actionable) 3.87            15 TIER 1          Utilities
+   12     SIYSIL               Siyaram Silk Mills Limited  615.65    BROKEN OUT (fresh) 3.73            15 TIER 1  Consumer Cyclical
+   13     ZENTEC                 Zen Technologies Limited 1815.30    BROKEN OUT (fresh) 3.60            15 TIER 1        Industrials
+   14     TVSSCS       TVS Supply Chain Solutions Limited  129.67    BROKEN OUT (fresh) 3.46            15 TIER 1        Industrials
+   15   V2RETAIL                        V2 Retail Limited  247.99    BROKEN OUT (fresh) 3.27            15 TIER 1  Consumer Cyclical
+   16    MOSCHIP             Moschip Technologies Limited  220.43 AT PIVOT (actionable) 3.05            15 TIER 1         Technology
+   17  BAJAJHIND           Bajaj Hindusthan Sugar Limited   19.75    BROKEN OUT (fresh) 7.94            14 TIER 1 Consumer Defensive
+   18  IBULLSLTD                       Indiabulls Limited   23.24    BROKEN OUT (fresh) 4.95            14 TIER 1        Real Estate
+   19 DLINKINDIA                   D-Link (India) Limited  477.50    BROKEN OUT (fresh) 4.94            14 TIER 1         Technology
+   20 BANCOINDIA               Banco Products (I) Limited  655.45 AT PIVOT (actionable) 4.38            14 TIER 1  Consumer Cyclical
+   21 EQUITASBNK       Equitas Small Finance Bank Limited   73.95    BROKEN OUT (fresh) 4.30            14 TIER 1 Financial Services
+   22       NBCC                     NBCC (India) Limited  106.36    BROKEN OUT (fresh) 4.25            14 TIER 1        Industrials
+   23  SANGAMIND                   Sangam (India) Limited  526.40 AT PIVOT (actionable) 4.16            14 TIER 1  Consumer Cyclical
+   24        AVL                    Aditya Vision Limited  551.20    BROKEN OUT (fresh) 4.11            14 TIER 1  Consumer Cyclical
+   25      GIPCL Gujarat Industries Power Company Limited  169.94 AT PIVOT (actionable) 4.02            14 TIER 1          Utilities
+   26       PGIL          Pearl Global Industries Limited 1665.60 AT PIVOT (actionable) 3.90            14 TIER 1  Consumer Cyclical
+   27  GEOJITFSL        Geojit Financial Services Limited   76.82    BROKEN OUT (fresh) 3.86            14 TIER 1 Financial Services
+   28  CYIENTDLM                       Cyient DLM Limited  453.40 AT PIVOT (actionable) 3.77            14 TIER 1         Technology
+   29   ANANTRAJ                        Anant Raj Limited  570.05   extended past pivot 3.62            14 TIER 1        Real Estate
+   30       ZOTA                 Zota Health Care LImited 1259.70    BROKEN OUT (fresh) 3.38            14 TIER 1         Healthcare
+
+########## 24_phase7_summary ##########
+Wrote PHASE7_SUMMARY.md
+final watchlist: 30 | tiers: {'TIER 1': 30}
+avg RR: 4.03 | RR range 3.05-7.94
+
+########## 25_build_frontend ##########
+Live + validation: 30/30 fetched @ 2026-06-08 00:21 | WATCH=25 DROP=3 GO=2
+Wrote alphafinder_dashboard.html (461 KB) | master=307 watchlist=30 fingerprint=28
+
+=== FULL PIPELINE DONE ===

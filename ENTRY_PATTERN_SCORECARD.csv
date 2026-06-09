@@ -1,0 +1,322 @@
+Stock,Entry Candle Type,Confirmation Candle,PA Structure,Pattern Quality Score (1-10)
+STLTECH,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 2.53x, bull-trap",10.0
+KOPRAN,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, BO 2.26x, bull-trap",10.0
+GALAPREC,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 5.45x, bull-trap",10.0
+KDDL,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 2.86x, bull-trap",10.0
+NINSYS,Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 5.21x, bull-trap",10.0
+APOLLO,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 4.55x, bull-trap",10.0
+CGPOWER,Hammer,Bullish Marubozu,"HH+HL, supp-held, BO 2.3x, bull-trap",10.0
+PAISALO,Hammer,Three White Soldiers,"HH+HL, supp-held, BO 3.24x, bull-trap",10.0
+RSWM,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 4.44x, bull-trap",10.0
+GANESHBE,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 3.47x, bull-trap",10.0
+500449,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 4.74x, bull-trap",10.0
+BSE,Three White Soldiers,Bullish Marubozu,"HH+HL, supp-held, BO 1.88x, bull-trap",10.0
+GCSL,Hammer,Three White Soldiers,"HH+HL, supp-held, BO 3.19x, bull-trap",10.0
+CONFIPET,Three White Soldiers,Bullish Marubozu,"HH+HL, supp-held, BO 10.73x, bull-trap",10.0
+NAM-INDIA,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 3.75x, bull-trap",10.0
+SIGMAADV,Three White Soldiers,Bullish Marubozu,"HH+HL, supp-held, BO 3.8x, bull-trap",10.0
+SKYGOLD,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, BO 4.75x, bull-trap",10.0
+SHILPAMED,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, BO 5.3x, bull-trap",10.0
+CRAFTSMAN,Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 6.7x, bull-trap",10.0
+ASTRAMICRO,Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 1.88x, bull-trap",10.0
+KESORAMIND,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 10.86x, bull-trap",10.0
+MIDHANI,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 2.69x, bull-trap",10.0
+GANDHAR,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 2.42x, bull-trap",10.0
+LINCOLN,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 4.47x, bull-trap",10.0
+FCL,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 6.62x, bull-trap",10.0
+ZIMLAB,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, BO 1.56x, bull-trap",10.0
+IFCI,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 12.2x, bull-trap",10.0
+NLCINDIA,Morning Star,Strong Momentum Candle,"supp-held, BO 3.96x, bull-trap",9.0
+SHREEJISPG,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 8.47x",9.0
+SGMART,Bullish Engulfing,Gap-Up Continuation,"HH+HL, supp-held, BO 4.56x, bull-trap",9.0
+THANGAMAYL,Bullish Engulfing,Bullish Marubozu,"supp-held, BO 4.99x, bull-trap",9.0
+SUPRIYA,Morning Star,Strong Momentum Candle,"supp-held, BO 4.76x, bull-trap",9.0
+GOCLCORP,Hammer,Gap-Up Continuation,"supp-held, BO 10.51x, bull-trap",9.0
+MENONBE,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 4.88x, bull-trap",9.0
+KERNEX,Hammer,Gap-Up Continuation,"supp-held, BO 1.71x, bull-trap",9.0
+PARACABLES,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, BO 1.56x",9.0
+PARAS,Inverted Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 2.0x, bull-trap",9.0
+FINCABLES,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 1.81x, bull-trap",9.0
+SANDHAR,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, BO 2.92x",9.0
+RAIN,Piercing Line,Strong Momentum Candle,"HH+HL, supp-held, BO 3.0x",9.0
+NRBBEARING,Hammer,Gap-Up Continuation,"HH+HL, supp-held, BO 5.4x",9.0
+INOXINDIA,Three White Soldiers,Three White Soldiers,"supp-held, BO 2.65x, bull-trap",9.0
+VETO,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, BO 1.87x",9.0
+SPORTKING,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 4.87x, bull-trap",9.0
+ACUTAAS,Three White Soldiers,Bullish Marubozu,"HH+HL, supp-held, BO 2.13x",9.0
+SOLARINDS,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+STEELXIND,Inverted Hammer,Three White Soldiers,"supp-held, BO 3.88x, bull-trap",8.0
+GULPOLY,Hammer,Gap-Up Continuation,"supp-held, BO 11.76x, bull-trap",8.0
+GMDCLTD,Three White Soldiers,Gap-Up Continuation,"supp-held, BO 1.54x",8.0
+HCC,Three White Soldiers,Three White Soldiers,"supp-held, BO 1.68x, bull-trap",8.0
+BUILDPRO,Bullish Engulfing,Strong Momentum Candle,"supp-held, BO 3.43x",8.0
+MANAKALUCO,Three White Soldiers,Gap-Up Continuation,"supp-held, bull-trap",8.0
+GAEL,Three White Soldiers,Three White Soldiers,"supp-held, BO 3.98x",8.0
+AARTIIND,Bullish Engulfing,Strong Momentum Candle,"supp-held, BO 11.81x, bull-trap",8.0
+INDOBORAX,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 1.78x",8.0
+SOUTHWEST,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 17.09x, bull-trap",8.0
+SUNFLAG,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 1.53x",8.0
+SCI,Three White Soldiers,Bullish Marubozu,"supp-held, BO 13.26x",8.0
+SAILIFE,Bullish Engulfing,Bullish Marubozu,"supp-held, BO 2.84x",8.0
+OLAELEC,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 5.13x",8.0
+NATIONALUM,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 3.24x",8.0
+DSSL,Three White Soldiers,Three White Soldiers,"supp-held, BO 3.62x",8.0
+EBGNG,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 7.74x",8.0
+CUMMINSIND,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 2.8x",8.0
+HAPPYFORGE,Three White Soldiers,Three White Soldiers,"supp-held, BO 2.51x",8.0
+538668,Bullish Engulfing,none,"HH+HL, supp-held, bull-trap",8.0
+MAYURUNIQ,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, bull-trap",8.0
+NETWEB,Three White Soldiers,Gap-Up Continuation,"supp-held, BO 2.03x",8.0
+ARVIND,Hammer,Gap-Up Continuation,"supp-held, BO 1.71x",8.0
+KIRLPNU,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, bull-trap",8.0
+AFIL,Piercing Line,Strong Momentum Candle,"supp-held, BO 7.04x",8.0
+530145,Morning Star,Strong Momentum Candle,"supp-held, BO 4.44x, bull-trap",8.0
+QPOWER,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 3.69x",8.0
+524520,Hammer,Gap-Up Continuation,"HH+HL, supp-held, BO 10.64x",8.0
+GLAND,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+CENTUM,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, BO 14.88x",8.0
+UNIPARTS,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 15.0x",8.0
+MTARTECH,Three White Soldiers,Three White Soldiers,"supp-held, BO 2.27x",8.0
+POLYCAB,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+VINDHYATEL,Morning Star,Bullish Marubozu,"supp-held, BO 7.58x",8.0
+AZAD,Morning Star,Gap-Up Continuation,"supp-held, BO 2.37x, bull-trap",8.0
+JAYNECOIND,Three White Soldiers,Three White Soldiers,"supp-held, BO 1.81x, bull-trap",8.0
+SUVEN,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 2.0x, bull-trap",8.0
+GRANULES,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 2.24x",8.0
+ADFFOODS,Bullish Engulfing,Strong Momentum Candle,"supp-held, BO 10.06x",8.0
+NELCAST,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 5.99x, bull-trap",8.0
+GRAPHITE,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 9.82x",8.0
+MWL,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, BO 4.11x",8.0
+TCIFINANCE,Hammer,Strong Momentum Candle,"supp-held, BO 9.68x, bull-trap",8.0
+BODALCHEM,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 9.75x",8.0
+BHARATFORG,Bullish Engulfing,Three White Soldiers,"supp-held, BO 2.79x",8.0
+ASIANENE,Tweezer Bottom,Strong Momentum Candle,"supp-held, BO 2.85x, bull-trap",8.0
+IDEA,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held",8.0
+RICOAUTO,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 5.97x, bull-trap",8.0
+CLEANMAX,Hammer,Strong Momentum Candle,"supp-held, BO 3.4x",8.0
+535916,Morning Star,none,"HH+HL, supp-held, bull-trap",8.0
+ANGELONE,Three White Soldiers,Three White Soldiers,"supp-held, BO 3.67x, bull-trap",8.0
+MCX,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 2.58x",8.0
+STYLAMIND,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 4.25x",8.0
+PASUPTAC,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+UNIVCABLES,Morning Star,Strong Momentum Candle,"HH+HL, supp-held, BO 2.54x",8.0
+PREMEXPLN,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",8.0
+HARDWYN,Bullish Engulfing,Three White Soldiers,"supp-held, BO 1.79x, bull-trap",8.0
+TIRUPATIFL,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, BO 6.53x, bull-trap",8.0
+540545,Three White Soldiers,Three White Soldiers,"supp-held, BO 2.47x",8.0
+ADANIENT,Morning Star,Gap-Up Continuation,"HH+HL, supp-held",8.0
+DIACABS,Morning Star,Gap-Up Continuation,"supp-held, BO 2.09x, bull-trap",8.0
+543916,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 1.56x",8.0
+GESHIP,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 2.58x",8.0
+WOCKPHARMA,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+ABB,Bullish Harami,Strong Momentum Candle,"HH+HL, supp-held, BO 7.8x, bull-trap",8.0
+LLOYDSENGG,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+ROSSTECH,Bullish Engulfing,Strong Momentum Candle,"supp-held, BO 3.4x, bull-trap",8.0
+540252,Three White Soldiers,Gap-Up Continuation,"supp-held, BO 3.37x, bull-trap",8.0
+TDPOWERSYS,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held",8.0
+TATASTEEL,Three White Soldiers,Gap-Up Continuation,"supp-held, bull-trap",8.0
+AVALON,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 1.86x, bull-trap",8.0
+QUADFUTURE,Three White Soldiers,Bullish Marubozu,"supp-held, BO 9.7x",8.0
+BALAMINES,Morning Star,Three White Soldiers,"HH+HL, supp-held, bull-trap",8.0
+WHEELS,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 1.79x, bull-trap",8.0
+SKIPPER,Bullish Engulfing,Strong Momentum Candle,"supp-held, BO 2.83x, bull-trap",8.0
+IBULLSLTD,Morning Star,none,"HH+HL, supp-held, BO 3.05x, bull-trap",8.0
+KTKBANK,Three White Soldiers,Three White Soldiers,"supp-held, BO 2.4x",8.0
+PRECWIRE,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 8.35x",8.0
+SALSTEEL,Three White Soldiers,Bullish Marubozu,"supp-held, BO 3.7x",8.0
+GVT&D,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 1.52x",8.0
+SPECTRUM,Bullish Harami,Gap-Up Continuation,"HH+HL, supp-held, BO 1.6x",8.0
+NARMADA,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, BO 5.41x",8.0
+KIRLOSENG,Morning Star,Strong Momentum Candle,"supp-held, BO 11.55x",8.0
+CALSOFT,Inverted Hammer,Gap-Up Continuation,"HH+HL, supp-held, BO 4.61x, bull-trap",8.0
+CHENNPETRO,Bullish Engulfing,Strong Momentum Candle,"supp-held, BO 4.05x",8.0
+SIS,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, bull-trap",8.0
+JETFREIGHT,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, BO 7.57x",8.0
+INDSWFTLAB,Inverted Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 9.88x",8.0
+POWERINDIA,Bullish Harami,Bullish Marubozu,"HH+HL, supp-held, BO 3.76x, bull-trap",8.0
+SAKAR,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 3.76x",8.0
+SYRMA,Morning Star,Bullish Marubozu,"HH+HL, supp-held, BO 9.08x, bull-trap",8.0
+DJML,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held",8.0
+DEEDEV,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, BO 18.01x, bull-trap",8.0
+SANGINITA,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 3.88x",8.0
+ATALREAL,Bullish Engulfing,Gap-Up Continuation,"HH+HL, supp-held, BO 6.37x",8.0
+TRUALT,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 3.39x",8.0
+HFCL,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",8.0
+GVPIL,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 8.45x",8.0
+BLISSGVS,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 1.54x",8.0
+EXICOM,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",8.0
+MAWANASUG,Bullish Harami,Gap-Up Continuation,"HH+HL, supp-held, BO 5.62x",8.0
+AEROENTER,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",8.0
+AEROFLEX,Three White Soldiers,Gap-Up Continuation,"supp-held, BO 6.31x, bull-trap",8.0
+ANTELOPUS,Inverted Hammer,Bullish Marubozu,"HH+HL, supp-held, BO 13.1x, bull-trap",8.0
+ATLANTAELE,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 2.16x",8.0
+CPPLUS,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 6.74x",8.0
+E2E,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held, BO 3.31x",8.0
+BAJAJCON,Bullish Harami,Strong Momentum Candle,"supp-held, BO 5.95x, bull-trap",8.0
+532380,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 2.45x, bull-trap",8.0
+SCPL,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 13.29x, bull-trap",8.0
+BBOX,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 2.62x, bull-trap",8.0
+INDOTECH,Hammer,Gap-Up Continuation,"supp-held, BO 5.07x, bull-trap",8.0
+THERMAX,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+KRISHNADEF,Three White Soldiers,Gap-Up Continuation,"supp-held, BO 1.62x",8.0
+KRN,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 14.85x",8.0
+UTLSOLAR,Morning Star,Gap-Up Continuation,"supp-held, BO 3.26x, bull-trap",8.0
+RRKABEL,Three White Soldiers,Three White Soldiers,"supp-held, BO 4.16x",8.0
+542669,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 2.43x",8.0
+IOLCP,Inverted Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 3.69x",8.0
+NIBE,Three White Soldiers,Three White Soldiers,"supp-held, bull-trap",8.0
+KOTYARK,Hammer,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+WALCHANNAG,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held, BO 2.59x",8.0
+HONASA,Morning Star,Gap-Up Continuation,"HH+HL, supp-held",8.0
+APARINDS,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 7.96x",8.0
+RISHABH,Three White Soldiers,Strong Momentum Candle,"HH+HL, supp-held, BO 2.51x",8.0
+SEAMECLTD,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, bull-trap",8.0
+GUJALKALI,Three White Soldiers,Three White Soldiers,"supp-held, BO 6.52x",8.0
+CEIGALL,Hammer,Three White Soldiers,"supp-held, BO 6.12x, bull-trap",8.0
+JAYBARMARU,Morning Star,Bullish Marubozu,"HH+HL, supp-held",8.0
+RUBYMILLS,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 15.24x",8.0
+ZENTEC,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",8.0
+SBCL,Bullish Engulfing,Gap-Up Continuation,"supp-held, BO 1.61x, bull-trap",8.0
+SWANDEF,Bullish Marubozu,Bullish Marubozu,"HH+HL, supp-held, BO 1.57x",8.0
+BIRLACABLE,Three White Soldiers,Three White Soldiers,"supp-held, BO 5.26x",8.0
+STLNETWORK,Morning Star,Gap-Up Continuation,"supp-held, BO 1.92x",8.0
+ONELIFECAP,Bullish Engulfing,Bullish Marubozu,"HH+HL, supp-held, BO 6.24x, bull-trap",8.0
+ADANIPOWER,Morning Star,Gap-Up Continuation,"HH+HL, supp-held, BO 7.52x",8.0
+ACMESOLAR,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",8.0
+PANACEABIO,Hammer,Bullish Marubozu,"HH+HL, supp-held",8.0
+NDLVENTURE,Hammer,Three White Soldiers,"supp-held, bull-trap",7.0
+GHCLTEXTIL,Three White Soldiers,Three White Soldiers,"supp-held, bull-trap",7.0
+KEI,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held",7.0
+SANSTAR,Bullish Engulfing,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",7.0
+GRWRHITECH,Morning Star,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",7.0
+VIJAYA,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held",7.0
+SPARC,Morning Star,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",7.0
+OMAXAUTO,Morning Star,Three White Soldiers,"HH+HL, supp-held, bull-trap",7.0
+YASHO,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",7.0
+ADANIGREEN,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held",7.0
+DHANBANK,Three White Soldiers,Three White Soldiers,"supp-held, bull-trap",7.0
+SURYODAY,Three White Soldiers,Three White Soldiers,"supp-held, bull-trap",7.0
+MCLEODRUSS,Morning Star,Gap-Up Continuation,"HH+HL, supp-held",7.0
+RHETAN,Morning Star,none,"HH+HL, supp-held, BO 1.68x",7.0
+TARIL,Bullish Engulfing,Gap-Up Continuation,"supp-held, bull-trap",7.0
+RPTECH,Morning Star,Bullish Marubozu,"HH+HL, supp-held",7.0
+526775,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held",7.0
+GKSL,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held",7.0
+LLOYDSME,Three White Soldiers,Gap-Up Continuation,"supp-held, bull-trap",7.0
+BANDHANBNK,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held",7.0
+LAURUSLABS,Three White Soldiers,Bullish Marubozu,"HH+HL, supp-held",7.0
+IDEAFORGE,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held",7.0
+AMANTA,Bullish Harami,Three White Soldiers,"supp-held, BO 1.53x, bull-trap",7.0
+PFC,Three White Soldiers,Three White Soldiers,"supp-held, bull-trap",7.0
+VENUSREM,Bullish Engulfing,Three White Soldiers,"HH+HL, supp-held, bull-trap",7.0
+SCHNEIDER,Bullish Engulfing,Strong Momentum Candle,"HH+HL, supp-held, bull-trap",7.0
+SAMMAANCAP,Three White Soldiers,Gap-Up Continuation,"supp-held, bull-trap",7.0
+ADANIENSOL,Three White Soldiers,Three White Soldiers,"supp-held, bull-trap",7.0
+ATHERENERG,Morning Star,Strong Momentum Candle,"HH+HL, supp-held",7.0
+AVADHSUGAR,Morning Star,Gap-Up Continuation,"supp-held, BO 3.04x",6.0
+MCL,Three White Soldiers,Three White Soldiers,"supp-held, BO 6.62x",6.0
+VIYASH,Inverted Hammer,Gap-Up Continuation,"HH+HL, supp-held, bull-trap",6.0
+JINDALPOLY,Morning Star,Three White Soldiers,"supp-held, BO 9.36x",6.0
+AMBIKCO,Morning Star,Three White Soldiers,"HH+HL, supp-held",6.0
+539730,Bullish Engulfing,Bullish Marubozu,"supp-held, BO 1.6x",6.0
+PREMIERPOL,Tweezer Bottom,Strong Momentum Candle,"supp-held, BO 8.28x",6.0
+RAMRAT,Inverted Hammer,Strong Momentum Candle,"supp-held, bull-trap",6.0
+FOCUS,Bullish Engulfing,Strong Momentum Candle,supp-held,6.0
+SAREGAMA,none,Three White Soldiers,"HH+HL, supp-held, BO 17.17x",6.0
+AKUMS,Morning Star,Three White Soldiers,supp-held,6.0
+PIRAMALFIN,Three White Soldiers,Bullish Marubozu,supp-held,6.0
+GROWW,Three White Soldiers,Three White Soldiers,supp-held,6.0
+ATGL,Three White Soldiers,Bullish Marubozu,"supp-held, BO 14.6x",6.0
+WSTCSTPAPR,Inverted Hammer,Strong Momentum Candle,"HH+HL, supp-held, BO 2.16x",6.0
+MMFL,Bullish Engulfing,Three White Soldiers,supp-held,6.0
+DIVGIITTS,Hammer,Three White Soldiers,supp-held,6.0
+VTL,Hammer,Gap-Up Continuation,supp-held,6.0
+HINDALCO,Hammer,Three White Soldiers,"HH+HL, supp-held",6.0
+543787,Bullish Engulfing,Bullish Marubozu,supp-held,6.0
+SOTL,Three White Soldiers,Gap-Up Continuation,supp-held,6.0
+KRISHANA,Three White Soldiers,Bullish Marubozu,"supp-held, bull-trap",6.0
+HIRECT,Hammer,none,"HH+HL, supp-held",6.0
+521113,Bullish Engulfing,Gap-Up Continuation,"supp-held, bull-trap",6.0
+UNIVPHOTO,Bullish Marubozu,Bullish Marubozu,"supp-held, BO 7.09x",6.0
+ADVAIT,Morning Star,Gap-Up Continuation,"HH+HL, supp-held",6.0
+APEX,Morning Star,Gap-Up Continuation,"supp-held, BO 9.79x",6.0
+JINDALSAW,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 16.95x",6.0
+DATAPATTNS,Bullish Engulfing,Gap-Up Continuation,supp-held,6.0
+MIRCELECTR,Bullish Engulfing,Strong Momentum Candle,supp-held,6.0
+LOKESHMACH,Three White Soldiers,Three White Soldiers,supp-held,6.0
+APOLLOPIPE,Three White Soldiers,Three White Soldiers,"supp-held, BO 6.26x",6.0
+NITINSPIN,Bullish Engulfing,Bullish Marubozu,supp-held,6.0
+CUPID,Bullish Harami,Three White Soldiers,"HH+HL, supp-held",6.0
+SGFIN,Bullish Engulfing,Gap-Up Continuation,supp-held,6.0
+SANSERA,Bullish Engulfing,Three White Soldiers,"supp-held, BO 3.43x",6.0
+SASKEN,Inverted Hammer,Strong Momentum Candle,"HH+HL, supp-held",6.0
+PARKHOSPS,none,Gap-Up Continuation,"HH+HL, supp-held, BO 4.47x",6.0
+SHADOWFAX,Three White Soldiers,Gap-Up Continuation,"HH+HL, supp-held",6.0
+NEOGEN,Morning Star,Three White Soldiers,supp-held,6.0
+RUBICON,Bullish Harami,Three White Soldiers,"HH+HL, supp-held",6.0
+NGLFINE,Three White Soldiers,Three White Soldiers,"HH+HL, supp-held",6.0
+KSHINTL,Bullish Harami,Gap-Up Continuation,"HH+HL, supp-held",6.0
+BHAGYANGR,Bullish Harami,Bullish Marubozu,"HH+HL, supp-held, BO 1.54x",6.0
+MODISONLTD,Inverted Hammer,Gap-Up Continuation,"supp-held, bull-trap",6.0
+OMNI,Three White Soldiers,Strong Momentum Candle,supp-held,6.0
+UFBL,Tweezer Bottom,Gap-Up Continuation,"supp-held, BO 15.62x",6.0
+540492,Bullish Marubozu,Bullish Marubozu,supp-held,6.0
+544191,Morning Star,Gap-Up Continuation,"supp-held, BO 6.36x",6.0
+KSR,Three White Soldiers,Strong Momentum Candle,supp-held,6.0
+MAHABANK,Bullish Engulfing,none,"supp-held, BO 5.79x",6.0
+BHEL,Bullish Engulfing,Three White Soldiers,supp-held,6.0
+STEELCAS,Bullish Harami,Strong Momentum Candle,"supp-held, BO 7.17x",6.0
+SENORES,Inverted Hammer,Three White Soldiers,"supp-held, BO 1.51x",6.0
+AETHER,Inverted Hammer,Three White Soldiers,"supp-held, bull-trap",6.0
+MBAPL,Three White Soldiers,Strong Momentum Candle,"supp-held, BO 4.21x",6.0
+543542,Three White Soldiers,Gap-Up Continuation,supp-held,6.0
+543828,Hammer,Bullish Marubozu,"HH+HL, supp-held",6.0
+BELRISE,Bullish Engulfing,Strong Momentum Candle,supp-held,6.0
+544141,Bullish Engulfing,Bullish Marubozu,"supp-held, BO 2.94x",6.0
+CEMPRO,Morning Star,Gap-Up Continuation,"supp-held, bull-trap",6.0
+AVANTIFEED,Three White Soldiers,Three White Soldiers,supp-held,6.0
+531911,Inverted Hammer,Bullish Marubozu,"HH+HL, supp-held",6.0
+KINGFA,Bullish Engulfing,Strong Momentum Candle,supp-held,6.0
+SAIL,none,Strong Momentum Candle,"HH+HL, supp-held, BO 2.78x, bull-trap",6.0
+530689,Inverted Hammer,Three White Soldiers,"supp-held, BO 8.4x",6.0
+ABSLAMC,Morning Star,none,"HH+HL, supp-held, bull-trap",6.0
+TMB,Inverted Hammer,Gap-Up Continuation,"supp-held, BO 3.71x",6.0
+HINDCOPPER,Three White Soldiers,Three White Soldiers,"supp-held, BO 4.11x",6.0
+DBOL,Bullish Engulfing,Three White Soldiers,supp-held,6.0
+AGIIL,Bullish Harami,Gap-Up Continuation,"supp-held, BO 3.64x",6.0
+AXISCADES,Inverted Hammer,Bullish Marubozu,supp-held,6.0
+APCOTEXIND,Three White Soldiers,Strong Momentum Candle,supp-held,6.0
+J&KBANK,Three White Soldiers,Three White Soldiers,supp-held,6.0
+ARFIN,Three White Soldiers,Gap-Up Continuation,supp-held,6.0
+EMMVEE,Bullish Engulfing,Strong Momentum Candle,supp-held,5.0
+NEPHROPLUS,Bullish Engulfing,Three White Soldiers,supp-held,5.0
+JSWENERGY,Three White Soldiers,Gap-Up Continuation,supp-held,5.0
+SBC,Three White Soldiers,Three White Soldiers,supp-held,5.0
+TIPSMUSIC,Inverted Hammer,Three White Soldiers,"HH+HL, supp-held",5.0
+511523,Inverted Hammer,Bullish Marubozu,supp-held,5.0
+NAHARSPING,Three White Soldiers,Gap-Up Continuation,supp-held,5.0
+VIDYAWIRES,Morning Star,none,"HH+HL, supp-held",5.0
+WELCORP,Inverted Hammer,Gap-Up Continuation,"supp-held, bull-trap",5.0
+SATIN,Three White Soldiers,Three White Soldiers,supp-held,5.0
+BLUSPRING,Morning Star,none,"HH+HL, supp-held",5.0
+GAUDIUMIVF,none,Strong Momentum Candle,"supp-held, BO 1.79x",4.0
+SONAMLTD,Bullish Harami,none,"HH+HL, supp-held",4.0
+JNKINDIA,none,Three White Soldiers,"HH+HL, supp-held",3.0
+AYMSYNTEX,none,Gap-Up Continuation,supp-held,3.0
+GAYAPROJ,none,none,supp-held,2.0
+HSCL,none,Three White Soldiers,supp-held,2.0
+KOVAI,,,"HH+HL, supp-held, BO nanx, bull-trap",
+NOVARTIND,,,"HH+HL, supp-held, BO nanx, bull-trap",
+NITTAGELA,,,"HH+HL, supp-held, BO nanx, bull-trap",
+COCKERILL,,,"HH+HL, supp-held, BO nanx, bull-trap",
+SEDEMAC,,,"HH+HL, supp-held, BO nanx, bull-trap",
+ELPROINTL,,,"HH+HL, supp-held, BO nanx, bull-trap",
+CMPDI,,,"HH+HL, supp-held, BO nanx, bull-trap",
+KPL,,,"HH+HL, supp-held, BO nanx, bull-trap",
+DECNGOLD,,,"HH+HL, supp-held, BO nanx, bull-trap",
+SAIPARENT,,,"HH+HL, supp-held, BO nanx, bull-trap",
+WELSPLSOL,,,"HH+HL, supp-held, BO nanx, bull-trap",
+MMWL,,,"HH+HL, supp-held, BO nanx, bull-trap",
+KISSHT,,,"HH+HL, supp-held, BO nanx, bull-trap",
+TIMEX,,,"HH+HL, supp-held, BO nanx, bull-trap",
+POWERICA,,,"HH+HL, supp-held, BO nanx, bull-trap",

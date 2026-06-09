@@ -1,50 +1,50 @@
 # KSR — KSR Footwear Limited (NSE)
-**Sector:** Consumer Cyclical | **6m return:** 43.08% | **Close:** ₹33.91 | **Cap:** Micro | **Bars:** 124
+**Sector:** Consumer Cyclical | **6m return:** 83.42% | **Close:** ₹32.63 | **Cap:** Micro | **Bars:** 130
 
-## 🏁 SCORECARD: **BEARISH**  (score -8.3, confluence high)
-Leading -3.3 | Lagging -3.0 | Candles -1.0 | Price-action -1.0
+## 🏁 SCORECARD: **BEARISH**  (score -7.8, confluence high)
+Leading -1.3 | Lagging -3.0 | Candles -1.0 | Price-action -2.5
 
 ## A. Leading indicators
-- **RSI(14):** 44.3 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 24.4 / %D 14.6, cross bull, neutral, div none
-- **Bollinger(20,2):** below_mid, width 16.84%, SQUEEZE
-- **Ichimoku:** price inside cloud, Tenkan/Kijun bearish, Chikou below, kumo-twist-ahead none
-- **CCI(20):** -100.7 (strong_down)
-- **Williams %R(14):** -61.5 (neutral)
-- **OBV:** trend falling, divergence none
-- **MFI(14):** 56.5 (neutral)
+- **RSI(14):** 40.8 (neutral), trend flat, divergence none
+- **Stochastic(14,3,3):** %K 23.0 / %D 25.5, cross bear, neutral, div none
+- **Bollinger(20,2):** below_mid, width 21.66%, expanding
+- **Ichimoku:** price below cloud, Tenkan/Kijun bearish, Chikou below, kumo-twist-ahead bear
+- **CCI(20):** -78.8 (below0)
+- **Williams %R(14):** -76.7 (neutral)
+- **OBV:** trend rising, divergence bullish
+- **MFI(14):** 41.4 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.449 (contracting_neg), cross none, zero-line below
+- **MACD(12,26,9):** below_signal, hist -0.299 (contracting_neg), cross none, zero-line below
 - **EMA:** alignment n/a (short); px vs E20 below, E50 below, E200 n/a; E200 slope n/a
-- **ADX(14):** 18.9 (choppy), -DI>+DI, falling
+- **ADX(14):** 19.7 (choppy), -DI>+DI, rising
 - **Supertrend(7,3):** red_sell (recent flip: none)
-- **ATR(14):** 1.93 (5.69% of price, expanding)
-- **VWAP(20):** px below, dist -4.1%
-- **Pivots:** daily P 33.95 R1 34.35 S1 33.51; weekly position mid_range
+- **ATR(14):** 1.8 (5.5% of price, contracting)
+- **VWAP(20):** px below, dist -5.27%
+- **Pivots:** daily P 32.93 R1 33.46 S1 32.11; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Tweezer Bottom | 2026-05-21 | bullish | at resistance | confirmed |
-| Inside Bar | 2026-05-21 | neutral | at resistance | neutral |
-| NR7 | 2026-05-21 | neutral | at resistance | neutral |
-| Bullish Marubozu | 2026-05-22 | bullish | at resistance | failed |
 | Bearish Marubozu | 2026-05-25 | bearish | at resistance | confirmed |
 | Dark Cloud Cover | 2026-05-25 | bearish | at resistance | confirmed |
 | Inverted Hammer | 2026-05-26 | bullish | midair | failed |
 | Bearish Pin Bar | 2026-05-26 | bearish | midair | confirmed |
-| Three Black Crows | 2026-05-27 | bearish | at resistance | confirmed |
+| Three Black Crows | 2026-05-27 | bearish | at resistance | failed |
+| Doji | 2026-05-28 | neutral | at resistance | neutral |
+| Inside Bar | 2026-05-28 | neutral | at resistance | neutral |
 | Bearish Marubozu | 2026-05-29 | bearish | at support | failed |
-| NR4 | 2026-05-29 | neutral | at support | neutral |
-| Three Black Crows | 2026-05-29 | bearish | at support | failed |
 | Bullish Engulfing | 2026-06-01 | bullish | at resistance | confirmed |
 | Outside Bar | 2026-06-01 | neutral | at resistance | neutral |
-| NR7 | 2026-06-02 | neutral | midair | pending (last bar) |
+| Outside Bar | 2026-06-03 | neutral | at resistance | neutral |
+| Bearish Engulfing | 2026-06-04 | bearish | at S/R confluence | failed |
+| Bearish Engulfing | 2026-06-08 | bearish | at S/R confluence | failed |
+| Outside Bar | 2026-06-08 | neutral | at S/R confluence | neutral |
+| Inside Bar | 2026-06-09 | neutral | at S/R confluence | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Sideways / range-bound
-- **Chart pattern:** Double Top | breakout 35.75 | target 33.61 | volume no | confidence medium
+- **Trend structure:** Downtrend (LH/LL)
+- **Chart pattern:** Descending Triangle | breakout 32.48 | target n/a | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
@@ -54,27 +54,27 @@ Leading -3.3 | Lagging -3.0 | Candles -1.0 | Price-action -1.0
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** n/a (short)
 ### B. Smart Money Concepts
-- **Market structure:** daily bullish (HH/HL) | weekly bullish (HH/HL) | aligned: True
+- **Market structure:** daily ranging | weekly bullish (HH/HL) | aligned: False
 - **Break of Structure (last):** bear @ 35.25 on 2026-05-26
 - **Change of Character (last):** bear @ 35.25 on 2026-05-26
 - **Bullish Order Block:** 35.15-36.18 (2026-05-07, mitigated)
 - **Bearish Order Block:** 37.0-38.0 (2026-04-15, mitigated)
-- **Fair Value Gaps:** 1 unfilled bullish, 2 unfilled bearish · nearest bull FVG below 33.4-33.55 (2026-06-02) · nearest bear FVG above 33.4-34.56 (2026-05-29)
+- **Fair Value Gaps:** 0 unfilled bullish, 2 unfilled bearish · nearest bull FVG below none · nearest bear FVG above 33.61-34.56 (2026-05-28)
 - **Liquidity:** buy-side above 39.1 | sell-side below none | equal-highs 1 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 79.3% of range 14.04–39.1)
+- **Premium/Discount:** **Premium** (price at 74.2% of range 14.04–39.1)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** False (141.5% above 52w low, above EMA200: False)
-- **Contractions (3):** C1:-4.1%/4b | C2:-12.0%/7b | C3:-14.4%/11b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 2.53)
-- **Near 52w high:** False | **Pivot:** 37.52 | **% from pivot:** -9.62%
-- **Breakout vol ratio (today/50d):** 0.14 | **close pos in range:** 0.43
+- **Prior uptrend:** False (132.4% above 52w low, above EMA200: False)
+- **Contractions (3):** C1:-12.0%/7b | C2:-14.4%/11b | C3:-14.9%/5b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 0.86)
+- **Near 52w high:** False | **Pivot:** 34.39 | **% from pivot:** -5.12%
+- **Breakout vol ratio (today/50d):** 1.0 | **close pos in range:** 0.16
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 14.04 on 2025-12-29):** 1x1=24.18 2x1=34.33 1x2=19.11 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 36.88 · T2 39.98 · T3 46.56 (support S1 31.06, S2 28.34)
-- **Time cycles:** 102 days since swing low → next Gann cycle at 120d (18d away); near cycle: False
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=26.57 6/8=32.83 7/8=35.97
-- **Cardinal square:** nearest perfect-square 36 (6.16% away); near: False
+- **Angles (auto-scaled from swing low 14.04 on 2025-12-29):** 1x1=24.78 2x1=35.52 1x2=19.41 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 35.55 · T2 38.59 · T3 45.05 (support S1 29.84, S2 27.17)
+- **Time cycles:** 108 days since swing low → next Gann cycle at 120d (12d away); near cycle: False
+- **Octave position:** 6/8 (75%) | levels 4/8=26.57 6/8=32.83 7/8=35.97
+- **Cardinal square:** nearest perfect-square 36 (10.33% away); near: False

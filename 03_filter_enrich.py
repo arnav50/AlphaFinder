@@ -4,7 +4,7 @@ Filters:
   - status ok
   - return_pct >= 25
   - liquidity: avg_daily_volume >= 50,000 shares  OR  avg_daily_value >= Rs 50 lakh (5e6)
-  - penny flag: price_today < 10  -> FLAG (kept, per spec "flag but do not remove")
+  - penny exclusion: price_today < 10  -> DROPPED (per spec "exclude penny stocks below Rs10 CMP")
 Enrichment (market cap in Rs cr + sector) via BSE master joined on ISIN -> covers NSE & BSE rows.
 Output: hits_enriched.csv
 """
@@ -36,7 +36,11 @@ if __name__ == "__main__":
     hits = hits[liq].copy()
     print(f"after liquidity filter (>=50k sh OR >=Rs50L val): {len(hits)} (dropped {dropped_liq})")
 
-    hits["penny_flag"] = hits["price_today"] < 10
+    # Spec: EXCLUDE penny stocks below Rs10 CMP (previously flagged-but-kept).
+    penny = hits["price_today"] < 10
+    print(f"penny stocks (<Rs10 CMP) excluded: {int(penny.sum())}")
+    hits = hits[~penny].copy()
+    hits["penny_flag"] = False  # column retained for downstream schema; always False after exclusion
 
     # Enrich market cap + sector via BSE master (ISIN join)
     hits["isin_norm"] = hits["isin"].astype(str).str.strip().str.upper()

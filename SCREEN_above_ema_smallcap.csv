@@ -1,0 +1,65 @@
+rank,Stock Name,Symbol,Exchange,CMP,6M Return%,Market Cap (Cr),Cap,Sector,Avg Vol (20D),px_vs_e50,px_vs_e200,ema50,ema200,past_date_used,xsrc_mismatch_pct
+3,DEE Development Engineers Limited,DEEDEV,NSE,671.15,220.51,4670.08,Small,Industrials,378379,above,above,467.28,332.21,2025-12-09,0.46
+4,United Foodbrands Limited,UFBL,NSE,506.0,183.0,1976.21,Small,Consumer Cyclical,874468,above,above,373.14,290.58,2025-12-09,0.08
+7,Bliss GVS Pharma Limited,BLISSGVS,NSE,438.35,172.72,4634.09,Small,Healthcare,4086565,above,above,307.84,222.89,2025-12-09,0.07
+8,MODISON LIMITED,MODISONLTD,NSE,362.7,158.33,1175.5,Small,Industrials,426933,above,above,201.55,164.4,2025-12-09,0.12
+11,Confidence Petroleum India Limited,CONFIPET,NSE,77.61,132.16,2582.18,Small,Energy,4374635,above,above,57.54,48.31,2025-12-09,0.14
+13,Ideaforge Technology Limited,IDEAFORGE,NSE,945.0,122.67,4093.62,Small,Technology,880319,above,above,692.4,544.44,2025-12-09,0.16
+16,Sportking India Limited,SPORTKING,NSE,180.38,103.15,2291.74,Small,Consumer Cyclical,720989,above,above,151.32,121.41,2025-12-09,0.02
+20,JNK India Limited,JNKINDIA,NSE,421.3,88.11,2355.66,Small,Industrials,536147,above,above,341.97,309.73,2025-12-09,0.07
+21,Paramount Communications Limited,PARACABLES,NSE,67.32,87.05,2062.3,Small,Technology,6422160,above,above,51.49,45.73,2025-12-09,0.37
+23,Kernex Microsystems (India) Limited,KERNEX,NSE,1836.1,82.24,3086.02,Small,Technology,458422,above,above,1406.62,1226.38,2025-12-09,0.03
+25,Sasken Technologies Limited,SASKEN,NSE,2181.2,80.92,3317.03,Small,Technology,593758,above,above,1670.96,1465.15,2025-12-09,0.14
+26,Wheels India Limited,WHEELS,NSE,1487.7,79.6,3637.1,Small,Consumer Cyclical,309997,above,above,1320.37,1015.77,2025-12-09,0.06
+35,Nitin Spinners Limited,NITINSPIN,NSE,535.8,70.66,3015.36,Small,Consumer Cyclical,254026,above,above,462.7,393.35,2025-12-09,0.1
+36,Satin Creditcare Network Limited,SATIN,NSE,241.39,70.56,2664.56,Small,Financial Services,2346536,above,above,198.42,167.51,2025-12-09,0.08
+37,Apollo Pipes Limited,APOLLOPIPE,NSE,497.85,70.26,2192.94,Small,Industrials,400951,above,above,464.37,397.51,2025-12-09,0.0
+38,Ind-Swift Laboratories Limited,INDSWFTLAB,NSE,158.0,68.73,1368.11,Small,Healthcare,1215759,above,above,140.59,122.71,2025-12-09,0.29
+40,Rashi Peripherals Limited,RPTECH,NSE,546.25,67.0,3599.77,Small,Technology,242463,above,above,485.67,396.65,2025-12-09,0.0
+45,MIRC Electronics Limited,MIRCELECTR,NSE,39.28,63.8,1453.56,Small,Consumer Cyclical,2872364,above,above,36.76,29.84,2025-12-09,0.18
+46,Fineotex Chemical Limited,FCL,NSE,40.73,63.25,4734.86,Small,Basic Materials,47499851,above,above,30.44,26.29,2025-12-09,0.17
+47,Panacea Biotec Limited,PANACEABIO,NSE,540.2,62.56,3314.28,Small,Healthcare,797838,above,above,394.57,385.41,2025-12-09,0.17
+49,Shivalik Bimetal Controls Limited,SBCL,NSE,712.7,62.18,4107.18,Small,Industrials,503996,above,above,610.98,521.59,2025-12-09,0.04
+55,BMW Industries Ltd,542669,BSE,60.18,60.44,1354.57,Small,,614524,above,above,48.1,43.73,2025-12-09,0.0
+56,IOL Chemicals and Pharmaceuticals Limited,IOLCP,NSE,131.68,59.52,3861.35,Small,Healthcare,6984981,above,above,106.08,90.93,2025-12-09,0.1
+58,NIBE Limited,NIBE,NSE,1590.4,59.15,2381.79,Small,Industrials,417566,above,above,1201.31,1182.7,2025-12-09,0.23
+62,Walchandnagar Industries Limited,WALCHANNAG,NSE,241.75,57.48,1640.08,Small,Industrials,2415552,above,above,222.09,197.76,2025-12-09,0.0
+65,Jay Bharat Maruti Limited,JAYBARMARU,NSE,127.97,55.93,1385.06,Small,Consumer Cyclical,2523395,above,above,102.38,93.32,2025-12-09,0.02
+67,Hind Rectifiers Limited,HIRECT,NSE,1128.4,54.86,3889.05,Small,Industrials,312803,above,above,940.0,800.37,2025-12-09,0.27
+68,KMC Speciality Hospitals (India) Ltd,524520,BSE,114.5,53.79,1867.32,Small,,242551,above,above,94.78,82.63,2025-12-09,0.0
+69,Mcleod Russel India Limited,MCLEODRUSS,NSE,70.91,53.52,739.34,Small,Consumer Defensive,513024,above,above,60.51,49.2,2025-12-09,0.18
+70,Savita Oil Technologies Limited,SOTL,NSE,560.5,52.75,3835.27,Small,Basic Materials,938679,above,above,410.02,391.16,2025-12-09,0.2
+75,Mayur Uniquoters Ltd,MAYURUNIQ,NSE,733.65,49.16,3186.38,Small,Consumer Cyclical,538601,above,above,635.65,564.64,2025-12-09,0.05
+78,STEEL EXCHANGE INDIA LIMITED,STEELXIND,NSE,12.34,47.78,1542.81,Small,Basic Materials,5478649,above,above,10.31,9.35,2025-12-09,0.24
+79,Gulshan Polyols Limited,GULPOLY,NSE,201.64,47.66,1253.96,Small,Basic Materials,578760,above,above,178.8,164.48,2025-12-09,0.29
+84,Indo Borax & Chemicals Limited,INDOBORAX,NSE,367.4,45.48,1183.0,Small,Basic Materials,261745,above,above,291.94,256.64,2025-12-09,0.34
+86,GNG Electronics Limited,EBGNG,NSE,420.55,45.02,4794.18,Small,Technology,383704,above,above,413.92,364.19,2025-12-09,0.01
+95,Hardwyn India Limited,HARDWYN,NSE,24.41,43.42,1190.31,Small,Industrials,4003617,above,above,23.57,19.2,2025-12-09,0.16
+96,Kopran Limited,KOPRAN,NSE,189.08,43.33,926.36,Small,Healthcare,1624166,above,above,164.85,156.23,2025-12-09,1.44
+97,Pasupati Acrylon Limited,PASUPTAC,NSE,74.21,42.25,660.48,Small,Consumer Cyclical,831565,above,above,55.46,50.62,2025-12-09,0.15
+98,Ganesh Benzoplast Limited,GANESHBE,NSE,111.95,42.18,803.04,Small,Basic Materials,681319,above,above,94.23,91.23,2025-12-09,0.36
+105,Agi Infra Limited,AGIIL,NSE,377.2,40.28,4716.78,Small,Real Estate,2001019,above,above,359.25,295.65,2025-12-09,0.04
+107,Bluspring Enterprises Limited,BLUSPRING,NSE,93.35,39.72,1391.3,Small,Industrials,845271,above,above,68.57,68.59,2025-12-09,0.27
+109,Asian Energy Services Limited,ASIANENE,NSE,382.1,39.3,1712.75,Small,Energy,880598,above,above,322.54,307.94,2025-12-09,0.28
+113,Bodal Chemicals Limited,BODALCHEM,NSE,71.2,38.58,895.46,Small,Basic Materials,549009,above,above,66.95,61.18,2025-12-09,0.14
+114,NRB Bearing Limited,NRBBEARING,NSE,385.65,38.57,3727.64,Small,Consumer Cyclical,844893,above,above,323.23,287.23,2025-12-09,0.27
+115,ADF Foods Limited,ADFFOODS,NSE,282.8,38.44,3108.59,Small,Consumer Defensive,346729,above,above,250.21,228.66,2025-12-09,0.05
+117,Universal Cables Limited,UNIVCABLES,NSE,1227.5,36.91,4255.56,Small,Industrials,407869,above,above,978.82,822.03,2025-12-09,0.08
+119,Premier Explosives Limited,PREMEXPLN,NSE,685.65,36.46,3683.72,Small,Basic Materials,1601206,above,above,572.42,528.91,2025-12-09,0.07
+120,GHCL Textiles Limited,GHCLTEXTIL,NSE,98.77,36.2,942.95,Small,Consumer Cyclical,594479,above,above,88.91,82.79,2025-12-09,0.12
+123,SBC Exports Limited,SBC,NSE,37.1,35.3,1764.76,Small,Industrials,14650806,above,above,34.82,28.86,2025-12-09,0.11
+129,South West Pinnacle Exploration Limited,SOUTHWEST,NSE,262.75,34.3,780.65,Small,Energy,434889,above,above,238.4,198.82,2025-12-09,0.4
+131,Senores Pharmaceuticals Limited,SENORES,NSE,1034.7,34.25,4765.63,Small,Healthcare,671219,above,above,967.12,818.53,2025-12-09,0.01
+137,Uniparts India Limited,UNIPARTS,NSE,633.95,31.85,2853.72,Small,Industrials,334377,above,above,545.45,481.47,2025-12-09,0.28
+139,Sanstar Limited,SANSTAR,NSE,117.96,31.29,2148.66,Small,Basic Materials,1276928,above,above,100.59,94.4,2025-12-09,0.05
+142,Rico Auto Industries Limited,RICOAUTO,NSE,136.85,30.69,1852.73,Small,Consumer Cyclical,4408556,above,above,117.9,109.89,2025-12-09,0.07
+143,Gandhar Oil Refinery (India) Limited,GANDHAR,NSE,160.73,30.61,1575.37,Small,Energy,804117,above,above,149.65,148.36,2025-12-09,0.14
+144,Dhanlaxmi Bank Limited,DHANBANK,NSE,32.88,30.42,1300.14,Small,Financial Services,2331872,above,above,30.32,27.41,2025-12-09,0.18
+145,Menon Bearings Limited,MENONBE,NSE,138.71,30.06,775.87,Small,Consumer Cyclical,219537,above,above,134.28,123.57,2025-12-09,0.19
+146,RSWM Limited,RSWM,NSE,197.1,30.03,925.55,Small,Consumer Cyclical,273595,above,above,163.35,155.85,2025-12-09,0.31
+155,Sandhar Technologies Limited,SANDHAR,NSE,703.1,28.71,4235.02,Small,Consumer Cyclical,1311059,above,above,572.98,523.31,2025-12-09,0.07
+156,Suryoday Small Finance Bank Limited,SURYODAY,NSE,171.83,28.38,1827.65,Small,Financial Services,515933,above,above,155.4,141.97,2025-12-09,0.07
+157,Rishabh Instruments Limited,RISHABH,NSE,512.45,28.19,1970.21,Small,Technology,353206,above,above,484.24,417.81,2025-12-09,0.27
+164,Quadrant Future Tek Limited,QUADFUTURE,NSE,337.45,26.6,1345.2,Small,Industrials,1347032,above,above,305.15,335.25,2025-12-09,0.34
+165,Aeroflex Enterprises Limited,AEROENTER,NSE,100.83,25.5,1138.54,Small,Basic Materials,343221,above,above,93.01,87.92,2025-12-09,0.15
+166,Exicom Tele-Systems Limited,EXICOM,NSE,133.85,25.48,1866.45,Small,Industrials,5384287,above,above,124.26,126.29,2025-12-09,0.26
