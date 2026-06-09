@@ -1,0 +1,322 @@
+rank,symbol,name,exchange,sector,cap_bucket,CMP,ret_6m_pct,mktcap_cr,lagging,leading,entry,smc,vcp,passes_available,composite_100,tier,screen_pass
+1,ASTRAMICRO,Astra Microwave Products Limited,NSE,Technology,Mid,1419.5,57.74,13472.22,9.0,7.0,10.0,9.0,7.0,5,84.0,TIER 1,Y
+2,RSWM,RSWM Limited,NSE,Consumer Cyclical,Small,197.1,30.03,925.55,10.0,6.0,10.0,10.0,6.0,5,84.0,TIER 1,Y
+3,IFCI,IFCI Limited,NSE,Financial Services,Large,79.6,65.32,21452.13,9.0,6.0,10.0,10.0,6.0,5,82.0,TIER 1,Y
+4,JETFREIGHT,Jet Freight Logistics Limited,NSE,Industrials,Micro,23.54,27.66,108.82,10.0,7.0,8.0,10.0,6.0,5,82.0,TIER 1,N
+5,DEEDEV,DEE Development Engineers Limited,NSE,Industrials,Small,671.15,220.51,4670.08,10.0,6.0,8.0,10.0,6.0,5,80.0,TIER 1,Y
+6,ACUTAAS,Acutaas Chemicals Limited,NSE,Basic Materials,Large,3328.3,99.75,27249.98,10.0,7.0,9.0,8.0,6.0,5,80.0,TIER 1,Y
+7,NINSYS,NINtec Systems Limited,NSE,Technology,Small,724.15,80.45,1315.65,8.0,7.0,10.0,8.0,7.0,5,80.0,TIER 1,N
+8,STLTECH,Sterlite Technologies Limited,NSE,Technology,Large,619.25,536.17,30234.66,8.0,6.0,10.0,9.0,6.0,5,78.0,TIER 2,Y
+9,ANTELOPUS,Antelopus Selan Energy Limited,NSE,Energy,Small,899.35,140.24,3165.14,10.0,6.0,8.0,10.0,5.0,5,78.0,TIER 2,N
+10,CONFIPET,Confidence Petroleum India Limited,NSE,Energy,Small,77.61,132.16,2582.18,10.0,7.0,10.0,8.0,4.0,5,78.0,TIER 2,Y
+11,RUBYMILLS,The Ruby Mills Limited,NSE,Consumer Cyclical,Small,337.85,61.66,1109.37,10.0,7.0,8.0,9.0,5.0,5,78.0,TIER 2,N
+12,PAISALO,Paisalo Digital Limited,NSE,Financial Services,Mid,57.87,54.86,5257.95,10.0,6.0,10.0,8.0,5.0,5,78.0,TIER 2,Y
+13,INOXINDIA,INOX India Limited,NSE,Industrials,Mid,1578.8,38.33,14344.26,10.0,5.0,9.0,9.0,6.0,5,78.0,TIER 2,N
+14,VIJAYA,Vijaya Diagnostic Centre Limited,NSE,Healthcare,Mid,1372.4,35.07,14151.39,10.0,7.0,7.0,8.0,7.0,5,78.0,TIER 2,Y
+15,RICOAUTO,Rico Auto Industries Limited,NSE,Consumer Cyclical,Small,136.85,30.69,1852.73,10.0,5.0,8.0,10.0,6.0,5,78.0,TIER 2,Y
+16,APOLLO,Apollo Micro Systems Limited,NSE,Industrials,Mid,421.35,75.42,15054.52,8.0,5.0,10.0,10.0,5.0,5,76.0,TIER 2,Y
+17,THANGAMAYL,Thangamayil Jewellery Limited,NSE,Consumer Cyclical,Mid,5351.9,66.04,16633.85,10.0,5.0,9.0,9.0,5.0,5,76.0,TIER 2,Y
+18,SHILPAMED,Shilpa Medicare Limited,NSE,Healthcare,Mid,538.05,62.23,10497.85,9.0,6.0,10.0,8.0,5.0,5,76.0,TIER 2,Y
+19,542669,BMW Industries Ltd,BSE,,Small,60.18,60.44,1354.57,10.0,5.0,8.0,9.0,6.0,5,76.0,TIER 2,Y
+20,MIDHANI,Mishra Dhatu Nigam Limited,NSE,Basic Materials,Mid,435.55,45.99,8148.35,9.0,5.0,10.0,8.0,6.0,5,76.0,TIER 2,Y
+21,PASUPTAC,Pasupati Acrylon Limited,NSE,Consumer Cyclical,Small,74.21,42.25,660.48,10.0,7.0,8.0,8.0,5.0,5,76.0,TIER 2,Y
+22,CGPOWER,CG Power and Industrial Solutions Limited,NSE,Industrials,Large,937.85,40.93,147715.24,9.0,6.0,10.0,9.0,4.0,5,76.0,TIER 2,Y
+23,500449,Hindustan Organic Chemicals Ltd,BSE,,Micro,40.67,36.94,273.19,6.0,6.0,10.0,9.0,7.0,5,76.0,TIER 2,N
+24,ADANIENT,Adani Enterprises Limited,NSE,Energy,Large,3048.2,35.77,393749.91,9.0,7.0,8.0,6.0,8.0,5,76.0,TIER 2,Y
+25,KDDL,KDDL Limited,NSE,Consumer Cyclical,Small,2904.7,26.21,3577.0,6.0,7.0,10.0,8.0,7.0,5,76.0,TIER 2,N
+26,BLISSGVS,Bliss GVS Pharma Limited,NSE,Healthcare,Small,438.35,172.72,4634.09,8.0,7.0,8.0,9.0,5.0,5,74.0,TIER 2,Y
+27,SIGMAADV,SIGMA ADVANCED SYSTEMS LIMITED,NSE,Industrials,Mid,435.8,131.92,7681.41,8.0,6.0,10.0,6.0,7.0,5,74.0,TIER 2,Y
+28,VENUSREM,Venus Remedies Limited,NSE,Healthcare,Small,1633.5,114.12,2188.31,10.0,6.0,7.0,8.0,6.0,5,74.0,TIER 2,N
+29,AVALON,Avalon Technologies Limited,NSE,Technology,Mid,1607.9,86.33,10733.78,9.0,6.0,8.0,9.0,5.0,5,74.0,TIER 2,Y
+30,KERNEX,Kernex Microsystems (India) Limited,NSE,Technology,Small,1836.1,82.24,3086.02,8.0,6.0,9.0,9.0,5.0,5,74.0,TIER 2,Y
+31,BALAMINES,Balaji Amines Limited,NSE,Basic Materials,Mid,2043.3,81.4,6627.3,8.0,7.0,8.0,8.0,6.0,5,74.0,TIER 2,Y
+32,KIRLOSENG,Kirloskar Oil Engines Limited,NSE,Industrials,Large,1913.3,71.4,27787.2,8.0,7.0,8.0,10.0,4.0,5,74.0,TIER 2,Y
+33,FCL,Fineotex Chemical Limited,NSE,Basic Materials,Small,40.73,63.25,4734.86,8.0,7.0,10.0,6.0,6.0,5,74.0,TIER 2,Y
+34,SKYGOLD,SKY GOLD AND DIAMONDS LIMITED,NSE,Consumer Cyclical,Mid,528.45,61.95,8188.96,8.0,7.0,10.0,9.0,3.0,5,74.0,TIER 2,Y
+35,IOLCP,IOL Chemicals and Pharmaceuticals Limited,NSE,Healthcare,Small,131.68,59.52,3861.35,8.0,6.0,8.0,8.0,7.0,5,74.0,TIER 2,Y
+36,YASHO,Yasho Industries Limited,NSE,Basic Materials,Small,2470.1,56.44,2966.23,9.0,8.0,7.0,8.0,5.0,5,74.0,TIER 2,N
+37,STEELXIND,STEEL EXCHANGE INDIA LIMITED,NSE,Basic Materials,Small,12.34,47.78,1542.81,8.0,7.0,8.0,8.0,6.0,5,74.0,TIER 2,Y
+38,MWL,Mangalam Worldwide Limited,NSE,Basic Materials,Small,378.8,44.57,1120.61,6.0,5.0,8.0,10.0,8.0,5,74.0,TIER 2,N
+39,KOPRAN,Kopran Limited,NSE,Healthcare,Small,189.08,43.33,926.36,5.0,7.0,10.0,9.0,6.0,5,74.0,TIER 2,Y
+40,IDEA,Vodafone Idea Limited,NSE,Communication Services,Large,14.95,39.2,162189.52,9.0,8.0,8.0,7.0,5.0,5,74.0,TIER 2,Y
+41,ABB,ABB India Limited,NSE,Industrials,Large,7167.5,39.12,151803.74,8.0,5.0,8.0,10.0,6.0,5,74.0,TIER 2,Y
+42,PREMEXPLN,Premier Explosives Limited,NSE,Basic Materials,Small,685.65,36.46,3683.72,8.0,7.0,8.0,8.0,6.0,5,74.0,TIER 2,Y
+43,CRAFTSMAN,Craftsman Automation Limited,NSE,Consumer Cyclical,Large,9065.0,28.93,21567.12,9.0,6.0,10.0,8.0,4.0,5,74.0,TIER 2,N
+44,GVPIL,GE Power India Limited,NSE,Industrials,Mid,884.1,177.19,5941.23,8.0,8.0,8.0,8.0,4.0,5,72.0,TIER 2,Y
+45,SPORTKING,Sportking India Limited,NSE,Consumer Cyclical,Small,180.38,103.15,2291.74,8.0,7.0,9.0,8.0,4.0,5,72.0,TIER 2,Y
+46,POWERINDIA,Hitachi Energy India Limited,NSE,Industrials,Large,36870.0,91.73,164268.77,7.0,8.0,8.0,9.0,4.0,5,72.0,TIER 2,N
+47,PARACABLES,Paramount Communications Limited,NSE,Technology,Small,67.32,87.05,2062.3,6.0,7.0,9.0,9.0,5.0,5,72.0,TIER 2,Y
+48,SYRMA,Syrma SGS Technology Limited,NSE,Technology,Large,1226.8,67.12,23650.66,10.0,5.0,8.0,10.0,3.0,5,72.0,TIER 2,Y
+49,RRKABEL,R R Kabel Limited,NSE,Industrials,Large,2223.4,60.55,25123.56,10.0,6.0,8.0,8.0,4.0,5,72.0,TIER 2,Y
+50,NIBE,NIBE Limited,NSE,Industrials,Small,1590.4,59.15,2381.79,6.0,7.0,8.0,8.0,7.0,5,72.0,TIER 2,Y
+51,APARINDS,Apar Industries Limited,NSE,Industrials,Large,13878.0,57.43,55712.25,10.0,6.0,8.0,8.0,4.0,5,72.0,TIER 2,N
+52,CEIGALL,Ceigall India Limited,NSE,Industrials,Mid,358.5,56.01,6266.15,9.0,4.0,8.0,10.0,5.0,5,72.0,TIER 2,Y
+53,ADANIGREEN,Adani Green Energy Limited,NSE,Utilities,Large,1525.7,52.74,251210.84,7.0,8.0,7.0,8.0,6.0,5,72.0,TIER 2,Y
+54,GULPOLY,Gulshan Polyols Limited,NSE,Basic Materials,Small,201.64,47.66,1253.96,9.0,5.0,8.0,10.0,4.0,5,72.0,TIER 2,Y
+55,INDOBORAX,Indo Borax & Chemicals Limited,NSE,Basic Materials,Small,367.4,45.48,1183.0,9.0,6.0,8.0,8.0,5.0,5,72.0,TIER 2,Y
+56,GRANULES,Granules India Limited,NSE,Healthcare,Mid,789.85,40.93,19566.04,7.0,8.0,8.0,8.0,5.0,5,72.0,TIER 2,Y
+57,ASIANENE,Asian Energy Services Limited,NSE,Energy,Small,382.1,39.3,1712.75,9.0,6.0,8.0,8.0,5.0,5,72.0,TIER 2,Y
+58,POLYCAB,Polycab India Limited,NSE,Industrials,Large,9699.0,34.82,146011.23,6.0,7.0,8.0,8.0,7.0,5,72.0,TIER 2,Y
+59,SOUTHWEST,South West Pinnacle Exploration Limited,NSE,Energy,Small,262.75,34.3,780.65,8.0,6.0,8.0,9.0,5.0,5,72.0,TIER 2,Y
+60,VETO,Veto Switchgears And Cables Limited,NSE,Industrials,Micro,143.79,32.56,274.01,8.0,6.0,9.0,6.0,7.0,5,72.0,TIER 2,N
+61,OLAELEC,Ola Electric Mobility Limited,NSE,Consumer Cyclical,Mid,44.88,29.19,19795.8,8.0,5.0,8.0,9.0,6.0,5,72.0,TIER 2,Y
+62,SUPRIYA,Supriya Lifescience Limited,NSE,Healthcare,Mid,947.95,28.11,7632.18,8.0,7.0,9.0,8.0,4.0,5,72.0,TIER 2,Y
+63,GALAPREC,Gala Precision Engineering Limited,NSE,Industrials,Small,910.4,26.27,1162.02,5.0,8.0,10.0,8.0,5.0,5,72.0,TIER 2,N
+64,RAIN,Rain Industries Limited,NSE,Basic Materials,Mid,197.09,89.24,6626.01,8.0,5.0,9.0,9.0,4.0,5,70.0,TIER 2,Y
+65,SASKEN,Sasken Technologies Limited,NSE,Technology,Small,2181.2,80.92,3317.03,8.0,7.0,6.0,9.0,5.0,5,70.0,TIER 2,Y
+66,NITINSPIN,Nitin Spinners Limited,NSE,Consumer Cyclical,Small,535.8,70.66,3015.36,10.0,5.0,6.0,9.0,5.0,5,70.0,TIER 2,Y
+67,BIRLACABLE,Birla Cable Limited,NSE,Technology,Small,223.9,65.82,673.8,8.0,6.0,8.0,8.0,5.0,5,70.0,TIER 2,N
+68,GRWRHITECH,Garware Hi-Tech Films Limited,NSE,Basic Materials,Mid,5893.0,61.68,13685.74,6.0,7.0,7.0,10.0,5.0,5,70.0,TIER 2,N
+69,ADANIENSOL,Adani Energy Solutions Limited,NSE,Utilities,Large,1579.0,61.31,189736.59,9.0,6.0,7.0,8.0,5.0,5,70.0,TIER 2,Y
+70,ATHERENERG,Ather Energy Limited,NSE,Consumer Cyclical,Large,1033.6,59.35,39575.5,10.0,7.0,7.0,7.0,4.0,5,70.0,TIER 2,Y
+71,JAYBARMARU,Jay Bharat Maruti Limited,NSE,Consumer Cyclical,Small,127.97,55.93,1385.06,8.0,6.0,8.0,8.0,5.0,5,70.0,TIER 2,Y
+72,CENTUM,Centum Electronics Limited,NSE,Technology,Mid,3459.9,54.32,5113.56,8.0,7.0,8.0,8.0,4.0,5,70.0,TIER 2,N
+73,SPARC,Sun Pharma Advanced Research Company Limited,NSE,Healthcare,Mid,212.82,52.07,6894.46,6.0,8.0,7.0,9.0,5.0,5,70.0,TIER 2,Y
+74,APCOTEXIND,Apcotex Industries Limited,NSE,Basic Materials,Small,540.2,44.98,2789.0,10.0,4.0,6.0,8.0,7.0,5,70.0,TIER 2,N
+75,PARAS,Paras Defence and Space Technologies Limited,NSE,Industrials,Mid,960.15,43.92,7741.62,10.0,3.0,9.0,8.0,5.0,5,70.0,TIER 2,Y
+76,STYLAMIND,Stylam Industries Limited,NSE,Consumer Cyclical,Mid,3053.5,42.19,5180.26,9.0,5.0,8.0,9.0,4.0,5,70.0,TIER 2,N
+77,GANESHBE,Ganesh Benzoplast Limited,NSE,Basic Materials,Small,111.95,42.18,803.04,8.0,6.0,10.0,6.0,5.0,5,70.0,TIER 2,Y
+78,NRBBEARING,NRB Bearing Limited,NSE,Consumer Cyclical,Small,385.65,38.57,3727.64,6.0,6.0,9.0,8.0,6.0,5,70.0,TIER 2,Y
+79,UNIVCABLES,Universal Cables Limited,NSE,Industrials,Small,1227.5,36.91,4255.56,8.0,6.0,8.0,8.0,5.0,5,70.0,TIER 2,Y
+80,NAM-INDIA,Nippon Life India Asset Management Limited,NSE,Financial Services,Large,1113.1,36.69,71044.0,6.0,5.0,10.0,9.0,5.0,5,70.0,TIER 2,Y
+81,GHCLTEXTIL,GHCL Textiles Limited,NSE,Consumer Cyclical,Small,98.77,36.2,942.95,9.0,5.0,7.0,8.0,6.0,5,70.0,TIER 2,Y
+82,543916,Hemant Surgical Industries Ltd,BSE,,Micro,378.15,35.1,493.05,5.0,5.0,8.0,9.0,8.0,5,70.0,TIER 2,N
+83,UNIPARTS,Uniparts India Limited,NSE,Industrials,Small,633.95,31.85,2853.72,10.0,5.0,8.0,8.0,4.0,5,70.0,TIER 2,Y
+84,SANSTAR,Sanstar Limited,NSE,Basic Materials,Small,117.96,31.29,2148.66,6.0,7.0,7.0,8.0,7.0,5,70.0,TIER 2,Y
+85,ATGL,Adani Total Gas Limited,NSE,Utilities,Large,762.25,29.44,83833.02,8.0,7.0,6.0,9.0,5.0,5,70.0,TIER 2,Y
+86,SANDHAR,Sandhar Technologies Limited,NSE,Consumer Cyclical,Small,703.1,28.71,4235.02,8.0,6.0,9.0,8.0,4.0,5,70.0,TIER 2,Y
+87,SIS,SIS LIMITED,NSE,Industrials,Mid,417.05,27.5,5889.18,9.0,6.0,8.0,6.0,6.0,5,70.0,TIER 2,N
+88,CHENNPETRO,Chennai Petroleum Corporation Limited,NSE,Energy,Mid,1181.4,27.29,17585.69,9.0,4.0,8.0,10.0,4.0,5,70.0,TIER 2,Y
+89,IBULLSLTD,Indiabulls Limited,NSE,Real Estate,Mid,23.24,27.06,5380.94,8.0,6.0,8.0,8.0,5.0,5,70.0,TIER 2,Y
+90,SANGINITA,Sanginita Chemicals Limited,NSE,Basic Materials,,31.57,220.18,,10.0,5.0,8.0,5.0,6.0,5,68.0,TIER 2,N
+91,CPPLUS,Aditya Infotech Limited,NSE,Industrials,Large,3501.9,133.62,41232.94,9.0,7.0,8.0,4.0,6.0,5,68.0,TIER 2,Y
+92,IDEAFORGE,Ideaforge Technology Limited,NSE,Technology,Small,945.0,122.67,4093.62,10.0,4.0,7.0,8.0,5.0,5,68.0,TIER 2,Y
+93,BBOX,Black Box Limited,NSE,Technology,Mid,1072.9,103.93,19067.05,6.0,6.0,8.0,9.0,5.0,5,68.0,TIER 2,Y
+94,TDPOWERSYS,TD Power Systems Limited,NSE,Industrials,Large,1312.8,92.86,20507.32,6.0,7.0,8.0,8.0,5.0,5,68.0,TIER 2,Y
+95,NEOGEN,Neogen Chemicals Limited,NSE,Basic Materials,Mid,1903.6,89.21,5220.73,9.0,7.0,6.0,8.0,4.0,5,68.0,TIER 2,N
+96,GVT&D,GE Vernova T&D India Limited,NSE,Industrials,Large,5067.0,74.32,129431.52,9.0,7.0,8.0,6.0,4.0,5,68.0,TIER 2,Y
+97,DATAPATTNS,Data Patterns (India) Limited,NSE,Industrials,Large,4212.6,61.81,23569.81,9.0,4.0,6.0,10.0,5.0,5,68.0,TIER 2,Y
+98,HONASA,Honasa Consumer Limited,NSE,Consumer Defensive,Mid,416.1,61.75,13532.13,8.0,5.0,8.0,8.0,5.0,5,68.0,TIER 2,Y
+99,HIRECT,Hind Rectifiers Limited,NSE,Industrials,Small,1128.4,54.86,3889.05,8.0,7.0,6.0,8.0,5.0,5,68.0,TIER 2,Y
+100,AFIL,Akme Fintrade (India) Limited,NSE,Financial Services,Micro,10.59,52.37,452.78,10.0,6.0,8.0,4.0,6.0,5,68.0,TIER 2,N
+101,ARVIND,Arvind Limited,NSE,Consumer Cyclical,Mid,493.7,51.79,12944.46,6.0,6.0,8.0,9.0,5.0,5,68.0,TIER 2,Y
+102,NETWEB,Netweb Technologies India Limited,NSE,Technology,Large,4666.0,51.41,26564.54,8.0,7.0,8.0,8.0,3.0,5,68.0,TIER 2,Y
+103,LAURUSLABS,Laurus Labs Limited,NSE,Healthcare,Large,1446.8,41.94,78117.25,9.0,7.0,7.0,6.0,5.0,5,68.0,TIER 2,Y
+104,VINDHYATEL,Vindhya Telelinks Limited,NSE,Industrials,Small,1993.3,40.17,2361.4,6.0,7.0,8.0,9.0,4.0,5,68.0,TIER 2,N
+105,CEMPRO,Cemindia Projects Limited,NSE,Industrials,Mid,1112.8,35.57,19148.3,10.0,6.0,6.0,6.0,6.0,5,68.0,TIER 2,Y
+106,GANDHAR,Gandhar Oil Refinery (India) Limited,NSE,Energy,Small,160.73,30.61,1575.37,5.0,6.0,10.0,8.0,5.0,5,68.0,TIER 2,Y
+107,QUADFUTURE,Quadrant Future Tek Limited,NSE,Industrials,Small,337.45,26.6,1345.2,7.0,5.0,8.0,10.0,4.0,5,68.0,TIER 2,Y
+108,MTARTECH,Mtar Technologies Limited,NSE,Industrials,Large,7535.5,223.65,23194.73,5.0,7.0,8.0,8.0,5.0,5,66.0,TIER 2,Y
+109,UFBL,United Foodbrands Limited,NSE,Consumer Cyclical,Small,506.0,183.0,1976.21,7.0,5.0,6.0,10.0,5.0,5,66.0,TIER 2,Y
+110,E2E,E2E Networks Limited,NSE,Technology,,452.9,115.06,,10.0,6.0,8.0,5.0,4.0,5,66.0,TIER 2,N
+111,SCPL,Sheetal Cool Products Limited,NSE,Consumer Defensive,Micro,466.3,105.77,491.35,6.0,5.0,8.0,10.0,4.0,5,66.0,TIER 2,N
+112,SAKAR,Sakar Healthcare Limited,NSE,Healthcare,,773.2,97.77,,5.0,7.0,8.0,10.0,3.0,5,66.0,TIER 2,N
+113,WHEELS,Wheels India Limited,NSE,Consumer Cyclical,Small,1487.7,79.6,3637.1,5.0,6.0,8.0,9.0,5.0,5,66.0,TIER 2,Y
+114,526775,Valiant Communications Ltd,BSE,,Small,1239.3,76.31,1418.02,6.0,6.0,7.0,8.0,6.0,5,66.0,TIER 2,N
+115,CUPID,Cupid Limited,NSE,Consumer Defensive,Mid,137.1,75.95,18421.85,10.0,4.0,6.0,8.0,5.0,5,66.0,TIER 2,Y
+116,SALSTEEL,S.A.L. Steel Limited,NSE,Basic Materials,Small,60.77,74.68,663.37,8.0,4.0,8.0,8.0,5.0,5,66.0,TIER 2,N
+117,THERMAX,Thermax Limited,NSE,Industrials,Large,4832.1,72.23,57586.45,8.0,7.0,8.0,6.0,4.0,5,66.0,TIER 2,Y
+118,NARMADA,Narmada Agrobase Limited,NSE,Basic Materials,Micro,37.72,71.92,143.4,6.0,5.0,8.0,8.0,6.0,5,66.0,TIER 2,N
+119,INDSWFTLAB,Ind-Swift Laboratories Limited,NSE,Healthcare,Small,158.0,68.73,1368.11,8.0,5.0,8.0,9.0,3.0,5,66.0,TIER 2,Y
+120,RPTECH,Rashi Peripherals Limited,NSE,Technology,Small,546.25,67.0,3599.77,6.0,6.0,7.0,8.0,6.0,5,66.0,TIER 2,Y
+121,ACMESOLAR,Acme Solar Holdings Limited,NSE,Utilities,Large,356.65,64.8,21587.75,10.0,5.0,8.0,4.0,6.0,5,66.0,TIER 2,Y
+122,PANACEABIO,Panacea Biotec Limited,NSE,Healthcare,Small,540.2,62.56,3314.28,8.0,4.0,8.0,7.0,6.0,5,66.0,TIER 2,Y
+123,SBCL,Shivalik Bimetal Controls Limited,NSE,Industrials,Small,712.7,62.18,4107.18,5.0,6.0,8.0,8.0,6.0,5,66.0,TIER 2,Y
+124,SPECTRUM,Spectrum Electrical Industries Limited,NSE,Industrials,Small,1769.1,55.84,2784.96,8.0,5.0,8.0,6.0,6.0,5,66.0,TIER 2,N
+125,ROSSTECH,Rossell Techsys Limited,NSE,Industrials,Small,1052.2,54.3,3967.93,8.0,4.0,8.0,8.0,5.0,5,66.0,TIER 2,N
+126,524520,KMC Speciality Hospitals (India) Ltd,BSE,,Small,114.5,53.79,1867.32,8.0,6.0,8.0,6.0,5.0,5,66.0,TIER 2,Y
+127,MCLEODRUSS,Mcleod Russel India Limited,NSE,Consumer Defensive,Small,70.91,53.52,739.34,5.0,6.0,7.0,10.0,5.0,5,66.0,TIER 2,Y
+128,MAYURUNIQ,Mayur Uniquoters Ltd,NSE,Consumer Cyclical,Small,733.65,49.16,3186.38,6.0,6.0,8.0,8.0,5.0,5,66.0,TIER 2,Y
+129,538668,Meghna Infracon Infrastructure Ltd,BSE,,Small,790.85,49.01,1718.02,6.0,5.0,8.0,8.0,6.0,5,66.0,TIER 2,N
+130,ZIMLAB,Zim Laboratories Limited,NSE,Healthcare,Small,105.12,44.91,559.59,6.0,5.0,10.0,8.0,4.0,5,66.0,TIER 2,N
+131,DIACABS,Diamond Power Infrastructure Limited,NSE,Industrials,Mid,203.6,43.65,10708.05,6.0,6.0,8.0,8.0,5.0,5,66.0,TIER 2,Y
+132,BSE,BSE Limited,NSE,Financial Services,,3880.0,42.87,,5.0,3.0,10.0,9.0,6.0,5,66.0,TIER 2,N
+133,ADFFOODS,ADF Foods Limited,NSE,Consumer Defensive,Small,282.8,38.44,3108.59,7.0,5.0,8.0,9.0,4.0,5,66.0,TIER 2,Y
+134,AZAD,Azad Engineering Limited,NSE,Industrials,Mid,2207.7,38.06,14274.83,9.0,4.0,8.0,8.0,4.0,5,66.0,TIER 2,Y
+135,SAILIFE,Sai Life Sciences Limited,NSE,Healthcare,Large,1186.4,34.61,25161.1,7.0,4.0,8.0,8.0,6.0,5,66.0,TIER 2,Y
+136,SAREGAMA,Saregama India Limited,NSE,Communication Services,Mid,476.2,29.79,9173.88,8.0,6.0,6.0,8.0,5.0,5,66.0,TIER 2,Y
+137,ATALREAL,Atal Realtech Limited,NSE,Industrials,Micro,30.43,25.17,376.52,6.0,6.0,8.0,7.0,6.0,5,66.0,TIER 2,N
+138,HFCL,HFCL Limited,NSE,Technology,Large,187.23,180.12,28652.88,8.0,6.0,8.0,6.0,4.0,5,64.0,TIER 3,Y
+139,MODISONLTD,MODISON LIMITED,NSE,Industrials,Small,362.7,158.33,1175.5,10.0,6.0,6.0,6.0,4.0,5,64.0,TIER 3,Y
+140,SATIN,Satin Creditcare Network Limited,NSE,Financial Services,Small,241.39,70.56,2664.56,10.0,4.0,5.0,8.0,5.0,5,64.0,TIER 3,Y
+141,INDOTECH,Indo Tech Transformers Limited,NSE,Industrials,Small,2657.6,67.2,2832.94,6.0,4.0,8.0,10.0,4.0,5,64.0,TIER 3,N
+142,ONELIFECAP,Onelife Capital Advisors Limited,NSE,Financial Services,Micro,26.59,65.26,100.5,6.0,7.0,8.0,6.0,5.0,5,64.0,TIER 3,N
+143,KRISHNADEF,Krishna Defence And Allied Industries Limited,NSE,Industrials,,1164.9,58.78,,6.0,3.0,8.0,9.0,6.0,5,64.0,TIER 3,N
+144,JINDALSAW,Jindal Saw Limited,NSE,Basic Materials,Mid,250.57,56.89,16022.88,8.0,4.0,6.0,9.0,5.0,5,64.0,TIER 3,Y
+145,SOLARINDS,Solar Industries India Limited,NSE,Basic Materials,Large,18441.0,48.03,166792.63,6.0,6.0,8.0,8.0,4.0,5,64.0,TIER 3,Y
+146,ABSLAMC,Aditya Birla Sun Life AMC Limited,NSE,Financial Services,Large,1048.8,43.54,30318.56,9.0,4.0,6.0,6.0,7.0,5,64.0,TIER 3,Y
+147,SUVEN,Suven Life Sciences Limited,NSE,Healthcare,Mid,237.35,41.04,6254.13,5.0,5.0,8.0,10.0,4.0,5,64.0,TIER 3,Y
+148,KINGFA,Kingfa Science & Technology (India) Limited,NSE,Basic Materials,Mid,5367.0,38.87,7252.02,6.0,5.0,6.0,10.0,5.0,5,64.0,TIER 3,N
+149,531911,Galaxy Agrico Exports Ltd,BSE,,Micro,65.0,38.59,103.29,10.0,5.0,6.0,6.0,5.0,5,64.0,TIER 3,N
+150,GLAND,Gland Pharma Limited,NSE,Healthcare,Large,2273.0,32.99,37435.13,6.0,6.0,8.0,6.0,6.0,5,64.0,TIER 3,Y
+151,FOCUS,Focus Lighting and Fixtures Limited,NSE,Consumer Cyclical,,92.81,31.51,,8.0,4.0,6.0,9.0,5.0,5,64.0,TIER 3,N
+152,DHANBANK,Dhanlaxmi Bank Limited,NSE,Financial Services,Small,32.88,30.42,1300.14,5.0,5.0,7.0,9.0,6.0,5,64.0,TIER 3,Y
+153,SAMMAANCAP,Sammaan Capital Limited,NSE,Financial Services,Large,184.28,29.37,21340.33,8.0,5.0,7.0,8.0,4.0,5,64.0,TIER 3,Y
+154,CUMMINSIND,Cummins India Limited,NSE,Industrials,Large,5784.0,29.13,160336.64,8.0,4.0,8.0,7.0,5.0,5,64.0,TIER 3,Y
+155,VIYASH,Viyash Scientific Limited,NSE,Healthcare,Mid,255.25,27.19,11146.88,6.0,5.0,6.0,8.0,7.0,5,64.0,TIER 3,Y
+156,NGLFINE,NGL Fine-Chem Limited,NSE,Healthcare,Small,2742.6,111.05,1689.78,7.0,4.0,6.0,10.0,4.0,5,62.0,TIER 3,N
+157,DJML,DJ Mediaprint & Logistics Limited,NSE,Industrials,Micro,111.29,98.17,382.63,8.0,5.0,8.0,6.0,4.0,5,62.0,TIER 3,N
+158,JNKINDIA,JNK India Limited,NSE,Industrials,Small,421.3,88.11,2355.66,9.0,6.0,3.0,8.0,5.0,5,62.0,TIER 3,Y
+159,SANSERA,Sansera Engineering Limited,NSE,Consumer Cyclical,Mid,2945.1,77.73,18362.71,8.0,5.0,6.0,7.0,5.0,5,62.0,TIER 3,Y
+160,543787,Macfos Ltd,BSE,,Small,1230.85,70.77,1274.98,8.0,4.0,6.0,8.0,5.0,5,62.0,TIER 3,N
+161,SUNFLAG,Sunflag Iron And Steel Company Limited,NSE,Basic Materials,Mid,372.1,45.27,6714.98,5.0,5.0,8.0,9.0,4.0,5,62.0,TIER 3,Y
+162,J&KBANK,The Jammu & Kashmir Bank Limited,NSE,Financial Services,Mid,147.52,44.84,16253.45,9.0,4.0,6.0,8.0,4.0,5,62.0,TIER 3,Y
+163,FINCABLES,Finolex Cables Limited,NSE,Industrials,Mid,1057.5,43.57,16172.57,6.0,4.0,9.0,9.0,3.0,5,62.0,TIER 3,Y
+164,NDLVENTURE,NDL Ventures Limited,NSE,Communication Services,Micro,129.73,42.15,437.39,6.0,5.0,7.0,8.0,5.0,5,62.0,TIER 3,N
+165,LLOYDSENGG,LLOYDS ENGINEERING WORKS LIMITED,NSE,Industrials,Mid,72.69,41.42,10637.04,6.0,5.0,8.0,6.0,6.0,5,62.0,TIER 3,Y
+166,GOCLCORP,GOCL Corporation Limited,NSE,Basic Materials,Small,410.85,40.73,2035.46,6.0,5.0,9.0,6.0,5.0,5,62.0,TIER 3,N
+167,BLUSPRING,Bluspring Enterprises Limited,NSE,Industrials,Small,93.35,39.72,1391.3,8.0,7.0,5.0,6.0,5.0,5,62.0,TIER 3,Y
+168,ZENTEC,Zen Technologies Limited,NSE,Industrials,Mid,1815.3,32.68,16395.83,8.0,4.0,8.0,6.0,5.0,5,62.0,TIER 3,Y
+169,KEI,KEI Industries Limited,NSE,Industrials,Large,5335.5,31.0,51013.43,6.0,5.0,7.0,8.0,5.0,5,62.0,TIER 3,Y
+170,PREMIERPOL,Premier Polyfilm Limited,NSE,Basic Materials,Small,55.82,30.97,586.77,7.0,4.0,6.0,9.0,5.0,5,62.0,TIER 3,N
+171,NELCAST,Nelcast Limited,NSE,Industrials,Small,140.74,30.42,1224.11,6.0,5.0,8.0,10.0,2.0,5,62.0,TIER 3,N
+172,HCC,Hindustan Construction Company Limited,NSE,Industrials,Mid,24.02,29.28,6291.96,8.0,5.0,8.0,6.0,4.0,5,62.0,TIER 3,Y
+173,SURYODAY,Suryoday Small Finance Bank Limited,NSE,Financial Services,Small,171.83,28.38,1827.65,6.0,4.0,7.0,8.0,6.0,5,62.0,TIER 3,Y
+174,GCSL,Gretex Corporate Services Limited,NSE,Financial Services,Small,424.0,26.53,1009.74,3.0,4.0,10.0,8.0,6.0,5,62.0,TIER 3,N
+175,AEROENTER,Aeroflex Enterprises Limited,NSE,Basic Materials,Small,100.83,25.5,1138.54,6.0,5.0,8.0,8.0,4.0,5,62.0,TIER 3,Y
+176,OMAXAUTO,Omax Autos Limited,NSE,Consumer Cyclical,Small,234.72,164.92,504.12,5.0,5.0,7.0,9.0,4.0,5,60.0,TIER 3,N
+177,BAJAJCON,Bajaj Consumer Care Limited,NSE,Consumer Defensive,Mid,552.05,114.43,7233.1,5.0,4.0,8.0,8.0,5.0,5,60.0,TIER 3,Y
+178,PRECWIRE,Precision Wires India Limited,NSE,Industrials,Mid,417.05,75.27,7620.35,5.0,3.0,8.0,8.0,6.0,5,60.0,TIER 3,Y
+179,APOLLOPIPE,Apollo Pipes Limited,NSE,Industrials,Small,497.85,70.26,2192.94,6.0,6.0,6.0,8.0,4.0,5,60.0,TIER 3,Y
+180,ADANIPOWER,Adani Power Limited,NSE,Utilities,Large,232.6,64.75,448465.58,5.0,5.0,8.0,8.0,4.0,5,60.0,TIER 3,Y
+181,KRN,KRN Heat Exchanger and Refrigeration Limited,NSE,Technology,Mid,1216.8,57.97,8000.34,9.0,3.0,8.0,6.0,4.0,5,60.0,TIER 3,Y
+182,HSCL,Himadri Speciality Chemical Limited,NSE,Basic Materials,Large,685.05,48.2,34626.69,10.0,5.0,2.0,9.0,4.0,5,60.0,TIER 3,Y
+183,VTL,Vardhman Textiles Limited,NSE,Consumer Cyclical,Mid,631.4,44.12,18265.25,9.0,3.0,6.0,8.0,4.0,5,60.0,TIER 3,Y
+184,WOCKPHARMA,Wockhardt Limited,NSE,Healthcare,Large,1920.9,44.05,31199.67,6.0,5.0,8.0,8.0,3.0,5,60.0,TIER 3,Y
+185,NLCINDIA,NLC India Limited,NSE,Utilities,Large,336.6,42.12,46660.32,5.0,3.0,9.0,9.0,4.0,5,60.0,TIER 3,Y
+186,SHREEJISPG,Shreeji Shipping Global Limited,NSE,Industrials,Mid,472.95,42.07,7708.48,1.0,6.0,9.0,9.0,5.0,5,60.0,TIER 3,N
+187,AGIIL,Agi Infra Limited,NSE,Real Estate,Small,377.2,40.28,4716.78,6.0,5.0,6.0,8.0,5.0,5,60.0,TIER 3,Y
+188,BHARATFORG,Bharat Forge Limited,NSE,Consumer Cyclical,Large,1929.8,39.46,92292.62,6.0,3.0,8.0,8.0,5.0,5,60.0,TIER 3,Y
+189,BODALCHEM,Bodal Chemicals Limited,NSE,Basic Materials,Small,71.2,38.58,895.46,5.0,3.0,8.0,10.0,4.0,5,60.0,TIER 3,Y
+190,KRISHANA,Krishana Phoschem Limited,NSE,Basic Materials,,666.7,34.06,,5.0,5.0,6.0,8.0,6.0,5,60.0,TIER 3,N
+191,ANGELONE,Angel One Limited,NSE,Financial Services,Large,332.6,30.81,30405.4,5.0,4.0,8.0,8.0,5.0,5,60.0,TIER 3,Y
+192,JSWENERGY,JSW Energy Limited,NSE,Utilities,Large,584.2,28.72,107020.39,8.0,4.0,5.0,8.0,5.0,5,60.0,TIER 3,Y
+193,STLNETWORK,STL Networks Limited,NSE,Communication Services,Small,28.2,27.83,1374.91,2.0,6.0,8.0,9.0,5.0,5,60.0,TIER 3,N
+194,511523,Veerhealth Care Ltd,BSE,,Micro,24.25,27.7,48.5,6.0,6.0,5.0,9.0,4.0,5,60.0,TIER 3,N
+195,KTKBANK,The Karnataka Bank Limited,NSE,Financial Services,Mid,262.0,27.15,9904.8,5.0,3.0,8.0,8.0,6.0,5,60.0,TIER 3,Y
+196,WSTCSTPAPR,West Coast Paper Mills Limited,NSE,Basic Materials,Small,513.25,26.81,3390.29,8.0,3.0,6.0,9.0,4.0,5,60.0,TIER 3,N
+197,MAWANASUG,Mawana Sugars Limited,NSE,Consumer Defensive,Micro,101.75,25.48,398.56,4.0,3.0,8.0,9.0,6.0,5,60.0,TIER 3,N
+198,AEROFLEX,Aeroflex Industries Limited,NSE,Industrials,Mid,419.75,141.92,5557.89,6.0,3.0,8.0,8.0,4.0,5,58.0,TIER 3,Y
+199,GAYAPROJ,Gayatri Projects Limited,NSE,Industrials,Micro,20.53,78.06,386.75,8.0,6.0,2.0,8.0,5.0,5,58.0,TIER 3,N
+200,WELCORP,Welspun Corp Limited,NSE,Basic Materials,Large,1388.8,73.57,36610.18,6.0,5.0,5.0,8.0,5.0,5,58.0,TIER 3,Y
+201,SWANDEF,Swan Defence and Heavy Industries Limited,NSE,Industrials,Mid,1971.6,64.4,10327.55,5.0,5.0,8.0,6.0,5.0,5,58.0,TIER 3,N
+202,WALCHANNAG,Walchandnagar Industries Limited,NSE,Industrials,Small,241.75,57.48,1640.08,5.0,3.0,8.0,8.0,5.0,5,58.0,TIER 3,Y
+203,SOTL,Savita Oil Technologies Limited,NSE,Basic Materials,Small,560.5,52.75,3835.27,8.0,5.0,6.0,5.0,5.0,5,58.0,TIER 3,Y
+204,SAIL,Steel Authority of India Limited,NSE,Basic Materials,Large,190.56,47.11,78657.61,5.0,1.0,6.0,10.0,7.0,5,58.0,TIER 3,Y
+205,TMB,Tamilnad Mercantile Bank Limited,NSE,Financial Services,Mid,745.9,45.8,11815.39,10.0,4.0,6.0,5.0,4.0,5,58.0,TIER 3,Y
+206,NAHARSPING,Nahar Spinning Mills Limited,NSE,Consumer Cyclical,Small,280.05,41.48,999.01,10.0,3.0,5.0,6.0,5.0,5,58.0,TIER 3,N
+207,TIRUPATIFL,Tirupati Forge Limited,NSE,Industrials,,44.11,36.44,,6.0,3.0,8.0,9.0,3.0,5,58.0,TIER 3,N
+208,543828,Sudarshan Pharma Industries Ltd,BSE,,Small,33.8,35.2,813.43,5.0,4.0,6.0,9.0,5.0,5,58.0,TIER 3,N
+209,TARIL,Transformers And Rectifiers (India) Limited,NSE,Industrials,Mid,321.1,33.65,9633.82,3.0,4.0,7.0,10.0,5.0,5,58.0,TIER 3,N
+210,HINDALCO,Hindalco Industries Limited,NSE,Basic Materials,Large,1092.6,32.96,245498.26,5.0,5.0,6.0,8.0,5.0,5,58.0,TIER 3,Y
+211,AMBIKCO,Ambika Cotton Mills Limited,NSE,Consumer Cyclical,Small,1633.9,32.06,936.72,5.0,6.0,6.0,8.0,4.0,5,58.0,TIER 3,N
+212,MENONBE,Menon Bearings Limited,NSE,Consumer Cyclical,Small,138.71,30.06,775.87,5.0,3.0,9.0,9.0,3.0,5,58.0,TIER 3,Y
+213,DIVGIITTS,Divgi Torqtransfer Systems Limited,NSE,Consumer Cyclical,Small,780.7,30.01,2387.61,8.0,4.0,6.0,6.0,5.0,5,58.0,TIER 3,N
+214,530145,Kisan Mouldings Ltd,BSE,,Micro,35.66,28.97,426.01,5.0,2.0,8.0,9.0,5.0,5,58.0,TIER 3,N
+215,SKIPPER,Skipper Limited,NSE,Industrials,Mid,556.6,27.01,6284.86,6.0,6.0,8.0,4.0,5.0,5,58.0,TIER 3,Y
+216,530689,Lykis Ltd,BSE,,Micro,45.73,25.01,88.6,4.0,4.0,6.0,10.0,5.0,5,58.0,TIER 3,N
+217,SEAMECLTD,Seamec Limited,NSE,Industrials,Small,1586.1,56.84,4034.69,5.0,2.0,8.0,8.0,5.0,5,56.0,TIER 3,N
+218,MANAKALUCO,Manaksia Aluminium Company Limited,NSE,Basic Materials,Micro,35.38,48.47,229.96,5.0,2.0,8.0,9.0,4.0,5,56.0,TIER 3,N
+219,BANDHANBNK,Bandhan Bank Limited,NSE,Financial Services,Large,205.87,46.01,33170.86,6.0,4.0,7.0,6.0,5.0,5,56.0,TIER 3,Y
+220,LLOYDSME,Lloyds Metals And Energy Limited,NSE,Basic Materials,Large,1778.6,43.44,96982.05,5.0,5.0,7.0,6.0,5.0,5,56.0,TIER 3,Y
+221,AETHER,Aether Industries Limited,NSE,Basic Materials,Mid,1138.2,34.3,15108.91,6.0,4.0,6.0,8.0,4.0,5,56.0,TIER 3,Y
+222,AKUMS,Akums Drugs and Pharmaceuticals Limited,NSE,Healthcare,Mid,553.8,31.36,8718.05,10.0,3.0,6.0,4.0,5.0,5,56.0,TIER 3,Y
+223,LINCOLN,Lincoln Pharmaceuticals Limited,NSE,Healthcare,Small,625.55,29.57,1251.96,2.0,2.0,10.0,10.0,4.0,5,56.0,TIER 3,N
+224,TIPSMUSIC,Tips Music Limited,NSE,Communication Services,Mid,690.95,29.37,8821.66,7.0,6.0,5.0,5.0,5.0,5,56.0,TIER 3,Y
+225,RISHABH,Rishabh Instruments Limited,NSE,Technology,Small,512.45,28.19,1970.21,5.0,3.0,8.0,8.0,4.0,5,56.0,TIER 3,Y
+226,EXICOM,Exicom Tele-Systems Limited,NSE,Industrials,Small,133.85,25.48,1866.45,3.0,4.0,8.0,10.0,3.0,5,56.0,TIER 3,Y
+227,TRUALT,TruAlt Bioenergy Limited,NSE,Energy,Small,505.15,25.35,4337.79,3.0,4.0,8.0,8.0,5.0,5,56.0,TIER 3,N
+228,ATLANTAELE,Atlanta Electricals Limited,NSE,Industrials,Mid,2044.0,134.61,15719.98,3.0,6.0,8.0,5.0,5.0,5,54.0,TIER 3,N
+229,LOKESHMACH,Lokesh Machines Limited,NSE,Industrials,Small,250.2,68.19,504.92,3.0,1.0,6.0,10.0,7.0,5,54.0,TIER 3,N
+230,KOTYARK,Kotyark Industries Limited,NSE,Basic Materials,Micro,412.55,58.34,422.06,3.0,2.0,8.0,8.0,6.0,5,54.0,TIER 3,N
+231,KIRLPNU,Kirloskar Pneumatic Company Limited,NSE,Industrials,Mid,1570.8,51.84,10174.08,5.0,4.0,8.0,5.0,5.0,5,54.0,TIER 3,N
+232,KESORAMIND,Kesoram Industries Limited,NSE,Basic Materials,Micro,11.57,47.58,360.34,2.0,1.0,10.0,9.0,5.0,5,54.0,TIER 3,N
+233,SGFIN,SG Finserve Limited,NSE,Financial Services,Small,570.35,47.47,3191.6,4.0,4.0,6.0,6.0,7.0,5,54.0,TIER 3,N
+234,EBGNG,GNG Electronics Limited,NSE,Technology,Small,420.55,45.02,4794.18,4.0,1.0,8.0,8.0,6.0,5,54.0,TIER 3,Y
+235,HARDWYN,Hardwyn India Limited,NSE,Industrials,Small,24.41,43.42,1190.31,5.0,2.0,8.0,8.0,4.0,5,54.0,TIER 3,Y
+236,BELRISE,Belrise Industries Limited,NSE,Consumer Cyclical,Mid,215.98,35.22,19216.94,5.0,3.0,6.0,8.0,5.0,5,54.0,TIER 3,Y
+237,MBAPL,Madhya Bharat Agro Products Limited,NSE,Basic Materials,,546.8,34.7,,6.0,2.0,6.0,8.0,5.0,5,54.0,TIER 3,N
+238,SENORES,Senores Pharmaceuticals Limited,NSE,Healthcare,Small,1034.7,34.25,4765.63,5.0,5.0,6.0,7.0,4.0,5,54.0,TIER 3,Y
+239,SONAMLTD,SONAM LIMITED,NSE,Consumer Cyclical,,55.72,27.33,,6.0,6.0,4.0,6.0,5.0,5,54.0,TIER 3,N
+240,CALSOFT,California Software Company Limited,NSE,Technology,Micro,20.9,27.28,49.45,5.0,6.0,8.0,5.0,3.0,5,54.0,TIER 3,N
+241,BHAGYANGR,Bhagyanagar India Limited,NSE,Basic Materials,Small,306.65,143.37,979.37,5.0,5.0,6.0,6.0,4.0,5,52.0,TIER 3,N
+242,MIRCELECTR,MIRC Electronics Limited,NSE,Consumer Cyclical,Small,39.28,63.8,1453.56,5.0,2.0,6.0,9.0,4.0,5,52.0,TIER 3,Y
+243,UTLSOLAR,Fujiyama Power Systems Limited,NSE,Technology,Mid,328.3,60.71,10069.45,2.0,4.0,8.0,7.0,5.0,5,52.0,TIER 3,N
+244,SCHNEIDER,Schneider Electric Infrastructure Limited,NSE,Industrials,Large,1172.2,58.15,28061.25,2.0,2.0,7.0,10.0,5.0,5,52.0,TIER 3,Y
+245,NATIONALUM,National Aluminium Company Limited,NSE,Basic Materials,Large,395.7,48.96,72657.15,4.0,1.0,8.0,8.0,5.0,5,52.0,TIER 3,N
+246,MAHABANK,Bank of Maharashtra,NSE,Financial Services,Large,79.19,38.98,60870.97,5.0,2.0,6.0,7.0,6.0,5,52.0,TIER 3,Y
+247,SBC,SBC Exports Limited,NSE,Industrials,Small,37.1,35.3,1764.76,5.0,4.0,5.0,7.0,5.0,5,52.0,TIER 3,Y
+248,SCI,Shipping Corporation Of India Limited,NSE,Industrials,Mid,302.65,34.55,14097.41,2.0,1.0,8.0,9.0,6.0,5,52.0,TIER 3,Y
+249,HAPPYFORGE,Happy Forgings Limited,NSE,Industrials,Mid,1388.0,33.62,13096.79,5.0,1.0,8.0,8.0,4.0,5,52.0,TIER 3,N
+250,BHEL,Bharat Heavy Electricals Limited,NSE,Industrials,Large,386.95,39.95,134755.85,5.0,1.0,6.0,9.0,4.0,5,50.0,TIER 3,Y
+251,JAYNECOIND,Jayaswal Neco Industries Limited,NSE,Basic Materials,Mid,96.46,38.12,9355.57,2.0,1.0,8.0,10.0,4.0,5,50.0,TIER 3,N
+252,543542,Kesar India Ltd,BSE,,Small,1235.4,35.02,3529.94,2.0,3.0,6.0,9.0,5.0,5,50.0,TIER 3,N
+253,539730,Fredun Pharmaceuticals Ltd,BSE,,Small,2308.85,32.81,1263.56,5.0,3.0,6.0,8.0,3.0,5,50.0,TIER 3,N
+254,GRAPHITE,Graphite India Limited,NSE,Industrials,Mid,705.35,30.43,13781.79,3.0,1.0,8.0,9.0,4.0,5,50.0,TIER 3,N
+255,540545,Guru Krupa Gems and Jewellery Ltd,BSE,,Micro,37.67,29.94,56.65,2.0,2.0,8.0,7.0,6.0,5,50.0,TIER 3,N
+256,AARTIIND,Aarti Industries Limited,NSE,Basic Materials,Mid,458.05,29.47,16612.27,2.0,1.0,8.0,10.0,4.0,5,50.0,TIER 3,N
+257,GUJALKALI,Gujarat Alkalies and Chemicals Limited,NSE,Basic Materials,Small,650.85,28.36,4797.27,2.0,1.0,8.0,9.0,5.0,5,50.0,TIER 3,N
+258,TATASTEEL,Tata Steel Limited,NSE,Basic Materials,Large,206.77,26.49,258157.59,2.0,1.0,8.0,9.0,5.0,5,50.0,TIER 3,N
+259,532380,Baba Arts Ltd,BSE,,Micro,13.15,106.44,69.04,5.0,1.0,8.0,5.0,5.0,5,48.0,WATCH,N
+260,EMMVEE,Emmvee Photovoltaic Power Limited,NSE,Technology,Large,334.35,65.78,23145.09,3.0,7.0,5.0,5.0,4.0,5,48.0,WATCH,N
+261,QPOWER,Quality Power Electrical Equipments Limited,NSE,Industrials,Mid,1072.0,53.27,8300.07,2.0,1.0,8.0,9.0,4.0,5,48.0,WATCH,N
+262,DSSL,Dynacons Systems & Solutions Limited,NSE,Technology,Small,1288.7,48.57,1639.58,5.0,1.0,8.0,8.0,2.0,5,48.0,WATCH,N
+263,NEPHROPLUS,Nephrocare Health Services Limited,NSE,Healthcare,Mid,675.85,46.38,6784.04,4.0,7.0,5.0,3.0,5.0,5,48.0,WATCH,N
+264,MCX,Multi Commodity Exchange of India Limited,NSE,Financial Services,Large,2795.0,37.24,71462.74,2.0,2.0,8.0,7.0,5.0,5,48.0,WATCH,N
+265,AYMSYNTEX,AYM Syntex Limited,NSE,Consumer Cyclical,Small,222.74,36.71,1322.92,6.0,5.0,3.0,6.0,4.0,5,48.0,WATCH,N
+266,STEELCAS,Steelcast Limited,NSE,Basic Materials,Small,287.05,34.21,2896.34,5.0,4.0,6.0,6.0,3.0,5,48.0,WATCH,N
+267,GAEL,Gujarat Ambuja Exports Limited,NSE,Consumer Defensive,Mid,155.86,32.65,7143.8,2.0,1.0,8.0,8.0,5.0,5,48.0,WATCH,Y
+268,TCIFINANCE,TCI Finance Limited,NSE,Financial Services,Micro,14.53,30.43,18.59,3.0,4.0,8.0,5.0,4.0,5,48.0,WATCH,N
+269,APEX,Apex Frozen Foods Limited,NSE,Consumer Defensive,Small,410.4,56.73,1286.72,2.0,1.0,6.0,9.0,5.0,5,46.0,WATCH,N
+270,521113,Suditi Industries Ltd,BSE,,Micro,92.4,55.14,435.35,2.0,3.0,6.0,8.0,4.0,5,46.0,WATCH,N
+271,BUILDPRO,Shankara Buildpro Limited,NSE,Consumer Cyclical,Small,1134.7,46.99,2738.84,2.0,4.0,8.0,3.0,6.0,5,46.0,WATCH,N
+272,544141,Pune E - Stock Broking Ltd,BSE,,Micro,280.25,35.22,441.42,3.0,1.0,6.0,8.0,5.0,5,46.0,WATCH,N
+273,GESHIP,The Great Eastern Shipping Company Limited,NSE,Industrials,Large,1464.0,34.82,21508.54,2.0,1.0,8.0,8.0,4.0,5,46.0,WATCH,N
+274,GMDCLTD,Gujarat Mineral Development Corporation Limited,NSE,Energy,Large,657.75,33.84,20914.86,3.0,2.0,8.0,6.0,4.0,5,46.0,WATCH,Y
+275,OMNI,Omnitech Engineering Limited,NSE,Industrials,Mid,505.2,165.04,6254.41,2.0,5.0,6.0,3.0,6.0,5,44.0,WATCH,N
+276,RUBICON,Rubicon Research Limited,NSE,Healthcare,Mid,1202.5,89.28,19846.55,2.0,7.0,6.0,3.0,4.0,5,44.0,WATCH,N
+277,SHADOWFAX,Shadowfax Technologies Limited,NSE,Industrials,Mid,201.07,88.59,11747.68,1.0,8.0,6.0,2.0,5.0,5,44.0,WATCH,N
+278,SGMART,SG Mart Limited,NSE,Industrials,Mid,575.35,72.73,6851.1,1.0,1.0,9.0,6.0,5.0,5,44.0,WATCH,N
+279,ADVAIT,Advait Energy Transitions Limited,NSE,Industrials,Small,2181.2,56.13,2385.36,3.0,5.0,6.0,3.0,5.0,5,44.0,WATCH,N
+280,535916,Alacrity Securities Ltd,BSE,,Micro,68.72,37.91,320.65,3.0,2.0,8.0,5.0,4.0,5,44.0,WATCH,N
+281,JINDALPOLY,Jindal Poly Films Limited,NSE,Consumer Cyclical,Small,650.9,32.1,2850.5,2.0,1.0,6.0,8.0,5.0,5,44.0,WATCH,N
+282,RHETAN,Rhetan TMT Limited,NSE,Basic Materials,Small,30.66,27.7,2446.41,2.0,6.0,7.0,2.0,5.0,5,44.0,WATCH,N
+283,MMFL,MM Forgings Limited,NSE,Industrials,Small,450.55,25.59,2175.33,2.0,1.0,6.0,8.0,5.0,5,44.0,WATCH,N
+284,KSHINTL,KSH International Limited,NSE,Industrials,Mid,819.45,138.63,5544.79,2.0,7.0,6.0,2.0,4.0,5,42.0,WATCH,N
+285,PARKHOSPS,Park Medi World Limited,NSE,Healthcare,Mid,281.75,81.9,12148.06,1.0,6.0,6.0,3.0,5.0,5,42.0,WATCH,N
+286,HINDCOPPER,Hindustan Copper Limited,NSE,Basic Materials,Large,526.35,45.06,50899.31,2.0,1.0,6.0,8.0,4.0,5,42.0,WATCH,N
+287,AXISCADES,AXISCADES Technologies Limited,NSE,Industrials,Mid,1836.0,40.28,7822.72,2.0,3.0,6.0,6.0,4.0,5,42.0,WATCH,N
+288,DBOL,Dhampur Bio Organics Limited,NSE,Consumer Defensive,Small,109.4,40.26,730.26,4.0,1.0,6.0,5.0,5.0,5,42.0,WATCH,N
+289,AVANTIFEED,Avanti Feeds Limited,NSE,Consumer Defensive,Mid,1110.6,37.85,15140.3,2.0,1.0,6.0,8.0,4.0,5,42.0,WATCH,N
+290,540252,Viram Suvarn Ltd,BSE,,Micro,10.93,28.44,124.01,2.0,1.0,8.0,4.0,6.0,5,42.0,WATCH,N
+291,PFC,Power Finance Corporation Limited,NSE,Financial Services,Large,431.75,26.04,142646.9,2.0,1.0,7.0,6.0,5.0,5,42.0,WATCH,N
+292,CLEANMAX,Clean Max Enviro Energy Solutions Limited,NSE,Utilities,Mid,1217.0,41.92,14277.61,1.0,5.0,8.0,4.0,2.0,5,40.0,WATCH,N
+293,AMANTA,Amanta Healthcare Limited,NSE,Healthcare,Small,133.49,29.61,516.24,1.0,4.0,7.0,6.0,2.0,5,40.0,WATCH,N
+294,GKSL,Gujarat Kidney And Super Speciality Limited,NSE,Healthcare,Small,131.05,26.69,1032.85,1.0,2.0,7.0,6.0,4.0,5,40.0,WATCH,N
+295,PIRAMALFIN,Piramal Finance Limited,NSE,Financial Services,Large,1977.4,31.27,44797.18,1.0,5.0,6.0,1.0,6.0,5,38.0,WATCH,N
+296,AVADHSUGAR,Avadh Sugar & Energy Limited,NSE,Consumer Defensive,Small,458.55,28.05,929.96,2.0,1.0,6.0,5.0,5.0,5,38.0,WATCH,N
+297,VIDYAWIRES,Vidya Wires Limited,NSE,Industrials,Small,93.62,77.14,1992.93,1.0,2.0,5.0,6.0,4.0,5,36.0,WATCH,N
+298,UNIVPHOTO,Universus Photo Imagings Limited,NSE,Healthcare,Small,380.25,56.13,501.03,2.0,1.0,6.0,5.0,4.0,5,36.0,WATCH,N
+299,GROWW,Billionbrains Garage Ventures Limited,NSE,Financial Services,Large,196.09,31.21,123025.23,3.0,4.0,6.0,1.0,4.0,5,36.0,WATCH,N
+300,MCL,Madhav Copper Limited,NSE,Basic Materials,,59.6,30.53,,1.0,1.0,6.0,6.0,4.0,5,36.0,WATCH,N
+301,RAMRAT,Ram Ratna Wires Limited,NSE,Industrials,Small,391.5,28.2,3643.88,2.0,1.0,6.0,6.0,3.0,5,36.0,WATCH,N
+302,544191,Purple Finance Ltd,BSE,,Micro,65.36,48.99,385.13,2.0,1.0,6.0,5.0,3.0,5,34.0,WATCH,N
+303,540492,Starlineps Enterprises Ltd,BSE,,Micro,10.93,215.9,396.9,2.0,1.0,6.0,4.0,3.0,5,32.0,WATCH,N
+304,KSR,KSR Footwear Limited,NSE,Consumer Cyclical,Micro,33.0,54.28,61.7,1.0,1.0,6.0,4.0,4.0,5,32.0,WATCH,N
+305,GAUDIUMIVF,Gaudium IVF and Women Health Limited,NSE,Healthcare,Small,105.8,30.97,766.81,1.0,1.0,4.0,6.0,3.0,5,30.0,WATCH,N
+306,ARFIN,Arfin India Limited,NSE,Basic Materials,Small,89.24,43.63,1501.8,1.0,1.0,6.0,2.0,4.0,5,28.0,WATCH,N
+307,KOVAI,Kovai Medical Center & Hospital Limited,NSE,Healthcare,Mid,5398.0,109.5,5884.97,,,,,,0,,n/a,N
+308,NOVARTIND,Novartis India Limited,NSE,Healthcare,Small,1391.1,106.93,3429.3,,,,,,0,,n/a,N
+309,NITTAGELA,Nitta Gelatin India Limited,NSE,Basic Materials,Small,1745.4,88.6,1582.95,,,,,,0,,n/a,N
+310,COCKERILL,John Cockerill India Limited,NSE,Industrials,Small,9164.5,75.77,4524.32,,,,,,0,,n/a,N
+311,SEDEMAC,SEDEMAC Mechatronics Limited,NSE,Consumer Cyclical,Mid,2373.4,63.56,10454.79,,,,,,0,,n/a,N
+312,ELPROINTL,Elpro International Limited,NSE,,Small,167.74,56.02,2835.39,,,,,,0,,n/a,N
+313,CMPDI,Central Mine Planning & Design Institute Limited,NSE,Basic Materials,Mid,237.28,52.11,16950.36,,,,,,0,,n/a,N
+314,KPL,Kwality Pharmaceuticals Limited,NSE,,Small,2371.4,44.44,2457.76,,,,,,0,,n/a,N
+315,DECNGOLD,Deccan Gold Mines Limited,NSE,,Small,170.06,41.48,3381.9,,,,,,0,,n/a,N
+316,SAIPARENT,Sai Parenterals Limited,NSE,Healthcare,Small,545.2,34.07,2411.3,,,,,,0,,n/a,N
+317,WELSPLSOL,Welspun Specialty Solutions Limited,NSE,,Small,51.53,32.64,3419.74,,,,,,0,,n/a,N
+318,MMWL,Media Matrix Worldwide Limited,NSE,Communication Services,Small,13.55,31.55,1550.72,,,,,,0,,n/a,N
+319,KISSHT,OnEMI Technology Solutions Limited,NSE,Financial Services,Small,269.85,29.34,4545.67,,,,,,0,,n/a,N
+320,TIMEX,Timex Group India Limited,NSE,Consumer Cyclical,Small,437.95,28.09,4418.58,,,,,,0,,n/a,N
+321,POWERICA,Powerica Limited,NSE,Industrials,Mid,499.8,26.53,6321.27,,,,,,0,,n/a,N

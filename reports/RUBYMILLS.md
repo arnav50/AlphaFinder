@@ -1,80 +1,80 @@
 # RUBYMILLS — The Ruby Mills Limited (NSE)
-**Sector:** Consumer Cyclical | **6m return:** 30.16% | **Close:** ₹279.05 | **Cap:** Small | **Bars:** 351
+**Sector:** Consumer Cyclical | **6m return:** 58.43% | **Close:** ₹344.7 | **Cap:** Small | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 13.2, confluence medium)
-Leading 4.2 | Lagging 8.0 | Candles 0.0 | Price-action 1.0
+## 🏁 SCORECARD: **BULLISH**  (score 11.9, confluence high)
+Leading 2.4 | Lagging 8.0 | Candles 1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 68.1 (neutral), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 61.1 / %D 52.4, cross bull, neutral, div bearish
-- **Bollinger(20,2):** above_upper, width 25.17%, expanding
+- **RSI(14):** 77.9 (overbought), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 93.3 / %D 93.4, cross bear, overbought, div bearish
+- **Bollinger(20,2):** above_upper, width 61.33%, expanding
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 197.3 (strong_up)
-- **Williams %R(14):** -13.5 (overbought)
+- **CCI(20):** 193.0 (strong_up)
+- **Williams %R(14):** -0.3 (overbought)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 91.3 (overbought)
+- **MFI(14):** 94.9 (overbought)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 3.215 (expanding_pos), cross none, zero-line above
+- **MACD(12,26,9):** above_signal, hist 9.947 (expanding_pos), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 56.1 (trending), +DI>-DI, rising
+- **ADX(14):** 66.7 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 14.96 (5.36% of price, expanding)
-- **VWAP(20):** px above, dist 6.47%
-- **Pivots:** daily P 271.67 R1 295.28 S1 255.43; weekly position mid_range
+- **ATR(14):** 18.42 (5.34% of price, expanding)
+- **VWAP(20):** px above, dist 19.67%
+- **Pivots:** daily P 336.8 R1 352.6 S1 328.9; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Outside Bar | 2026-05-14 | neutral | at S/R confluence | neutral |
-| NR7 | 2026-05-15 | neutral | at S/R confluence | neutral |
-| Three Black Crows | 2026-05-15 | bearish | at S/R confluence | confirmed |
-| Inverted Hammer | 2026-05-18 | bullish | at S/R confluence | confirmed |
-| NR7 | 2026-05-18 | neutral | at S/R confluence | neutral |
-| Three Black Crows | 2026-05-18 | bearish | at S/R confluence | failed |
-| Hammer | 2026-05-19 | bullish | at S/R confluence | failed |
-| Outside Bar | 2026-05-19 | neutral | at S/R confluence | neutral |
-| Inverted Hammer | 2026-05-20 | bullish | at S/R confluence | confirmed |
-| Bearish Pin Bar | 2026-05-20 | bearish | at S/R confluence | failed |
 | Bearish Engulfing | 2026-05-22 | bearish | at S/R confluence | failed |
-| Bullish Marubozu | 2026-05-25 | bullish | midair | failed |
-| Long-legged Doji | 2026-05-27 | neutral | at resistance | neutral |
-| Bearish Engulfing | 2026-06-01 | bearish | at resistance | failed |
-| Bullish Engulfing | 2026-06-02 | bullish | midair | pending (last bar) |
+| Bullish Marubozu | 2026-05-25 | bullish | at resistance | failed |
+| Long-legged Doji | 2026-05-27 | neutral | at S/R confluence | neutral |
+| Doji | 2026-05-28 | neutral | at S/R confluence | neutral |
+| Inside Bar | 2026-05-28 | neutral | at S/R confluence | neutral |
+| Outside Bar | 2026-05-29 | neutral | at resistance | neutral |
+| Bearish Engulfing | 2026-06-01 | bearish | at S/R confluence | failed |
+| Bullish Engulfing | 2026-06-02 | bullish | at resistance | confirmed |
+| Inside Bar | 2026-06-03 | neutral | midair | neutral |
+| Three White Soldiers | 2026-06-04 | bullish | midair | confirmed |
+| Three White Soldiers | 2026-06-05 | bullish | midair | failed |
+| Long-legged Doji | 2026-06-08 | neutral | midair | neutral |
+| Inside Bar | 2026-06-08 | neutral | midair | neutral |
+| NR7 | 2026-06-08 | neutral | midair | neutral |
+| Bullish Marubozu | 2026-06-09 | bullish | midair | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Sideways / range-bound
-- **Chart pattern:** Double Bottom | breakout 230.85 | target 236.56 | volume yes | confidence medium
+- **Trend structure:** Uptrend (HH/HL)
+- **Chart pattern:** Rising Wedge (bearish) | breakout 264.53 | target n/a | volume no | confidence low
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 222.36-233.0 (Moderate, FRESH, 19.76% away) — quality Moderate
-- **Demand (weekly):** 178.21-220.0 (Moderate, tested, 26.84% away)
+- **Demand (daily):** 247.85-287.9 (Moderate, FRESH, 19.73% away) — quality Moderate
+- **Demand (weekly):** 222.36-286.8 (Moderate, FRESH, 20.19% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
 - **Market structure:** daily ranging | weekly bearish (LH/LL) | aligned: False
-- **Break of Structure (last):** bull @ 256.02 on 2026-05-25
+- **Break of Structure (last):** bull @ 286.8 on 2026-06-04
 - **Change of Character (last):** bull @ 256.02 on 2026-05-25
-- **Bullish Order Block:** 227.05-232.14 (2026-05-22, UNMITIGATED)
+- **Bullish Order Block:** 247.85-263.0 (2026-06-01, UNMITIGATED)
 - **Bearish Order Block:** none
-- **Fair Value Gaps:** 4 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 232.14-247.65 (2026-05-26) · nearest bear FVG above none
+- **Fair Value Gaps:** 6 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 285.6-319.4 (2026-06-05) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below 217.28 | equal-highs 4 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 92.6% of range 169.02–287.9)
+- **Premium/Discount:** **Premium** (price at 99.8% of range 169.02–345.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (65.1% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-5.7%/4b | C2:-6.7%/5b | C3:-12.2%/7b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 5.37)
-- **Near 52w high:** True | **Pivot:** 273.1 | **% from pivot:** 2.18%
-- **Breakout vol ratio (today/50d):** 15.23 | **close pos in range:** 0.78
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
+- **Prior uptrend:** True (103.9% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-6.7%/5b | C2:-12.2%/7b | C3:-9.2%/5b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 3.98)
+- **Near 52w high:** True | **Pivot:** 273.1 | **% from pivot:** 26.22%
+- **Breakout vol ratio (today/50d):** 0.57 | **close pos in range:** 1.0
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: extended past pivot** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 169.02 on 2026-03-02):** 1x1=196.85 2x1=224.69 1x2=182.94 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 287.46 · T2 296.0 · T3 313.46 (support S1 270.76, S2 262.6)
-- **Time cycles:** 59 days since swing low → next Gann cycle at 60d (1d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=228.46 6/8=258.18 7/8=273.04
-- **Cardinal square:** nearest perfect-square 289 (3.57% away); near: False
+- **Angles (auto-scaled from swing low 169.02 on 2026-03-02):** 1x1=214.41 2x1=259.8 1x2=191.72 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 354.05 · T2 363.52 · T3 382.83 (support S1 335.48, S2 326.38)
+- **Time cycles:** 65 days since swing low → next Gann cycle at 90d (25d away); near cycle: True
+- **Octave position:** 8/8 (52w high) | levels 4/8=257.01 6/8=301.01 7/8=323.0
+- **Cardinal square:** nearest perfect-square 361 (4.73% away); near: False

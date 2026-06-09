@@ -1,0 +1,322 @@
+symbol,name,exchange,CMP,move_start_date,entry_candle,entry_date,confirmation_candle,confirmation_date,HH_HL_sequence,support_respected,breakout_date,breakout_vol_x,breakout_vol_confirmed,false_breakdown_reversal,weekly_strong_bull_base,weekly_support_rejection,weekly_bars,bars_daily,pattern_quality_10
+STLTECH,Sterlite Technologies Limited,NSE,619.25,2026-01-27,Bullish Engulfing,2026-01-28,Bullish Marubozu,2026-01-28,True,True,2026-02-02,2.53,True,True,True,False,75.0,354.0,10.0
+KOPRAN,Kopran Limited,NSE,189.08,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-04-08,2.26,True,True,True,False,75.0,354.0,10.0
+GALAPREC,Gala Precision Engineering Limited,NSE,910.4,2026-01-27,Three White Soldiers,2026-01-30,Three White Soldiers,2026-01-30,True,True,2026-02-02,5.45,True,True,True,True,75.0,353.0,10.0
+KDDL,KDDL Limited,NSE,2904.7,2026-03-30,Morning Star,2026-03-25,Gap-Up Continuation,2026-04-08,True,True,2026-04-22,2.86,True,True,True,False,75.0,352.0,10.0
+NINSYS,NINtec Systems Limited,NSE,724.15,2026-03-23,Hammer,2026-03-19,Strong Momentum Candle,2026-04-07,True,True,2026-03-30,5.21,True,True,True,False,75.0,353.0,10.0
+APOLLO,Apollo Micro Systems Limited,NSE,421.35,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,True,True,2026-04-17,4.55,True,True,True,False,75.0,354.0,10.0
+CGPOWER,CG Power and Industrial Solutions Limited,NSE,937.85,2026-01-27,Hammer,2026-01-29,Bullish Marubozu,2026-01-28,True,True,2026-02-03,2.3,True,True,True,True,75.0,354.0,10.0
+PAISALO,Paisalo Digital Limited,NSE,57.87,2026-03-13,Hammer,2026-03-17,Three White Soldiers,2026-04-06,True,True,2026-04-07,3.24,True,True,True,False,75.0,354.0,10.0
+RSWM,RSWM Limited,NSE,197.1,2026-03-30,Morning Star,2026-04-01,Gap-Up Continuation,2026-04-01,True,True,2026-04-10,4.44,True,True,True,False,75.0,353.0,10.0
+GANESHBE,Ganesh Benzoplast Limited,NSE,111.95,2026-02-02,Three White Soldiers,2026-02-04,Gap-Up Continuation,2026-02-03,True,True,2026-02-20,3.47,True,True,True,False,75.0,353.0,10.0
+500449,Hindustan Organic Chemicals Ltd,BSE,40.67,2026-03-30,Bullish Engulfing,2026-04-06,Bullish Marubozu,2026-04-01,True,True,2026-04-20,4.74,True,True,True,True,75.0,351.0,10.0
+BSE,BSE Limited,NSE,3880.0,2025-09-30,Three White Soldiers,2025-10-06,Bullish Marubozu,2025-10-06,True,True,2025-10-13,1.88,True,True,True,False,75.0,354.0,10.0
+GCSL,Gretex Corporate Services Limited,NSE,424.0,2025-10-17,Hammer,2025-10-20,Three White Soldiers,2025-11-07,True,True,2025-11-11,3.19,True,True,True,True,40.0,185.0,10.0
+CONFIPET,Confidence Petroleum India Limited,NSE,77.61,2026-03-09,Three White Soldiers,2026-03-12,Bullish Marubozu,2026-03-12,True,True,2026-03-12,10.73,True,True,True,False,75.0,354.0,10.0
+NAM-INDIA,Nippon Life India Asset Management Limited,NSE,1113.1,2026-01-27,Three White Soldiers,2026-01-30,Three White Soldiers,2026-01-30,True,True,2026-02-03,3.75,True,True,True,False,75.0,354.0,10.0
+SIGMAADV,SIGMA ADVANCED SYSTEMS LIMITED,NSE,435.8,2026-03-16,Three White Soldiers,2026-03-19,Bullish Marubozu,2026-03-17,True,True,2026-04-17,3.8,True,True,True,False,75.0,353.0,10.0
+SKYGOLD,SKY GOLD AND DIAMONDS LIMITED,NSE,528.45,2025-09-30,Bullish Engulfing,2025-10-01,Strong Momentum Candle,2025-10-01,True,True,2025-10-08,4.75,True,True,True,True,75.0,354.0,10.0
+SHILPAMED,Shilpa Medicare Limited,NSE,538.05,2026-01-23,Bullish Engulfing,2026-01-28,Three White Soldiers,2026-02-17,True,True,2026-02-09,5.3,True,True,True,False,75.0,354.0,10.0
+CRAFTSMAN,Craftsman Automation Limited,NSE,9065.0,2025-10-15,Hammer,2025-10-17,Strong Momentum Candle,2025-10-16,True,True,2025-11-11,6.7,True,True,True,False,75.0,352.0,10.0
+ASTRAMICRO,Astra Microwave Products Limited,NSE,1419.5,2026-03-30,Hammer,2026-04-06,Strong Momentum Candle,2026-04-07,True,True,2026-04-16,1.88,True,True,True,False,75.0,354.0,10.0
+KESORAMIND,Kesoram Industries Limited,NSE,11.57,2025-11-19,Bullish Engulfing,2025-11-20,Bullish Marubozu,2025-11-20,True,True,2025-12-05,10.86,True,True,True,True,75.0,354.0,10.0
+MIDHANI,Mishra Dhatu Nigam Limited,NSE,435.55,2026-03-30,Three White Soldiers,2026-04-06,Gap-Up Continuation,2026-04-06,True,True,2026-04-16,2.69,True,True,True,True,75.0,354.0,10.0
+GANDHAR,Gandhar Oil Refinery (India) Limited,NSE,160.73,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,True,True,2026-04-16,2.42,True,True,True,True,75.0,354.0,10.0
+LINCOLN,Lincoln Pharmaceuticals Limited,NSE,625.55,2026-01-29,Three White Soldiers,2026-02-03,Gap-Up Continuation,2026-02-03,True,True,2026-02-10,4.47,True,True,True,True,75.0,352.0,10.0
+FCL,Fineotex Chemical Limited,NSE,40.73,2026-03-30,Three White Soldiers,2026-04-06,Gap-Up Continuation,2026-04-01,True,True,2026-05-06,6.62,True,True,True,True,75.0,354.0,10.0
+ZIMLAB,Zim Laboratories Limited,NSE,105.12,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-04-15,1.56,True,True,True,False,75.0,353.0,10.0
+IFCI,IFCI Limited,NSE,79.6,2025-12-18,Three White Soldiers,2025-12-23,Gap-Up Continuation,2025-12-22,True,True,2026-01-12,12.2,True,True,True,False,75.0,354.0,10.0
+NLCINDIA,NLC India Limited,NSE,336.6,2025-12-10,Morning Star,2025-12-12,Strong Momentum Candle,2026-01-02,False,True,2026-01-02,3.96,True,True,True,True,75.0,354.0,9.0
+SHREEJISPG,Shreeji Shipping Global Limited,NSE,472.95,2025-10-08,Bullish Engulfing,2025-10-09,Bullish Marubozu,2025-10-09,True,True,2025-10-30,8.47,True,False,True,True,41.0,193.0,9.0
+SGMART,SG Mart Limited,NSE,575.35,2026-01-21,Bullish Engulfing,2026-01-22,Gap-Up Continuation,2026-02-03,True,True,2026-02-09,4.56,True,True,False,True,39.0,180.0,9.0
+THANGAMAYL,Thangamayil Jewellery Limited,NSE,5351.9,2025-10-23,Bullish Engulfing,2025-10-24,Bullish Marubozu,2025-11-03,False,True,2025-10-31,4.99,True,True,True,True,75.0,354.0,9.0
+SUPRIYA,Supriya Lifescience Limited,NSE,947.95,2026-03-23,Morning Star,2026-03-25,Strong Momentum Candle,2026-04-01,False,True,2026-04-27,4.76,True,True,True,True,75.0,353.0,9.0
+GOCLCORP,GOCL Corporation Limited,NSE,410.85,2026-03-23,Hammer,2026-03-19,Gap-Up Continuation,2026-03-24,False,True,2026-03-25,10.51,True,True,True,True,75.0,353.0,9.0
+MENONBE,Menon Bearings Limited,NSE,138.71,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,False,True,2026-05-07,4.88,True,True,True,True,75.0,353.0,9.0
+KERNEX,Kernex Microsystems (India) Limited,NSE,1836.1,2026-03-30,Hammer,2026-04-06,Gap-Up Continuation,2026-04-08,False,True,2026-04-08,1.71,True,True,True,True,75.0,354.0,9.0
+PARACABLES,Paramount Communications Limited,NSE,67.32,2026-03-30,Bullish Engulfing,2026-04-07,Strong Momentum Candle,2026-04-01,True,True,2026-04-08,1.56,True,False,True,True,75.0,354.0,9.0
+PARAS,Paras Defence and Space Technologies Limited,NSE,960.15,2026-03-23,Inverted Hammer,2026-03-19,Strong Momentum Candle,2026-03-24,True,True,2026-04-16,2.0,True,True,True,True,75.0,354.0,9.0
+FINCABLES,Finolex Cables Limited,NSE,1057.5,2026-01-29,Bullish Engulfing,2026-01-28,Gap-Up Continuation,2026-02-09,False,True,2026-02-09,1.81,True,True,True,True,75.0,354.0,9.0
+SANDHAR,Sandhar Technologies Limited,NSE,703.1,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-05-07,2.92,True,False,True,True,75.0,354.0,9.0
+RAIN,Rain Industries Limited,NSE,197.09,2025-12-08,Piercing Line,2025-12-09,Strong Momentum Candle,2025-12-15,True,True,2025-12-26,3.0,True,False,True,True,75.0,354.0,9.0
+NRBBEARING,NRB Bearing Limited,NSE,385.65,2026-03-30,Hammer,2026-04-02,Gap-Up Continuation,2026-04-06,True,True,2026-04-16,5.4,True,False,True,True,75.0,353.0,9.0
+INOXINDIA,INOX India Limited,NSE,1578.8,2026-01-27,Three White Soldiers,2026-01-30,Three White Soldiers,2026-01-30,False,True,2026-03-06,2.65,True,True,True,True,75.0,353.0,9.0
+VETO,Veto Switchgears And Cables Limited,NSE,143.79,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-04-17,1.87,True,False,True,True,75.0,354.0,9.0
+SPORTKING,Sportking India Limited,NSE,180.38,2026-01-21,Three White Soldiers,2026-01-28,Three White Soldiers,2026-01-28,True,True,2026-02-03,4.87,True,True,False,True,75.0,353.0,9.0
+ACUTAAS,Acutaas Chemicals Limited,NSE,3328.3,2025-09-30,Three White Soldiers,2025-10-06,Bullish Marubozu,2025-10-01,True,True,2025-10-15,2.13,True,False,True,True,75.0,354.0,9.0
+SOLARINDS,Solar Industries India Limited,NSE,18441.0,2025-12-18,Morning Star,2025-12-19,Gap-Up Continuation,2025-12-22,True,True,,,False,True,True,False,75.0,353.0,8.0
+STEELXIND,STEEL EXCHANGE INDIA LIMITED,NSE,12.34,2026-03-23,Inverted Hammer,2026-03-20,Three White Soldiers,2026-04-07,False,True,2026-04-08,3.88,True,True,True,True,75.0,354.0,8.0
+GULPOLY,Gulshan Polyols Limited,NSE,201.64,2026-02-02,Hammer,2026-02-02,Gap-Up Continuation,2026-02-03,False,True,2026-02-11,11.76,True,True,False,False,75.0,353.0,8.0
+GMDCLTD,Gujarat Mineral Development Corporation Limited,NSE,657.75,2025-11-24,Three White Soldiers,2025-11-27,Gap-Up Continuation,2025-11-26,False,True,2026-01-02,1.54,True,False,True,False,75.0,354.0,8.0
+HCC,Hindustan Construction Company Limited,NSE,24.02,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,False,True,2026-04-15,1.68,True,True,True,False,75.0,354.0,8.0
+BUILDPRO,Shankara Buildpro Limited,NSE,1134.7,2026-01-27,Bullish Engulfing,2026-01-28,Strong Momentum Candle,2026-01-28,False,True,2026-02-12,3.43,True,False,True,False,22.0,99.0,8.0
+MANAKALUCO,Manaksia Aluminium Company Limited,NSE,35.38,2026-03-30,Three White Soldiers,2026-04-06,Gap-Up Continuation,2026-04-02,False,True,2026-04-16,0.55,False,True,True,True,75.0,354.0,8.0
+GAEL,Gujarat Ambuja Exports Limited,NSE,155.86,2025-10-14,Three White Soldiers,2025-10-17,Three White Soldiers,2025-10-17,False,True,2025-11-20,3.98,True,False,True,True,75.0,354.0,8.0
+AARTIIND,Aarti Industries Limited,NSE,458.05,2026-01-21,Bullish Engulfing,2026-01-28,Strong Momentum Candle,2026-02-09,False,True,2026-02-03,11.81,True,True,False,False,75.0,354.0,8.0
+INDOBORAX,Indo Borax & Chemicals Limited,NSE,367.4,2025-09-29,Bullish Engulfing,2025-09-25,Bullish Marubozu,2025-10-01,True,True,2025-10-28,1.78,True,False,True,False,75.0,353.0,8.0
+SOUTHWEST,South West Pinnacle Exploration Limited,NSE,262.75,2025-10-15,Three White Soldiers,2025-10-20,Gap-Up Continuation,2025-10-20,True,True,2025-10-30,17.09,True,True,False,False,75.0,354.0,8.0
+SUNFLAG,Sunflag Iron And Steel Company Limited,NSE,372.1,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,False,True,2026-04-15,1.53,True,False,True,False,75.0,354.0,8.0
+SCI,Shipping Corporation Of India Limited,NSE,302.65,2026-01-23,Three White Soldiers,2026-01-29,Bullish Marubozu,2026-01-28,False,True,2026-02-09,13.26,True,False,True,False,75.0,354.0,8.0
+SAILIFE,Sai Life Sciences Limited,NSE,1186.4,2026-01-23,Bullish Engulfing,2026-01-27,Bullish Marubozu,2026-01-27,False,True,2026-02-27,2.84,True,False,True,False,75.0,354.0,8.0
+OLAELEC,Ola Electric Mobility Limited,NSE,44.88,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-02,False,True,2026-04-02,5.13,True,False,True,False,75.0,354.0,8.0
+NATIONALUM,National Aluminium Company Limited,NSE,395.7,2025-09-26,Bullish Engulfing,2025-10-03,Gap-Up Continuation,2025-10-24,False,True,2025-10-08,3.24,True,False,True,False,75.0,354.0,8.0
+DSSL,Dynacons Systems & Solutions Limited,NSE,1288.7,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,False,True,2026-04-08,3.62,True,False,True,True,75.0,353.0,8.0
+EBGNG,GNG Electronics Limited,NSE,420.55,2026-01-27,Morning Star,2026-02-02,Gap-Up Continuation,2026-02-03,True,True,2026-02-06,7.74,True,False,False,True,45.0,210.0,8.0
+CUMMINSIND,Cummins India Limited,NSE,5784.0,2025-10-01,Three White Soldiers,2025-10-07,Three White Soldiers,2025-10-07,True,True,2025-10-24,2.8,True,False,False,False,75.0,354.0,8.0
+HAPPYFORGE,Happy Forgings Limited,NSE,1388.0,2025-10-14,Three White Soldiers,2025-10-17,Three White Soldiers,2025-10-17,False,True,2025-10-21,2.51,True,False,True,True,75.0,354.0,8.0
+538668,Meghna Infracon Infrastructure Ltd,BSE,790.85,2025-10-06,Bullish Engulfing,2025-10-07,none,,True,True,2025-11-06,0.73,False,True,True,True,75.0,352.0,8.0
+MAYURUNIQ,Mayur Uniquoters Ltd,NSE,733.65,2026-01-09,Bullish Engulfing,2026-01-16,Three White Soldiers,2026-01-27,True,True,2026-02-02,1.11,False,True,True,False,75.0,352.0,8.0
+NETWEB,Netweb Technologies India Limited,NSE,4666.0,2025-09-16,Three White Soldiers,2025-09-19,Gap-Up Continuation,2025-09-18,False,True,2025-09-22,2.03,True,False,True,False,75.0,354.0,8.0
+ARVIND,Arvind Limited,NSE,493.7,2025-10-10,Hammer,2025-10-14,Gap-Up Continuation,2025-10-23,False,True,2025-11-13,1.71,True,False,True,False,75.0,354.0,8.0
+KIRLPNU,Kirloskar Pneumatic Company Limited,NSE,1570.8,2025-12-08,Bullish Engulfing,2025-12-04,Three White Soldiers,2025-12-15,True,True,,,False,True,True,True,75.0,353.0,8.0
+AFIL,Akme Fintrade (India) Limited,NSE,10.59,2026-01-29,Piercing Line,2026-02-04,Strong Momentum Candle,2026-02-04,False,True,2026-02-23,7.04,True,False,True,True,75.0,353.0,8.0
+530145,Kisan Mouldings Ltd,BSE,35.66,2026-03-30,Morning Star,2026-04-01,Strong Momentum Candle,2026-04-01,False,True,2026-04-20,4.44,True,True,True,False,75.0,351.0,8.0
+QPOWER,Quality Power Electrical Equipments Limited,NSE,1072.0,2026-01-27,Three White Soldiers,2026-02-02,Strong Momentum Candle,2026-01-30,False,True,2026-02-17,3.69,True,False,True,False,67.0,316.0,8.0
+524520,KMC Speciality Hospitals (India) Ltd,BSE,114.5,2025-09-15,Hammer,2025-09-18,Gap-Up Continuation,2025-10-06,True,True,2025-10-06,10.64,True,False,False,False,75.0,351.0,8.0
+GLAND,Gland Pharma Limited,NSE,2273.0,2026-03-19,Three White Soldiers,2026-03-18,Gap-Up Continuation,2026-03-24,True,True,,,False,True,True,False,75.0,353.0,8.0
+CENTUM,Centum Electronics Limited,NSE,3459.9,2026-01-09,Bullish Engulfing,2026-01-12,Three White Soldiers,2026-02-02,True,True,2026-02-20,14.88,True,False,False,False,75.0,352.0,8.0
+UNIPARTS,Uniparts India Limited,NSE,633.95,2025-09-29,Three White Soldiers,2025-10-03,Three White Soldiers,2025-10-03,True,True,2025-10-07,15.0,True,False,True,False,75.0,353.0,8.0
+MTARTECH,Mtar Technologies Limited,NSE,7535.5,2025-09-15,Three White Soldiers,2025-09-12,Three White Soldiers,2025-09-23,False,True,2025-09-17,2.27,True,False,True,False,75.0,354.0,8.0
+POLYCAB,Polycab India Limited,NSE,9699.0,2026-01-23,Morning Star,2026-01-28,Gap-Up Continuation,2026-01-28,True,True,2026-02-23,1.16,False,True,True,False,75.0,354.0,8.0
+VINDHYATEL,Vindhya Telelinks Limited,NSE,1993.3,2026-03-30,Morning Star,2026-04-01,Bullish Marubozu,2026-04-01,False,True,2026-04-15,7.58,True,False,True,False,75.0,354.0,8.0
+AZAD,Azad Engineering Limited,NSE,2207.7,2026-03-23,Morning Star,2026-03-25,Gap-Up Continuation,2026-04-01,False,True,2026-04-15,2.37,True,True,False,False,75.0,354.0,8.0
+JAYNECOIND,Jayaswal Neco Industries Limited,NSE,96.46,2025-12-05,Three White Soldiers,2025-12-10,Three White Soldiers,2025-12-10,False,True,2025-12-22,1.81,True,True,True,False,75.0,354.0,8.0
+SUVEN,Suven Life Sciences Limited,NSE,237.35,2026-03-23,Morning Star,2026-03-25,Gap-Up Continuation,2026-03-25,True,True,2026-04-02,2.0,True,True,False,False,75.0,354.0,8.0
+GRANULES,Granules India Limited,NSE,789.85,2025-09-29,Three White Soldiers,2025-10-03,Three White Soldiers,2025-10-03,True,True,2025-10-03,2.24,True,False,True,False,75.0,353.0,8.0
+ADFFOODS,ADF Foods Limited,NSE,282.8,2026-03-27,Bullish Engulfing,2026-03-30,Strong Momentum Candle,2026-04-17,False,True,2026-04-17,10.06,True,False,True,False,75.0,354.0,8.0
+NELCAST,Nelcast Limited,NSE,140.74,2026-01-29,Bullish Engulfing,2026-01-28,Gap-Up Continuation,2026-02-03,False,True,2026-02-03,5.99,True,True,True,False,75.0,353.0,8.0
+GRAPHITE,Graphite India Limited,NSE,705.35,2025-12-08,Bullish Engulfing,2025-12-09,Gap-Up Continuation,2025-12-22,False,True,2025-12-31,9.82,True,False,True,True,75.0,354.0,8.0
+MWL,Mangalam Worldwide Limited,NSE,378.8,2025-11-14,Three White Soldiers,2025-11-19,Strong Momentum Candle,2025-11-17,True,True,2025-11-21,4.11,True,False,True,False,75.0,352.0,8.0
+TCIFINANCE,TCI Finance Limited,NSE,14.53,2025-11-27,Hammer,2025-11-25,Strong Momentum Candle,2025-12-17,False,True,2025-12-17,9.68,True,True,False,False,75.0,352.0,8.0
+BODALCHEM,Bodal Chemicals Limited,NSE,71.2,2026-03-13,Three White Soldiers,2026-03-11,Strong Momentum Candle,2026-03-18,False,True,2026-03-20,9.75,True,False,True,False,75.0,353.0,8.0
+BHARATFORG,Bharat Forge Limited,NSE,1929.8,2025-09-26,Bullish Engulfing,2025-10-03,Three White Soldiers,2025-10-13,False,True,2025-10-23,2.79,True,False,True,False,75.0,353.0,8.0
+ASIANENE,Asian Energy Services Limited,NSE,382.1,2026-01-27,Tweezer Bottom,2026-01-30,Strong Momentum Candle,2026-01-28,False,True,2026-02-16,2.85,True,True,True,False,75.0,354.0,8.0
+IDEA,Vodafone Idea Limited,NSE,14.95,2025-09-17,Three White Soldiers,2025-09-15,Strong Momentum Candle,2025-10-07,True,True,2025-09-19,0.0,False,False,True,True,75.0,354.0,8.0
+RICOAUTO,Rico Auto Industries Limited,NSE,136.85,2025-11-06,Bullish Engulfing,2025-11-12,Gap-Up Continuation,2025-11-10,False,True,2025-11-12,5.97,True,True,True,False,75.0,354.0,8.0
+CLEANMAX,Clean Max Enviro Energy Solutions Limited,NSE,1217.0,2026-03-30,Hammer,2026-03-30,Strong Momentum Candle,2026-04-01,False,True,2026-04-16,3.4,True,False,True,True,14.0,64.0,8.0
+535916,Alacrity Securities Ltd,BSE,68.72,2025-12-01,Morning Star,2025-11-28,none,,True,True,,,False,True,True,True,75.0,351.0,8.0
+ANGELONE,Angel One Limited,NSE,332.6,2025-09-29,Three White Soldiers,2025-10-06,Three White Soldiers,2025-10-06,False,True,2025-10-14,3.67,True,True,True,False,75.0,354.0,8.0
+MCX,Multi Commodity Exchange of India Limited,NSE,2795.0,2025-09-16,Three White Soldiers,2025-09-19,Three White Soldiers,2025-09-19,True,True,2025-10-09,2.58,True,False,True,False,75.0,354.0,8.0
+STYLAMIND,Stylam Industries Limited,NSE,3053.5,2025-09-29,Three White Soldiers,2025-10-03,Three White Soldiers,2025-10-03,True,True,2025-10-08,4.25,True,False,True,False,75.0,354.0,8.0
+PASUPTAC,Pasupati Acrylon Limited,NSE,74.21,2026-03-30,Morning Star,2026-04-01,Gap-Up Continuation,2026-04-01,True,True,,,False,True,True,False,75.0,353.0,8.0
+UNIVCABLES,Universal Cables Limited,NSE,1227.5,2026-03-16,Morning Star,2026-03-18,Strong Momentum Candle,2026-03-18,True,True,2026-04-08,2.54,True,False,True,False,75.0,354.0,8.0
+PREMEXPLN,Premier Explosives Limited,NSE,685.65,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-04-29,1.48,False,True,True,True,75.0,354.0,8.0
+HARDWYN,Hardwyn India Limited,NSE,24.41,2025-10-14,Bullish Engulfing,2025-10-10,Three White Soldiers,2025-10-27,False,True,2025-10-28,1.79,True,True,False,False,75.0,353.0,8.0
+TIRUPATIFL,Tirupati Forge Limited,NSE,44.11,2025-12-24,Bullish Engulfing,2025-12-31,Three White Soldiers,2026-01-02,True,True,2026-01-06,6.53,True,True,False,False,75.0,352.0,8.0
+540545,Guru Krupa Gems and Jewellery Ltd,BSE,37.67,2025-09-26,Three White Soldiers,2025-10-03,Three White Soldiers,2025-10-03,False,True,2025-10-17,2.47,True,False,True,True,75.0,351.0,8.0
+ADANIENT,Adani Enterprises Limited,NSE,3048.2,2026-03-30,Morning Star,2026-04-02,Gap-Up Continuation,2026-04-08,True,True,2026-04-22,1.23,False,False,True,True,75.0,354.0,8.0
+DIACABS,Diamond Power Infrastructure Limited,NSE,203.6,2026-03-23,Morning Star,2026-03-25,Gap-Up Continuation,2026-03-25,False,True,2026-04-16,2.09,True,True,False,False,75.0,354.0,8.0
+543916,Hemant Surgical Industries Ltd,BSE,378.15,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,True,True,2026-04-20,1.56,True,False,True,False,75.0,351.0,8.0
+GESHIP,The Great Eastern Shipping Company Limited,NSE,1464.0,2025-09-29,Three White Soldiers,2025-10-03,Strong Momentum Candle,2025-10-03,False,True,2025-10-31,2.58,True,False,True,False,75.0,354.0,8.0
+WOCKPHARMA,Wockhardt Limited,NSE,1920.9,2026-03-23,Morning Star,2026-03-25,Gap-Up Continuation,2026-04-01,True,True,2026-04-21,0.83,False,True,False,True,75.0,354.0,8.0
+ABB,ABB India Limited,NSE,7167.5,2026-01-20,Bullish Harami,2026-01-21,Strong Momentum Candle,2026-01-28,True,True,2026-01-29,7.8,True,True,False,False,75.0,354.0,8.0
+LLOYDSENGG,LLOYDS ENGINEERING WORKS LIMITED,NSE,72.69,2026-03-30,Three White Soldiers,2026-04-06,Gap-Up Continuation,2026-04-01,True,True,2026-04-15,0.75,False,True,True,False,75.0,354.0,8.0
+ROSSTECH,Rossell Techsys Limited,NSE,1052.2,2026-01-09,Bullish Engulfing,2026-01-14,Strong Momentum Candle,2026-01-14,False,True,2026-02-04,3.4,True,True,False,False,75.0,353.0,8.0
+540252,Viram Suvarn Ltd,BSE,10.93,2025-12-01,Three White Soldiers,2025-12-04,Gap-Up Continuation,2025-12-03,False,True,2025-12-04,3.37,True,True,True,False,75.0,351.0,8.0
+TDPOWERSYS,TD Power Systems Limited,NSE,1312.8,2025-09-18,Bullish Engulfing,2025-09-19,Three White Soldiers,2025-10-01,True,True,2025-09-29,0.57,False,False,True,True,75.0,354.0,8.0
+TATASTEEL,Tata Steel Limited,NSE,206.77,2025-12-09,Three White Soldiers,2025-12-12,Gap-Up Continuation,2025-12-12,False,True,2026-01-05,1.18,False,True,True,True,75.0,354.0,8.0
+AVALON,Avalon Technologies Limited,NSE,1607.9,2026-01-28,Bullish Engulfing,2026-01-29,Gap-Up Continuation,2026-02-03,False,True,2026-02-03,1.86,True,True,True,False,75.0,354.0,8.0
+QUADFUTURE,Quadrant Future Tek Limited,NSE,337.45,2025-12-18,Three White Soldiers,2025-12-23,Bullish Marubozu,2025-12-22,False,True,2025-12-22,9.7,True,False,True,True,73.0,346.0,8.0
+BALAMINES,Balaji Amines Limited,NSE,2043.3,2026-03-30,Morning Star,2026-03-25,Three White Soldiers,2026-04-16,True,True,2026-04-15,0.93,False,True,True,True,75.0,354.0,8.0
+WHEELS,Wheels India Limited,NSE,1487.7,2026-01-27,Bullish Engulfing,2026-01-22,Bullish Marubozu,2026-01-28,True,True,2026-02-16,1.79,True,True,False,False,75.0,354.0,8.0
+SKIPPER,Skipper Limited,NSE,556.6,2026-03-09,Bullish Engulfing,2026-03-12,Strong Momentum Candle,2026-03-25,False,True,2026-04-17,2.83,True,True,False,False,75.0,353.0,8.0
+IBULLSLTD,Indiabulls Limited,NSE,23.24,2026-02-24,Morning Star,2026-02-26,none,,True,True,2026-04-10,3.05,True,True,True,False,75.0,354.0,8.0
+KTKBANK,The Karnataka Bank Limited,NSE,262.0,2025-09-29,Three White Soldiers,2025-10-03,Three White Soldiers,2025-10-03,False,True,2025-10-23,2.4,True,False,True,False,75.0,354.0,8.0
+PRECWIRE,Precision Wires India Limited,NSE,417.05,2025-09-23,Morning Star,2025-09-24,Gap-Up Continuation,2025-10-03,True,True,2025-09-24,8.35,True,False,False,False,75.0,354.0,8.0
+SALSTEEL,S.A.L. Steel Limited,NSE,60.77,2025-10-14,Three White Soldiers,2025-10-17,Bullish Marubozu,2025-10-16,False,True,2025-10-27,3.7,True,False,True,False,75.0,352.0,8.0
+GVT&D,GE Vernova T&D India Limited,NSE,5067.0,2026-01-21,Three White Soldiers,2026-01-27,Three White Soldiers,2026-01-27,True,True,2026-01-30,1.52,True,False,True,False,75.0,354.0,8.0
+SPECTRUM,Spectrum Electrical Industries Limited,NSE,1769.1,2026-01-12,Bullish Harami,2026-01-14,Gap-Up Continuation,2026-01-16,True,True,2026-01-29,1.6,True,False,True,False,75.0,352.0,8.0
+NARMADA,Narmada Agrobase Limited,NSE,37.72,2025-12-12,Bullish Engulfing,2025-12-15,Three White Soldiers,2026-01-01,True,True,2026-01-07,5.41,True,False,False,False,75.0,352.0,8.0
+KIRLOSENG,Kirloskar Oil Engines Limited,NSE,1913.3,2025-10-14,Morning Star,2025-10-16,Strong Momentum Candle,2025-10-28,False,True,2025-10-28,11.55,True,False,True,True,75.0,353.0,8.0
+CALSOFT,California Software Company Limited,NSE,20.9,2026-04-06,Inverted Hammer,2026-04-06,Gap-Up Continuation,2026-05-07,True,True,2026-05-04,4.61,True,True,False,False,75.0,353.0,8.0
+CHENNPETRO,Chennai Petroleum Corporation Limited,NSE,1181.4,2025-10-17,Bullish Engulfing,2025-10-20,Strong Momentum Candle,2025-10-20,False,True,2025-10-30,4.05,True,False,True,False,75.0,354.0,8.0
+SIS,SIS LIMITED,NSE,417.05,2026-03-23,Three White Soldiers,2026-03-27,Three White Soldiers,2026-03-27,True,True,2026-04-15,0.88,False,True,True,False,75.0,353.0,8.0
+JETFREIGHT,Jet Freight Logistics Limited,NSE,23.54,2025-11-03,Bullish Engulfing,2025-11-04,Strong Momentum Candle,2025-11-13,True,True,2025-11-13,7.57,True,False,False,False,75.0,353.0,8.0
+INDSWFTLAB,Ind-Swift Laboratories Limited,NSE,158.0,2025-12-31,Inverted Hammer,2025-12-31,Strong Momentum Candle,2026-01-07,True,True,2026-01-13,9.88,True,False,True,True,75.0,353.0,8.0
+POWERINDIA,Hitachi Energy India Limited,NSE,36870.0,2026-01-16,Bullish Harami,2026-01-21,Bullish Marubozu,2026-01-28,True,True,2026-02-06,3.76,True,True,False,False,75.0,354.0,8.0
+SAKAR,Sakar Healthcare Limited,NSE,773.2,2025-09-16,Three White Soldiers,2025-09-19,Three White Soldiers,2025-09-19,True,True,2025-09-23,3.76,True,False,True,False,75.0,354.0,8.0
+SYRMA,Syrma SGS Technology Limited,NSE,1226.8,2026-01-21,Morning Star,2026-01-22,Bullish Marubozu,2026-01-28,True,True,2026-01-30,9.08,True,True,False,False,75.0,354.0,8.0
+DJML,DJ Mediaprint & Logistics Limited,NSE,111.29,2025-12-11,Three White Soldiers,2025-12-16,Strong Momentum Candle,2025-12-12,True,True,,,False,False,True,True,75.0,353.0,8.0
+DEEDEV,DEE Development Engineers Limited,NSE,671.15,2026-01-27,Bullish Engulfing,2026-01-30,Strong Momentum Candle,2026-02-02,True,True,2026-02-23,18.01,True,True,False,False,75.0,353.0,8.0
+SANGINITA,Sanginita Chemicals Limited,NSE,31.57,2025-12-12,Three White Soldiers,2025-12-17,Three White Soldiers,2025-12-17,True,True,2026-01-08,3.88,True,False,True,False,75.0,353.0,8.0
+ATALREAL,Atal Realtech Limited,NSE,30.43,2025-09-15,Bullish Engulfing,2025-09-11,Gap-Up Continuation,2025-09-19,True,True,2025-09-22,6.37,True,False,True,False,75.0,352.0,8.0
+TRUALT,TruAlt Bioenergy Limited,NSE,505.15,2026-01-23,Three White Soldiers,2026-01-29,Gap-Up Continuation,2026-01-28,True,True,2026-02-06,3.39,True,False,True,False,35.0,166.0,8.0
+HFCL,HFCL Limited,NSE,187.23,2026-01-27,Three White Soldiers,2026-01-30,Strong Momentum Candle,2026-01-28,True,True,2026-02-09,0.83,False,True,True,False,75.0,354.0,8.0
+GVPIL,GE Power India Limited,NSE,884.1,2026-01-27,Three White Soldiers,2026-01-30,Three White Soldiers,2026-01-30,True,True,2026-02-12,8.45,True,False,True,False,75.0,354.0,8.0
+BLISSGVS,Bliss GVS Pharma Limited,NSE,438.35,2025-11-07,Three White Soldiers,2025-11-12,Three White Soldiers,2025-11-12,True,True,2025-11-13,1.54,True,False,True,False,75.0,354.0,8.0
+EXICOM,Exicom Tele-Systems Limited,NSE,133.85,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-04-08,1.07,False,True,True,True,75.0,354.0,8.0
+MAWANASUG,Mawana Sugars Limited,NSE,101.75,2026-03-16,Bullish Harami,2026-03-17,Gap-Up Continuation,2026-03-20,True,True,2026-03-27,5.62,True,False,True,False,75.0,354.0,8.0
+AEROENTER,Aeroflex Enterprises Limited,NSE,100.83,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,True,True,2026-04-09,1.36,False,True,True,False,75.0,353.0,8.0
+AEROFLEX,Aeroflex Industries Limited,NSE,419.75,2026-01-23,Three White Soldiers,2026-01-29,Gap-Up Continuation,2026-01-29,False,True,2026-02-18,6.31,True,True,False,False,75.0,354.0,8.0
+ANTELOPUS,Antelopus Selan Energy Limited,NSE,899.35,2026-01-12,Inverted Hammer,2026-01-12,Bullish Marubozu,2026-01-14,True,True,2026-01-16,13.1,True,True,True,False,75.0,354.0,8.0
+ATLANTAELE,Atlanta Electricals Limited,NSE,2044.0,2026-01-27,Morning Star,2026-01-29,Gap-Up Continuation,2026-02-03,True,True,2026-03-10,2.16,True,False,True,False,36.0,169.0,8.0
+CPPLUS,Aditya Infotech Limited,NSE,3501.9,2025-09-26,Three White Soldiers,2025-10-01,Gap-Up Continuation,2025-09-30,True,True,2025-11-07,6.74,True,False,True,False,44.0,207.0,8.0
+E2E,E2E Networks Limited,NSE,452.9,2025-12-29,Three White Soldiers,2026-01-01,Three White Soldiers,2026-01-01,True,True,2026-02-02,3.31,True,False,False,False,75.0,354.0,8.0
+BAJAJCON,Bajaj Consumer Care Limited,NSE,552.05,2025-09-16,Bullish Harami,2025-09-22,Strong Momentum Candle,2025-10-10,False,True,2025-09-18,5.95,True,True,True,False,75.0,354.0,8.0
+532380,Baba Arts Ltd,BSE,13.15,2025-12-08,Bullish Engulfing,2025-12-09,Bullish Marubozu,2025-12-16,True,True,2025-12-22,2.45,True,True,False,False,75.0,351.0,8.0
+SCPL,Sheetal Cool Products Limited,NSE,466.3,2025-12-08,Three White Soldiers,2025-12-11,Strong Momentum Candle,2025-12-09,False,True,2025-12-10,13.29,True,True,True,False,75.0,352.0,8.0
+BBOX,Black Box Limited,NSE,1072.9,2026-03-30,Morning Star,2026-04-01,Gap-Up Continuation,2026-04-08,True,True,2026-04-27,2.62,True,True,False,False,75.0,354.0,8.0
+INDOTECH,Indo Tech Transformers Limited,NSE,2657.6,2026-03-30,Hammer,2026-04-06,Gap-Up Continuation,2026-04-01,False,True,2026-04-15,5.07,True,True,True,False,75.0,353.0,8.0
+THERMAX,Thermax Limited,NSE,4832.1,2025-12-10,Three White Soldiers,2025-12-15,Gap-Up Continuation,2025-12-12,True,True,,,False,True,False,True,75.0,353.0,8.0
+KRISHNADEF,Krishna Defence And Allied Industries Limited,NSE,1164.9,2025-12-18,Three White Soldiers,2025-12-23,Gap-Up Continuation,2025-12-19,False,True,2025-12-29,1.62,True,False,True,False,75.0,353.0,8.0
+KRN,KRN Heat Exchanger and Refrigeration Limited,NSE,1216.8,2026-01-23,Bullish Engulfing,2026-01-30,Gap-Up Continuation,2026-02-09,False,True,2026-02-20,14.85,True,False,True,False,75.0,354.0,8.0
+UTLSOLAR,Fujiyama Power Systems Limited,NSE,328.3,2026-03-04,Morning Star,2026-03-06,Gap-Up Continuation,2026-03-11,False,True,2026-04-07,3.26,True,True,True,False,29.0,135.0,8.0
+RRKABEL,R R Kabel Limited,NSE,2223.4,2025-09-26,Three White Soldiers,2025-10-01,Three White Soldiers,2025-10-01,False,True,2025-10-28,4.16,True,False,True,False,75.0,353.0,8.0
+542669,BMW Industries Ltd,BSE,60.18,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-06,False,True,2026-04-08,2.43,True,False,True,True,75.0,351.0,8.0
+IOLCP,IOL Chemicals and Pharmaceuticals Limited,NSE,131.68,2026-03-17,Inverted Hammer,2026-03-17,Strong Momentum Candle,2026-03-18,True,True,2026-03-24,3.69,True,False,True,False,75.0,354.0,8.0
+NIBE,NIBE Limited,NSE,1590.4,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,False,True,,,False,True,True,True,70.0,327.0,8.0
+KOTYARK,Kotyark Industries Limited,NSE,412.55,2026-01-29,Hammer,2026-02-02,Gap-Up Continuation,2026-02-09,True,True,2026-03-04,1.19,False,True,True,False,75.0,352.0,8.0
+WALCHANNAG,Walchandnagar Industries Limited,NSE,241.75,2026-03-30,Three White Soldiers,2026-04-06,Gap-Up Continuation,2026-04-06,True,True,2026-04-15,2.59,True,False,True,False,75.0,354.0,8.0
+HONASA,Honasa Consumer Limited,NSE,416.1,2025-12-11,Morning Star,2025-12-12,Gap-Up Continuation,2025-12-12,True,True,,,False,False,True,True,75.0,353.0,8.0
+APARINDS,Apar Industries Limited,NSE,13878.0,2026-01-21,Morning Star,2026-01-22,Gap-Up Continuation,2026-01-29,True,True,2026-02-03,7.96,True,False,False,False,75.0,354.0,8.0
+RISHABH,Rishabh Instruments Limited,NSE,512.45,2026-01-27,Three White Soldiers,2026-01-30,Strong Momentum Candle,2026-01-28,True,True,2026-02-09,2.51,True,False,True,False,75.0,352.0,8.0
+SEAMECLTD,Seamec Limited,NSE,1586.1,2025-11-10,Bullish Engulfing,2025-11-11,Three White Soldiers,2025-11-20,True,True,2025-11-28,1.34,False,True,True,True,75.0,352.0,8.0
+GUJALKALI,Gujarat Alkalies and Chemicals Limited,NSE,650.85,2026-03-17,Three White Soldiers,2026-03-20,Three White Soldiers,2026-03-20,False,True,2026-03-20,6.52,True,False,True,False,75.0,353.0,8.0
+CEIGALL,Ceigall India Limited,NSE,358.5,2025-12-09,Hammer,2025-12-11,Three White Soldiers,2025-12-22,False,True,2025-12-29,6.12,True,True,False,True,75.0,352.0,8.0
+JAYBARMARU,Jay Bharat Maruti Limited,NSE,127.97,2026-03-30,Morning Star,2026-03-25,Bullish Marubozu,2026-04-01,True,True,,,False,False,True,True,75.0,353.0,8.0
+RUBYMILLS,The Ruby Mills Limited,NSE,337.85,2026-03-02,Bullish Engulfing,2026-03-04,Bullish Marubozu,2026-03-04,True,True,2026-03-05,15.24,True,False,False,False,75.0,352.0,8.0
+ZENTEC,Zen Technologies Limited,NSE,1815.3,2026-01-14,Morning Star,2026-01-16,Gap-Up Continuation,2026-01-16,True,True,,,False,True,True,True,75.0,354.0,8.0
+SBCL,Shivalik Bimetal Controls Limited,NSE,712.7,2026-03-24,Bullish Engulfing,2026-03-30,Gap-Up Continuation,2026-04-01,False,True,2026-04-15,1.61,True,True,False,False,75.0,353.0,8.0
+SWANDEF,Swan Defence and Heavy Industries Limited,NSE,1971.6,2025-09-12,Bullish Marubozu,2025-09-15,Bullish Marubozu,2025-09-15,True,True,2025-09-15,1.57,True,False,True,False,75.0,352.0,8.0
+BIRLACABLE,Birla Cable Limited,NSE,223.9,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,False,True,2026-04-17,5.26,True,False,True,True,75.0,353.0,8.0
+STLNETWORK,STL Networks Limited,NSE,28.2,2026-03-30,Morning Star,2026-04-01,Gap-Up Continuation,2026-04-01,False,True,2026-04-10,1.92,True,False,True,False,40.0,187.0,8.0
+ONELIFECAP,Onelife Capital Advisors Limited,NSE,26.59,2025-10-17,Bullish Engulfing,2025-10-20,Bullish Marubozu,2025-10-21,True,True,2025-11-04,6.24,True,True,False,False,75.0,353.0,8.0
+ADANIPOWER,Adani Power Limited,NSE,232.6,2025-09-17,Morning Star,2025-09-19,Gap-Up Continuation,2025-09-19,True,True,2025-09-19,7.52,True,False,True,False,75.0,354.0,8.0
+ACMESOLAR,Acme Solar Holdings Limited,NSE,356.65,2026-01-23,Bullish Engulfing,2026-01-30,Strong Momentum Candle,2026-01-30,True,True,,,False,True,True,False,75.0,354.0,8.0
+PANACEABIO,Panacea Biotec Limited,NSE,540.2,2026-03-30,Hammer,2026-04-02,Bullish Marubozu,2026-04-15,True,True,2026-04-24,1.24,False,False,True,True,75.0,354.0,8.0
+NDLVENTURE,NDL Ventures Limited,NSE,129.73,2025-09-29,Hammer,2025-09-26,Three White Soldiers,2025-10-24,False,True,,,False,True,True,False,75.0,351.0,7.0
+GHCLTEXTIL,GHCL Textiles Limited,NSE,98.77,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,False,True,2026-04-08,1.22,False,True,True,False,75.0,353.0,7.0
+KEI,KEI Industries Limited,NSE,5335.5,2026-01-27,Three White Soldiers,2026-01-30,Gap-Up Continuation,2026-01-29,True,True,2026-02-09,0.56,False,False,True,False,75.0,354.0,7.0
+SANSTAR,Sanstar Limited,NSE,117.96,2026-03-30,Bullish Engulfing,2026-04-02,Gap-Up Continuation,2026-04-08,True,True,2026-04-21,0.41,False,True,False,False,75.0,354.0,7.0
+GRWRHITECH,Garware Hi-Tech Films Limited,NSE,5893.0,2026-01-21,Morning Star,2026-01-22,Strong Momentum Candle,2026-01-22,True,True,2026-02-03,1.47,False,True,False,False,75.0,354.0,7.0
+VIJAYA,Vijaya Diagnostic Centre Limited,NSE,1372.4,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,True,True,2026-04-17,0.89,False,False,True,False,75.0,353.0,7.0
+SPARC,Sun Pharma Advanced Research Company Limited,NSE,212.82,2026-03-23,Morning Star,2026-03-25,Strong Momentum Candle,2026-03-25,True,True,2026-04-08,1.18,False,True,False,False,75.0,354.0,7.0
+OMAXAUTO,Omax Autos Limited,NSE,234.72,2025-11-28,Morning Star,2025-12-02,Three White Soldiers,2025-12-11,True,True,,,False,True,False,False,75.0,353.0,7.0
+YASHO,Yasho Industries Limited,NSE,2470.1,2026-01-08,Bullish Engulfing,2026-01-09,Strong Momentum Candle,2026-01-09,True,True,,,False,True,False,False,75.0,351.0,7.0
+ADANIGREEN,Adani Green Energy Limited,NSE,1525.7,2026-01-23,Three White Soldiers,2026-01-29,Three White Soldiers,2026-01-29,True,True,,,False,False,True,False,75.0,354.0,7.0
+DHANBANK,Dhanlaxmi Bank Limited,NSE,32.88,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,False,True,2026-04-07,0.96,False,True,True,False,75.0,354.0,7.0
+SURYODAY,Suryoday Small Finance Bank Limited,NSE,171.83,2026-02-24,Three White Soldiers,2026-02-27,Three White Soldiers,2026-02-27,False,True,,,False,True,True,False,75.0,353.0,7.0
+MCLEODRUSS,Mcleod Russel India Limited,NSE,70.91,2026-03-30,Morning Star,2026-04-02,Gap-Up Continuation,2026-04-02,True,True,2026-04-13,0.25,False,False,True,False,75.0,352.0,7.0
+RHETAN,Rhetan TMT Limited,NSE,30.66,2025-09-26,Morning Star,2025-10-01,none,,True,True,2025-10-29,1.68,True,False,False,True,37.0,171.0,7.0
+TARIL,Transformers And Rectifiers (India) Limited,NSE,321.1,2026-02-02,Bullish Engulfing,2026-02-04,Gap-Up Continuation,2026-02-09,False,True,,,False,True,True,False,75.0,354.0,7.0
+RPTECH,Rashi Peripherals Limited,NSE,546.25,2025-09-15,Morning Star,2025-09-16,Bullish Marubozu,2025-09-16,True,True,2025-09-16,1.06,False,False,True,False,75.0,354.0,7.0
+526775,Valiant Communications Ltd,BSE,1239.3,2025-09-12,Three White Soldiers,2025-09-17,Three White Soldiers,2025-09-17,True,True,2025-10-01,0.95,False,False,True,False,75.0,352.0,7.0
+GKSL,Gujarat Kidney And Super Speciality Limited,NSE,131.05,2026-01-23,Three White Soldiers,2026-01-29,Gap-Up Continuation,2026-01-28,True,True,,,False,False,True,False,23.0,108.0,7.0
+LLOYDSME,Lloyds Metals And Energy Limited,NSE,1778.6,2026-02-02,Three White Soldiers,2026-02-04,Gap-Up Continuation,2026-02-03,False,True,,,False,True,True,False,75.0,354.0,7.0
+BANDHANBNK,Bandhan Bank Limited,NSE,205.87,2025-12-08,Three White Soldiers,2025-12-11,Three White Soldiers,2025-12-11,True,True,,,False,False,True,False,75.0,354.0,7.0
+LAURUSLABS,Laurus Labs Limited,NSE,1446.8,2025-09-26,Three White Soldiers,2025-10-01,Bullish Marubozu,2025-10-01,True,True,2025-10-28,1.03,False,False,True,False,75.0,354.0,7.0
+IDEAFORGE,Ideaforge Technology Limited,NSE,945.0,2026-03-30,Three White Soldiers,2026-04-06,Three White Soldiers,2026-04-06,True,True,2026-04-17,0.45,False,False,True,False,75.0,354.0,7.0
+AMANTA,Amanta Healthcare Limited,NSE,133.49,2026-03-17,Bullish Harami,2026-03-18,Three White Soldiers,2026-03-30,False,True,2026-04-10,1.53,True,True,False,True,39.0,181.0,7.0
+PFC,Power Finance Corporation Limited,NSE,431.75,2025-12-18,Three White Soldiers,2025-12-22,Three White Soldiers,2025-12-22,False,True,2026-01-07,0.93,False,True,True,False,75.0,354.0,7.0
+VENUSREM,Venus Remedies Limited,NSE,1633.5,2025-09-19,Bullish Engulfing,2025-09-22,Three White Soldiers,2025-10-01,True,True,,,False,True,False,False,75.0,352.0,7.0
+SCHNEIDER,Schneider Electric Infrastructure Limited,NSE,1172.2,2026-01-21,Bullish Engulfing,2026-01-27,Strong Momentum Candle,2026-01-28,True,True,2026-02-06,1.3,False,True,False,False,75.0,354.0,7.0
+SAMMAANCAP,Sammaan Capital Limited,NSE,184.28,2026-03-23,Three White Soldiers,2026-03-27,Gap-Up Continuation,2026-03-25,False,True,,,False,True,True,False,75.0,354.0,7.0
+ADANIENSOL,Adani Energy Solutions Limited,NSE,1579.0,2026-01-23,Three White Soldiers,2026-01-29,Three White Soldiers,2026-01-29,False,True,,,False,True,True,False,75.0,354.0,7.0
+ATHERENERG,Ather Energy Limited,NSE,1033.6,2025-09-26,Morning Star,2025-09-29,Strong Momentum Candle,2025-09-29,True,True,2025-10-06,1.09,False,False,True,False,57.0,272.0,7.0
+AVADHSUGAR,Avadh Sugar & Energy Limited,NSE,458.55,2026-01-20,Morning Star,2026-01-22,Gap-Up Continuation,2026-02-03,False,True,2026-03-02,3.04,True,False,False,False,75.0,353.0,6.0
+MCL,Madhav Copper Limited,NSE,59.6,2025-11-24,Three White Soldiers,2025-11-27,Three White Soldiers,2025-11-27,False,True,2025-12-15,6.62,True,False,False,False,75.0,353.0,6.0
+VIYASH,Viyash Scientific Limited,NSE,255.25,2026-03-23,Inverted Hammer,2026-03-20,Gap-Up Continuation,2026-04-01,True,True,,,False,True,False,True,75.0,354.0,6.0
+JINDALPOLY,Jindal Poly Films Limited,NSE,650.9,2026-01-21,Morning Star,2026-01-28,Three White Soldiers,2026-02-13,False,True,2026-02-23,9.36,True,False,False,False,75.0,354.0,6.0
+AMBIKCO,Ambika Cotton Mills Limited,NSE,1633.9,2026-01-21,Morning Star,2026-01-22,Three White Soldiers,2026-01-30,True,True,2026-01-30,1.03,False,False,False,True,75.0,353.0,6.0
+539730,Fredun Pharmaceuticals Ltd,BSE,2308.85,2025-09-15,Bullish Engulfing,2025-09-16,Bullish Marubozu,2025-09-16,False,True,2025-10-03,1.6,True,False,False,False,75.0,351.0,6.0
+PREMIERPOL,Premier Polyfilm Limited,NSE,55.82,2025-11-19,Tweezer Bottom,2025-11-17,Strong Momentum Candle,2025-11-20,False,True,2025-11-21,8.28,True,False,True,False,75.0,353.0,6.0
+RAMRAT,Ram Ratna Wires Limited,NSE,391.5,2026-01-20,Inverted Hammer,2026-01-16,Strong Momentum Candle,2026-01-22,False,True,,,False,True,False,True,75.0,353.0,6.0
+FOCUS,Focus Lighting and Fixtures Limited,NSE,92.81,2026-03-30,Bullish Engulfing,2026-04-06,Strong Momentum Candle,2026-04-01,False,True,2026-04-15,1.23,False,False,True,False,75.0,352.0,6.0
+SAREGAMA,Saregama India Limited,NSE,476.2,2026-04-07,none,,Three White Soldiers,2026-04-15,True,True,2026-05-14,17.17,True,False,True,True,75.0,353.0,6.0
+AKUMS,Akums Drugs and Pharmaceuticals Limited,NSE,553.8,2025-11-24,Morning Star,2025-11-26,Three White Soldiers,2025-12-10,False,True,,,False,False,True,True,75.0,351.0,6.0
+PIRAMALFIN,Piramal Finance Limited,NSE,1977.4,2025-11-07,Three White Soldiers,2025-11-11,Bullish Marubozu,2025-11-10,False,True,2025-11-10,,False,False,True,False,31.0,144.0,6.0
+GROWW,Billionbrains Garage Ventures Limited,NSE,196.09,2025-11-12,Three White Soldiers,2025-11-14,Three White Soldiers,2025-11-14,False,True,2025-11-13,,False,False,True,False,30.0,141.0,6.0
+ATGL,Adani Total Gas Limited,NSE,762.25,2026-03-09,Three White Soldiers,2026-03-12,Bullish Marubozu,2026-03-11,False,True,2026-03-11,14.6,True,False,False,False,75.0,354.0,6.0
+WSTCSTPAPR,West Coast Paper Mills Limited,NSE,513.25,2026-03-09,Inverted Hammer,2026-03-06,Strong Momentum Candle,2026-03-18,True,True,2026-04-15,2.16,True,False,False,False,75.0,353.0,6.0
+MMFL,MM Forgings Limited,NSE,450.55,2025-11-10,Bullish Engulfing,2025-11-11,Three White Soldiers,2025-11-27,False,True,2025-11-25,1.17,False,False,False,True,75.0,354.0,6.0
+DIVGIITTS,Divgi Torqtransfer Systems Limited,NSE,780.7,2025-12-22,Hammer,2025-12-24,Three White Soldiers,2026-01-06,False,True,,,False,False,True,True,75.0,352.0,6.0
+VTL,Vardhman Textiles Limited,NSE,631.4,2025-10-14,Hammer,2025-10-14,Gap-Up Continuation,2025-10-23,False,True,2025-11-13,0.22,False,False,True,True,75.0,354.0,6.0
+HINDALCO,Hindalco Industries Limited,NSE,1092.6,2025-09-24,Hammer,2025-09-26,Three White Soldiers,2025-10-01,True,True,2025-10-01,0.99,False,False,False,False,75.0,354.0,6.0
+543787,Macfos Ltd,BSE,1230.85,2025-09-30,Bullish Engulfing,2025-10-01,Bullish Marubozu,2025-10-01,False,True,2025-10-15,1.0,False,False,True,True,75.0,353.0,6.0
+SOTL,Savita Oil Technologies Limited,NSE,560.5,2026-03-30,Three White Soldiers,2026-04-06,Gap-Up Continuation,2026-04-01,False,True,2026-05-05,1.46,False,False,True,False,75.0,354.0,6.0
+KRISHANA,Krishana Phoschem Limited,NSE,666.7,2025-10-01,Three White Soldiers,2025-10-07,Bullish Marubozu,2025-10-03,False,True,,,False,True,False,False,75.0,353.0,6.0
+HIRECT,Hind Rectifiers Limited,NSE,1128.4,2026-01-27,Hammer,2026-02-02,none,,True,True,,,False,False,True,True,75.0,354.0,6.0
+521113,Suditi Industries Ltd,BSE,92.4,2025-11-24,Bullish Engulfing,2025-11-28,Gap-Up Continuation,2025-12-23,False,True,2025-12-22,1.42,False,True,False,True,75.0,351.0,6.0
+UNIVPHOTO,Universus Photo Imagings Limited,NSE,380.25,2026-01-20,Bullish Marubozu,2026-01-22,Bullish Marubozu,2026-01-22,False,True,2026-02-13,7.09,True,False,False,False,75.0,353.0,6.0
+ADVAIT,Advait Energy Transitions Limited,NSE,2181.2,2026-01-27,Morning Star,2026-01-22,Gap-Up Continuation,2026-01-29,True,True,2026-01-29,,False,False,False,False,20.0,93.0,6.0
+APEX,Apex Frozen Foods Limited,NSE,410.4,2025-10-09,Morning Star,2025-10-10,Gap-Up Continuation,2025-10-29,False,True,2025-11-11,9.79,True,False,False,False,75.0,354.0,6.0
+JINDALSAW,Jindal Saw Limited,NSE,250.57,2026-01-16,Three White Soldiers,2026-01-21,Strong Momentum Candle,2026-01-19,False,True,2026-01-19,16.95,True,False,False,False,75.0,354.0,6.0
+DATAPATTNS,Data Patterns (India) Limited,NSE,4212.6,2026-01-23,Bullish Engulfing,2026-01-30,Gap-Up Continuation,2026-01-28,False,True,2026-02-09,0.97,False,False,True,False,75.0,354.0,6.0
+MIRCELECTR,MIRC Electronics Limited,NSE,39.28,2025-12-08,Bullish Engulfing,2025-12-09,Strong Momentum Candle,2025-12-09,False,True,2025-12-26,1.04,False,False,True,True,75.0,354.0,6.0
+LOKESHMACH,Lokesh Machines Limited,NSE,250.2,2025-12-08,Three White Soldiers,2025-12-11,Three White Soldiers,2025-12-11,False,True,,,False,False,True,False,75.0,353.0,6.0
+APOLLOPIPE,Apollo Pipes Limited,NSE,497.85,2026-01-21,Three White Soldiers,2026-01-27,Three White Soldiers,2026-01-27,False,True,2026-02-09,6.26,True,False,False,False,75.0,354.0,6.0
+NITINSPIN,Nitin Spinners Limited,NSE,535.8,2025-11-07,Bullish Engulfing,2025-11-13,Bullish Marubozu,2025-11-10,False,True,,,False,False,True,False,75.0,353.0,6.0
+CUPID,Cupid Limited,NSE,137.1,2025-09-16,Bullish Harami,2025-09-17,Three White Soldiers,2025-09-23,True,True,2025-09-19,0.67,False,False,True,False,75.0,354.0,6.0
+SGFIN,SG Finserve Limited,NSE,570.35,2026-01-30,Bullish Engulfing,2026-02-02,Gap-Up Continuation,2026-02-03,False,True,,,False,False,True,False,44.0,207.0,6.0
+SANSERA,Sansera Engineering Limited,NSE,2945.1,2025-09-30,Bullish Engulfing,2025-10-01,Three White Soldiers,2025-10-17,False,True,2025-11-03,3.43,True,False,False,False,75.0,354.0,6.0
+SASKEN,Sasken Technologies Limited,NSE,2181.2,2026-03-16,Inverted Hammer,2026-03-12,Strong Momentum Candle,2026-03-18,True,True,2026-04-16,0.41,False,False,True,False,75.0,353.0,6.0
+PARKHOSPS,Park Medi World Limited,NSE,281.75,2026-01-12,none,,Gap-Up Continuation,2026-02-03,True,True,2026-02-10,4.47,True,False,True,True,25.0,116.0,6.0
+SHADOWFAX,Shadowfax Technologies Limited,NSE,201.07,2026-01-29,Three White Soldiers,2026-02-03,Gap-Up Continuation,2026-02-03,True,True,2026-02-12,,False,False,False,False,19.0,88.0,6.0
+NEOGEN,Neogen Chemicals Limited,NSE,1903.6,2025-12-09,Morning Star,2025-12-11,Three White Soldiers,2025-12-29,False,True,,,False,False,True,True,75.0,354.0,6.0
+RUBICON,Rubicon Research Limited,NSE,1202.5,2025-10-24,Bullish Harami,2025-10-21,Three White Soldiers,2025-11-03,True,True,2025-11-03,,False,False,True,False,34.0,156.0,6.0
+NGLFINE,NGL Fine-Chem Limited,NSE,2742.6,2025-12-19,Three White Soldiers,2025-12-24,Three White Soldiers,2025-12-24,True,True,2026-01-05,0.74,False,False,False,False,75.0,354.0,6.0
+KSHINTL,KSH International Limited,NSE,819.45,2026-01-13,Bullish Harami,2026-01-14,Gap-Up Continuation,2026-01-16,True,True,,,False,False,True,True,24.0,112.0,6.0
+BHAGYANGR,Bhagyanagar India Limited,NSE,306.65,2025-09-24,Bullish Harami,2025-09-23,Bullish Marubozu,2025-09-25,True,True,2025-10-06,1.54,True,False,False,False,75.0,354.0,6.0
+MODISONLTD,MODISON LIMITED,NSE,362.7,2026-03-23,Inverted Hammer,2026-03-25,Gap-Up Continuation,2026-04-01,False,True,2026-04-16,1.02,False,True,True,False,75.0,353.0,6.0
+OMNI,Omnitech Engineering Limited,NSE,505.2,2026-03-06,Three White Soldiers,2026-03-11,Strong Momentum Candle,2026-03-11,False,True,2026-03-18,,False,False,True,False,14.0,63.0,6.0
+UFBL,United Foodbrands Limited,NSE,506.0,2026-01-29,Tweezer Bottom,2026-01-30,Gap-Up Continuation,2026-02-02,False,True,2026-02-02,15.62,True,False,True,False,75.0,352.0,6.0
+540492,Starlineps Enterprises Ltd,BSE,10.93,2025-11-04,Bullish Marubozu,2025-11-06,Bullish Marubozu,2025-11-06,False,True,,,False,False,True,True,75.0,351.0,6.0
+544191,Purple Finance Ltd,BSE,65.36,2025-09-29,Morning Star,2025-10-01,Gap-Up Continuation,2025-10-28,False,True,2025-10-28,6.36,True,False,False,False,75.0,351.0,6.0
+KSR,KSR Footwear Limited,NSE,33.0,2025-12-29,Three White Soldiers,2026-01-01,Strong Momentum Candle,2025-12-31,False,True,,,False,False,True,False,28.0,128.0,6.0
+MAHABANK,Bank of Maharashtra,NSE,79.19,2025-09-26,Bullish Engulfing,2025-10-03,none,,False,True,2025-10-15,5.79,True,False,True,False,75.0,354.0,6.0
+BHEL,Bharat Heavy Electricals Limited,NSE,386.95,2025-09-15,Bullish Engulfing,2025-09-19,Three White Soldiers,2025-10-01,False,True,2025-09-17,0.83,False,False,True,False,75.0,354.0,6.0
+STEELCAS,Steelcast Limited,NSE,287.05,2026-01-21,Bullish Harami,2026-01-22,Strong Momentum Candle,2026-01-28,False,True,2026-02-03,7.17,True,False,False,False,75.0,353.0,6.0
+SENORES,Senores Pharmaceuticals Limited,NSE,1034.7,2025-09-26,Inverted Hammer,2025-09-30,Three White Soldiers,2025-10-10,False,True,2025-10-24,1.51,True,False,True,False,75.0,354.0,6.0
+AETHER,Aether Industries Limited,NSE,1138.2,2025-09-17,Inverted Hammer,2025-09-15,Three White Soldiers,2025-10-23,False,True,,,False,True,False,True,75.0,354.0,6.0
+MBAPL,Madhya Bharat Agro Products Limited,NSE,546.8,2025-09-30,Three White Soldiers,2025-10-06,Strong Momentum Candle,2025-10-06,False,True,2025-10-08,4.21,True,False,False,False,75.0,352.0,6.0
+543542,Kesar India Ltd,BSE,1235.4,2025-09-11,Three White Soldiers,2025-09-15,Gap-Up Continuation,2025-09-15,False,True,2025-10-16,0.83,False,False,True,False,75.0,351.0,6.0
+543828,Sudarshan Pharma Industries Ltd,BSE,33.8,2026-01-27,Hammer,2026-01-29,Bullish Marubozu,2026-02-04,True,True,,,False,False,False,False,75.0,351.0,6.0
+BELRISE,Belrise Industries Limited,NSE,215.98,2025-09-16,Bullish Engulfing,2025-09-19,Strong Momentum Candle,2025-09-17,False,True,2025-09-19,1.12,False,False,True,False,54.0,256.0,6.0
+544141,Pune E - Stock Broking Ltd,BSE,280.25,2025-09-26,Bullish Engulfing,2025-10-01,Bullish Marubozu,2025-09-29,False,True,2025-09-30,2.94,True,False,False,False,75.0,351.0,6.0
+CEMPRO,Cemindia Projects Limited,NSE,1112.8,2026-03-23,Morning Star,2026-03-25,Gap-Up Continuation,2026-04-06,False,True,2026-04-10,0.95,False,True,False,False,75.0,354.0,6.0
+AVANTIFEED,Avanti Feeds Limited,NSE,1110.6,2025-09-29,Three White Soldiers,2025-10-06,Three White Soldiers,2025-10-06,False,True,,,False,False,False,True,75.0,353.0,6.0
+531911,Galaxy Agrico Exports Ltd,BSE,65.0,2026-02-20,Inverted Hammer,2026-02-20,Bullish Marubozu,2026-03-19,True,True,2026-04-02,0.17,False,False,True,False,75.0,352.0,6.0
+KINGFA,Kingfa Science & Technology (India) Limited,NSE,5367.0,2025-12-18,Bullish Engulfing,2025-12-19,Strong Momentum Candle,2025-12-19,False,True,,,False,False,True,True,75.0,352.0,6.0
+SAIL,Steel Authority of India Limited,NSE,190.56,2025-12-19,none,,Strong Momentum Candle,2025-12-30,True,True,2025-12-30,2.78,True,True,True,False,75.0,354.0,6.0
+530689,Lykis Ltd,BSE,45.73,2025-11-20,Inverted Hammer,2025-11-21,Three White Soldiers,2025-12-04,False,True,2025-12-18,8.4,True,False,False,False,75.0,351.0,6.0
+ABSLAMC,Aditya Birla Sun Life AMC Limited,NSE,1048.8,2025-11-24,Morning Star,2025-11-20,none,,True,True,,,False,True,False,False,75.0,354.0,6.0
+TMB,Tamilnad Mercantile Bank Limited,NSE,745.9,2025-09-30,Inverted Hammer,2025-09-29,Gap-Up Continuation,2025-10-17,False,True,2025-10-20,3.71,True,False,False,True,75.0,353.0,6.0
+HINDCOPPER,Hindustan Copper Limited,NSE,526.35,2025-09-18,Three White Soldiers,2025-09-16,Three White Soldiers,2025-09-23,False,True,2025-09-22,4.11,True,False,False,False,75.0,354.0,6.0
+DBOL,Dhampur Bio Organics Limited,NSE,109.4,2025-11-18,Bullish Engulfing,2025-11-21,Three White Soldiers,2025-12-05,False,True,,,False,False,True,False,75.0,353.0,6.0
+AGIIL,Agi Infra Limited,NSE,377.2,2025-09-15,Bullish Harami,2025-09-18,Gap-Up Continuation,2025-09-25,False,True,2025-09-24,3.64,True,False,False,False,75.0,354.0,6.0
+AXISCADES,AXISCADES Technologies Limited,NSE,1836.0,2026-01-22,Inverted Hammer,2026-01-21,Bullish Marubozu,2026-01-28,False,True,,,False,False,True,True,75.0,354.0,6.0
+APCOTEXIND,Apcotex Industries Limited,NSE,540.2,2026-03-30,Three White Soldiers,2026-04-06,Strong Momentum Candle,2026-04-01,False,True,2026-04-08,1.07,False,False,True,True,75.0,353.0,6.0
+J&KBANK,The Jammu & Kashmir Bank Limited,NSE,147.52,2025-12-29,Three White Soldiers,2026-01-01,Three White Soldiers,2026-01-01,False,True,,,False,False,True,False,75.0,354.0,6.0
+ARFIN,Arfin India Limited,NSE,89.24,2025-09-16,Three White Soldiers,2025-09-12,Gap-Up Continuation,2025-09-18,False,True,2025-09-17,1.27,False,False,True,False,46.0,215.0,6.0
+EMMVEE,Emmvee Photovoltaic Power Limited,NSE,334.35,2025-12-18,Bullish Engulfing,2025-12-24,Strong Momentum Candle,2025-12-19,False,True,,,False,False,False,False,29.0,137.0,5.0
+NEPHROPLUS,Nephrocare Health Services Limited,NSE,675.85,2025-12-19,Bullish Engulfing,2025-12-22,Three White Soldiers,2026-01-06,False,True,2026-01-07,,False,False,False,False,25.0,115.0,5.0
+JSWENERGY,JSW Energy Limited,NSE,584.2,2026-01-27,Three White Soldiers,2026-01-30,Gap-Up Continuation,2026-01-29,False,True,,,False,False,False,False,75.0,354.0,5.0
+SBC,SBC Exports Limited,NSE,37.1,2025-09-18,Three White Soldiers,2025-09-22,Three White Soldiers,2025-09-22,False,True,2025-10-06,1.26,False,False,False,False,75.0,354.0,5.0
+TIPSMUSIC,Tips Music Limited,NSE,690.95,2025-11-10,Inverted Hammer,2025-11-12,Three White Soldiers,2025-11-21,True,True,2025-12-01,1.27,False,False,False,False,75.0,354.0,5.0
+511523,Veerhealth Care Ltd,BSE,24.25,2025-11-25,Inverted Hammer,2025-11-24,Bullish Marubozu,2025-11-26,False,True,,,False,False,True,False,75.0,351.0,5.0
+NAHARSPING,Nahar Spinning Mills Limited,NSE,280.05,2026-01-27,Three White Soldiers,2026-01-30,Gap-Up Continuation,2026-01-29,False,True,2026-02-13,1.27,False,False,False,False,75.0,353.0,5.0
+VIDYAWIRES,Vidya Wires Limited,NSE,93.62,2026-01-21,Morning Star,2026-01-28,none,,True,True,,,False,False,False,False,26.0,121.0,5.0
+WELCORP,Welspun Corp Limited,NSE,1388.8,2026-01-27,Inverted Hammer,2026-01-30,Gap-Up Continuation,2026-02-03,False,True,2026-02-05,0.97,False,True,False,False,75.0,354.0,5.0
+SATIN,Satin Creditcare Network Limited,NSE,241.39,2025-12-09,Three White Soldiers,2025-12-12,Three White Soldiers,2025-12-12,False,True,,,False,False,False,False,75.0,353.0,5.0
+BLUSPRING,Bluspring Enterprises Limited,NSE,93.35,2026-03-19,Morning Star,2026-03-23,none,,True,True,2026-04-06,0.62,False,False,False,False,52.0,245.0,5.0
+GAUDIUMIVF,Gaudium IVF and Women Health Limited,NSE,105.8,2026-03-23,none,,Strong Momentum Candle,2026-03-24,False,True,2026-04-16,1.79,True,False,False,False,15.0,66.0,4.0
+SONAMLTD,SONAM LIMITED,NSE,55.72,2025-10-15,Bullish Harami,2025-10-16,none,,True,True,,,False,False,False,False,75.0,352.0,4.0
+JNKINDIA,JNK India Limited,NSE,421.3,2026-01-21,none,,Three White Soldiers,2026-01-30,True,True,,,False,False,False,False,75.0,353.0,3.0
+AYMSYNTEX,AYM Syntex Limited,NSE,222.74,2026-01-22,none,,Gap-Up Continuation,2026-02-03,False,True,2026-02-09,0.67,False,False,True,False,75.0,353.0,3.0
+GAYAPROJ,Gayatri Projects Limited,NSE,20.53,2025-09-15,none,,none,,False,True,2025-09-22,1.37,False,False,True,False,75.0,354.0,2.0
+HSCL,Himadri Speciality Chemical Limited,NSE,685.05,2025-11-24,none,,Three White Soldiers,2025-12-05,False,True,,,False,False,False,False,75.0,354.0,2.0
+KOVAI,,,,,,,,,,,,,,,,,,,
+NOVARTIND,,,,,,,,,,,,,,,,,,,
+NITTAGELA,,,,,,,,,,,,,,,,,,,
+COCKERILL,,,,,,,,,,,,,,,,,,,
+SEDEMAC,,,,,,,,,,,,,,,,,,,
+ELPROINTL,,,,,,,,,,,,,,,,,,,
+CMPDI,,,,,,,,,,,,,,,,,,,
+KPL,,,,,,,,,,,,,,,,,,,
+DECNGOLD,,,,,,,,,,,,,,,,,,,
+SAIPARENT,,,,,,,,,,,,,,,,,,,
+WELSPLSOL,,,,,,,,,,,,,,,,,,,
+MMWL,,,,,,,,,,,,,,,,,,,
+KISSHT,,,,,,,,,,,,,,,,,,,
+TIMEX,,,,,,,,,,,,,,,,,,,
+POWERICA,,,,,,,,,,,,,,,,,,,

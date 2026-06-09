@@ -1,34 +1,31 @@
 # VENUSREM — Venus Remedies Limited (NSE)
-**Sector:** Healthcare | **6m return:** 84.99% | **Close:** ₹1411.3 | **Cap:** Small | **Bars:** 352
+**Sector:** Healthcare | **6m return:** 102.39% | **Close:** ₹1610.7 | **Cap:** Small | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 11.9, confluence medium)
-Leading 4.9 | Lagging 8.5 | Candles 1.0 | Price-action -2.5
+## 🏁 SCORECARD: **BULLISH**  (score 10.2, confluence medium)
+Leading 4.2 | Lagging 7.5 | Candles 1.0 | Price-action -2.5
 
 ## A. Leading indicators
-- **RSI(14):** 82.8 (overbought), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 100.0 / %D 100.0, cross bull, overbought, div none
-- **Bollinger(20,2):** above_upper, width 55.2%, expanding
+- **RSI(14):** 78.5 (overbought), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 93.4 / %D 97.5, cross bear, overbought, div none
+- **Bollinger(20,2):** above_mid, width 81.47%, expanding
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 195.3 (strong_up)
-- **Williams %R(14):** -0.0 (overbought)
+- **CCI(20):** 135.2 (strong_up)
+- **Williams %R(14):** -17.2 (overbought)
 - **OBV:** trend rising, divergence bullish
-- **MFI(14):** 98.2 (overbought)
+- **MFI(14):** 75.4 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 38.145 (expanding_pos), cross none, zero-line above
+- **MACD(12,26,9):** above_signal, hist 48.641 (contracting_pos), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 29.5 (trending), +DI>-DI, rising
+- **ADX(14):** 44.7 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 54.06 (3.83% of price, expanding)
-- **VWAP(20):** px above, dist 26.07%
-- **Pivots:** daily P 1392.57 R1 1430.03 S1 1373.83; weekly position above_R2
+- **ATR(14):** 68.93 (4.28% of price, expanding)
+- **VWAP(20):** px above, dist 14.78%
+- **Pivots:** daily P 1652.77 R1 1694.83 S1 1568.63; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Three White Soldiers | 2026-05-20 | bullish | midair | failed |
-| Bearish Engulfing | 2026-05-21 | bearish | at resistance | failed |
-| Bullish Marubozu | 2026-05-22 | bullish | at resistance | confirmed |
 | Bullish Engulfing | 2026-05-22 | bullish | at resistance | confirmed |
 | NR7 | 2026-05-25 | neutral | midair | neutral |
 | Long-legged Doji | 2026-05-26 | neutral | midair | neutral |
@@ -38,9 +35,12 @@ Leading 4.9 | Lagging 8.5 | Candles 1.0 | Price-action -2.5
 | Tweezer Top | 2026-05-28 | bearish | midair | failed |
 | Doji | 2026-05-29 | neutral | midair | neutral |
 | Doji | 2026-06-01 | neutral | midair | neutral |
-| Dragonfly Doji | 2026-06-02 | bullish | midair | pending (last bar) |
-| Hanging Man | 2026-06-02 | bearish | midair | pending (last bar) |
-| Bullish Pin Bar | 2026-06-02 | bullish | midair | pending (last bar) |
+| Dragonfly Doji | 2026-06-02 | bullish | midair | confirmed |
+| Hanging Man | 2026-06-02 | bearish | midair | failed |
+| Bullish Pin Bar | 2026-06-02 | bullish | midair | confirmed |
+| Doji | 2026-06-03 | neutral | midair | neutral |
+| Dragonfly Doji | 2026-06-04 | bullish | midair | confirmed |
+| Bullish Pin Bar | 2026-06-04 | bullish | midair | confirmed |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Downtrend (LH/LL)
@@ -49,8 +49,8 @@ Leading 4.9 | Lagging 8.5 | Candles 1.0 | Price-action -2.5
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 664.1-800.0 (Moderate, FRESH, 76.41% away) — quality Moderate
-- **Demand (weekly):** 622.1-804.5 (Moderate, FRESH, 75.43% away)
+- **Demand (daily):** 664.1-800.0 (Moderate, FRESH, 101.34% away) — quality Moderate
+- **Demand (weekly):** 880.05-1280.05 (Moderate, FRESH, 25.83% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -59,22 +59,22 @@ Leading 4.9 | Lagging 8.5 | Candles 1.0 | Price-action -2.5
 - **Change of Character (last):** bull @ 804.5 on 2026-03-11
 - **Bullish Order Block:** 1004.35-1055.0 (2026-05-21, UNMITIGATED)
 - **Bearish Order Block:** none
-- **Fair Value Gaps:** 13 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1280.05-1355.1 (2026-06-02) · nearest bear FVG above none
+- **Fair Value Gaps:** 17 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1555.8-1566.8 (2026-06-08) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below 902.3 | equal-highs 1 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 100.0% of range 622.1–1411.3)
+- **Premium/Discount:** **Premium** (price at 88.7% of range 622.1–1736.9)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (261.4% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (287.7% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-14.5%/4b | C2:-9.7%/2b | C3:-10.8%/5b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.17)
-- **Near 52w high:** True | **Pivot:** 1016.15 | **% from pivot:** 38.89%
-- **Breakout vol ratio (today/50d):** 3.92 | **close pos in range:** 1.0
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 3.09)
+- **Near 52w high:** True | **Pivot:** 1016.15 | **% from pivot:** 58.51%
+- **Breakout vol ratio (today/50d):** 5.49 | **close pos in range:** 0.0
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: extended past pivot** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 424.0 on 2025-09-19):** 1x1=1112.6 2x1=1801.2 1x2=768.3 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 1430.15 · T2 1449.12 · T3 1487.43 (support S1 1392.58, S2 1373.98)
-- **Time cycles:** 170 days since swing low → next Gann cycle at 180d (10d away); near cycle: False
-- **Octave position:** 8/8 (52w high) | levels 4/8=900.93 6/8=1156.11 7/8=1283.71
-- **Cardinal square:** nearest perfect-square 1444 (2.32% away); near: False
+- **Angles (auto-scaled from swing low 424.0 on 2025-09-19):** 1x1=1341.71 2x1=2259.42 1x2=882.85 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 1630.83 · T2 1651.08 · T3 1691.97 (support S1 1590.7, S2 1570.82)
+- **Time cycles:** 175 days since swing low → next Gann cycle at 180d (5d away); near cycle: True
+- **Octave position:** 8/8 (52w high) | levels 4/8=1076.15 6/8=1406.53 7/8=1571.71
+- **Cardinal square:** nearest perfect-square 1600 (0.66% away); near: True

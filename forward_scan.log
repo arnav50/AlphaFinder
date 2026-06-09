@@ -1,0 +1,13 @@
+universe 4512 -> liquid (>=Rs10 & >=1L vol) 1391 -> mcap>=500/unknown 1262 (from 1391)
+  fetched 300/1262 | computed 277
+  fetched 600/1262 | computed 549
+  fetched 900/1262 | computed 826
+  fetched 1200/1262 | computed 1102
+
+metrics computed for 1159 stocks -> FORWARD_SCAN_METRICS.csv
+
+=== V1 (RSI 63-70) : 0 passers (mandatory ALL + >=4 confirmations) ===
+
+=== V2 (RSI 45-62) : 1 passers (mandatory ALL + >=4 confirmations) ===
+ rank   symbol exchange    CMP  dist_52wh_pct  rsi  adx  num_confirmations  next_resistance
+    1 SUMICHEM      NSE 472.05          29.02 51.5 18.4                  4           475.05
