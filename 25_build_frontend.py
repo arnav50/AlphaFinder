@@ -106,6 +106,14 @@ p4 = load("PHASE4_VCP_GANN.csv")
 p6 = load("PHASE6_RANKING.csv")
 wl = load("PHASE7_WATCHLIST.csv")
 fp = load("PHASE5_FINGERPRINT.csv")
+try:                                        # Phase 7b — short-term swing plans (26_swing.py)
+    sw = load("SWING_TRADES.csv")
+except Exception:
+    sw = pd.DataFrame()
+try:                                        # Phase 7c — intraday plans (27_intraday.py)
+    iz = load("INTRADAY_TRADES.csv")
+except Exception:
+    iz = pd.DataFrame()
 
 # ---------- live prices + Layer-1 validation for the watchlist (fetched fresh at build time) ----------
 nifty_ret = None
@@ -121,6 +129,28 @@ except Exception as e:
         if k not in wl.columns: wl[k] = None
     print(f"Live/validation fetch skipped ({e}) — dashboard will show scan-time close only")
 
+# ---------- qualify filter: show only stocks that still qualify (GO / WATCH) ----------
+# Drop the disqualified names (DROP = below stop / illiquid / failed; AVOID = below 50-EMA).
+# Count is dynamic — fewer or more depending on how many pass verification on the day.
+# Fallback: if live validation was skipped, verdict is None → nothing is hidden.
+wl_total = len(wl)
+if "verdict" in wl.columns:
+    wl = wl[wl["verdict"].fillna("") != "DROP"].reset_index(drop=True)
+wl_hidden = wl_total - len(wl)
+
+sw_total = len(sw)
+if len(sw) and "verdict" in sw.columns:
+    sw = sw[sw["verdict"].fillna("") != "AVOID"].reset_index(drop=True)
+sw_hidden = sw_total - len(sw)
+
+iz_total = len(iz)
+if len(iz) and "verdict" in iz.columns:
+    iz = iz[iz["verdict"].fillna("") != "AVOID"].reset_index(drop=True)
+iz_hidden = iz_total - len(iz)
+print(f"Qualify filter: watchlist {len(wl)}/{wl_total} shown ({wl_hidden} DROP hidden) | "
+      f"swing {len(sw)}/{sw_total} shown ({sw_hidden} AVOID hidden) | "
+      f"intraday {len(iz)}/{iz_total} shown ({iz_hidden} AVOID hidden)")
+
 # ---------- master: one row per Phase-1 stock, fields from all phases ----------
 m = p6.merge(p1[["symbol","price_180d_ago","price_today","avg_daily_volume","penny_flag"]], on="symbol", how="left")
 m = m.merge(p2[["symbol","rsi","adx","macd_pos","ema_alignment","supertrend","candle_bias","trend_structure"]], on="symbol", how="left")
@@ -133,6 +163,8 @@ def recs(df):
 DATA = {
  "master": recs(m),
  "watchlist": recs(wl),
+ "swing": recs(sw),
+ "intraday": recs(iz),
  "fingerprint": recs(fp),
  "agg": {
    "universe_total": 4524,
@@ -141,6 +173,9 @@ DATA = {
    "alpha": int((p6["tier"].isin(["TIER 1","TIER 2"])).sum()),
    "prime_passers": int(len(load("PHASE7_ALL_PASSERS.csv"))) if True else 0,
    "watchlist": int(len(wl)),
+   "wl_hidden": int(wl_hidden),
+   "sw_hidden": int(sw_hidden),
+   "iz_hidden": int(iz_hidden),
    "tiers6": p6["tier"].value_counts().to_dict(),
    "scorecards": p2["scorecard"].value_counts().to_dict(),
    "sectors_wl": wl["sector"].value_counts().to_dict() if "sector" in wl else {},
@@ -256,6 +291,22 @@ tbody tr:hover{background:var(--bg3);cursor:pointer}
    <div class="tablewrap"><table id="t_wl"></table></div>
  </section>
 
+ <section id="swing">
+   <div class="panel" style="margin-bottom:18px"><h3>⚡ Short Term Trade — swing setups on the watchlist</h3>
+     <div class="muted">The Phase-7 watchlist read on <b>daily</b> bars (no intraday). Each name is classified by its <b>EMA20/50/200 trend</b> and swing <b>setup</b> — <b>breakout</b> (20-day high), <b>pullback</b> (20-EMA reclaim), <b>base</b>, <b>extended</b> or <b>weak</b>. <b>Entry</b> = breakout pivot or 20-EMA reclaim · <b>Stop</b> = tightest valid of recent swing-low / 2×ATR / structural stop · <b>Target</b> = the daily structural swing target. Typical hold <b>~1–3 weeks</b>.</div>
+     <div class="muted" id="sw_ts" style="margin-top:6px"></div></div>
+   <div class="toolbar"><input class="search" id="s_sw" placeholder="Filter… (symbol / sector / setup / signal)"></div>
+   <div class="tablewrap"><table id="t_sw"></table></div>
+ </section>
+
+ <section id="intraday">
+   <div class="panel" style="margin-bottom:18px"><h3>⏱️ Intraday — same-session setups on the watchlist</h3>
+     <div class="muted">The Phase-7 watchlist read on <b>15-minute</b> bars. Each name is classified by its intraday <b>EMA9/20/50</b> stack vs <b>session VWAP</b> and its <b>setup</b> — <b>ORB</b> (30-min opening-range break), <b>momentum</b> (trending above VWAP), <b>VWAP reclaim</b>, <b>pullback</b>, <b>extended</b> or <b>weak</b>. <b>Entry</b> = opening-range break / VWAP reclaim / join · <b>Stop</b> = tightest valid of session VWAP / day-low / 1.5×ATR · <b>Target</b> = 2R · <b>Risk</b> 0.5% · hold <b>same session</b>.</div>
+     <div class="muted" id="iz_ts" style="margin-top:6px"></div></div>
+   <div class="toolbar"><input class="search" id="s_iz" placeholder="Filter… (symbol / sector / setup / signal)"></div>
+   <div class="tablewrap"><table id="t_iz"></table></div>
+ </section>
+
  <section id="ranking">
    <div class="toolbar"><input class="search" id="s_m" placeholder="Filter 311 ranked stocks… (symbol / sector / tier)">
      <span class="muted" id="m_count"></span></div>
@@ -276,9 +327,9 @@ const DATA = __DATA__;
 const $=s=>document.querySelector(s), el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
 $("#sd").textContent=DATA.scan_date;
 const mk=DATA.market;$("#mkt").innerHTML=`⚠️ <b>Market context:</b> Nifty 50 = ${mk.nifty} &nbsp;|&nbsp; EMA50 ${mk.ema50} &nbsp;|&nbsp; EMA200 ${mk.ema200} &nbsp;→&nbsp; <b>${mk.trend}</b> &nbsp;·&nbsp; reduce size / await 50-EMA reclaim before acting.`;
-if(DATA.live_fetched_at)$("#wl_live_ts").innerHTML=`🟢 <b>Live</b> prices + <b>validation</b> fetched <b>${DATA.live_fetched_at}</b> (Yahoo). <b>Check</b> = Layer-1 mechanical verdict: <span class="pill t1">✓ GO</span> alive+triggered+volume+RS+not-extended · <span class="pill t3">… WATCH</span> alive but not a clean trigger · <span class="pill ex">✕ DROP</span> below stop / illiquid.${DATA.nifty_3m!=null?` Nifty 3-mo: <b>${DATA.nifty_3m>0?'+':''}${DATA.nifty_3m}%</b> (RS baseline).`:''} <b>Stage:</b> <span class="pill t2">● early</span> coiled below entry (% = rise needed to trigger) · <span class="pill t1">▲ moving</span> broke out, advancing (% = move done) · <span class="pill ex">✕ failed</span> below stop. <i>Mechanical only — still check surveillance/earnings/chart.</i>`;
+if(DATA.live_fetched_at)$("#wl_live_ts").innerHTML=`🟢 <b>Live</b> prices + <b>validation</b> fetched <b>${DATA.live_fetched_at}</b> (Yahoo). <b>Check</b> = Layer-1 mechanical verdict: <span class="pill t1">✓ GO</span> alive+triggered+volume+RS+not-extended · <span class="pill t3">… WATCH</span> alive but not a clean trigger · <span class="pill ex">✕ DROP</span> below stop / illiquid.${DATA.nifty_3m!=null?` Nifty 3-mo: <b>${DATA.nifty_3m>0?'+':''}${DATA.nifty_3m}%</b> (RS baseline).`:''} <b>Stage:</b> <span class="pill t2">● early</span> coiled below entry (% = rise needed to trigger) · <span class="pill t1">▲ moving</span> broke out, advancing (% = move done) · <span class="pill ex">✕ failed</span> below stop. <i>Mechanical only — still check surveillance/earnings/chart.</i>${DATA.agg.wl_hidden?` <br><b>Showing ${DATA.watchlist.length} qualifying</b> (GO/WATCH) · <b>${DATA.agg.wl_hidden}</b> disqualified (DROP — below stop / illiquid) hidden.`:''}`;
 
-const TABS=[["overview","Overview"],["watchlist","🎯 Watchlist"],["ranking","Ranked 311"],["fingerprint","🧬 Fingerprint"]];
+const TABS=[["overview","Overview"],["watchlist","🎯 Watchlist"],["swing","⚡ Short Term Trade"],["intraday","⏱️ Intraday"],["ranking","Ranked 311"],["fingerprint","🧬 Fingerprint"]];
 const nav=$("#nav");
 TABS.forEach(([id,lb],i)=>{const b=el("button",i==0?"active":"",lb);b.onclick=()=>{document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));b.classList.add("active");document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));$("#"+id).classList.add("active")};nav.appendChild(b)});
 
@@ -333,6 +384,81 @@ buildTable($("#t_wl"), DATA.watchlist, [
  {k:"qty_per_10L",h:"Qty/₹10L"},{k:"phase7_score",h:"Score"},{k:"tier",h:"Tier",f:tierPill}
 ], {sort:"rank", onclick:r=>showDetail(r,true)});
 
+// ---- short-term swing table ----
+function swVerdict(r){const v=r.verdict;if(!v||v=='NO DATA')return '<span class="muted">—</span>';const m={GO:'t1',WATCH:'t3',AVOID:'ex'},ic={GO:'✓',WATCH:'…',AVOID:'✕'};return `<span class="pill ${m[v]||''}" title="${r.reason||''}">${ic[v]||''} ${v}</span>`}
+function setupCell(v){if(!v)return '—';if(v=='BREAKOUT')return '<span class="bull">breakout</span>';if(v=='PULLBACK')return '<span style="color:var(--cyan)">pullback</span>';if(v=='EXTENDED')return '<span class="bear">extended</span>';if(v=='WEAK')return '<span class="bear">weak</span>';return `<span class="neu">${(v||'').toLowerCase()}</span>`}
+function trendCell(v){if(!v)return '—';if(v.indexOf('up')>=0)return `<span class="bull">${v}</span>`;if(v=='down')return '<span class="bear">down</span>';return `<span class="neu">${v}</span>`}
+function swLive(v,r){if(v==null)return '<span class="muted">—</span>';const c=r.chg_pct==null?'':(r.chg_pct>=0?'pos':'neg');const ch=r.chg_pct==null?'':` <small class="${c}">${r.chg_pct>0?'+':''}${r.chg_pct}%</small>`;return `<b>${v}</b>${ch}`}
+const SW=DATA.swing||[];
+if(SW.length){
+ buildTable($("#t_sw"), SW, [
+  {k:"symbol",h:"Symbol",l:1,f:v=>`<span class="sym">${v}</span>`},
+  {k:"verdict",h:"Signal",l:1,f:(v,r)=>swVerdict(r)},
+  {k:"name",h:"Company",l:1,f:v=>`<span class="muted">${(v||'').slice(0,20)}</span>`},
+  {k:"sector",h:"Sector",l:1},
+  {k:"live",h:"Live",f:swLive},{k:"trend",h:"Trend",l:1,f:trendCell},
+  {k:"setup",h:"Setup",l:1,f:setupCell},{k:"d_rsi",h:"RSI"},
+  {k:"ema20",h:"20-EMA"},{k:"dist_ema20",h:"vs 20E",f:sgn},
+  {k:"swing_entry",h:"Entry"},{k:"swing_stop",h:"Stop"},
+  {k:"stop_pct",h:"Stop%",f:v=>v==null?'<span class="muted">—</span>':`${v}%`},
+  {k:"swing_target",h:"Target"},
+  {k:"rr",h:"R:R",f:v=>v==null?'<span class="muted">—</span>':`<b style="color:${v>=4?'var(--green)':'var(--cyan)'}">${v}</b>`},
+  {k:"qty_per_10L",h:"Qty/₹10L"},{k:"horizon",h:"Hold",l:1},
+  {k:"phase7_score",h:"Score"},{k:"tier",h:"Tier",f:tierPill}
+ ], {sort:"st_order", onclick:r=>showSwing(r)});
+ const swc=SW.reduce((a,r)=>{a[r.verdict]=(a[r.verdict]||0)+1;return a},{});
+ $("#sw_ts").innerHTML=`⚡ <b>Swing read</b> on daily bars · <span class="pill t1">✓ GO</span> breakout/pullback in an uptrend · <span class="pill t3">… WATCH</span> basing / extended, await a trigger. <b>Showing ${SW.length} qualifying — GO ${swc.GO||0} · WATCH ${swc.WATCH||0}</b>${DATA.agg.sw_hidden?` · <b>${DATA.agg.sw_hidden}</b> AVOID (below 50-EMA) hidden`:''}. <i>Mechanical — sanity-check the chart and overhead supply.</i>`;
+} else {
+ $("#t_sw").innerHTML='<tbody><tr><td style="padding:18px" class="muted">No SWING_TRADES.csv — run <b>python 26_swing.py</b> first.</td></tr></tbody>';
+}
+function showSwing(r){
+ const s=$("#sheet");
+ let h=`<span class="x" onclick="document.getElementById('modal').classList.remove('open')">&times;</span><h2>${r.symbol} — ${r.name||''}</h2>`;
+ h+=`<div class="muted">${r.sector||''} ${r.tier?'· ':''}${r.tier?tierPill(r.tier):''} · ${swVerdict(r)}</div>`;
+ h+='<div class="sech">Daily swing read</div><div class="kv">';
+ h+=row("Live",r.live==null?'—':`${r.live}${r.chg_pct==null?'':' ('+(r.chg_pct>0?'+':'')+r.chg_pct+'%)'}`)+row("Trend",r.trend)+row("Setup",(r.setup||'').toLowerCase())+row("RSI(14)",r.d_rsi)+row("ATR(14)",r.d_atr)+row("EMA 20 / 50 / 200",`${r.ema20} / ${r.ema50} / ${r.ema200}`)+row("vs 20-EMA",r.dist_ema20==null?'—':(r.dist_ema20>0?'+':'')+r.dist_ema20+'%')+row("20-day high",r.bo_level)+"</div>";
+ h+='<div class="sech">Swing plan (daily structure)</div><div class="kv">';
+ h+=row("Entry",r.swing_entry)+row("Stop",r.swing_stop)+row("Stop %",r.stop_pct==null?'—':r.stop_pct+'%')+row("Target",r.swing_target)+row("Risk:Reward",r.rr)+row("Qty / ₹10L (1% risk)",r.qty_per_10L)+row("Hold horizon",r.horizon)+row("Confluence score",r.phase7_score)+"</div>";
+ h+=`<div class="muted" style="margin-top:14px">${r.reason||''}</div>`;
+ s.innerHTML=h; $("#modal").classList.add("open");
+}
+
+// ---- intraday table ----
+function izSetupCell(v){if(!v)return '—';if(v=='ORB')return '<span class="bull">ORB break</span>';if(v=='MOMENTUM')return '<span class="bull">momentum</span>';if(v=='VWAP_RECLAIM')return '<span style="color:var(--cyan)">VWAP reclaim</span>';if(v=='PULLBACK')return '<span style="color:var(--cyan)">pullback</span>';if(v=='EXTENDED')return '<span class="bear">extended</span>';if(v=='WEAK')return '<span class="bear">weak</span>';return `<span class="neu">${(v||'').toLowerCase()}</span>`}
+const IZ=DATA.intraday||[];
+if(IZ.length){
+ buildTable($("#t_iz"), IZ, [
+  {k:"symbol",h:"Symbol",l:1,f:v=>`<span class="sym">${v}</span>`},
+  {k:"verdict",h:"Signal",l:1,f:(v,r)=>swVerdict(r)},
+  {k:"name",h:"Company",l:1,f:v=>`<span class="muted">${(v||'').slice(0,20)}</span>`},
+  {k:"sector",h:"Sector",l:1},
+  {k:"live",h:"Live",f:swLive},{k:"itrend",h:"Trend",l:1,f:trendCell},
+  {k:"setup",h:"Setup",l:1,f:izSetupCell},{k:"i_rsi",h:"RSI"},
+  {k:"ivwap",h:"VWAP"},{k:"dist_vwap",h:"vs VWAP",f:sgn},
+  {k:"intraday_entry",h:"Entry"},{k:"intraday_stop",h:"Stop"},
+  {k:"stop_pct",h:"Stop%",f:v=>v==null?'<span class="muted">—</span>':`${v}%`},
+  {k:"intraday_target",h:"Target"},
+  {k:"rr",h:"R:R",f:v=>v==null?'<span class="muted">—</span>':`<b style="color:${v>=2?'var(--green)':'var(--cyan)'}">${v}</b>`},
+  {k:"qty_per_10L",h:"Qty/₹10L"},{k:"horizon",h:"Hold",l:1},
+  {k:"phase7_score",h:"Score"},{k:"tier",h:"Tier",f:tierPill}
+ ], {sort:"it_order", onclick:r=>showIntraday(r)});
+ const izc=IZ.reduce((a,r)=>{a[r.verdict]=(a[r.verdict]||0)+1;return a},{});
+ $("#iz_ts").innerHTML=`⏱️ <b>Intraday read</b> on 15-min bars · <span class="pill t1">✓ GO</span> ORB/momentum/VWAP-reclaim above VWAP · <span class="pill t3">… WATCH</span> holding/extended, await a trigger. <b>Showing ${IZ.length} qualifying — GO ${izc.GO||0} · WATCH ${izc.WATCH||0}</b>${DATA.agg.iz_hidden?` · <b>${DATA.agg.iz_hidden}</b> AVOID (below VWAP) hidden`:''}. <i>Mechanical — uses the last session's bars; sanity-check live before the open.</i>`;
+} else {
+ $("#t_iz").innerHTML='<tbody><tr><td style="padding:18px" class="muted">No INTRADAY_TRADES.csv — run <b>python 27_intraday.py</b> first.</td></tr></tbody>';
+}
+function showIntraday(r){
+ const s=$("#sheet");
+ let h=`<span class="x" onclick="document.getElementById('modal').classList.remove('open')">&times;</span><h2>${r.symbol} — ${r.name||''}</h2>`;
+ h+=`<div class="muted">${r.sector||''} ${r.tier?'· ':''}${r.tier?tierPill(r.tier):''} · ${swVerdict(r)}</div>`;
+ h+='<div class="sech">Intraday read (15-min bars)</div><div class="kv">';
+ h+=row("Live",r.live==null?'—':`${r.live}${r.chg_pct==null?'':' ('+(r.chg_pct>0?'+':'')+r.chg_pct+'%)'}`)+row("Trend",r.itrend)+row("Setup",(r.setup||'').replace('_',' ').toLowerCase())+row("RSI(14)",r.i_rsi)+row("ATR(14)",r.i_atr)+row("Session VWAP",r.ivwap)+row("vs VWAP",r.dist_vwap==null?'—':(r.dist_vwap>0?'+':'')+r.dist_vwap+'%')+row("EMA 9 / 20 / 50",`${r.ema9} / ${r.ema20} / ${r.ema50}`)+row("Opening range (H/L)",r.orb_high==null?'—':`${r.orb_high} / ${r.orb_low}`)+row("Day high / low",r.day_high==null?'—':`${r.day_high} / ${r.day_low}`)+"</div>";
+ h+='<div class="sech">Intraday plan (2R, 0.5% risk)</div><div class="kv">';
+ h+=row("Entry",r.intraday_entry)+row("Stop",r.intraday_stop)+row("Stop %",r.stop_pct==null?'—':r.stop_pct+'%')+row("Target (2R)",r.intraday_target)+row("Risk:Reward",r.rr)+row("Qty / ₹10L (0.5% risk)",r.qty_per_10L)+row("Hold horizon",r.horizon)+row("Confluence score",r.phase7_score)+"</div>";
+ h+=`<div class="muted" style="margin-top:14px">${r.reason||''}</div>`;
+ s.innerHTML=h; $("#modal").classList.add("open");
+}
+
 // ---- master ranking table ----
 const M=DATA.master;
 buildTable($("#t_m"), M, [
@@ -357,7 +483,7 @@ buildTable($("#t_fp"), DATA.fingerprint, [
 
 // ---- search wiring ----
 function wire(inp,tbl){$(inp).addEventListener("input",e=>{const q=e.target.value.toLowerCase();const f=tbl._data.filter(r=>Object.values(r).some(v=>v!=null&&(""+v).toLowerCase().includes(q)));tbl._render(f)})}
-wire("#s_wl",$("#t_wl")); wire("#s_m",$("#t_m"));
+wire("#s_wl",$("#t_wl")); wire("#s_m",$("#t_m")); if(SW.length)wire("#s_sw",$("#t_sw")); if(IZ.length)wire("#s_iz",$("#t_iz"));
 
 // ---- detail modal ----
 function row(k,v){return `<div class="i"><div class="kk">${k}</div><div class="vv">${v==null||v===""?'—':v}</div></div>`}
