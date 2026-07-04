@@ -1,36 +1,31 @@
 # ANTELOPUS — Antelopus Selan Energy Limited (NSE)
-**Sector:** Energy | **6m return:** 95.76% | **Close:** ₹794.0 | **Cap:** Small | **Bars:** 355
+**Sector:** Energy | **6m return:** 102.84% | **Close:** ₹802.35 | **Cap:** Small | **Bars:** 354
 
 ## 🏁 SCORECARD: **NEUTRAL**  (score 0.2, confluence low)
 Leading 0.7 | Lagging 1.5 | Candles -1.0 | Price-action -1.0
 
 ## A. Leading indicators
-- **RSI(14):** 50.0 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 48.5 / %D 48.5, cross none, neutral, div none
-- **Bollinger(20,2):** below_mid, width 18.39%, SQUEEZE
+- **RSI(14):** 51.6 (neutral), trend falling, divergence none
+- **Stochastic(14,3,3):** %K 57.5 / %D 52.6, cross none, neutral, div none
+- **Bollinger(20,2):** below_mid, width 15.7%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bearish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** -31.6 (below0)
-- **Williams %R(14):** -45.4 (neutral)
+- **CCI(20):** -30.2 (below0)
+- **Williams %R(14):** -39.2 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 45.1 (neutral)
+- **MFI(14):** 49.0 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -5.924 (contracting_neg), cross none, zero-line above
-- **EMA:** alignment bullish; px vs E20 below, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 20.1 (transitional), +DI>-DI, falling
+- **MACD(12,26,9):** below_signal, hist -4.569 (contracting_neg), cross none, zero-line above
+- **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
+- **ADX(14):** 19.2 (choppy), -DI>+DI, falling
 - **Supertrend(7,3):** red_sell (recent flip: none)
-- **ATR(14):** 37.06 (4.67% of price, contracting)
-- **VWAP(20):** px below, dist -2.88%
-- **Pivots:** daily P 798.48 R1 804.42 S1 788.07; weekly position mid_range
+- **ATR(14):** 38.54 (4.8% of price, contracting)
+- **VWAP(20):** px below, dist -0.87%
+- **Pivots:** daily P 797.15 R1 823.55 S1 775.95; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Inverted Hammer | 2026-06-19 | bullish | at resistance | confirmed |
-| Bearish Pin Bar | 2026-06-19 | bearish | at resistance | failed |
-| Tweezer Bottom | 2026-06-19 | bullish | at resistance | confirmed |
-| Morning Star | 2026-06-22 | bullish | at resistance | failed |
-| Dark Cloud Cover | 2026-06-23 | bearish | at resistance | failed |
 | Tweezer Bottom | 2026-06-24 | bullish | at resistance | failed |
 | Inside Bar | 2026-06-25 | neutral | at resistance | neutral |
 | NR4 | 2026-06-25 | neutral | at resistance | neutral |
@@ -39,8 +34,13 @@ Leading 0.7 | Lagging 1.5 | Candles -1.0 | Price-action -1.0
 | Hanging Man | 2026-06-29 | bearish | at resistance | confirmed |
 | Outside Bar | 2026-06-29 | neutral | at resistance | neutral |
 | Inside Bar | 2026-06-30 | neutral | at resistance | neutral |
-| Inside Bar | 2026-07-02 | neutral | at resistance | pending (last bar) |
-| NR4 | 2026-07-02 | neutral | at resistance | pending (last bar) |
+| Bullish Harami | 2026-07-02 | bullish | at resistance | failed |
+| Outside Bar | 2026-07-02 | neutral | at resistance | neutral |
+| Hanging Man | 2026-07-03 | bearish | at resistance | pending (last bar) |
+| Bullish Pin Bar | 2026-07-03 | bullish | at resistance | pending (last bar) |
+| Bearish Harami | 2026-07-03 | bearish | at resistance | pending (last bar) |
+| Tweezer Top | 2026-07-03 | bearish | at resistance | pending (last bar) |
+| Outside Bar | 2026-07-03 | neutral | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Sideways / range-bound
@@ -49,8 +49,8 @@ Leading 0.7 | Lagging 1.5 | Candles -1.0 | Price-action -1.0
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 527.0-649.95 (Moderate, tested, 22.16% away) — quality Moderate
-- **Demand (weekly):** 361.1-444.9 (Moderate, tested, 78.47% away)
+- **Demand (daily):** 527.0-649.95 (Moderate, tested, 23.45% away) — quality Moderate
+- **Demand (weekly):** 361.1-444.9 (Moderate, tested, 80.34% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -61,20 +61,20 @@ Leading 0.7 | Lagging 1.5 | Candles -1.0 | Price-action -1.0
 - **Bearish Order Block:** 879.05-915.35 (2026-06-04, mitigated)
 - **Fair Value Gaps:** 2 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 717.8-740.35 (2026-05-26) · nearest bear FVG above 863.95-886.65 (2026-06-10)
 - **Liquidity:** buy-side above none | sell-side below 584.2 | equal-highs 0 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 75.8% of range 357.0–933.65)
+- **Premium/Discount:** **Premium** (price at 77.2% of range 357.0–933.65)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (122.4% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-11.9%/4b | C2:-13.0%/4b | C3:-17.5%/8b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.3)
-- **Near 52w high:** False | **Pivot:** 821.0 | **% from pivot:** -3.29%
-- **Breakout vol ratio (today/50d):** 0.15 | **close pos in range:** 0.09
+- **Prior uptrend:** True (124.7% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-13.0%/4b | C2:-17.5%/8b | C3:-3.7%/4b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.5)
+- **Near 52w high:** False | **Pivot:** 821.0 | **% from pivot:** -2.27%
+- **Breakout vol ratio (today/50d):** 0.77 | **close pos in range:** 0.66
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 357.0 on 2026-01-13):** 1x1=622.44 2x1=887.88 1x2=489.72 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 808.15 · T2 822.43 · T3 851.36 (support S1 779.97, S2 766.07)
-- **Time cycles:** 116 days since swing low → next Gann cycle at 120d (4d away); near cycle: True
+- **Angles (auto-scaled from swing low 357.0 on 2026-01-13):** 1x1=624.73 2x1=892.46 1x2=490.87 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 816.58 · T2 830.93 · T3 860.0 (support S1 788.25, S2 774.27)
+- **Time cycles:** 117 days since swing low → next Gann cycle at 120d (3d away); near cycle: True
 - **Octave position:** 7/8 (exhaustion) | levels 4/8=645.33 6/8=789.49 7/8=861.57
-- **Cardinal square:** nearest perfect-square 784 (1.26% away); near: True
+- **Cardinal square:** nearest perfect-square 784 (2.29% away); near: False

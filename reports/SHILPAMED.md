@@ -1,27 +1,27 @@
 # SHILPAMED — Shilpa Medicare Limited (NSE)
-**Sector:** Healthcare | **6m return:** 84.95% | **Close:** ₹587.85 | **Cap:** Mid | **Bars:** 355
+**Sector:** Healthcare | **6m return:** 91.4% | **Close:** ₹608.95 | **Cap:** Mid | **Bars:** 354
 
-## 🏁 SCORECARD: **BULLISH**  (score 6.8, confluence medium)
-Leading 1.8 | Lagging 5.5 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **BULLISH**  (score 10.8, confluence medium)
+Leading 2.5 | Lagging 8.8 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 61.4 (neutral), trend flat, divergence bearish
-- **Stochastic(14,3,3):** %K 67.7 / %D 68.2, cross bear, neutral, div bearish
-- **Bollinger(20,2):** above_mid, width 13.75%, SQUEEZE
+- **RSI(14):** 65.2 (neutral), trend flat, divergence bearish
+- **Stochastic(14,3,3):** %K 76.4 / %D 71.8, cross bull, neutral, div bearish
+- **Bollinger(20,2):** above_mid, width 15.53%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 41.8 (above0)
-- **Williams %R(14):** -29.9 (neutral)
+- **CCI(20):** 74.4 (above0)
+- **Williams %R(14):** -6.7 (overbought)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 69.6 (neutral)
+- **MFI(14):** 75.5 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -1.295 (contracting_neg), cross none, zero-line above
+- **MACD(12,26,9):** above_signal, hist 0.466 (expanding_pos), cross bull, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 59.9 (trending), +DI>-DI, rising
+- **ADX(14):** 60.2 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 27.21 (4.63% of price, expanding)
-- **VWAP(20):** px above, dist 3.78%
-- **Pivots:** daily P 583.75 R1 600.55 S1 571.05; weekly position mid_range
+- **ATR(14):** 26.9 (4.42% of price, expanding)
+- **VWAP(20):** px above, dist 6.6%
+- **Pivots:** daily P 604.28 R1 614.67 S1 598.57; weekly position above_R1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
@@ -40,7 +40,7 @@ Leading 1.8 | Lagging 5.5 | Candles -1.0 | Price-action 0.5
 | Inside Bar | 2026-06-26 | neutral | at resistance | neutral |
 | Long-legged Doji | 2026-06-29 | neutral | at resistance | neutral |
 | Outside Bar | 2026-06-29 | neutral | at resistance | neutral |
-| Bullish Harami | 2026-07-02 | bullish | at resistance | pending (last bar) |
+| NR4 | 2026-07-03 | neutral | midair | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
@@ -49,7 +49,7 @@ Leading 1.8 | Lagging 5.5 | Candles -1.0 | Price-action 0.5
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 259.5-284.5 (Moderate, tested, 106.63% away) — quality Moderate
+- **Demand (daily):** 259.5-284.5 (Moderate, tested, 114.04% away) — quality Moderate
 - **Demand (weekly):** none
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
@@ -57,24 +57,24 @@ Leading 1.8 | Lagging 5.5 | Candles -1.0 | Price-action 0.5
 - **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
 - **Break of Structure (last):** bull @ 581.0 on 2026-06-23
 - **Change of Character (last):** bull @ 365.0 on 2026-04-01
-- **Bullish Order Block:** 543.6-556.3 (2026-06-22, UNMITIGATED)
+- **Bullish Order Block:** 561.5-588.0 (2026-07-01, UNMITIGATED)
 - **Bearish Order Block:** 333.45-345.45 (2026-03-10, mitigated)
-- **Fair Value Gaps:** 6 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 556.3-573.7 (2026-06-24) · nearest bear FVG above none
+- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 588.0-593.9 (2026-07-03) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below 316.38 | equal-highs 0 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 92.4% of range 259.5–615.0)
+- **Premium/Discount:** **Premium** (price at 98.3% of range 259.5–615.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (126.5% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (134.7% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-5.8%/6b | C2:-8.2%/4b | C3:-9.5%/4b
-- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** False (vol ratio 1.3)
-- **Near 52w high:** True | **Pivot:** 598.9 | **% from pivot:** -1.85%
-- **Breakout vol ratio (today/50d):** 0.83 | **close pos in range:** 0.71
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** False (vol ratio 1.6)
+- **Near 52w high:** True | **Pivot:** 598.9 | **% from pivot:** 1.68%
+- **Breakout vol ratio (today/50d):** 1.04 | **close pos in range:** 0.93
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 259.5 on 2026-01-27):** 1x1=410.45 2x1=561.39 1x2=334.97 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 600.04 · T2 612.35 · T3 637.34 (support S1 575.79, S2 563.85)
-- **Time cycles:** 107 days since swing low → next Gann cycle at 120d (13d away); near cycle: False
+- **Angles (auto-scaled from swing low 259.5 on 2026-01-27):** 1x1=411.86 2x1=564.21 1x2=335.68 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 621.35 · T2 633.88 · T3 659.3 (support S1 596.67, S2 584.52)
+- **Time cycles:** 108 days since swing low → next Gann cycle at 120d (12d away); near cycle: False
 - **Octave position:** 8/8 (52w high) | levels 4/8=437.25 6/8=526.12 7/8=570.56
-- **Cardinal square:** nearest perfect-square 576 (2.02% away); near: False
+- **Cardinal square:** nearest perfect-square 625 (2.64% away); near: False

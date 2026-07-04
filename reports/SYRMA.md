@@ -1,27 +1,27 @@
 # SYRMA — Syrma SGS Technology Limited (NSE)
-**Sector:** Technology | **6m return:** 87.98% | **Close:** ₹1382.1 | **Cap:** Large | **Bars:** 355
+**Sector:** Technology | **6m return:** 83.61% | **Close:** ₹1376.0 | **Cap:** Large | **Bars:** 354
 
-## 🏁 SCORECARD: **BULLISH**  (score 8.5, confluence medium)
-Leading 2.5 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
+## 🏁 SCORECARD: **BULLISH**  (score 8.8, confluence medium)
+Leading 2.8 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
 
 ## A. Leading indicators
-- **RSI(14):** 63.6 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 56.0 / %D 59.1, cross none, neutral, div bearish
-- **Bollinger(20,2):** above_mid, width 22.49%, SQUEEZE
+- **RSI(14):** 62.3 (neutral), trend falling, divergence none
+- **Stochastic(14,3,3):** %K 51.6 / %D 56.1, cross none, neutral, div bearish
+- **Bollinger(20,2):** above_mid, width 21.59%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 32.8 (above0)
-- **Williams %R(14):** -55.4 (neutral)
+- **CCI(20):** 21.8 (above0)
+- **Williams %R(14):** -60.6 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 82.1 (overbought)
+- **MFI(14):** 74.1 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -3.903 (expanding_neg), cross bear, zero-line above
+- **MACD(12,26,9):** below_signal, hist -6.715 (expanding_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 55.9 (trending), +DI>-DI, falling
+- **ADX(14):** 54.6 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 53.04 (3.84% of price, expanding)
-- **VWAP(20):** px above, dist 2.7%
-- **Pivots:** daily P 1398.7 R1 1419.4 S1 1361.4; weekly position mid_range
+- **ATR(14):** 52.38 (3.81% of price, expanding)
+- **VWAP(20):** px above, dist 1.79%
+- **Pivots:** daily P 1382.7 R1 1401.3 S1 1357.4; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
@@ -40,17 +40,17 @@ Leading 2.5 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
 | Bullish Harami | 2026-06-30 | bullish | midair | confirmed |
 | Inside Bar | 2026-06-30 | neutral | midair | neutral |
 | Morning Star | 2026-07-01 | bullish | midair | failed |
-| Bearish Engulfing | 2026-07-02 | bearish | midair | pending (last bar) |
+| Bearish Engulfing | 2026-07-02 | bearish | midair | confirmed |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Bull Flag / Pennant | breakout 1440.5 | target 1969.1 | volume no | confidence medium
+- **Chart pattern:** Bull Flag / Pennant | breakout 1440.5 | target 1906.24 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 1048.0-1115.0 (Moderate, FRESH, 23.96% away) — quality Moderate
-- **Demand (weekly):** 789.3-1032.0 (Moderate, tested, 33.92% away)
+- **Demand (daily):** 1048.0-1115.0 (Moderate, FRESH, 23.41% away) — quality Moderate
+- **Demand (weekly):** 789.3-1032.0 (Moderate, tested, 33.33% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -61,20 +61,20 @@ Leading 2.5 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
 - **Bearish Order Block:** 1426.5-1517.7 (2026-06-25, mitigated)
 - **Fair Value Gaps:** 11 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1279.9-1292.1 (2026-06-16) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below 709.1 | equal-highs 1 / equal-lows 1 | swept: none
-- **Premium/Discount:** **Premium** (price at 84.6% of range 634.5–1517.7)
+- **Premium/Discount:** **Premium** (price at 84.0% of range 634.5–1517.7)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (149.0% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (144.8% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-4.8%/2b | C2:-15.9%/5b | C3:-11.0%/2b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.68)
-- **Near 52w high:** False | **Pivot:** 1517.7 | **% from pivot:** -8.93%
-- **Breakout vol ratio (today/50d):** 0.44 | **close pos in range:** 0.07
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 0.89)
+- **Near 52w high:** False | **Pivot:** 1517.7 | **% from pivot:** -9.34%
+- **Breakout vol ratio (today/50d):** 0.83 | **close pos in range:** 0.27
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 634.5 on 2026-01-21):** 1x1=1054.73 2x1=1474.95 1x2=844.61 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 1400.75 · T2 1419.53 · T3 1457.45 (support S1 1363.57, S2 1345.17)
-- **Time cycles:** 110 days since swing low → next Gann cycle at 120d (10d away); near cycle: False
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=1036.35 6/8=1277.02 7/8=1397.36
-- **Cardinal square:** nearest perfect-square 1369 (0.95% away); near: True
+- **Angles (auto-scaled from swing low 634.5 on 2026-01-21):** 1x1=1055.4 2x1=1476.29 1x2=844.95 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 1394.61 · T2 1413.34 · T3 1451.19 (support S1 1357.52, S2 1339.16)
+- **Time cycles:** 111 days since swing low → next Gann cycle at 120d (9d away); near cycle: False
+- **Octave position:** 7/8 (exhaustion) | levels 4/8=1039.92 6/8=1278.81 7/8=1398.26
+- **Cardinal square:** nearest perfect-square 1369 (0.51% away); near: True

@@ -1,33 +1,31 @@
 # AYE — Aye Finance Limited (NSE)
-**Sector:** Financial Services | **6m return:** 39.19% | **Close:** ₹180.05 | **Cap:** Small | **Bars:** 94
+**Sector:** Financial Services | **6m return:** 35.76% | **Close:** ₹176.06 | **Cap:** Small | **Bars:** 95
 
-## 🏁 SCORECARD: **BULLISH**  (score 9.9, confluence high)
-Leading 3.4 | Lagging 5.0 | Candles 1.0 | Price-action 0.5
+## 🏁 SCORECARD: **BULLISH**  (score 9.0, confluence high)
+Leading 3.2 | Lagging 4.3 | Candles 1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 67.1 (neutral), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 84.4 / %D 85.6, cross bear, overbought, div none
-- **Bollinger(20,2):** above_mid, width 29.15%, SQUEEZE
+- **RSI(14):** 61.7 (neutral), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 80.9 / %D 83.5, cross bear, overbought, div none
+- **Bollinger(20,2):** above_mid, width 29.34%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 111.4 (strong_up)
-- **Williams %R(14):** -6.6 (overbought)
+- **CCI(20):** 96.3 (above0)
+- **Williams %R(14):** -29.7 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 85.1 (overbought)
+- **MFI(14):** 82.1 (overbought)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 1.035 (expanding_pos), cross none, zero-line above
+- **MACD(12,26,9):** above_signal, hist 0.895 (contracting_pos), cross none, zero-line above
 - **EMA:** alignment n/a (short); px vs E20 above, E50 above, E200 n/a; E200 slope n/a
-- **ADX(14):** 43.6 (trending), +DI>-DI, rising
+- **ADX(14):** 44.5 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 9.11 (5.06% of price, contracting)
-- **VWAP(20):** px above, dist 10.85%
-- **Pivots:** daily P 178.23 R1 183.87 S1 174.42; weekly position above_R2
+- **ATR(14):** 9.26 (5.26% of price, contracting)
+- **VWAP(20):** px above, dist 7.27%
+- **Pivots:** daily P 178.27 R1 181.49 S1 172.84; weekly position above_R1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Long-legged Doji | 2026-06-22 | neutral | at resistance | neutral |
-| NR7 | 2026-06-22 | neutral | at resistance | neutral |
 | Outside Bar | 2026-06-23 | neutral | at S/R confluence | neutral |
 | Evening Star | 2026-06-23 | bearish | at S/R confluence | failed |
 | Bullish Harami | 2026-06-24 | bullish | at resistance | confirmed |
@@ -40,16 +38,18 @@ Leading 3.4 | Lagging 5.0 | Candles 1.0 | Price-action 0.5
 | Morning Star | 2026-06-29 | bullish | midair | failed |
 | Hanging Man | 2026-07-01 | bearish | midair | failed |
 | Bullish Pin Bar | 2026-07-01 | bullish | midair | confirmed |
-| Morning Star | 2026-07-02 | bullish | midair | pending (last bar) |
+| Morning Star | 2026-07-02 | bullish | midair | failed |
+| Inside Bar | 2026-07-03 | neutral | midair | pending (last bar) |
+| NR4 | 2026-07-03 | neutral | midair | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Rising Wedge (bearish) | breakout 166.51 | target n/a | volume no | confidence low
+- **Chart pattern:** Rising Wedge (bearish) | breakout 167.6 | target n/a | volume no | confidence low
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 140.28-158.68 (Moderate, tested, 13.47% away) — quality Moderate
+- **Demand (daily):** 140.28-158.68 (Moderate, tested, 10.95% away) — quality Moderate
 - **Demand (weekly):** n/a (short)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** n/a (short)
@@ -61,20 +61,20 @@ Leading 3.4 | Lagging 5.0 | Candles 1.0 | Price-action 0.5
 - **Bearish Order Block:** 103.0-113.0 (2026-03-25, mitigated)
 - **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 158.26-161.5 (2026-06-17) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below none | equal-highs 0 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 97.9% of range 88.22–182.05)
+- **Premium/Discount:** **Premium** (price at 91.0% of range 88.22–184.8)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** False (104.1% above 52w low, above EMA200: False)
+- **Prior uptrend:** False (99.6% above 52w low, above EMA200: False)
 - **Contractions (3):** C1:-7.1%/3b | C2:-16.7%/4b | C3:-5.0%/5b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.59)
-- **Near 52w high:** True | **Pivot:** 169.0 | **% from pivot:** 6.54%
-- **Breakout vol ratio (today/50d):** 0.47 | **close pos in range:** 0.79
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.72)
+- **Near 52w high:** True | **Pivot:** 169.0 | **% from pivot:** 4.18%
+- **Breakout vol ratio (today/50d):** 0.27 | **close pos in range:** 0.12
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 88.22 on 2026-04-02):** 1x1=111.68 2x1=135.14 1x2=99.95 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 186.82 · T2 193.72 · T3 207.89 (support S1 173.4, S2 166.88)
-- **Time cycles:** 63 days since swing low → next Gann cycle at 90d (27d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=135.14 6/8=158.59 7/8=170.32
-- **Cardinal square:** nearest perfect-square 169 (6.14% away); near: False
+- **Angles (auto-scaled from swing low 88.22 on 2026-04-02):** 1x1=112.75 2x1=137.28 1x2=100.48 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 182.76 · T2 189.58 · T3 203.6 (support S1 169.49, S2 163.04)
+- **Time cycles:** 64 days since swing low → next Gann cycle at 90d (26d away); near cycle: True
+- **Octave position:** 8/8 (52w high) | levels 4/8=136.51 6/8=160.66 7/8=172.73
+- **Cardinal square:** nearest perfect-square 169 (4.01% away); near: False

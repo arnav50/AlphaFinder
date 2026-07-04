@@ -1,34 +1,31 @@
 # JETFREIGHT — Jet Freight Logistics Limited (NSE)
-**Sector:** Industrials | **6m return:** 33.65% | **Close:** ₹22.5 | **Cap:** Micro | **Bars:** 353
+**Sector:** Industrials | **6m return:** 30.02% | **Close:** ₹21.83 | **Cap:** Micro | **Bars:** 352
 
-## 🏁 SCORECARD: **MILD BULLISH**  (score 2.1, confluence low)
-Leading 0.8 | Lagging 4.8 | Candles -1.0 | Price-action -2.5
+## 🏁 SCORECARD: **NEUTRAL**  (score -0.8, confluence medium)
+Leading -1.3 | Lagging 4.0 | Candles -1.0 | Price-action -2.5
 
 ## A. Leading indicators
-- **RSI(14):** 56.4 (neutral), trend flat, divergence none
-- **Stochastic(14,3,3):** %K 53.8 / %D 41.8, cross none, neutral, div none
-- **Bollinger(20,2):** above_mid, width 11.27%, SQUEEZE
-- **Ichimoku:** price above cloud, Tenkan/Kijun bearish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 79.6 (above0)
-- **Williams %R(14):** -37.5 (neutral)
+- **RSI(14):** 51.1 (neutral), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 53.6 / %D 50.1, cross none, neutral, div none
+- **Bollinger(20,2):** below_mid, width 11.03%, SQUEEZE
+- **Ichimoku:** price above cloud, Tenkan/Kijun bearish, Chikou below, kumo-twist-ahead none
+- **CCI(20):** -15.7 (below0)
+- **Williams %R(14):** -59.5 (neutral)
 - **OBV:** trend falling, divergence none
-- **MFI(14):** 49.7 (neutral)
+- **MFI(14):** 42.9 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.025 (contracting_neg), cross none, zero-line above
+- **MACD(12,26,9):** below_signal, hist -0.047 (expanding_neg), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 28.4 (trending), +DI>-DI, falling
+- **ADX(14):** 28.0 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 1.25 (5.58% of price, contracting)
-- **VWAP(20):** px below, dist -0.03%
-- **Pivots:** daily P 22.8 R1 23.29 S1 22.01; weekly position above_R1
+- **ATR(14):** 1.24 (5.7% of price, contracting)
+- **VWAP(20):** px below, dist -3.04%
+- **Pivots:** daily P 22.01 R1 22.42 S1 21.42; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Inside Bar | 2026-06-16 | neutral | at S/R confluence | neutral |
-| NR7 | 2026-06-16 | neutral | at S/R confluence | neutral |
-| Morning Star | 2026-06-17 | bullish | at resistance | failed |
 | Bearish Engulfing | 2026-06-18 | bearish | at resistance | confirmed |
 | Inside Bar | 2026-06-18 | neutral | at resistance | neutral |
 | Inverted Hammer | 2026-06-19 | bullish | at resistance | failed |
@@ -41,6 +38,9 @@ Leading 0.8 | Lagging 4.8 | Candles -1.0 | Price-action -2.5
 | Three Black Crows | 2026-06-25 | bearish | at S/R confluence | failed |
 | Long-legged Doji | 2026-06-29 | neutral | at resistance | neutral |
 | Morning Star | 2026-06-29 | bullish | at resistance | failed |
+| Bearish Marubozu | 2026-07-02 | bearish | at resistance | confirmed |
+| Dark Cloud Cover | 2026-07-02 | bearish | at resistance | confirmed |
+| NR4 | 2026-07-03 | neutral | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Downtrend (LH/LL)
@@ -49,8 +49,8 @@ Leading 0.8 | Lagging 4.8 | Candles -1.0 | Price-action -2.5
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 18.81-20.09 (Moderate, tested, 12.0% away) — quality Moderate
-- **Demand (weekly):** 12.0-15.1 (Moderate, FRESH, 49.01% away)
+- **Demand (daily):** 18.81-20.09 (Moderate, tested, 8.66% away) — quality Moderate
+- **Demand (weekly):** 12.0-15.1 (Moderate, FRESH, 44.57% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -61,20 +61,20 @@ Leading 0.8 | Lagging 4.8 | Candles -1.0 | Price-action -2.5
 - **Bearish Order Block:** 21.1-22.8 (2026-05-27, mitigated)
 - **Fair Value Gaps:** 2 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 19.34-21.41 (2026-05-14) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below 17.53 | equal-highs 2 / equal-lows 3 | swept: none
-- **Premium/Discount:** **Premium** (price at 78.2% of range 15.31–24.5)
+- **Premium/Discount:** **Premium** (price at 70.9% of range 15.31–24.5)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (89.1% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (83.4% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-11.2%/3b | C2:-14.1%/6b | C3:-12.9%/6b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.47)
-- **Near 52w high:** False | **Pivot:** 23.64 | **% from pivot:** -4.82%
-- **Breakout vol ratio (today/50d):** 0.3 | **close pos in range:** 0.15
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.45)
+- **Near 52w high:** False | **Pivot:** 23.64 | **% from pivot:** -7.66%
+- **Breakout vol ratio (today/50d):** 0.4 | **close pos in range:** 0.23
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 12.0 on 2025-11-04):** 1x1=20.1 2x1=28.2 1x2=16.05 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 24.93 · T2 27.49 · T3 32.99 (support S1 20.19, S2 18.01)
-- **Time cycles:** 162 days since swing low → next Gann cycle at 180d (18d away); near cycle: False
+- **Angles (auto-scaled from swing low 12.0 on 2025-11-04):** 1x1=20.15 2x1=28.3 1x2=16.08 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 24.23 · T2 26.75 · T3 32.17 (support S1 19.56, S2 17.41)
+- **Time cycles:** 163 days since swing low → next Gann cycle at 180d (17d away); near cycle: False
 - **Octave position:** 7/8 (exhaustion) | levels 4/8=18.2 6/8=21.35 7/8=22.92
-- **Cardinal square:** nearest perfect-square 25 (11.11% away); near: False
+- **Cardinal square:** nearest perfect-square 25 (14.52% away); near: False

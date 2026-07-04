@@ -1,5 +1,5 @@
 PRIME FILTER constants (from Phase 5): {'RSI_MIN': 55, 'RSI_MAX': 75, 'ADX_MIN': 18, 'ADX_MAX': 30, 'VOL_SPIKE': 1.5, 'EMA200_MAX_EXT': 1.2, 'DIST_52WH_LO': -0.35, 'DIST_52WH_HI': -0.03, 'MIN_ADV_VALUE': 20000000.0, 'MIN_PRICE': 10}
 Confluence threshold: prime_score >= 6 of 9 criteria.
-In-sample backtest: applied prime filter to 355 known 25%+ winners AT their Day-0 bar.
-  -> 298/355 (83.9%) would have been flagged at initiation (RECALL).
+In-sample backtest: applied prime filter to 376 known 25%+ winners AT their Day-0 bar.
+  -> 317/376 (84.3%) would have been flagged at initiation (RECALL).
   (In-sample: bands derived from these same Day-0s; this is recall/consistency, not out-of-sample.)

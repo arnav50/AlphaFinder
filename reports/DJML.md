@@ -1,31 +1,33 @@
 # DJML — DJ Mediaprint & Logistics Limited (NSE)
-**Sector:** Industrials | **6m return:** 65.0% | **Close:** ₹116.32 | **Cap:** Micro | **Bars:** 354
+**Sector:** Industrials | **6m return:** 72.96% | **Close:** ₹121.87 | **Cap:** Micro | **Bars:** 353
 
-## 🏁 SCORECARD: **MILD BULLISH**  (score 2.5, confluence low)
-Leading -1.0 | Lagging 4.0 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **MILD BULLISH**  (score 3.5, confluence low)
+Leading -0.3 | Lagging 4.3 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 60.5 (neutral), trend falling, divergence bearish
-- **Stochastic(14,3,3):** %K 71.1 / %D 72.6, cross bear, neutral, div bearish
-- **Bollinger(20,2):** above_mid, width 12.71%, SQUEEZE
+- **RSI(14):** 66.9 (neutral), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 80.4 / %D 75.2, cross bull, overbought, div bearish
+- **Bollinger(20,2):** above_mid, width 14.63%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 25.8 (above0)
-- **Williams %R(14):** -19.8 (overbought)
+- **CCI(20):** 88.0 (above0)
+- **Williams %R(14):** -14.3 (overbought)
 - **OBV:** trend falling, divergence none
-- **MFI(14):** 56.7 (neutral)
+- **MFI(14):** 61.6 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.477 (contracting_neg), cross bear, zero-line above
+- **MACD(12,26,9):** below_signal, hist -0.028 (contracting_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 16.5 (choppy), -DI>+DI, falling
+- **ADX(14):** 15.6 (choppy), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 5.23 (4.5% of price, contracting)
-- **VWAP(20):** px above, dist 3.46%
-- **Pivots:** daily P 115.26 R1 118.03 S1 113.56; weekly position mid_range
+- **ATR(14):** 5.48 (4.5% of price, expanding)
+- **VWAP(20):** px above, dist 7.34%
+- **Pivots:** daily P 121.68 R1 124.99 S1 118.56; weekly position above_R1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
+| NR7 | 2026-06-18 | neutral | midair | neutral |
+| Hanging Man | 2026-06-19 | bearish | at resistance | failed |
 | Bullish Pin Bar | 2026-06-19 | bullish | at resistance | confirmed |
 | Three White Soldiers | 2026-06-19 | bullish | at resistance | confirmed |
 | Long-legged Doji | 2026-06-22 | neutral | at resistance | neutral |
@@ -38,43 +40,41 @@ Leading -1.0 | Lagging 4.0 | Candles -1.0 | Price-action 0.5
 | Tweezer Top | 2026-06-30 | bearish | midair | confirmed |
 | Tweezer Top | 2026-07-01 | bearish | midair | failed |
 | Three Black Crows | 2026-07-01 | bearish | midair | failed |
-| Bullish Engulfing | 2026-07-02 | bullish | at resistance | pending (last bar) |
-| Inside Bar | 2026-07-02 | neutral | at resistance | pending (last bar) |
-| NR4 | 2026-07-02 | neutral | at resistance | pending (last bar) |
+| Bullish Engulfing | 2026-07-02 | bullish | at resistance | confirmed |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Double Top | breakout 106.42 | target 98.11 | volume no | confidence medium
+- **Chart pattern:** Double Top | breakout 106.42 | target 98.11 | volume yes | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 71.1-80.59 (Moderate, tested, 44.34% away) — quality Moderate
-- **Demand (weekly):** 62.2-77.97 (Moderate, tested, 49.19% away)
+- **Demand (daily):** 71.1-80.59 (Moderate, tested, 51.22% away) — quality Moderate
+- **Demand (weekly):** 62.2-77.97 (Moderate, tested, 56.3% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
 - **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
-- **Break of Structure (last):** bull @ 112.79 on 2026-06-12
+- **Break of Structure (last):** bull @ 119.29 on 2026-07-03
 - **Change of Character (last):** bull @ 85.88 on 2026-04-16
-- **Bullish Order Block:** 106.6-112.0 (2026-06-11, mitigated)
+- **Bullish Order Block:** 110.51-117.89 (2026-07-01, UNMITIGATED)
 - **Bearish Order Block:** 107.21-114.85 (2026-06-12, mitigated)
-- **Fair Value Gaps:** 2 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 98.99-103.0 (2026-05-27) · nearest bear FVG above none
+- **Fair Value Gaps:** 3 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 117.89-118.37 (2026-07-03) · nearest bear FVG above none
 - **Liquidity:** buy-side above none | sell-side below 87.85 | equal-highs 2 / equal-lows 3 | swept: none
-- **Premium/Discount:** **Premium** (price at 94.8% of range 62.2–119.29)
+- **Premium/Discount:** **Premium** (price at 95.3% of range 62.2–124.8)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (123.7% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (134.4% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-6.4%/3b | C2:-7.1%/5b | C3:-10.8%/1b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 0.94)
-- **Near 52w high:** False | **Pivot:** 119.0 | **% from pivot:** -2.25%
-- **Breakout vol ratio (today/50d):** 0.45 | **close pos in range:** 0.85
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.53)
+- **Near 52w high:** True | **Pivot:** 119.0 | **% from pivot:** 2.41%
+- **Breakout vol ratio (today/50d):** 2.27 | **close pos in range:** 0.54
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 52.0 on 2025-12-11):** 1x1=92.75 2x1=133.5 1x2=72.38 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 121.78 · T2 127.36 · T3 138.89 (support S1 110.99, S2 105.78)
-- **Time cycles:** 137 days since swing low → next Gann cycle at 144d (7d away); near cycle: False
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=89.48 6/8=108.22 7/8=117.59
-- **Cardinal square:** nearest perfect-square 121 (4.02% away); near: False
+- **Angles (auto-scaled from swing low 52.0 on 2025-12-11):** 1x1=93.05 2x1=134.1 1x2=72.52 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 127.45 · T2 133.16 · T3 144.95 (support S1 116.41, S2 111.08)
+- **Time cycles:** 138 days since swing low → next Gann cycle at 144d (6d away); near cycle: False
+- **Octave position:** 8/8 (52w high) | levels 4/8=89.48 6/8=108.22 7/8=117.59
+- **Cardinal square:** nearest perfect-square 121 (0.71% away); near: True

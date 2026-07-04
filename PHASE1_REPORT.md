@@ -8,11 +8,11 @@
 4. **Verification (2 sources)** — (a) returns re-derived from **split/bonus-adjusted** prices → 0 corporate-action distortions; (b) current price cross-checked against the **other exchange's live quote** (BSE-twin via ISIN / BSE live API).
 
 ## ✓ VERIFICATION CHECKPOINT
-- **Total verified stocks (180d return ≥ 25%): 375**
-- Exchange split (after ISIN dedup, NSE preferred): {'NSE': 359, 'BSE': 16}
-- Market-cap buckets: {'Small': 156, 'Mid': 108, 'Large': 70, 'Micro': 27}  *(Large ≥₹20k cr, Mid ≥₹5k cr, Small ≥₹500 cr, Micro <₹500 cr)*
+- **Total verified stocks (180d return ≥ 25%): 399**
+- Exchange split (after ISIN dedup, NSE preferred): {'NSE': 375, 'BSE': 24}
+- Market-cap buckets: {'Small': 177, 'Mid': 106, 'Large': 70, 'Micro': 30}  *(Large ≥₹20k cr, Mid ≥₹5k cr, Small ≥₹500 cr, Micro <₹500 cr)*
 - Penny stocks (price < ₹10): **0 flagged, none removed** (per spec)
-- Cross-source current-price check: 361/375 have a 2nd exchange source; **361/361 agree within 5%** (median mismatch **0.26%**)
+- Cross-source current-price check: 383/399 have a 2nd exchange source; **383/383 agree within 5%** (median mismatch **0.08%**)
 - Excluded categories (suspended / Z / XT / XC) removed at universe stage
 - Sorted by Return% descending ✓
 
@@ -21,385 +21,409 @@ Columns: Symbol | Company | Exch | Price 180d ago | Price today | Return% | MktC
 
 | # | Symbol | Company | Exch | 180d Ago | Today | Return% | MktCap₹cr | Cap | Sector | AvgVol | AvgVal₹ |
 |--:|---|---|---|--:|--:|--:|--:|---|---|--:|--:|
-| 1 | ARIHANT | Arihant Foundations & Housing Limited | NSE | 39.65 | 788.70 | **1889.2** | 787 | Small | Real Estate | 6,993 | 5,829,818 |
-| 2 | STLTECH | Sterlite Technologies Limited | NSE | 103.64 | 561.25 | **447.6** | 27,403 | Large | Technology | 5,304,184 | 1,221,080,736 |
-| 3 | SANGINITA | Sanginita Chemicals Limited | NSE | 10.21 | 44.96 | **340.4** | n/a | nan | Basic Materials | 170,248 | 3,348,350 |
-| 4 | DEEDEV | DEE Development Engineers Limited | NSE | 214.90 | 709.30 | **237.9** | 4,942 | Small | Industrials | 2,176,762 | 644,833,374 |
-| 5 | BLISSGVS | Bliss GVS Pharma Limited | NSE | 162.82 | 527.65 | **224.1** | 5,584 | Mid | Healthcare | 3,324,155 | 761,105,894 |
-| 6 | UFBL | United Foodbrands Limited | NSE | 216.11 | 672.95 | **210.2** | 2,632 | Small | Consumer Cyclical | 256,541 | 97,979,975 |
-| 7 | 540492 | Starlineps Enterprises Ltd | BSE | 3.68 | 11.36 | **208.7** | 483 | Micro | nan | 1,190,366 | 9,271,602 |
-| 8 | MTARTECH | Mtar Technologies Limited | NSE | 2372.20 | 7417.00 | **206.9** | 22,817 | Large | Industrials | 888,719 | 5,155,718,695 |
-| 9 | HFCL | HFCL Limited | NSE | 67.73 | 202.12 | **198.2** | 30,956 | Large | Technology | 34,962,613 | 4,044,927,330 |
-| 10 | OMNI | Omnitech Engineering Limited | NSE | 204.93 | 545.35 | **186.1** | 6,740 | Mid | Industrials | 997,137 | 341,971,587 |
-| 11 | SIGMAADV | SIGMA ADVANCED SYSTEMS LIMITED | NSE | 207.23 | 562.80 | **177.2** | 9,809 | Mid | Industrials | 245,027 | 76,868,838 |
-| 12 | GVPIL | GE Power India Limited | NSE | 340.00 | 930.00 | **173.7** | 6,266 | Mid | Industrials | 670,484 | 355,920,630 |
-| 13 | AEROFLEX | Aeroflex Industries Limited | NSE | 197.57 | 478.05 | **143.8** | 6,350 | Mid | Industrials | 2,508,763 | 737,508,340 |
-| 14 | BHAGYANGR | Bhagyanagar India Limited | NSE | 161.24 | 389.80 | **141.8** | 1,246 | Small | Basic Materials | 236,658 | 50,056,858 |
-| 15 | CPPLUS | Aditya Infotech Limited | NSE | 1501.40 | 3546.00 | **137.9** | 41,654 | Large | Industrials | 279,682 | 626,339,124 |
-| 16 | KOVAI | Kovai Medical Center & Hospital Limited | NSE | 2576.65 | 6050.00 | **134.8** | 6,621 | Mid | Healthcare | 5,336 | 30,769,026 |
-| 17 | KSHINTL | KSH International Limited | NSE | 373.55 | 855.00 | **134.0** | 5,798 | Mid | Industrials | 453,730 | 251,596,275 |
-| 18 | VENUSREM | Venus Remedies Limited | NSE | 779.60 | 1770.00 | **132.0** | 2,360 | Small | Healthcare | 75,549 | 79,532,378 |
-| 19 | BAJAJCON | Bajaj Consumer Care Limited | NSE | 267.35 | 618.35 | **131.3** | 8,113 | Mid | Consumer Defensive | 1,296,200 | 511,653,632 |
-| 20 | ONELIFECAP | Onelife Capital Advisors Limited | NSE | 15.99 | 37.00 | **130.4** | 141 | Micro | Financial Services | 142,591 | 2,429,904 |
-| 21 | INDSWFTLAB | Ind-Swift Laboratories Limited | NSE | 91.55 | 204.86 | **126.8** | 1,784 | Small | Healthcare | 864,455 | 126,468,590 |
-| 22 | OMAXAUTO | Omax Autos Limited | NSE | 107.79 | 232.80 | **126.0** | 493 | Micro | Consumer Cyclical | 131,403 | 21,179,327 |
-| 23 | CUPID | Cupid Limited | NSE | 83.99 | 193.39 | **125.4** | 26,006 | Large | Consumer Defensive | 30,462,273 | 2,911,962,905 |
-| 24 | RPTECH | Rashi Peripherals Limited | NSE | 360.80 | 806.35 | **123.5** | 5,312 | Mid | Technology | 555,387 | 348,833,589 |
-| 25 | GRWRHITECH | Garware Hi-Tech Films Limited | NSE | 3170.40 | 6971.00 | **122.6** | 16,232 | Mid | Basic Materials | 87,603 | 396,493,720 |
-| 26 | NOVARTIND | Novartis India Limited | NSE | 672.25 | 1475.50 | **119.5** | 3,640 | Small | Healthcare | 28,782 | 37,572,255 |
-| 27 | SHADOWFAX | Shadowfax Technologies Limited | NSE | 109.98 | 233.49 | **119.0** | 13,653 | Mid | Industrials | 2,833,255 | 437,896,469 |
-| 28 | YASHO | Yasho Industries Limited | NSE | 1439.10 | 3108.00 | **118.7** | 3,746 | Small | Basic Materials | 29,533 | 53,445,871 |
-| 29 | EBGNG | GNG Electronics Limited | NSE | 310.70 | 676.00 | **118.3** | 7,715 | Mid | Technology | 400,374 | 172,319,756 |
-| 30 | NINSYS | NINtec Systems Limited | NSE | 398.50 | 855.00 | **115.0** | 1,581 | Small | Technology | 13,719 | 5,792,167 |
-| 31 | CONFIPET | Confidence Petroleum India Limited | NSE | 37.25 | 78.01 | **113.4** | 2,586 | Small | Energy | 2,702,832 | 147,843,169 |
-| 32 | ACUTAAS | Acutaas Chemicals Limited | NSE | 1749.30 | 3663.70 | **109.3** | 29,899 | Large | Basic Materials | 427,698 | 1,017,740,440 |
-| 33 | NGLFINE | NGL Fine-Chem Limited | NSE | 1408.10 | 2942.90 | **109.0** | 1,815 | Small | Healthcare | 10,494 | 26,308,161 |
-| 34 | RUBICON | Rubicon Research Limited | NSE | 661.40 | 1383.70 | **107.8** | 22,973 | Large | Healthcare | 380,353 | 372,562,123 |
-| 35 | SAKAR | Sakar Healthcare Limited | NSE | 406.55 | 833.45 | **104.8** | n/a | nan | Healthcare | 117,440 | 73,418,765 |
-| 36 | JNKINDIA | JNK India Limited | NSE | 235.95 | 481.05 | **103.9** | 2,685 | Small | Industrials | 705,711 | 270,460,838 |
-| 37 | VIDYAWIRES | Vidya Wires Limited | NSE | 50.13 | 101.36 | **103.6** | 2,156 | Small | Industrials | 5,643,251 | 403,604,682 |
-| 38 | INDOTECH | Indo Tech Transformers Limited | NSE | 1601.60 | 3202.00 | **103.3** | 3,398 | Small | Industrials | 48,798 | 100,288,763 |
-| 39 | SPORTKING | Sportking India Limited | NSE | 87.06 | 175.83 | **102.0** | 2,228 | Small | Consumer Cyclical | 307,455 | 44,848,403 |
-| 40 | AVALON | Avalon Technologies Limited | NSE | 893.75 | 1803.10 | **101.8** | 12,023 | Mid | Technology | 325,601 | 402,235,713 |
-| 41 | BALAMINES | Balaji Amines Limited | NSE | 1110.00 | 2220.90 | **100.1** | 7,174 | Mid | Basic Materials | 392,164 | 572,551,197 |
-| 42 | PAISALO | Paisalo Digital Limited | NSE | 36.30 | 72.40 | **99.6** | 6,575 | Mid | Financial Services | 8,314,511 | 391,272,553 |
-| 43 | ATLANTAELE | Atlanta Electricals Limited | NSE | 907.35 | 1771.00 | **99.5** | 13,618 | Mid | Industrials | 159,159 | 200,281,504 |
-| 44 | SETL | Standard Engineering Technology Limited | NSE | 149.83 | 296.55 | **97.9** | 5,912 | Mid | Industrials | 482,579 | 85,854,331 |
-| 45 | SCHNEIDER | Schneider Electric Infrastructure Limited | NSE | 717.30 | 1411.20 | **97.2** | 33,695 | Large | Industrials | 388,255 | 370,188,784 |
-| 46 | SEDEMAC | SEDEMAC Mechatronics Limited | NSE | 1451.10 | 2841.40 | **95.8** | 12,520 | Mid | Consumer Cyclical | 250,957 | 491,386,006 |
-| 47 | ANTELOPUS | Antelopus Selan Energy Limited | NSE | 406.40 | 795.55 | **95.8** | 2,796 | Small | Energy | 401,483 | 226,192,722 |
-| 48 | MODISONLTD | MODISON LIMITED | NSE | 160.41 | 308.15 | **93.7** | 999 | Small | Industrials | 122,046 | 27,315,558 |
-| 49 | PARKHOSPS | Park Medi World Limited | NSE | 149.73 | 289.90 | **93.6** | 12,522 | Mid | Healthcare | 1,438,476 | 271,335,782 |
-| 50 | PARAS | Paras Defence and Space Technologies Limited | NSE | 683.75 | 1322.40 | **93.2** | 10,646 | Mid | Industrials | 2,131,364 | 1,970,755,494 |
-| 51 | VISL | Vedanta Iron and Steel Limited | NSE | 21.06 | 42.65 | **92.9** | 16,674 | Mid | Basic Materials | 83,172,054 | 2,392,679,894 |
-| 52 | TIRUPATIFL | Tirupati Forge Limited | NSE | 36.27 | 69.95 | **92.9** | n/a | nan | Industrials | 553,831 | 24,883,016 |
-| 53 | E2E | E2E Networks Limited | NSE | 202.75 | 388.00 | **91.4** | 7,976 | Mid | Technology | 1,471,411 | 437,733,252 |
-| 54 | EMMVEE | Emmvee Photovoltaic Power Limited | NSE | 187.75 | 360.35 | **90.8** | 25,146 | Large | Technology | 4,199,557 | 1,043,876,089 |
-| 55 | NITTAGELA | Nitta Gelatin India Limited | NSE | 922.65 | 1742.10 | **88.2** | 1,592 | Small | Basic Materials | 18,559 | 27,237,709 |
-| 56 | SYRMA | Syrma SGS Technology Limited | NSE | 741.90 | 1394.60 | **88.0** | 26,835 | Large | Technology | 1,358,104 | 1,263,244,131 |
-| 57 | KIRLOSENG | Kirloskar Oil Engines Limited | NSE | 1261.10 | 2339.10 | **87.6** | 33,992 | Large | Industrials | 631,658 | 1,047,747,222 |
-| 58 | THANGAMAYL | Thangamayil Jewellery Limited | NSE | 3229.50 | 6091.50 | **86.9** | 18,916 | Mid | Consumer Cyclical | 160,031 | 661,745,677 |
-| 59 | WHEELS | Wheels India Limited | NSE | 884.70 | 1623.50 | **86.8** | 3,968 | Small | Consumer Cyclical | 132,137 | 172,766,588 |
-| 60 | KERNEX | Kernex Microsystems (India) Limited | NSE | 1250.80 | 2329.50 | **86.2** | 3,901 | Small | Technology | 265,405 | 371,772,215 |
-| 61 | GAYAPROJ | Gayatri Projects Limited | NSE | 11.53 | 21.43 | **85.9** | 403 | Micro | Industrials | 265,781 | 5,183,807 |
-| 62 | CEMPRO | Cemindia Projects Limited | NSE | 774.65 | 1431.40 | **85.8** | 24,583 | Large | Industrials | 762,702 | 671,064,310 |
-| 63 | SHILPAMED | Shilpa Medicare Limited | NSE | 319.80 | 588.70 | **85.0** | 11,511 | Mid | Healthcare | 708,991 | 310,448,856 |
-| 64 | WELCORP | Welspun Corp Limited | NSE | 806.35 | 1482.30 | **84.7** | 39,059 | Large | Basic Materials | 676,794 | 713,967,000 |
-| 65 | IDEAFORGE | Ideaforge Technology Limited | NSE | 469.10 | 861.85 | **83.7** | 3,736 | Small | Technology | 1,080,382 | 632,270,904 |
-| 66 | PARACABLES | Paramount Communications Limited | NSE | 39.40 | 71.76 | **83.2** | 2,175 | Small | Technology | 2,094,373 | 112,926,137 |
-| 67 | KIRLPNU | Kirloskar Pneumatic Company Limited | NSE | 1058.60 | 1914.10 | **82.0** | 12,430 | Mid | Industrials | 145,015 | 213,558,502 |
-| 68 | POWERINDIA | Hitachi Energy India Limited | NSE | 18803.00 | 34010.00 | **80.9** | 151,724 | Large | Industrials | 155,559 | 4,054,120,869 |
-| 69 | SATIN | Satin Creditcare Network Limited | NSE | 144.64 | 260.88 | **80.4** | 2,872 | Small | Financial Services | 517,463 | 107,662,601 |
-| 70 | APARINDS | Apar Industries Limited | NSE | 8264.50 | 14905.00 | **80.3** | 59,860 | Large | Industrials | 114,533 | 1,310,936,043 |
-| 71 | ASTRAMICRO | Astra Microwave Products Limited | NSE | 963.35 | 1764.70 | **79.5** | 16,767 | Mid | Technology | 573,428 | 714,185,958 |
-| 72 | IOLCP | IOL Chemicals and Pharmaceuticals Limited | NSE | 84.03 | 147.42 | **79.2** | 4,328 | Small | Healthcare | 2,089,852 | 226,376,652 |
-| 73 | DATAPATTNS | Data Patterns (India) Limited | NSE | 2621.70 | 4687.00 | **78.4** | 26,226 | Large | Industrials | 964,721 | 3,436,289,143 |
-| 74 | BBOX | Black Box Limited | NSE | 557.40 | 982.15 | **78.3** | 17,428 | Mid | Technology | 655,660 | 475,856,326 |
-| 75 | MAYURUNIQ | Mayur Uniquoters Ltd | NSE | 514.20 | 881.95 | **78.1** | 3,829 | Small | Consumer Cyclical | 152,225 | 101,366,550 |
-| 76 | AEGISLOG | Aegis Logistics Limited | NSE | 726.15 | 1292.00 | **77.9** | 45,430 | Large | Energy | 1,383,309 | 1,177,900,865 |
-| 77 | SUVEN | Suven Life Sciences Limited | NSE | 164.81 | 292.95 | **77.8** | 7,701 | Mid | Healthcare | 857,106 | 198,242,892 |
-| 78 | SBCL | Shivalik Bimetal Controls Limited | NSE | 433.50 | 755.75 | **77.2** | 4,361 | Small | Industrials | 294,780 | 178,558,739 |
-| 79 | SPARC | Sun Pharma Advanced Research Company Limited | NSE | 135.72 | 238.47 | **76.2** | 7,740 | Mid | Healthcare | 4,524,981 | 790,225,572 |
-| 80 | ARVIND | Arvind Limited | NSE | 318.35 | 559.40 | **76.0** | 14,650 | Mid | Consumer Cyclical | 716,112 | 301,903,901 |
-| 81 | LOKESHMACH | Lokesh Machines Limited | NSE | 169.35 | 299.95 | **76.0** | 637 | Small | Industrials | 80,479 | 16,170,266 |
-| 82 | COCKERILL | John Cockerill India Limited | NSE | 5277.35 | 9141.00 | **75.3** | 4,506 | Small | Industrials | 24,453 | 209,836,758 |
-| 83 | NITINSPIN | Nitin Spinners Limited | NSE | 320.15 | 556.70 | **75.1** | 3,143 | Small | Consumer Cyclical | 366,744 | 147,359,736 |
-| 84 | KOTYARK | Kotyark Industries Limited | NSE | 21.34 | 37.05 | **73.6** | 419 | Micro | Basic Materials | 356,026 | 12,333,628 |
-| 85 | TDPOWERSYS | TD Power Systems Limited | NSE | 684.75 | 1189.00 | **72.7** | 18,602 | Mid | Industrials | 1,118,888 | 1,101,309,680 |
-| 86 | JAYBARMARU | Jay Bharat Maruti Limited | NSE | 100.42 | 172.86 | **72.1** | 1,877 | Small | Consumer Cyclical | 798,137 | 96,178,318 |
-| 87 | NEOGEN | Neogen Chemicals Limited | NSE | 1154.30 | 1978.70 | **71.4** | 5,424 | Mid | Basic Materials | 183,964 | 242,933,747 |
-| 88 | SANSERA | Sansera Engineering Limited | NSE | 1871.00 | 3204.00 | **71.2** | 19,952 | Mid | Consumer Cyclical | 244,052 | 575,102,317 |
-| 89 | BLUSPRING | Bluspring Enterprises Limited | NSE | 65.97 | 112.93 | **71.2** | 1,684 | Small | Industrials | 506,716 | 41,085,337 |
-| 90 | 511523 | Veerhealth Care Ltd | BSE | 18.86 | 32.48 | **71.0** | 65 | Micro | nan | 99,076 | 2,211,759 |
-| 91 | ZIMLAB | Zim Laboratories Limited | NSE | 70.43 | 120.05 | **70.6** | 656 | Small | Healthcare | 77,414 | 6,658,838 |
-| 92 | SCPL | Sheetal Cool Products Limited | NSE | 319.75 | 545.10 | **70.5** | 573 | Small | Consumer Defensive | 25,976 | 8,925,447 |
-| 93 | SKYGOLD | SKY GOLD AND DIAMONDS LIMITED | NSE | 332.65 | 568.50 | **70.4** | 8,764 | Mid | Consumer Cyclical | 1,062,811 | 445,554,456 |
-| 94 | IBULLSLTD | Indiabulls Limited | NSE | 16.47 | 28.05 | **70.3** | 6,569 | Mid | Real Estate | 7,361,565 | 119,386,488 |
-| 95 | CMPDI | Central Mine Planning & Design Institute Limited | NSE | 154.06 | 265.60 | **70.3** | 18,964 | Mid | Basic Materials | 5,550,669 | 1,232,857,614 |
-| 96 | AEQUS | Aequs Limited | NSE | 137.37 | 234.75 | **69.9** | 15,727 | Mid | Industrials | 5,563,301 | 949,266,871 |
-| 97 | INOXINDIA | INOX India Limited | NSE | 1130.80 | 1870.30 | **65.4** | 16,973 | Mid | Industrials | 209,305 | 324,909,577 |
-| 98 | KRN | KRN Heat Exchanger and Refrigeration Limited | NSE | 770.15 | 1230.00 | **65.4** | 7,962 | Mid | Technology | 865,588 | 844,657,133 |
-| 99 | DJML | DJ Mediaprint & Logistics Limited | NSE | 70.46 | 116.26 | **65.0** | 400 | Micro | Industrials | 199,499 | 17,987,077 |
-| 100 | APOLLOPIPE | Apollo Pipes Limited | NSE | 289.75 | 483.95 | **64.9** | 2,131 | Small | Industrials | 925,104 | 377,734,539 |
-| 101 | 532380 | Baba Arts Ltd-$ | BSE | 9.10 | 14.99 | **64.7** | 78 | Micro | nan | 70,509 | 929,493 |
-| 102 | SGFIN | SG Finserve Limited | NSE | 416.45 | 679.00 | **64.5** | 3,788 | Small | Financial Services | 277,392 | 137,678,656 |
-| 103 | 524520 | KMC Speciality Hospitals (India) Ltd | BSE | 85.48 | 140.65 | **64.5** | 2,217 | Small | nan | 131,191 | 13,192,495 |
-| 104 | ACMESOLAR | Acme Solar Holdings Limited | NSE | 240.47 | 390.00 | **64.0** | 27,497 | Large | Utilities | 1,627,095 | 463,350,325 |
-| 105 | AFIL | Akme Fintrade (India) Limited | NSE | 6.42 | 10.44 | **63.9** | 442 | Micro | Financial Services | 1,643,105 | 12,885,039 |
-| 106 | 543787 | Macfos Ltd | BSE | 737.86 | 1188.50 | **63.4** | 1,237 | Small | nan | 9,283 | 8,814,835 |
-| 107 | PRECWIRE | Precision Wires India Limited | NSE | 247.48 | 406.05 | **63.4** | 7,426 | Mid | Industrials | 987,927 | 308,838,854 |
-| 108 | KPL | Kwality Pharmaceuticals Limited | NSE | 1662.60 | 2672.20 | **62.8** | 2,778 | Small | nan | 44,391 | 97,536,579 |
-| 109 | ADVAIT | Advait Energy Transitions Limited | NSE | 1391.80 | 2273.80 | **62.8** | 2,485 | Small | Industrials | 59,164 | 114,811,160 |
-| 110 | PREMIERPOL | Premier Polyfilm Limited | NSE | 41.91 | 68.05 | **62.4** | 712 | Small | Basic Materials | 207,668 | 11,100,800 |
-| 111 | CENTUM | Centum Electronics Limited | NSE | 2266.80 | 3669.30 | **61.9** | 5,420 | Mid | Technology | 72,419 | 203,155,433 |
-| 112 | SGMART | SG Mart Limited | NSE | 386.20 | 611.05 | **61.6** | 7,676 | Mid | Industrials | 281,413 | 132,566,411 |
-| 113 | NRBBEARING | NRB Bearing Limited | NSE | 269.05 | 433.75 | **61.2** | 4,206 | Small | Consumer Cyclical | 540,907 | 194,562,904 |
-| 114 | HONASA | Honasa Consumer Limited | NSE | 292.75 | 469.70 | **60.6** | 15,323 | Mid | Consumer Defensive | 1,798,135 | 630,893,585 |
-| 115 | ELPROINTL | Elpro International Limited | NSE | 105.35 | 172.60 | **60.5** | 2,923 | Small | nan | 172,739 | 25,776,195 |
-| 116 | AEROENTER | Aeroflex Enterprises Limited | NSE | 87.91 | 138.83 | **60.0** | 1,572 | Small | Basic Materials | 579,449 | 62,475,634 |
-| 117 | ROSSTECH | Rossell Techsys Limited | NSE | 629.85 | 1005.25 | **59.8** | 3,773 | Small | Industrials | 211,757 | 171,938,796 |
-| 118 | APOLLO | Apollo Micro Systems Limited | NSE | 271.90 | 434.00 | **59.6** | 15,505 | Mid | Industrials | 10,936,058 | 3,674,874,053 |
-| 119 | THERMAX | Thermax Limited | NSE | 3025.90 | 4880.50 | **59.3** | 58,202 | Large | Industrials | 207,153 | 826,688,713 |
-| 120 | MEGASTAR | Megastar Foods Limited | NSE | 233.31 | 368.00 | **59.0** | 417 | Micro | Consumer Defensive | 25,794 | 7,719,694 |
-| 121 | DIVGIITTS | Divgi Torqtransfer Systems Limited | NSE | 613.50 | 973.70 | **58.7** | 2,983 | Small | Consumer Cyclical | 97,080 | 86,971,006 |
-| 122 | WABAG | VA Tech Wabag Limited | NSE | 1291.60 | 2048.70 | **58.6** | 12,770 | Mid | Industrials | 423,068 | 628,974,956 |
-| 123 | GRANDOAK | Grand Oak Canyons Distillery Limited | NSE | 28.90 | 45.73 | **58.2** | 2,366 | Small | nan | 60,040 | 2,229,859 |
-| 124 | ADFFOODS | ADF Foods Limited | NSE | 204.09 | 322.40 | **58.0** | 3,548 | Small | Consumer Defensive | 320,495 | 83,289,782 |
-| 125 | SPAL | S. P. Apparels Limited | NSE | 709.75 | 1109.50 | **58.0** | 2,786 | Small | Consumer Cyclical | 138,156 | 123,253,761 |
-| 126 | J&KBANK | The Jammu & Kashmir Bank Limited | NSE | 102.36 | 161.62 | **57.9** | 17,784 | Mid | Financial Services | 4,553,825 | 561,762,663 |
-| 127 | XPROINDIA | Xpro India Limited | NSE | 980.05 | 1502.40 | **57.9** | 3,522 | Small | Basic Materials | 55,256 | 61,649,354 |
-| 128 | SKMEGGPROD | SKM Egg Products Export (India) Limited | NSE | 204.27 | 317.65 | **57.2** | 1,677 | Small | Consumer Defensive | 554,717 | 118,273,244 |
-| 129 | RISHABH | Rishabh Instruments Limited | NSE | 434.20 | 637.00 | **56.5** | 2,450 | Small | Technology | 130,066 | 63,592,427 |
-| 130 | GVT&D | GE Vernova T&D India Limited | NSE | 3093.70 | 4837.50 | **56.4** | 123,542 | Large | Industrials | 869,435 | 3,277,419,467 |
-| 131 | RRKABEL | R R Kabel Limited | NSE | 1510.50 | 2361.00 | **56.3** | 26,682 | Large | Industrials | 406,875 | 740,179,092 |
-| 132 | ICIL | Indo Count Industries Limited | NSE | 280.10 | 436.55 | **55.9** | 8,636 | Mid | Consumer Cyclical | 768,045 | 250,901,633 |
-| 133 | DECNGOLD | Deccan Gold Mines Limited | NSE | 120.20 | 187.28 | **55.8** | 3,725 | Small | nan | 2,598,996 | 461,195,616 |
-| 134 | SPECTRUM | Spectrum Electrical Industries Limited | NSE | 1218.80 | 1898.00 | **55.7** | 3,014 | Small | Industrials | 12,734 | 18,824,978 |
-| 135 | CLEANMAX | Clean Max Enviro Energy Solutions Limited | NSE | 867.50 | 1334.30 | **55.6** | 15,649 | Mid | Utilities | 434,454 | 465,767,471 |
-| 136 | SENORES | Senores Pharmaceuticals Limited | NSE | 865.30 | 1314.20 | **55.5** | 6,058 | Mid | Healthcare | 319,663 | 303,347,827 |
-| 137 | UNIVPHOTO | Universus Photo Imagings Limited | NSE | 223.97 | 348.20 | **55.5** | 379 | Micro | Healthcare | 15,575 | 6,636,248 |
-| 138 | NARMADA | Narmada Agrobase Limited | NSE | 22.50 | 34.95 | **55.3** | 133 | Micro | Basic Materials | 490,394 | 18,018,165 |
-| 139 | TALBROAUTO | Talbros Automotive Components Limited | NSE | 276.30 | 426.90 | **55.3** | 2,614 | Small | Consumer Cyclical | 205,908 | 66,898,152 |
-| 140 | HIRECT | Hind Rectifiers Limited | NSE | 748.20 | 1158.80 | **54.9** | 3,983 | Small | Industrials | 140,986 | 124,027,366 |
-| 141 | VENUSPIPES | Venus Pipes & Tubes Limited | NSE | 1206.80 | 1797.00 | **54.8** | 3,730 | Small | Basic Materials | 78,395 | 103,376,812 |
-| 142 | UTLSOLAR | Fujiyama Power Systems Limited | NSE | 224.71 | 345.60 | **54.7** | 10,565 | Mid | Technology | 685,291 | 164,099,636 |
-| 143 | AYMSYNTEX | AYM Syntex Limited | NSE | 170.22 | 263.21 | **54.6** | 1,549 | Small | Consumer Cyclical | 31,315 | 6,277,903 |
-| 144 | SWANDEF | Swan Defence and Heavy Industries Limited | NSE | 1530.40 | 2362.70 | **54.4** | 12,486 | Mid | Industrials | 14,263 | 26,827,769 |
-| 145 | FCL | Fineotex Chemical Limited | NSE | 24.48 | 37.73 | **54.1** | 4,379 | Small | Basic Materials | 9,907,162 | 337,593,938 |
-| 146 | TIMEX | Timex Group India Limited | NSE | 344.55 | 525.35 | **53.7** | 5,300 | Mid | Consumer Cyclical | 582,485 | 256,646,591 |
-| 147 | SAIPARENT | Sai Parenterals Limited | NSE | 405.70 | 622.00 | **53.0** | 2,781 | Small | Healthcare | 344,209 | 177,411,003 |
-| 148 | ATHERENERG | Ather Energy Limited | NSE | 741.65 | 1125.50 | **52.4** | 43,063 | Large | Consumer Cyclical | 3,316,517 | 2,806,401,464 |
-| 149 | DIACABS | Diamond Power Infrastructure Limited | NSE | 137.01 | 210.30 | **52.3** | 11,074 | Mid | Industrials | 2,915,509 | 506,218,491 |
-| 150 | ADANIPOWER | Adani Power Limited | NSE | 148.17 | 224.72 | **52.3** | 432,941 | Large | Utilities | 29,698,927 | 5,582,810,810 |
-| 151 | JINDALSAW | Jindal Saw Limited | NSE | 170.58 | 259.55 | **52.2** | 16,634 | Mid | Basic Materials | 5,238,202 | 1,036,178,102 |
-| 152 | PRADPME | Pradeep Metals Limited | NSE | 370.60 | 568.95 | **51.3** | 972 | Small | nan | 30,188 | 14,338,442 |
-| 153 | KISSHT | OnEMI Technology Solutions Limited | NSE | 208.63 | 315.30 | **51.1** | 5,301 | Mid | Financial Services | 5,669,493 | 1,355,714,019 |
-| 154 | VTL | Vardhman Textiles Limited | NSE | 436.10 | 657.85 | **51.1** | 19,017 | Mid | Consumer Cyclical | 515,360 | 275,180,373 |
-| 155 | KRISHNADEF | Krishna Defence And Allied Industries Limited | NSE | 812.65 | 1227.40 | **51.0** | n/a | nan | Industrials | 147,401 | 156,409,288 |
-| 156 | ONIDA | Onida Electronics Limited | NSE | 28.83 | 43.45 | **50.7** | 1,614 | Small | Consumer Cyclical | 1,587,550 | 56,578,411 |
-| 157 | POWERICA | Powerica Limited | NSE | 390.00 | 594.50 | **50.5** | 7,524 | Mid | Industrials | 537,938 | 269,947,840 |
-| 158 | ADANIGREEN | Adani Green Energy Limited | NSE | 1038.80 | 1543.50 | **50.5** | 254,538 | Large | Utilities | 3,430,059 | 3,810,205,531 |
-| 159 | SOLARINDS | Solar Industries India Limited | NSE | 12336.00 | 18530.00 | **50.2** | 168,074 | Large | Basic Materials | 161,130 | 2,384,179,188 |
-| 160 | FAZE3Q | Faze Three Limited | NSE | 409.25 | 614.00 | **50.0** | 1,503 | Small | Consumer Cyclical | 73,834 | 35,668,761 |
-| 161 | AMAGI | Amagi Media Labs Limited | NSE | 348.25 | 548.10 | **49.9** | 11,854 | Mid | Technology | 758,232 | 298,192,744 |
-| 162 | CGPOWER | CG Power and Industrial Solutions Limited | NSE | 649.10 | 964.20 | **49.4** | 151,379 | Large | Industrials | 3,520,421 | 2,622,605,003 |
-| 163 | SASKEN | Sasken Technologies Limited | NSE | 1545.40 | 2273.90 | **49.4** | 3,447 | Small | Technology | 113,414 | 199,446,594 |
-| 164 | NRL | Nupur Recyclers Limited | NSE | 56.80 | 84.60 | **48.9** | n/a | nan | Industrials | 73,745 | 4,597,013 |
-| 165 | MARKSANS | Marksans Pharma Limited | NSE | 182.19 | 268.50 | **48.9** | 12,149 | Mid | Healthcare | 1,572,514 | 345,815,978 |
-| 166 | MANINDS | Man Industries (India) Limited | NSE | 396.45 | 582.15 | **48.6** | 4,366 | Small | Basic Materials | 897,376 | 412,703,394 |
-| 167 | ADANIENSOL | Adani Energy Solutions Limited | NSE | 1057.90 | 1550.50 | **48.4** | 186,055 | Large | Utilities | 2,226,402 | 2,719,416,000 |
-| 168 | EXICOM | Exicom Tele-Systems Limited | NSE | 119.26 | 172.30 | **48.4** | 2,393 | Small | Industrials | 2,623,258 | 387,555,464 |
-| 169 | LLOYDSENGG | LLOYDS ENGINEERING WORKS LIMITED | NSE | 56.14 | 83.14 | **48.1** | 12,110 | Mid | Industrials | 8,797,071 | 593,197,932 |
-| 170 | RML | Rane (Madras) Limited | NSE | 844.20 | 1209.90 | **48.1** | 3,327 | Small | Consumer Cyclical | 44,521 | 43,754,910 |
-| 171 | 543920 | CFF Fluid Control Ltd | BSE | 589.30 | 872.30 | **48.0** | 1,833 | Small | nan | 29,838 | 20,044,609 |
-| 172 | QPOWER | Quality Power Electrical Equipments Limited | NSE | 831.05 | 1199.90 | **47.7** | 9,278 | Mid | Industrials | 900,769 | 836,861,913 |
-| 173 | VINDHYATEL | Vindhya Telelinks Limited | NSE | 1417.60 | 2063.30 | **47.1** | 2,443 | Small | Industrials | 53,680 | 93,701,009 |
-| 174 | GALAPREC | Gala Precision Engineering Limited | NSE | 785.80 | 1141.70 | **47.0** | 1,461 | Small | Industrials | 39,278 | 36,986,255 |
-| 175 | NDLVENTURE | NDL Ventures Limited | NSE | 89.89 | 132.11 | **47.0** | 448 | Micro | Communication Services | 44,637 | 5,224,296 |
-| 176 | SBC | SBC Exports Limited | NSE | 28.47 | 42.20 | **46.8** | 2,008 | Small | Industrials | 12,267,325 | 397,371,226 |
-| 177 | GNA | GNA Axles Limited | NSE | 317.70 | 466.05 | **46.7** | 2,001 | Small | Consumer Cyclical | 193,182 | 77,298,312 |
-| 178 | BSE | BSE Limited | NSE | 2666.50 | 3905.80 | **46.5** | n/a | nan | Financial Services | 4,194,465 | 13,318,246,332 |
-| 179 | FINCABLES | Finolex Cables Limited | NSE | 784.45 | 1139.30 | **45.7** | 17,443 | Mid | Industrials | 460,165 | 437,825,828 |
-| 180 | MOREPENLAB | Morepen Laboratories Limited | NSE | 42.03 | 59.87 | **45.6** | 3,260 | Small | Healthcare | 6,040,059 | 282,237,464 |
-| 181 | STYLAMIND | Stylam Industries Limited | NSE | 2207.80 | 3213.80 | **45.6** | 5,438 | Mid | Consumer Cyclical | 59,602 | 139,111,546 |
-| 182 | GAUDIUMIVF | Gaudium IVF and Women Health Limited | NSE | 80.26 | 117.49 | **45.4** | 855 | Small | Healthcare | 934,469 | 90,864,785 |
-| 183 | IFCI | IFCI Limited | NSE | 53.62 | 77.11 | **45.3** | 20,762 | Large | Financial Services | 38,996,642 | 2,715,262,450 |
-| 184 | MENONBE | Menon Bearings Limited | NSE | 111.97 | 162.40 | **45.0** | 916 | Small | Consumer Cyclical | 124,023 | 18,290,209 |
-| 185 | PREMEXPLN | Premier Explosives Limited | NSE | 542.20 | 773.00 | **45.0** | 4,171 | Small | Basic Materials | 586,453 | 371,989,061 |
-| 186 | RUBYMILLS | The Ruby Mills Limited | NSE | 223.04 | 321.35 | **44.7** | 1,098 | Small | Consumer Cyclical | 60,814 | 15,563,369 |
-| 187 | BHARATFORG | Bharat Forge Limited | NSE | 1477.20 | 2133.50 | **44.7** | 102,058 | Large | Consumer Cyclical | 1,293,732 | 2,278,062,002 |
-| 188 | AETHER | Aether Industries Limited | NSE | 944.10 | 1364.80 | **44.6** | 18,131 | Mid | Basic Materials | 363,612 | 387,977,588 |
-| 189 | OFSS | Oracle Financial Services Software Limited | NSE | 7731.50 | 11096.00 | **44.4** | 96,659 | Large | Technology | 216,924 | 1,866,661,826 |
-| 190 | PANACEABIO | Panacea Biotec Limited | NSE | 379.85 | 543.00 | **44.3** | 3,331 | Small | Healthcare | 765,876 | 349,913,751 |
-| 191 | BIRLACABLE | Birla Cable Limited | NSE | 136.54 | 197.00 | **44.3** | 599 | Small | Technology | 75,541 | 12,433,345 |
-| 192 | CALSOFT | California Software Company Limited | NSE | 15.73 | 22.67 | **44.1** | 80 | Micro | Technology | 116,200 | 2,234,702 |
-| 193 | STEELCAS | Steelcast Limited | NSE | 210.31 | 301.60 | **43.5** | 3,045 | Small | Basic Materials | 126,787 | 34,283,355 |
-| 194 | 544023 | Kalyani Cast-Tech Ltd | BSE | 489.50 | 691.50 | **43.2** | 521 | Small | nan | 11,071 | 6,235,911 |
-| 195 | NELCAST | Nelcast Limited | NSE | 105.66 | 148.87 | **43.1** | 1,281 | Small | Industrials | 187,795 | 24,236,778 |
-| 196 | GLAND | Gland Pharma Limited | NSE | 1715.80 | 2453.20 | **43.0** | 40,446 | Large | Healthcare | 323,247 | 673,788,006 |
-| 197 | ANGELONE | Angel One Limited | NSE | 238.79 | 341.15 | **42.9** | 31,154 | Large | Financial Services | 8,907,611 | 2,490,765,478 |
-| 198 | MANCREDIT | Mangal Credit and Fincorp Limited | NSE | 164.80 | 236.65 | **42.7** | 500 | Small | Financial Services | 105,473 | 20,922,113 |
-| 199 | MAHABANK | Bank of Maharashtra | NSE | 63.93 | 91.14 | **42.6** | 69,962 | Large | Financial Services | 21,400,308 | 1,502,489,275 |
-| 200 | NETWEB | Netweb Technologies India Limited | NSE | 3024.10 | 4431.00 | **42.4** | 25,230 | Large | Technology | 1,718,619 | 6,517,265,225 |
-| 201 | PANAMAPET | Panama Petrochem Limited | NSE | 311.55 | 428.60 | **42.4** | 2,583 | Small | Energy | 313,620 | 123,977,468 |
-| 202 | 543828 | Sudarshan Pharma Industries Ltd | BSE | 27.04 | 38.39 | **42.0** | 896 | Small | nan | 200,753 | 5,544,388 |
-| 203 | CEIGALL | Ceigall India Limited | NSE | 274.45 | 388.65 | **42.0** | 6,774 | Mid | Industrials | 461,321 | 147,566,777 |
-| 204 | AMBIKCO | Ambika Cotton Mills Limited | NSE | 1247.20 | 1763.90 | **41.9** | 1,008 | Small | Consumer Cyclical | 11,759 | 17,491,930 |
-| 205 | TMB | Tamilnad Mercantile Bank Limited | NSE | 527.80 | 748.30 | **41.8** | 11,803 | Mid | Financial Services | 366,106 | 240,332,817 |
-| 206 | NEPHROPLUS | Nephrocare Health Services Limited | NSE | 474.40 | 671.90 | **41.6** | 6,745 | Mid | Healthcare | 359,228 | 190,344,604 |
-| 207 | DBOL | Dhampur Bio Organics Limited | NSE | 80.26 | 113.00 | **41.6** | 752 | Small | Consumer Defensive | 179,600 | 18,691,666 |
-| 208 | AKUMS | Akums Drugs and Pharmaceuticals Limited | NSE | 451.85 | 632.85 | **41.5** | 9,961 | Mid | Healthcare | 254,534 | 128,529,889 |
-| 209 | AMANTA | Amanta Healthcare Limited | NSE | 109.74 | 155.00 | **41.4** | 598 | Small | Healthcare | 163,866 | 21,080,939 |
-| 210 | VIYASH | Viyash Scientific Limited | NSE | 210.49 | 294.25 | **41.2** | 12,881 | Mid | Healthcare | 1,554,094 | 367,038,326 |
-| 211 | BANDHANBNK | Bandhan Bank Limited | NSE | 144.46 | 205.70 | **41.1** | 33,180 | Large | Financial Services | 10,253,124 | 1,796,566,899 |
-| 212 | SUDEEPPHRM | Sudeep Pharma Limited | NSE | 596.80 | 841.55 | **40.9** | 9,514 | Mid | Healthcare | 639,165 | 465,703,301 |
-| 213 | REFEX | Refex Industries Limited | NSE | 262.30 | 365.75 | **40.7** | 5,009 | Mid | Energy | 1,843,292 | 532,664,582 |
-| 214 | SUYOG | Suyog Telematics Limited | NSE | 617.05 | 864.90 | **40.7** | 1,013 | Small | Communication Services | 35,168 | 24,446,458 |
-| 215 | MBAPL | Madhya Bharat Agro Products Limited | NSE | 429.80 | 604.50 | **40.6** | n/a | nan | Basic Materials | 213,059 | 104,213,052 |
-| 216 | ADANIENT | Adani Enterprises Limited | NSE | 2279.80 | 3165.00 | **40.0** | 411,997 | Large | Energy | 1,952,634 | 4,650,827,964 |
-| 217 | INDOBORAX | Indo Borax & Chemicals Limited | NSE | 268.20 | 375.05 | **39.8** | 1,202 | Small | Basic Materials | 123,842 | 38,621,804 |
-| 218 | HARDWYN | Hardwyn India Limited | NSE | 17.76 | 24.23 | **39.8** | 1,187 | Small | Industrials | 2,681,708 | 59,377,097 |
-| 219 | 544141 | Pune E - Stock Broking Ltd | BSE | 206.00 | 287.00 | **39.8** | 449 | Micro | nan | 23,752 | 5,649,418 |
-| 220 | BOROSCI | Borosil Scientific Limited | NSE | 119.58 | 167.00 | **39.7** | 1,490 | Small | Consumer Cyclical | 158,500 | 22,289,619 |
-| 221 | APCOTEXIND | Apcotex Industries Limited | NSE | 370.85 | 517.80 | **39.6** | 2,679 | Small | Basic Materials | 63,772 | 30,295,503 |
-| 222 | CORONA | CORONA Remedies Limited | NSE | 1443.50 | 1995.00 | **39.5** | 12,178 | Mid | Healthcare | 192,941 | 284,524,769 |
-| 223 | AYE | Aye Finance Limited | NSE | 128.91 | 180.50 | **39.2** | 4,456 | Small | Financial Services | 1,858,772 | 255,671,590 |
-| 224 | ABSLAMC | Aditya Birla Sun Life AMC Limited | NSE | 833.60 | 1172.70 | **39.0** | 33,922 | Large | Financial Services | 439,030 | 419,085,487 |
-| 225 | BLACKROSE | Black Rose Inds. Limited | NSE | 83.25 | 115.57 | **38.7** | 587 | Small | nan | 76,793 | 8,680,902 |
-| 226 | BHARATSE | Bharat Seats Limited | NSE | 177.60 | 240.37 | **38.6** | 1,510 | Small | Consumer Cyclical | 599,013 | 123,903,107 |
-| 227 | SAREGAMA | Saregama India Limited | NSE | 357.95 | 490.20 | **38.6** | 9,464 | Mid | Communication Services | 1,817,971 | 733,880,525 |
-| 228 | WELSPLSOL | Welspun Specialty Solutions Limited | NSE | 38.05 | 53.81 | **38.5** | 3,567 | Small | nan | 1,644,861 | 86,296,226 |
-| 229 | JTLIND | JTL INDUSTRIES LIMITED | NSE | 59.82 | 81.40 | **37.9** | 3,200 | Small | Basic Materials | 5,011,651 | 342,715,099 |
-| 230 | GOCLCORP | GOCL Corporation Limited | NSE | 292.65 | 401.05 | **37.8** | 1,989 | Small | Basic Materials | 201,258 | 61,453,717 |
-| 231 | SALSTEEL | S.A.L. Steel Limited | NSE | 44.00 | 59.77 | **37.8** | 646 | Small | Basic Materials | 132,333 | 6,445,717 |
-| 232 | ENRIN | Siemens Energy India Limited | NSE | 2546.70 | 3526.00 | **37.7** | 125,509 | Large | Utilities | 668,245 | 2,033,990,789 |
-| 233 | GRINDWELL | Grindwell Norton Limited | NSE | 1557.90 | 2152.50 | **37.6** | 23,828 | Large | Industrials | 62,942 | 107,941,498 |
-| 234 | CAPLIPOINT | Caplin Point Laboratories Limited | NSE | 1848.80 | 2528.00 | **37.5** | 19,216 | Mid | Healthcare | 113,993 | 226,544,615 |
-| 235 | CHENNPETRO | Chennai Petroleum Corporation Limited | NSE | 827.20 | 1137.60 | **37.5** | 16,940 | Mid | Energy | 1,835,878 | 1,826,595,810 |
-| 236 | RAYMOND | Raymond Limited | NSE | 436.50 | 587.45 | **37.5** | 3,916 | Small | Industrials | 588,147 | 275,482,046 |
-| 237 | NAM-INDIA | Nippon Life India Asset Management Limited | NSE | 892.30 | 1221.60 | **37.2** | 77,850 | Large | Financial Services | 957,760 | 925,745,673 |
-| 238 | APEX | Apex Frozen Foods Limited | NSE | 295.95 | 405.40 | **37.0** | 1,275 | Small | Consumer Defensive | 1,286,286 | 483,769,489 |
-| 239 | MSTCLTD | Mstc Limited | NSE | 528.30 | 716.00 | **36.9** | 5,041 | Mid | Industrials | 593,260 | 341,480,052 |
-| 240 | SIGNPOST | Signpost India Limited | NSE | 223.70 | 301.65 | **36.9** | 1,609 | Small | Communication Services | 254,250 | 71,285,766 |
-| 241 | LIKHITHA | Likhitha Infrastructure Limited | NSE | 193.41 | 261.20 | **36.7** | 1,038 | Small | Energy | 101,912 | 19,562,438 |
-| 242 | LLOYDSME | Lloyds Metals And Energy Limited | NSE | 1348.80 | 1825.00 | **36.6** | 102,793 | Large | Basic Materials | 591,447 | 848,782,723 |
-| 243 | ASHIANA | Ashiana Housing Limited | NSE | 286.00 | 387.00 | **36.6** | 3,897 | Small | Real Estate | 139,135 | 46,829,717 |
-| 244 | GHCLTEXTIL | GHCL Textiles Limited | NSE | 76.77 | 102.07 | **36.5** | 979 | Small | Consumer Cyclical | 326,291 | 28,222,227 |
-| 245 | LAURUSLABS | Laurus Labs Limited | NSE | 1106.50 | 1512.00 | **36.5** | 81,705 | Large | Healthcare | 1,892,482 | 2,175,044,063 |
-| 246 | GOODLUCK | Goodluck India Limited | NSE | 1074.50 | 1481.00 | **36.2** | 4,926 | Small | Basic Materials | 134,125 | 169,042,430 |
-| 247 | SONACOMS | Sona BLW Precision Forgings Limited | NSE | 486.35 | 652.20 | **36.0** | 40,485 | Large | Consumer Cyclical | 1,996,139 | 1,076,250,058 |
-| 248 | AGIIL | Agi Infra Limited | NSE | 273.35 | 357.20 | **36.0** | 4,475 | Small | Real Estate | 2,020,182 | 668,957,781 |
-| 249 | RAMCOSYS | Ramco Systems Limited | NSE | 573.55 | 771.55 | **36.0** | 2,895 | Small | Technology | 796,245 | 536,524,801 |
-| 250 | RATEGAIN | Rategain Travel Technologies Limited | NSE | 693.85 | 943.00 | **35.9** | 11,173 | Mid | Technology | 483,650 | 318,668,328 |
-| 251 | HESTERBIO | Hester Biosciences Limited | NSE | 1604.20 | 2165.40 | **35.8** | 1,844 | Small | Healthcare | 8,052 | 14,428,332 |
-| 252 | MACPOWER | Macpower CNC Machines Limited | NSE | 1019.40 | 1383.10 | **35.7** | n/a | nan | Industrials | 33,393 | 35,157,995 |
-| 253 | MWL | Mangalam Worldwide Limited | NSE | 272.55 | 375.50 | **35.7** | 1,117 | Small | Basic Materials | 82,963 | 24,365,383 |
-| 254 | KRISHANA | Krishana Phoschem Limited | NSE | 527.90 | 710.00 | **35.6** | n/a | nan | Basic Materials | 185,060 | 114,684,255 |
-| 255 | TEJASNET | Tejas Networks Limited | NSE | 453.25 | 609.25 | **35.5** | 10,829 | Mid | Technology | 8,511,249 | 4,039,295,670 |
-| 256 | BHEL | Bharat Heavy Electricals Limited | NSE | 299.50 | 402.35 | **35.5** | 139,996 | Large | Industrials | 14,030,766 | 4,441,074,529 |
-| 257 | MARINE | Marine Electricals (India) Limited | NSE | 213.63 | 289.30 | **35.4** | n/a | nan | Industrials | 532,945 | 121,395,180 |
-| 258 | KDDL | KDDL Limited | NSE | 2410.00 | 3263.10 | **35.4** | 4,010 | Small | Consumer Cyclical | 29,825 | 78,929,227 |
-| 259 | SHREEJISPG | Shreeji Shipping Global Limited | NSE | 370.00 | 508.00 | **35.4** | 8,276 | Mid | Industrials | 1,141,356 | 437,474,343 |
-| 260 | 540786 | Sharika Enterprises Ltd | BSE | 13.94 | 18.81 | **34.9** | 85 | Micro | nan | 72,834 | 1,052,439 |
-| 261 | RPEL | Raghav Productivity Enhancers Limited | NSE | 953.05 | 1281.20 | **34.7** | 5,874 | Mid | Basic Materials | 91,572 | 81,533,660 |
-| 262 | MCX | Multi Commodity Exchange of India Limited | NSE | 2216.00 | 2981.70 | **34.5** | 75,874 | Large | Financial Services | 3,313,286 | 8,524,603,264 |
-| 263 | SAILIFE | Sai Life Sciences Limited | NSE | 921.70 | 1240.10 | **34.5** | 26,319 | Large | Healthcare | 553,198 | 558,849,351 |
-| 264 | SOTL | Savita Oil Technologies Limited | NSE | 382.05 | 513.60 | **34.5** | 3,529 | Small | Basic Materials | 198,501 | 102,272,102 |
-| 265 | 540252 | Viram Suvarn Ltd | BSE | 7.97 | 10.52 | **34.5** | 121 | Micro | nan | 434,465 | 4,703,581 |
-| 266 | WOCKPHARMA | Wockhardt Limited | NSE | 1406.20 | 1945.50 | **34.5** | 31,615 | Large | Healthcare | 1,516,498 | 2,491,640,651 |
-| 267 | QUESS | Quess Corp Limited | NSE | 215.04 | 286.40 | **34.4** | 4,265 | Small | Industrials | 658,451 | 147,087,529 |
-| 268 | GRANULES | Granules India Limited | NSE | 615.35 | 821.45 | **34.2** | 20,394 | Large | Healthcare | 1,130,472 | 740,631,239 |
-| 269 | HCC | Hindustan Construction Company Limited | NSE | 19.39 | 25.72 | **34.1** | 6,732 | Mid | Industrials | 36,962,445 | 770,079,329 |
-| 270 | NIBE | NIBE Limited | NSE | 1236.80 | 1657.20 | **34.0** | 2,471 | Small | Industrials | 127,375 | 168,857,043 |
-| 271 | PRIVISCL | Privi Speciality Chemicals Limited | NSE | 2780.90 | 3723.40 | **33.9** | 14,513 | Mid | Basic Materials | 141,366 | 420,854,092 |
-| 272 | 539479 | GTV Engineering Ltd | BSE | 55.23 | 76.05 | **33.7** | 351 | Micro | nan | 84,320 | 5,455,550 |
-| 273 | JETFREIGHT | Jet Freight Logistics Limited | NSE | 16.88 | 22.44 | **33.6** | 105 | Micro | Industrials | 191,498 | 3,734,728 |
-| 274 | 526873 | Rajasthan Securities Ltd | BSE | 40.01 | 52.30 | **33.6** | 404 | Micro | nan | 109,332 | 4,655,760 |
-| 275 | KIMS | Krishna Institute of Medical Sciences Limited | NSE | 632.25 | 840.25 | **33.6** | 35,281 | Large | Healthcare | 469,944 | 330,282,727 |
-| 276 | DHANBANK | Dhanlaxmi Bank Limited | NSE | 24.96 | 33.38 | **33.6** | 1,321 | Small | Financial Services | 1,317,786 | 39,056,273 |
-| 277 | QUADFUTURE | Quadrant Future Tek Limited | NSE | 336.95 | 450.70 | **33.5** | 1,806 | Small | Industrials | 1,274,742 | 427,195,478 |
-| 278 | KTKBANK | The Karnataka Bank Limited | NSE | 200.00 | 268.85 | **33.4** | 10,191 | Mid | Financial Services | 4,499,424 | 988,921,647 |
-| 279 | AVL | Aditya Vision Limited | NSE | 483.55 | 649.80 | **33.1** | 8,385 | Mid | Consumer Cyclical | 205,950 | 109,536,320 |
-| 280 | DSSL | Dynacons Systems & Solutions Limited | NSE | 1005.00 | 1337.80 | **33.1** | 1,706 | Small | Technology | 178,033 | 205,908,416 |
-| 281 | INNOVACAP | Innova Captab Limited | NSE | 725.15 | 972.40 | **33.0** | 5,581 | Mid | Healthcare | 76,182 | 57,213,042 |
-| 282 | SOMANYCERA | Somany Ceramics Limited | NSE | 403.85 | 536.80 | **33.0** | 2,200 | Small | Industrials | 101,199 | 47,285,146 |
-| 283 | UNIPARTS | Uniparts India Limited | NSE | 497.05 | 658.35 | **33.0** | 2,979 | Small | Industrials | 136,795 | 75,118,578 |
-| 284 | GROWW | Billionbrains Garage Ventures Limited | NSE | 155.19 | 206.20 | **32.8** | 129,362 | Large | Financial Services | 53,405,279 | 9,501,472,610 |
-| 285 | SILVERTUC | Silver Touch Technologies Limited | NSE | 124.85 | 179.35 | **32.7** | 2,286 | Small | Technology | 788,347 | 147,742,608 |
-| 286 | GULPOLY | Gulshan Polyols Limited | NSE | 143.40 | 190.26 | **32.7** | 1,192 | Small | Basic Materials | 258,182 | 47,013,918 |
-| 287 | GOLDTECH | AION-TECH SOLUTIONS LIMITED | NSE | 50.52 | 66.97 | **32.6** | 353 | Micro | Technology | 80,180 | 3,986,285 |
-| 288 | BTTL | Bhilwara Technical Textiles Limited | NSE | 34.70 | 46.00 | **32.6** | 274 | Micro | Consumer Cyclical | 55,512 | 2,509,484 |
-| 289 | BETA | Beta Drugs Limited | NSE | 1629.40 | 2159.70 | **32.5** | n/a | nan | Healthcare | 16,666 | 25,651,356 |
-| 290 | VIJAYA | Vijaya Diagnostic Centre Limited | NSE | 1059.20 | 1399.10 | **32.5** | 14,385 | Mid | Healthcare | 242,169 | 277,034,174 |
-| 291 | HEXAGON | Hexagon Nutrition Limited | NSE | 50.66 | 70.46 | **32.5** | 850 | Small | Consumer Defensive | 3,548,858 | 208,317,008 |
-| 292 | ABB | ABB India Limited | NSE | 5205.50 | 6850.50 | **32.3** | 145,178 | Large | Industrials | 357,532 | 2,240,611,198 |
-| 293 | NAHARSPING | Nahar Spinning Mills Limited | NSE | 194.57 | 257.45 | **32.3** | 923 | Small | Consumer Cyclical | 27,935 | 5,739,000 |
-| 294 | HSCL | Himadri Speciality Chemical Limited | NSE | 494.00 | 645.50 | **32.3** | 32,596 | Large | Basic Materials | 5,555,674 | 3,302,325,252 |
-| 295 | ZENTEC | Zen Technologies Limited | NSE | 1362.40 | 1802.00 | **32.3** | 16,270 | Mid | Industrials | 658,620 | 1,028,491,391 |
-| 296 | AVADHSUGAR | Avadh Sugar & Energy Limited | NSE | 373.60 | 489.00 | **32.2** | 999 | Small | Consumer Defensive | 72,301 | 30,233,048 |
-| 297 | CARBORUNIV | Carborundum Universal Limited | NSE | 859.55 | 1134.50 | **32.1** | 21,637 | Large | Industrials | 287,515 | 272,861,766 |
-| 298 | STEELXIND | STEEL EXCHANGE INDIA LIMITED | NSE | 9.37 | 12.38 | **32.1** | 1,583 | Small | Basic Materials | 2,622,372 | 27,918,860 |
-| 299 | STOVEKRAFT | Stove Kraft Limited | NSE | 592.90 | 763.35 | **32.0** | 2,531 | Small | Consumer Cyclical | 239,892 | 131,550,254 |
-| 300 | SCI | Shipping Corporation Of India Limited | NSE | 235.08 | 302.65 | **31.9** | 14,118 | Mid | Industrials | 7,156,949 | 2,036,641,534 |
-| 301 | RAMRAT | Ram Ratna Wires Limited | NSE | 311.35 | 407.00 | **31.8** | 3,805 | Small | Industrials | 173,023 | 67,170,259 |
-| 302 | BHAGCHEM | Bhagiradha Chemicals & Industries Limited | NSE | 200.62 | 285.80 | **31.7** | 3,696 | Small | Basic Materials | 185,515 | 43,666,828 |
-| 303 | SUPRIYA | Supriya Lifescience Limited | NSE | 750.55 | 988.50 | **31.7** | 7,953 | Mid | Healthcare | 293,493 | 245,065,743 |
-| 304 | CARYSIL | CARYSIL LIMITED | NSE | 918.00 | 1183.50 | **31.7** | 3,344 | Small | Consumer Cyclical | 114,984 | 113,373,070 |
-| 305 | MMWL | Media Matrix Worldwide Limited | NSE | 10.35 | 13.55 | **31.6** | 1,529 | Small | Communication Services | 130,105 | 1,862,929 |
-| 306 | HAPPYFORGE | Happy Forgings Limited | NSE | 1185.80 | 1538.00 | **31.4** | 14,509 | Mid | Industrials | 76,769 | 101,256,791 |
-| 307 | HALDYNGL | Haldyn Glass Limited | NSE | 89.05 | 115.77 | **31.1** | 617 | Small | nan | 121,063 | 13,954,062 |
-| 308 | UNIVCABLES | Universal Cables Limited | NSE | 956.90 | 1230.00 | **30.8** | 4,261 | Small | Industrials | 202,841 | 204,113,954 |
-| 309 | UNIMECH | Unimech Aerospace and Manufacturing Limited | NSE | 911.05 | 1187.80 | **30.8** | 6,029 | Mid | Industrials | 100,065 | 96,865,496 |
-| 310 | FUSION | Fusion Finance Limited | NSE | 161.95 | 211.72 | **30.7** | 3,429 | Small | Financial Services | 504,497 | 91,761,594 |
-| 311 | RSWM | RSWM Limited | NSE | 149.86 | 194.00 | **30.7** | 923 | Small | Consumer Cyclical | 91,756 | 16,509,433 |
-| 312 | VIPULLTD | Vipul Limited | NSE | 11.77 | 15.38 | **30.7** | 215 | Micro | Real Estate | 503,304 | 5,650,234 |
-| 313 | PIXTRANS | Pix Transmissions Limited | NSE | 1404.30 | 1828.90 | **30.5** | 2,478 | Small | Industrials | 43,894 | 74,843,589 |
-| 314 | WALCHANNAG | Walchandnagar Industries Limited | NSE | 187.96 | 245.30 | **30.5** | 1,671 | Small | Industrials | 2,069,742 | 443,929,144 |
-| 315 | SHRIPISTON | SPR Auto Technologies Limited | NSE | 3297.20 | 4300.00 | **30.4** | 18,941 | Mid | Consumer Cyclical | 121,255 | 384,114,400 |
-| 316 | SKIPPER | Skipper Limited | NSE | 452.85 | 566.90 | **30.3** | 6,406 | Mid | Industrials | 574,409 | 266,361,930 |
-| 317 | GCSL | Gretex Corporate Services Limited | NSE | 340.05 | 442.55 | **30.1** | 1,070 | Small | Financial Services | 168,325 | 67,114,502 |
-| 318 | UNIVASTU | Univastu India Limited | NSE | 69.10 | 89.23 | **29.9** | n/a | nan | Industrials | 108,704 | 8,136,433 |
-| 319 | ORIENTHOT | Oriental Hotels Limited | NSE | 107.93 | 140.91 | **29.8** | 2,517 | Small | Consumer Cyclical | 549,542 | 66,822,078 |
-| 320 | KSR | KSR Footwear Limited | NSE | 23.83 | 30.90 | **29.7** | 56 | Micro | Consumer Cyclical | 91,144 | 2,305,065 |
-| 321 | DCMSIL | DCM Shriram International Limited | NSE | 52.21 | 71.06 | **29.6** | 611 | Small | Industrials | 143,544 | 11,166,239 |
-| 322 | SFL | Sheela Foam Limited | NSE | 593.35 | 762.20 | **29.6** | 8,299 | Mid | Consumer Cyclical | 231,919 | 140,971,030 |
-| 323 | JINDALPOLY | Jindal Poly Films Limited | NSE | 479.95 | 621.00 | **29.4** | 2,718 | Small | Consumer Cyclical | 228,198 | 151,816,433 |
-| 324 | SINDHUTRAD | Sindhu Trade Links Limited | NSE | 20.11 | 25.79 | **29.3** | 3,986 | Small | Industrials | 2,076,683 | 50,015,317 |
-| 325 | LINCOLN | Lincoln Pharmaceuticals Limited | NSE | 497.15 | 625.25 | **29.2** | 1,251 | Small | Healthcare | 89,030 | 56,578,078 |
-| 326 | DEEPAKFERT | Deepak Fertilizers and Petrochemicals Corporation Limited | NSE | 1261.80 | 1617.00 | **29.1** | 20,451 | Large | Basic Materials | 430,478 | 519,139,713 |
-| 327 | WSTCSTPAPR | West Coast Paper Mills Limited | NSE | 419.90 | 533.30 | **29.1** | 3,526 | Small | Basic Materials | 97,520 | 46,121,435 |
-| 328 | NELCO | NELCO Limited | NSE | 729.60 | 931.60 | **29.0** | 2,124 | Small | Technology | 244,043 | 193,617,720 |
-| 329 | SONAMLTD | SONAM LIMITED | NSE | 41.99 | 54.16 | **29.0** | n/a | nan | Consumer Cyclical | 64,124 | 3,172,141 |
-| 330 | KPRMILL | K.P.R. Mill Limited | NSE | 909.75 | 1173.40 | **29.0** | 40,156 | Large | Consumer Cyclical | 597,550 | 602,334,121 |
-| 331 | RAIN | Rain Industries Limited | NSE | 146.42 | 189.19 | **28.9** | 6,362 | Mid | Basic Materials | 4,951,166 | 761,210,693 |
-| 332 | AUROPHARMA | Aurobindo Pharma Limited | NSE | 1215.40 | 1556.80 | **28.9** | 89,523 | Large | Healthcare | 1,392,580 | 1,825,017,963 |
-| 333 | 526433 | ASM Technologies Ltd | BSE | 3185.45 | 4103.75 | **28.8** | 6,032 | Mid | nan | 23,411 | 72,318,817 |
-| 334 | ASTERDM | Aster DM Healthcare Limited | NSE | 613.90 | 792.05 | **28.7** | 41,009 | Large | Healthcare | 776,968 | 525,119,075 |
-| 335 | ALIVUS | Alivus Life Sciences Limited | NSE | 913.00 | 1168.30 | **28.7** | 14,311 | Mid | Healthcare | 92,860 | 91,220,080 |
-| 336 | 543916 | Hemant Surgical Industries Ltd | BSE | 291.40 | 375.00 | **28.7** | 535 | Small | nan | 27,348 | 9,022,398 |
-| 337 | STARHEALTH | Star Health and Allied Insurance Company Limited | NSE | 459.75 | 589.90 | **28.6** | 34,658 | Large | Financial Services | 652,068 | 324,404,062 |
-| 338 | SHAILY | Shaily Engineering Plastics Limited | NSE | 2239.90 | 2907.50 | **28.6** | 13,431 | Mid | Basic Materials | 345,508 | 823,247,419 |
-| 339 | SERVOTECH | Servotech Renewable Power System Limited | NSE | 79.98 | 101.00 | **28.6** | n/a | nan | Industrials | 1,322,601 | 117,579,126 |
-| 340 | EMCURE | Emcure Pharmaceuticals Limited | NSE | 1430.90 | 1838.90 | **28.5** | 34,929 | Large | Healthcare | 251,760 | 394,476,851 |
-| 341 | SMSPHARMA | SMS Pharmaceuticals Limited | NSE | 326.25 | 419.10 | **28.5** | 3,914 | Small | Healthcare | 510,180 | 183,425,485 |
-| 342 | AARTIIND | Aarti Industries Limited | NSE | 376.95 | 481.80 | **28.5** | 17,454 | Mid | Basic Materials | 1,120,837 | 495,607,852 |
-| 343 | BLSE | BLS E-Services Limited | NSE | 199.35 | 256.02 | **28.4** | 2,323 | Small | Industrials | 435,032 | 81,986,624 |
-| 344 | SURYODAY | Suryoday Small Finance Bank Limited | NSE | 143.96 | 183.12 | **28.3** | 1,954 | Small | Financial Services | 395,766 | 60,481,458 |
-| 345 | GESHIP | The Great Eastern Shipping Company Limited | NSE | 1114.00 | 1429.50 | **28.2** | 20,954 | Large | Industrials | 766,289 | 1,121,826,021 |
-| 346 | SANGHVIMOV | Sanghvi Movers Limited | NSE | 349.95 | 445.70 | **28.2** | 3,855 | Small | Industrials | 372,537 | 124,274,836 |
-| 347 | INGERRAND | Ingersoll Rand (India) Limited | NSE | 3507.20 | 4469.00 | **28.2** | 14,149 | Mid | Industrials | 18,897 | 74,726,573 |
-| 348 | AAREYDRUGS | Aarey Drugs & Pharmaceuticals Limited | NSE | 66.34 | 86.60 | **28.2** | 254 | Micro | Healthcare | 173,180 | 12,770,324 |
-| 349 | BALRAMCHIN | Balrampur Chini Mills Limited | NSE | 438.55 | 561.85 | **28.1** | 11,869 | Mid | Consumer Defensive | 647,010 | 321,427,037 |
-| 350 | SEAMECLTD | Seamec Limited | NSE | 1088.10 | 1405.50 | **28.0** | 3,581 | Small | Industrials | 81,966 | 111,737,907 |
-| 351 | ATGL | Adani Total Gas Limited | NSE | 587.60 | 738.80 | **28.0** | 81,243 | Large | Utilities | 4,186,235 | 2,709,339,949 |
-| 352 | BELRISE | Belrise Industries Limited | NSE | 185.05 | 236.04 | **27.8** | 20,966 | Large | Consumer Cyclical | 6,215,197 | 1,167,341,584 |
-| 353 | PGIL | Pearl Global Industries Limited | NSE | 1653.70 | 2074.50 | **27.8** | 9,599 | Mid | Consumer Cyclical | 125,620 | 215,587,474 |
-| 354 | GKSL | Gujarat Kidney And Super Speciality Limited | NSE | 102.71 | 131.19 | **27.7** | 1,033 | Small | Healthcare | 964,164 | 107,695,523 |
-| 355 | CCL | CCL Products (India) Limited | NSE | 915.70 | 1179.80 | **27.7** | 15,765 | Mid | Consumer Defensive | 338,537 | 363,539,158 |
-| 356 | 530249 | Bridge Securities Ltd | BSE | 12.60 | 15.98 | **27.5** | 65 | Micro | nan | 69,904 | 926,028 |
-| 357 | ANANDRATHI | Anand Rathi Wealth Limited | NSE | 1539.70 | 1981.20 | **27.3** | 32,884 | Large | Financial Services | 556,562 | 918,073,886 |
-| 358 | ICICIAMC | ICICI Prudential Asset Management Company Limited | NSE | 2662.20 | 3388.80 | **27.3** | 167,670 | Large | Financial Services | 791,383 | 2,292,280,925 |
-| 359 | NAVINFLUOR | Navin Fluorine International Limited | NSE | 5903.00 | 7535.00 | **27.3** | 38,613 | Large | Basic Materials | 194,382 | 1,255,448,112 |
-| 360 | INVPRECQ | Investment & Precision Castings Limited | NSE | 672.10 | 855.15 | **27.2** | 851 | Small | nan | 7,419 | 5,097,327 |
-| 361 | SUNFLAG | Sunflag Iron And Steel Company Limited | NSE | 273.45 | 345.05 | **27.0** | 6,227 | Mid | Basic Materials | 431,299 | 146,400,000 |
-| 362 | PIRAMALFIN | Piramal Finance Limited | NSE | 1712.50 | 2174.90 | **27.0** | 49,325 | Large | Financial Services | 403,702 | 749,062,897 |
-| 363 | ESAFSFB | ESAF Small Finance Bank Limited | NSE | 26.77 | 33.85 | **26.4** | 1,752 | Small | Financial Services | 928,795 | 27,342,732 |
-| 364 | RADICO | Radico Khaitan Limited | NSE | 3094.20 | 3954.20 | **26.4** | 52,965 | Large | Consumer Defensive | 440,266 | 1,380,381,564 |
-| 365 | GANESHBE | Ganesh Benzoplast Limited | NSE | 81.69 | 102.80 | **26.4** | 740 | Small | Basic Materials | 259,954 | 24,911,565 |
-| 366 | ADANIPORTS | Adani Ports and Special Economic Zone Limited | NSE | 1489.50 | 1870.80 | **26.3** | 431,290 | Large | Industrials | 2,514,137 | 3,940,678,546 |
-| 367 | DIFFNKG | Diffusion Engineers Limited | NSE | 336.25 | 422.50 | **26.2** | 1,589 | Small | Industrials | 128,944 | 40,680,116 |
-| 368 | SIS | SIS LIMITED | NSE | 339.30 | 425.85 | **26.0** | 6,010 | Mid | Industrials | 195,270 | 75,156,964 |
-| 369 | JBCHEPHARM | JB Chemicals & Pharmaceuticals Limited | NSE | 1850.40 | 2313.00 | **25.7** | 37,097 | Large | Healthcare | 264,164 | 537,664,676 |
-| 370 | DELHIVERY | Delhivery Limited | NSE | 404.50 | 508.00 | **25.6** | 38,045 | Large | Industrials | 2,656,614 | 1,182,116,960 |
-| 371 | VADILALIND | Vadilal Industries Limited | NSE | 4861.70 | 6151.00 | **25.6** | 4,452 | Small | Consumer Defensive | 18,061 | 90,896,524 |
-| 372 | NACLIND | NACL Industries Limited | NSE | 167.94 | 215.31 | **25.6** | 5,027 | Mid | Basic Materials | 690,863 | 125,981,635 |
-| 373 | AZAD | Azad Engineering Limited | NSE | 1652.80 | 2075.00 | **25.5** | 13,368 | Mid | Industrials | 305,870 | 579,598,820 |
-| 374 | KSB | Ksb Limited | NSE | 753.05 | 945.20 | **25.5** | 16,463 | Mid | Industrials | 324,533 | 264,879,985 |
-| 375 | AERONEU | Aeroflex Neu Limited | NSE | 74.95 | 94.00 | **25.5** | 244 | Micro | Consumer Cyclical | 51,636 | 4,233,541 |
+| 1 | ARIHANT | Arihant Foundations & Housing Limited | NSE | 39.65 | 791.30 | **1895.7** | 796 | Small | Real Estate | 7,007 | 5,835,540 |
+| 2 | STLTECH | Sterlite Technologies Limited | NSE | 102.08 | 576.80 | **465.1** | 29,611 | Large | Technology | 5,330,530 | 1,240,805,149 |
+| 3 | SANGINITA | Sanginita Chemicals Limited | NSE | 10.18 | 45.85 | **349.1** | n/a | nan | Basic Materials | 170,497 | 3,366,266 |
+| 4 | DEEDEV | DEE Development Engineers Limited | NSE | 211.27 | 704.35 | **235.5** | 4,908 | Small | Industrials | 2,178,004 | 645,872,451 |
+| 5 | UFBL | United Foodbrands Limited | NSE | 222.02 | 706.45 | **225.4** | 2,761 | Small | Consumer Cyclical | 255,791 | 98,276,411 |
+| 6 | HFCL | HFCL Limited | NSE | 67.20 | 214.48 | **211.2** | 32,893 | Large | Technology | 35,130,827 | 4,086,219,124 |
+| 7 | BLISSGVS | Bliss GVS Pharma Limited | NSE | 160.42 | 505.95 | **210.7** | 5,355 | Mid | Healthcare | 3,324,154 | 762,782,905 |
+| 8 | 540492 | Starlineps Enterprises Ltd | BSE | 3.86 | 11.12 | **188.1** | 479 | Micro | nan | 1,158,921 | 9,202,813 |
+| 9 | MTARTECH | Mtar Technologies Limited | NSE | 2473.90 | 7033.50 | **184.3** | 21,664 | Large | Industrials | 887,866 | 5,162,503,430 |
+| 10 | SIGMAADV | SIGMA ADVANCED SYSTEMS LIMITED | NSE | 204.16 | 548.40 | **170.1** | 9,698 | Mid | Industrials | 246,768 | 78,116,714 |
+| 11 | OMNI | Omnitech Engineering Limited | NSE | 204.93 | 508.65 | **166.8** | 6,300 | Mid | Industrials | 985,469 | 340,038,648 |
+| 12 | GVPIL | GE Power India Limited | NSE | 341.10 | 873.75 | **157.1** | 5,890 | Mid | Industrials | 646,801 | 349,361,668 |
+| 13 | CPPLUS | Aditya Infotech Limited | NSE | 1465.00 | 3588.40 | **144.9** | 42,328 | Large | Industrials | 277,062 | 624,917,268 |
+| 14 | ONELIFECAP | Onelife Capital Advisors Limited | NSE | 16.01 | 38.60 | **140.3** | 145 | Micro | Financial Services | 142,989 | 2,448,909 |
+| 15 | INDSWFTLAB | Ind-Swift Laboratories Limited | NSE | 90.34 | 214.16 | **136.7** | 1,861 | Small | Healthcare | 875,720 | 128,904,895 |
+| 16 | KOVAI | Kovai Medical Center & Hospital Limited | NSE | 2576.65 | 6042.50 | **134.5** | 6,611 | Mid | Healthcare | 5,399 | 31,179,381 |
+| 17 | CUPID | Cupid Limited | NSE | 78.01 | 198.84 | **131.8** | 26,745 | Large | Consumer Defensive | 30,396,404 | 2,939,456,642 |
+| 18 | AEROFLEX | Aeroflex Industries Limited | NSE | 200.22 | 456.25 | **130.9** | 6,036 | Mid | Industrials | 2,519,036 | 743,138,662 |
+| 19 | KSHINTL | KSH International Limited | NSE | 365.35 | 847.55 | **126.9** | 5,747 | Mid | Industrials | 456,706 | 255,115,854 |
+| 20 | VENUSREM | Venus Remedies Limited | NSE | 763.00 | 1720.90 | **126.3** | 2,290 | Small | Healthcare | 75,111 | 79,651,518 |
+| 21 | NGLFINE | NGL Fine-Chem Limited | NSE | 1424.70 | 3206.00 | **125.0** | 1,965 | Small | Healthcare | 10,626 | 26,772,137 |
+| 22 | OMAXAUTO | Omax Autos Limited | NSE | 103.02 | 231.05 | **123.7** | 493 | Micro | Consumer Cyclical | 131,825 | 21,303,745 |
+| 23 | BAJAJCON | Bajaj Consumer Care Limited | NSE | 280.10 | 616.20 | **122.7** | 8,073 | Mid | Consumer Defensive | 1,287,979 | 509,595,372 |
+| 24 | NINSYS | NINtec Systems Limited | NSE | 390.35 | 876.60 | **120.5** | 1,636 | Small | Technology | 13,770 | 5,847,839 |
+| 25 | BHAGYANGR | Bhagyanagar India Limited | NSE | 169.30 | 371.50 | **119.4** | 1,186 | Small | Basic Materials | 230,556 | 49,436,811 |
+| 26 | NOVARTIND | Novartis India Limited | NSE | 672.25 | 1469.40 | **118.6** | 3,627 | Small | Healthcare | 28,697 | 37,521,043 |
+| 27 | GRWRHITECH | Garware Hi-Tech Films Limited | NSE | 3131.00 | 6875.00 | **116.9** | 15,952 | Mid | Basic Materials | 86,955 | 395,684,140 |
+| 28 | YASHO | Yasho Industries Limited | NSE | 1387.00 | 2972.90 | **114.3** | 3,578 | Small | Basic Materials | 29,773 | 54,266,770 |
+| 29 | SHADOWFAX | Shadowfax Technologies Limited | NSE | 109.98 | 225.45 | **111.5** | 13,185 | Mid | Industrials | 2,825,779 | 438,080,064 |
+| 30 | ACUTAAS | Acutaas Chemicals Limited | NSE | 1769.60 | 3694.80 | **110.2** | 30,215 | Large | Basic Materials | 429,556 | 1,026,429,769 |
+| 31 | SAKAR | Sakar Healthcare Limited | NSE | 410.75 | 848.80 | **108.8** | n/a | nan | Healthcare | 119,489 | 75,196,776 |
+| 32 | SCHNEIDER | Schneider Electric Infrastructure Limited | NSE | 702.45 | 1481.60 | **108.6** | 35,427 | Large | Industrials | 395,591 | 381,558,886 |
+| 33 | EBGNG | GNG Electronics Limited | NSE | 309.25 | 641.15 | **107.0** | 7,312 | Mid | Technology | 405,885 | 176,336,299 |
+| 34 | SPORTKING | Sportking India Limited | NSE | 86.65 | 179.34 | **106.0** | 2,282 | Small | Consumer Cyclical | 309,414 | 45,228,651 |
+| 35 | JNKINDIA | JNK India Limited | NSE | 234.95 | 483.75 | **105.3** | 2,712 | Small | Industrials | 705,361 | 270,860,056 |
+| 36 | CONFIPET | Confidence Petroleum India Limited | NSE | 36.76 | 74.17 | **104.4** | 2,459 | Small | Energy | 2,736,305 | 150,396,396 |
+| 37 | ANTELOPUS | Antelopus Selan Energy Limited | NSE | 395.55 | 802.35 | **102.8** | 2,821 | Small | Energy | 402,382 | 226,955,817 |
+| 38 | PAISALO | Paisalo Digital Limited | NSE | 35.48 | 71.87 | **101.9** | 6,539 | Mid | Financial Services | 8,506,584 | 406,272,342 |
+| 39 | BALAMINES | Balaji Amines Limited | NSE | 1089.70 | 2194.20 | **101.4** | 7,137 | Mid | Basic Materials | 393,956 | 576,916,590 |
+| 40 | RPTECH | Rashi Peripherals Limited | NSE | 379.95 | 757.95 | **99.5** | 4,994 | Small | Technology | 557,383 | 351,486,357 |
+| 41 | SUVEN | Suven Life Sciences Limited | NSE | 161.92 | 327.60 | **98.8** | 8,647 | Mid | Healthcare | 926,819 | 221,534,063 |
+| 42 | INDOTECH | Indo Tech Transformers Limited | NSE | 1592.60 | 3136.70 | **98.4** | 3,320 | Small | Industrials | 47,457 | 98,273,471 |
+| 43 | VIDYAWIRES | Vidya Wires Limited | NSE | 49.67 | 99.02 | **98.1** | 2,105 | Small | Industrials | 5,575,379 | 399,077,556 |
+| 44 | SEDEMAC | SEDEMAC Mechatronics Limited | NSE | 1451.10 | 2865.20 | **97.5** | 12,639 | Mid | Consumer Cyclical | 250,051 | 491,643,868 |
+| 45 | PARKHOSPS | Park Medi World Limited | NSE | 150.00 | 294.80 | **96.9** | 12,712 | Mid | Healthcare | 1,445,413 | 274,468,137 |
+| 46 | AVALON | Avalon Technologies Limited | NSE | 908.70 | 1788.30 | **96.8** | 11,931 | Mid | Technology | 327,396 | 406,126,856 |
+| 47 | RUBICON | Rubicon Research Limited | NSE | 665.85 | 1307.00 | **96.3** | 21,545 | Large | Healthcare | 350,284 | 352,636,374 |
+| 48 | SETL | Standard Engineering Technology Limited | NSE | 144.67 | 281.75 | **94.8** | 5,617 | Mid | Industrials | 495,257 | 89,537,047 |
+| 49 | CEMPRO | Cemindia Projects Limited | NSE | 756.45 | 1449.00 | **91.5** | 24,888 | Large | Industrials | 767,201 | 678,166,282 |
+| 50 | SHILPAMED | Shilpa Medicare Limited | NSE | 317.00 | 608.95 | **91.4** | 11,902 | Mid | Healthcare | 720,880 | 318,162,715 |
+| 51 | ATLANTAELE | Atlanta Electricals Limited | NSE | 886.80 | 1688.40 | **90.2** | 12,999 | Mid | Industrials | 158,857 | 200,761,203 |
+| 52 | EMMVEE | Emmvee Photovoltaic Power Limited | NSE | 184.91 | 358.95 | **90.1** | 24,834 | Large | Technology | 4,202,762 | 1,048,055,062 |
+| 53 | BLUSPRING | Bluspring Enterprises Limited | NSE | 67.39 | 123.61 | **88.6** | 1,849 | Small | Industrials | 539,182 | 45,309,754 |
+| 54 | E2E | E2E Networks Limited | NSE | 208.85 | 382.00 | **88.4** | 7,851 | Mid | Technology | 1,475,943 | 440,650,964 |
+| 55 | IBULLSLTD | Indiabulls Limited | NSE | 15.65 | 29.30 | **87.2** | 6,826 | Mid | Real Estate | 7,485,733 | 123,010,046 |
+| 56 | ASTRAMICRO | Astra Microwave Products Limited | NSE | 1000.00 | 1848.50 | **87.2** | 17,567 | Mid | Technology | 580,788 | 729,511,555 |
+| 57 | PARAS | Paras Defence and Space Technologies Limited | NSE | 702.70 | 1294.00 | **86.9** | 10,432 | Mid | Industrials | 2,108,331 | 1,966,994,494 |
+| 58 | MODISONLTD | MODISON LIMITED | NSE | 159.08 | 299.85 | **86.9** | 974 | Small | Industrials | 122,024 | 27,453,557 |
+| 59 | NITTAGELA | Nitta Gelatin India Limited | NSE | 922.65 | 1727.40 | **86.7** | 1,568 | Small | Basic Materials | 18,404 | 27,061,765 |
+| 60 | SBCL | Shivalik Bimetal Controls Limited | NSE | 422.25 | 794.05 | **86.2** | 4,567 | Small | Industrials | 303,647 | 185,869,812 |
+| 61 | PARACABLES | Paramount Communications Limited | NSE | 38.32 | 71.12 | **84.8** | 2,163 | Small | Technology | 2,095,297 | 113,549,775 |
+| 62 | THANGAMAYL | Thangamayil Jewellery Limited | NSE | 3337.00 | 6159.50 | **84.6** | 19,133 | Mid | Consumer Cyclical | 163,080 | 682,416,287 |
+| 63 | SYRMA | Syrma SGS Technology Limited | NSE | 750.25 | 1376.00 | **83.6** | 26,551 | Large | Technology | 1,357,281 | 1,267,715,433 |
+| 64 | VISL | Vedanta Iron and Steel Limited | NSE | 21.06 | 40.52 | **83.3** | 15,841 | Mid | Basic Materials | 96,933,702 | 3,016,038,126 |
+| 65 | KERNEX | Kernex Microsystems (India) Limited | NSE | 1331.80 | 2378.80 | **83.3** | 3,998 | Small | Technology | 263,333 | 372,394,581 |
+| 66 | KOTYARK | Kotyark Industries Limited | NSE | 21.34 | 38.88 | **82.2** | 434 | Micro | Basic Materials | 354,322 | 12,297,875 |
+| 67 | AEGISLOG | Aegis Logistics Limited | NSE | 732.05 | 1325.40 | **81.0** | 46,530 | Large | Energy | 1,422,339 | 1,231,542,625 |
+| 68 | GAYAPROJ | Gayatri Projects Limited | NSE | 12.10 | 21.89 | **80.9** | 414 | Micro | Industrials | 271,090 | 5,301,031 |
+| 69 | WELCORP | Welspun Corp Limited | NSE | 802.70 | 1439.30 | **80.1** | 37,965 | Large | Basic Materials | 682,959 | 723,788,134 |
+| 70 | BBOX | Black Box Limited | NSE | 553.50 | 994.95 | **79.8** | 17,652 | Mid | Technology | 659,037 | 479,938,471 |
+| 71 | MAYURUNIQ | Mayur Uniquoters Ltd | NSE | 491.60 | 882.15 | **79.4** | 3,847 | Small | Consumer Cyclical | 153,721 | 102,782,941 |
+| 72 | ARVIND | Arvind Limited | NSE | 317.75 | 569.05 | **79.1** | 14,935 | Mid | Consumer Cyclical | 720,226 | 304,738,015 |
+| 73 | KIRLOSENG | Kirloskar Oil Engines Limited | NSE | 1254.30 | 2230.80 | **78.9** | 32,447 | Large | Industrials | 629,848 | 1,051,087,384 |
+| 74 | CMPDI | Central Mine Planning & Design Institute Limited | NSE | 154.06 | 277.50 | **77.9** | 19,810 | Mid | Basic Materials | 5,646,107 | 1,263,654,298 |
+| 75 | NITINSPIN | Nitin Spinners Limited | NSE | 317.00 | 563.55 | **77.2** | 3,174 | Small | Consumer Cyclical | 367,269 | 147,695,611 |
+| 76 | SPARC | Sun Pharma Advanced Research Company Limited | NSE | 135.34 | 239.37 | **76.4** | 7,761 | Mid | Healthcare | 4,503,885 | 787,180,593 |
+| 77 | TIRUPATIFL | Tirupati Forge Limited | NSE | 38.11 | 66.82 | **75.3** | n/a | nan | Industrials | 574,724 | 26,403,752 |
+| 78 | SCPL | Sheetal Cool Products Limited | NSE | 319.45 | 561.35 | **75.0** | 590 | Small | Consumer Defensive | 27,662 | 9,887,502 |
+| 79 | SATIN | Satin Creditcare Network Limited | NSE | 145.98 | 254.80 | **74.5** | 2,820 | Small | Financial Services | 523,504 | 109,276,141 |
+| 80 | LOKESHMACH | Lokesh Machines Limited | NSE | 190.52 | 314.90 | **74.4** | 668 | Small | Industrials | 80,551 | 16,204,217 |
+| 81 | IOLCP | IOL Chemicals and Pharmaceuticals Limited | NSE | 83.00 | 142.96 | **74.0** | 4,199 | Small | Healthcare | 2,121,385 | 231,369,251 |
+| 82 | IDEAFORGE | Ideaforge Technology Limited | NSE | 485.00 | 821.60 | **73.8** | 3,568 | Small | Technology | 1,078,812 | 632,039,975 |
+| 83 | KIRLPNU | Kirloskar Pneumatic Company Limited | NSE | 1046.80 | 1825.90 | **73.7** | 11,859 | Mid | Industrials | 147,032 | 217,449,546 |
+| 84 | ZIMLAB | Zim Laboratories Limited | NSE | 70.33 | 122.01 | **73.5** | 659 | Small | Healthcare | 75,809 | 6,555,474 |
+| 85 | APARINDS | Apar Industries Limited | NSE | 8172.50 | 14174.00 | **73.2** | 56,943 | Large | Industrials | 115,699 | 1,332,622,049 |
+| 86 | DJML | DJ Mediaprint & Logistics Limited | NSE | 73.09 | 121.87 | **73.0** | 420 | Micro | Industrials | 205,443 | 18,734,066 |
+| 87 | NEOGEN | Neogen Chemicals Limited | NSE | 1144.80 | 1968.30 | **71.9** | 5,385 | Mid | Basic Materials | 184,098 | 243,408,631 |
+| 88 | 511523 | Veerhealth Care Ltd | BSE | 19.00 | 32.57 | **71.8** | 65 | Micro | nan | 99,845 | 2,243,725 |
+| 89 | COCKERILL | John Cockerill India Limited | NSE | 5277.35 | 8947.50 | **71.6** | 4,418 | Small | Industrials | 24,164 | 207,421,043 |
+| 90 | WHEELS | Wheels India Limited | NSE | 869.25 | 1491.60 | **69.8** | 3,642 | Small | Consumer Cyclical | 135,013 | 177,182,242 |
+| 91 | SANSERA | Sansera Engineering Limited | NSE | 1933.00 | 3251.50 | **68.9** | 20,257 | Large | Consumer Cyclical | 245,443 | 580,297,794 |
+| 92 | 539730 | Fredun Pharmaceuticals Ltd | BSE | 1567.90 | 2588.80 | **68.5** | 1,417 | Small | nan | 12,169 | 23,960,476 |
+| 93 | AEQUS | Aequs Limited | NSE | 141.00 | 236.54 | **68.3** | 15,898 | Mid | Industrials | 5,618,339 | 964,644,809 |
+| 94 | DATAPATTNS | Data Patterns (India) Limited | NSE | 2731.30 | 4507.00 | **68.3** | 25,242 | Large | Industrials | 954,930 | 3,413,823,164 |
+| 95 | APOLLO | Apollo Micro Systems Limited | NSE | 267.75 | 450.05 | **68.1** | 16,075 | Mid | Industrials | 11,183,323 | 3,789,630,050 |
+| 96 | SKMEGGPROD | SKM Egg Products Export (India) Limited | NSE | 184.98 | 314.60 | **67.8** | 1,656 | Small | Consumer Defensive | 560,228 | 120,117,017 |
+| 97 | JAYBARMARU | Jay Bharat Maruti Limited | NSE | 104.31 | 171.55 | **67.6** | 1,854 | Small | Consumer Cyclical | 805,069 | 97,420,876 |
+| 98 | SKYGOLD | SKY GOLD AND DIAMONDS LIMITED | NSE | 335.75 | 560.00 | **67.6** | 8,674 | Mid | Consumer Cyclical | 1,072,536 | 452,197,488 |
+| 99 | DIVGIITTS | Divgi Torqtransfer Systems Limited | NSE | 617.70 | 1021.50 | **66.5** | 3,127 | Small | Consumer Cyclical | 99,265 | 89,215,635 |
+| 100 | GRANDOAK | Grand Oak Canyons Distillery Limited | NSE | 28.90 | 48.01 | **66.1** | 2,486 | Small | nan | 59,291 | 2,206,260 |
+| 101 | 532380 | Baba Arts Ltd-$ | BSE | 9.55 | 15.08 | **65.7** | 79 | Micro | nan | 71,060 | 939,365 |
+| 102 | INOXINDIA | INOX India Limited | NSE | 1123.30 | 1871.00 | **65.5** | 16,989 | Mid | Industrials | 212,259 | 330,574,593 |
+| 103 | POWERINDIA | Hitachi Energy India Limited | NSE | 19004.00 | 31040.00 | **64.7** | 138,259 | Large | Industrials | 159,726 | 4,187,724,815 |
+| 104 | APOLLOPIPE | Apollo Pipes Limited | NSE | 283.10 | 479.40 | **63.3** | 2,106 | Small | Industrials | 925,158 | 377,880,280 |
+| 105 | KRN | KRN Heat Exchanger and Refrigeration Limited | NSE | 758.35 | 1214.80 | **63.3** | 7,937 | Mid | Technology | 863,758 | 843,321,738 |
+| 106 | KPL | Kwality Pharmaceuticals Limited | NSE | 1662.60 | 2678.70 | **63.2** | 2,777 | Small | nan | 44,267 | 97,638,664 |
+| 107 | 544023 | Kalyani Cast-Tech Ltd | BSE | 464.65 | 757.55 | **63.0** | 544 | Small | nan | 11,183 | 6,344,528 |
+| 108 | SENORES | Senores Pharmaceuticals Limited | NSE | 847.80 | 1381.90 | **63.0** | 6,356 | Mid | Healthcare | 322,979 | 308,629,298 |
+| 109 | NRL | Nupur Recyclers Limited | NSE | 56.82 | 92.57 | **62.9** | n/a | nan | Industrials | 75,533 | 4,767,568 |
+| 110 | ATHERENERG | Ather Energy Limited | NSE | 684.90 | 1130.00 | **62.7** | 43,300 | Large | Consumer Cyclical | 3,307,043 | 2,812,537,746 |
+| 111 | DECNGOLD | Deccan Gold Mines Limited | NSE | 120.20 | 195.46 | **62.6** | 3,888 | Small | nan | 2,643,742 | 470,386,831 |
+| 112 | PREMIERPOL | Premier Polyfilm Limited | NSE | 42.35 | 68.30 | **62.5** | 718 | Small | Basic Materials | 208,321 | 11,155,278 |
+| 113 | WABAG | VA Tech Wabag Limited | NSE | 1284.20 | 2080.90 | **62.0** | 13,000 | Mid | Industrials | 435,272 | 655,818,832 |
+| 114 | SGFIN | SG Finserve Limited | NSE | 411.05 | 673.80 | **61.8** | 3,761 | Small | Financial Services | 279,416 | 139,131,408 |
+| 115 | UNIVPHOTO | Universus Photo Imagings Limited | NSE | 224.14 | 357.95 | **61.4** | 400 | Micro | Healthcare | 15,567 | 6,635,147 |
+| 116 | ELPROINTL | Elpro International Limited | NSE | 105.35 | 173.51 | **61.4** | 2,940 | Small | nan | 172,276 | 25,776,237 |
+| 117 | ACMESOLAR | Acme Solar Holdings Limited | NSE | 238.63 | 383.25 | **61.1** | 27,087 | Large | Utilities | 1,634,773 | 466,804,088 |
+| 118 | CENTUM | Centum Electronics Limited | NSE | 2236.50 | 3627.00 | **61.0** | 5,361 | Mid | Technology | 72,554 | 203,784,689 |
+| 119 | FCL | Fineotex Chemical Limited | NSE | 24.36 | 39.12 | **60.6** | 4,557 | Small | Basic Materials | 10,000,850 | 341,616,371 |
+| 120 | J&KBANK | The Jammu & Kashmir Bank Limited | NSE | 103.49 | 165.20 | **59.6** | 18,192 | Mid | Financial Services | 4,586,454 | 567,989,381 |
+| 121 | SPAL | S. P. Apparels Limited | NSE | 700.45 | 1118.60 | **59.6** | 2,817 | Small | Consumer Cyclical | 139,293 | 124,948,353 |
+| 122 | RISHABH | Rishabh Instruments Limited | NSE | 407.00 | 649.45 | **59.6** | 2,514 | Small | Technology | 136,253 | 67,713,451 |
+| 123 | XPROINDIA | Xpro India Limited | NSE | 938.30 | 1495.00 | **59.3** | 3,512 | Small | Basic Materials | 55,910 | 62,728,423 |
+| 124 | SGMART | SG Mart Limited | NSE | 378.00 | 600.95 | **59.0** | 7,589 | Mid | Industrials | 280,863 | 132,647,018 |
+| 125 | TDPOWERSYS | TD Power Systems Limited | NSE | 694.30 | 1091.80 | **58.6** | 16,993 | Mid | Industrials | 1,123,541 | 1,109,022,985 |
+| 126 | MEGASTAR | Megastar Foods Limited | NSE | 232.02 | 366.70 | **58.4** | 416 | Micro | Consumer Defensive | 26,283 | 7,936,508 |
+| 127 | AFIL | Akme Fintrade (India) Limited | NSE | 6.37 | 10.07 | **58.1** | 431 | Micro | Financial Services | 1,637,090 | 12,854,398 |
+| 128 | PRECWIRE | Precision Wires India Limited | NSE | 253.92 | 400.75 | **57.8** | 7,303 | Mid | Industrials | 969,975 | 304,267,276 |
+| 129 | HONASA | Honasa Consumer Limited | NSE | 292.50 | 461.75 | **57.7** | 15,044 | Mid | Consumer Defensive | 1,789,057 | 629,542,832 |
+| 130 | ADFFOODS | ADF Foods Limited | NSE | 204.06 | 320.40 | **57.0** | 3,522 | Small | Consumer Defensive | 347,558 | 91,551,799 |
+| 131 | ADVAIT | Advait Energy Transitions Limited | NSE | 1391.80 | 2188.20 | **56.6** | 2,392 | Small | Industrials | 58,651 | 113,953,999 |
+| 132 | ROSSTECH | Rossell Techsys Limited | NSE | 629.25 | 981.10 | **56.5** | 3,688 | Small | Industrials | 211,973 | 172,616,247 |
+| 133 | SPECTRUM | Spectrum Electrical Industries Limited | NSE | 1189.60 | 1853.20 | **55.8** | 2,930 | Small | Industrials | 12,768 | 18,916,574 |
+| 134 | NRBBEARING | NRB Bearing Limited | NSE | 268.50 | 423.15 | **55.6** | 4,103 | Small | Consumer Cyclical | 545,015 | 196,496,005 |
+| 135 | AYMSYNTEX | AYM Syntex Limited | NSE | 166.67 | 262.64 | **55.2** | 1,545 | Small | Consumer Cyclical | 33,169 | 6,789,330 |
+| 136 | EXICOM | Exicom Tele-Systems Limited | NSE | 115.41 | 178.01 | **54.2** | 2,481 | Small | Industrials | 2,664,345 | 394,866,722 |
+| 137 | 524520 | KMC Speciality Hospitals (India) Ltd | BSE | 86.76 | 133.65 | **54.0** | 2,180 | Small | nan | 133,183 | 13,509,202 |
+| 138 | GALAPREC | Gala Precision Engineering Limited | NSE | 768.20 | 1183.40 | **53.9** | 1,518 | Small | Industrials | 40,267 | 38,203,671 |
+| 139 | NARMADA | Narmada Agrobase Limited | NSE | 23.62 | 36.34 | **53.9** | 138 | Micro | Basic Materials | 503,476 | 18,501,504 |
+| 140 | 543787 | Macfos Ltd | BSE | 718.86 | 1128.55 | **53.8** | 1,169 | Small | nan | 9,223 | 8,787,153 |
+| 141 | UTLSOLAR | Fujiyama Power Systems Limited | NSE | 225.00 | 342.75 | **53.4** | 10,507 | Mid | Technology | 683,088 | 164,291,486 |
+| 142 | TIMEX | Timex Group India Limited | NSE | 344.55 | 524.45 | **53.4** | 5,302 | Mid | Consumer Cyclical | 583,838 | 258,338,990 |
+| 143 | ICIL | Indo Count Industries Limited | NSE | 278.35 | 426.50 | **53.2** | 8,497 | Mid | Consumer Cyclical | 776,117 | 254,541,654 |
+| 144 | VTL | Vardhman Textiles Limited | NSE | 435.15 | 666.25 | **53.1** | 19,315 | Mid | Consumer Cyclical | 514,902 | 275,559,853 |
+| 145 | JINDALSAW | Jindal Saw Limited | NSE | 172.69 | 260.95 | **53.0** | 16,678 | Mid | Basic Materials | 5,244,047 | 1,038,540,128 |
+| 146 | RUBYMILLS | The Ruby Mills Limited | NSE | 220.06 | 339.65 | **52.9** | 1,133 | Small | Consumer Cyclical | 60,804 | 15,571,399 |
+| 147 | RRKABEL | R R Kabel Limited | NSE | 1536.70 | 2343.30 | **52.5** | 26,480 | Large | Industrials | 409,760 | 747,599,481 |
+| 148 | FAZE3Q | Faze Three Limited | NSE | 403.65 | 614.25 | **52.2** | 1,494 | Small | Consumer Cyclical | 73,170 | 35,344,831 |
+| 149 | SAIPARENT | Sai Parenterals Limited | NSE | 405.70 | 618.60 | **52.1** | 2,738 | Small | Healthcare | 347,047 | 180,392,538 |
+| 150 | VENUSPIPES | Venus Pipes & Tubes Limited | NSE | 1179.30 | 1783.20 | **52.0** | 3,697 | Small | Basic Materials | 78,790 | 104,144,820 |
+| 151 | ADANIGREEN | Adani Green Energy Limited | NSE | 1030.50 | 1556.20 | **51.7** | 256,408 | Large | Utilities | 3,427,289 | 3,817,004,797 |
+| 152 | AEROENTER | Aeroflex Enterprises Limited | NSE | 86.76 | 130.65 | **50.6** | 1,480 | Small | Basic Materials | 587,468 | 63,591,589 |
+| 153 | 543828 | Sudarshan Pharma Industries Ltd | BSE | 26.24 | 39.49 | **50.5** | 950 | Small | nan | 203,380 | 5,666,725 |
+| 154 | TALBROAUTO | Talbros Automotive Components Limited | NSE | 273.90 | 412.10 | **50.5** | 2,543 | Small | Consumer Cyclical | 208,455 | 68,071,088 |
+| 155 | ADANIPOWER | Adani Power Limited | NSE | 146.20 | 221.79 | **50.3** | 427,638 | Large | Utilities | 29,701,252 | 5,594,966,322 |
+| 156 | ADANIENSOL | Adani Energy Solutions Limited | NSE | 1044.90 | 1568.80 | **50.1** | 188,511 | Large | Utilities | 2,235,359 | 2,741,040,091 |
+| 157 | THERMAX | Thermax Limited | NSE | 3070.60 | 4607.50 | **50.1** | 54,962 | Large | Industrials | 208,983 | 836,190,567 |
+| 158 | LLOYDSENGG | LLOYDS ENGINEERING WORKS LIMITED | NSE | 56.75 | 83.94 | **49.5** | 12,272 | Mid | Industrials | 8,847,278 | 597,660,775 |
+| 159 | KISSHT | OnEMI Technology Solutions Limited | NSE | 208.63 | 311.60 | **49.4** | 5,241 | Mid | Financial Services | 5,789,091 | 1,404,315,920 |
+| 160 | 543920 | CFF Fluid Control Ltd | BSE | 599.45 | 879.40 | **49.2** | 1,844 | Small | nan | 29,366 | 19,802,570 |
+| 161 | MANINDS | Man Industries (India) Limited | NSE | 394.45 | 582.55 | **48.7** | 4,373 | Small | Basic Materials | 848,389 | 392,214,501 |
+| 162 | AMANTA | Amanta Healthcare Limited | NSE | 110.45 | 163.09 | **48.6** | 641 | Small | Healthcare | 165,151 | 21,304,844 |
+| 163 | MANCREDIT | Mangal Credit and Fincorp Limited | NSE | 164.68 | 245.33 | **48.0** | 518 | Small | Financial Services | 113,721 | 22,972,965 |
+| 164 | RAMCOSYS | Ramco Systems Limited | NSE | 540.40 | 799.60 | **48.0** | 3,007 | Small | Technology | 847,524 | 577,880,306 |
+| 165 | RML | Rane (Madras) Limited | NSE | 831.40 | 1206.80 | **47.7** | 3,325 | Small | Consumer Cyclical | 44,811 | 44,170,217 |
+| 166 | STEELCAS | Steelcast Limited | NSE | 209.45 | 310.55 | **47.7** | 3,139 | Small | Basic Materials | 126,537 | 34,260,578 |
+| 167 | HIRECT | Hind Rectifiers Limited | NSE | 743.10 | 1092.20 | **47.0** | 3,757 | Small | Industrials | 141,096 | 124,481,005 |
+| 168 | ANGELONE | Angel One Limited | NSE | 240.20 | 352.25 | **46.6** | 32,150 | Large | Financial Services | 8,956,938 | 2,510,681,269 |
+| 169 | CLEANMAX | Clean Max Enviro Energy Solutions Limited | NSE | 867.50 | 1256.70 | **46.5** | 14,727 | Mid | Utilities | 433,210 | 465,239,154 |
+| 170 | SBC | SBC Exports Limited | NSE | 28.75 | 42.14 | **46.5** | 2,008 | Small | Industrials | 12,317,032 | 400,387,307 |
+| 171 | INDOBORAX | Indo Borax & Chemicals Limited | NSE | 267.95 | 392.25 | **46.4** | 1,262 | Small | Basic Materials | 124,645 | 38,962,360 |
+| 172 | OFSS | Oracle Financial Services Software Limited | NSE | 7677.00 | 11248.00 | **46.3** | 97,922 | Large | Technology | 219,041 | 1,891,495,589 |
+| 173 | STYLAMIND | Stylam Industries Limited | NSE | 2188.50 | 3230.00 | **46.3** | 5,470 | Mid | Consumer Cyclical | 59,221 | 138,541,606 |
+| 174 | VINDHYATEL | Vindhya Telelinks Limited | NSE | 1392.70 | 2032.90 | **46.0** | 2,410 | Small | Industrials | 53,196 | 93,065,128 |
+| 175 | PANACEABIO | Panacea Biotec Limited | NSE | 369.90 | 551.20 | **46.0** | 3,366 | Small | Healthcare | 767,074 | 350,632,777 |
+| 176 | AMAGI | Amagi Media Labs Limited | NSE | 348.25 | 532.60 | **45.7** | 11,505 | Mid | Technology | 753,906 | 296,814,653 |
+| 177 | SWANDEF | Swan Defence and Heavy Industries Limited | NSE | 1606.90 | 2339.80 | **45.6** | 12,337 | Mid | Industrials | 14,527 | 27,443,456 |
+| 178 | PRADPME | Pradeep Metals Limited | NSE | 370.60 | 547.45 | **45.5** | 944 | Small | nan | 29,832 | 14,185,628 |
+| 179 | TMB | Tamilnad Mercantile Bank Limited | NSE | 535.10 | 778.65 | **45.5** | 12,311 | Mid | Financial Services | 372,139 | 245,140,316 |
+| 180 | SUDEEPPHRM | Sudeep Pharma Limited | NSE | 597.50 | 868.05 | **45.5** | 9,786 | Mid | Healthcare | 637,881 | 465,186,555 |
+| 181 | SOLARINDS | Solar Industries India Limited | NSE | 12731.00 | 18514.00 | **45.4** | 167,605 | Large | Basic Materials | 161,523 | 2,394,489,760 |
+| 182 | KRISHANA | Krishana Phoschem Limited | NSE | 104.71 | 151.85 | **45.3** | n/a | nan | Basic Materials | 938,419 | 116,670,296 |
+| 183 | MARKSANS | Marksans Pharma Limited | NSE | 182.02 | 264.45 | **45.3** | 11,964 | Mid | Healthcare | 1,571,290 | 346,384,137 |
+| 184 | KRISHNADEF | Krishna Defence And Allied Industries Limited | NSE | 862.60 | 1253.20 | **45.3** | n/a | nan | Industrials | 148,194 | 157,773,148 |
+| 185 | NDLVENTURE | NDL Ventures Limited | NSE | 91.89 | 133.37 | **45.1** | 448 | Micro | Communication Services | 44,744 | 5,238,987 |
+| 186 | GAUDIUMIVF | Gaudium IVF and Women Health Limited | NSE | 80.26 | 116.90 | **44.7** | 852 | Small | Healthcare | 925,239 | 90,002,594 |
+| 187 | BHARATFORG | Bharat Forge Limited | NSE | 1482.30 | 2136.70 | **44.6** | 102,220 | Large | Consumer Cyclical | 1,291,620 | 2,279,428,028 |
+| 188 | MBAPL | Madhya Bharat Agro Products Limited | NSE | 86.73 | 125.15 | **44.3** | n/a | nan | Basic Materials | 1,067,791 | 104,748,175 |
+| 189 | PREMEXPLN | Premier Explosives Limited | NSE | 543.70 | 782.05 | **44.2** | 4,203 | Small | Basic Materials | 588,912 | 375,527,743 |
+| 190 | GCSL | Gretex Corporate Services Limited | NSE | 335.25 | 490.45 | **44.2** | 1,189 | Small | Financial Services | 184,277 | 75,012,494 |
+| 191 | GLAND | Gland Pharma Limited | NSE | 1698.20 | 2462.30 | **44.1** | 40,588 | Large | Healthcare | 327,204 | 683,773,651 |
+| 192 | BTTL | Bhilwara Technical Textiles Limited | NSE | 34.70 | 49.88 | **43.8** | 291 | Micro | Consumer Cyclical | 57,589 | 2,617,172 |
+| 193 | POWERICA | Powerica Limited | NSE | 390.00 | 567.30 | **43.6** | 7,197 | Mid | Industrials | 531,591 | 267,532,766 |
+| 194 | AETHER | Aether Industries Limited | NSE | 946.70 | 1359.60 | **43.6** | 18,060 | Mid | Basic Materials | 339,927 | 369,985,913 |
+| 195 | APCOTEXIND | Apcotex Industries Limited | NSE | 372.85 | 525.55 | **43.6** | 2,724 | Small | Basic Materials | 64,140 | 30,499,726 |
+| 196 | MOREPENLAB | Morepen Laboratories Limited | NSE | 41.26 | 59.07 | **43.2** | 3,232 | Small | Healthcare | 6,117,854 | 287,068,439 |
+| 197 | IFCI | IFCI Limited | NSE | 53.11 | 75.91 | **43.0** | 20,458 | Large | Financial Services | 39,151,370 | 2,727,417,891 |
+| 198 | SUYOG | Suyog Telematics Limited | NSE | 617.20 | 876.85 | **42.9** | 1,027 | Small | Communication Services | 35,656 | 24,942,266 |
+| 199 | CALSOFT | California Software Company Limited | NSE | 15.10 | 22.29 | **42.8** | 79 | Micro | Technology | 116,595 | 2,244,396 |
+| 200 | GHCLTEXTIL | GHCL Textiles Limited | NSE | 76.80 | 106.75 | **42.8** | 1,020 | Small | Consumer Cyclical | 341,967 | 29,911,068 |
+| 201 | BSE | BSE Limited | NSE | 2673.90 | 3816.60 | **42.7** | n/a | nan | Financial Services | 4,191,758 | 13,343,907,410 |
+| 202 | RAYMOND | Raymond Limited | NSE | 430.15 | 607.90 | **42.7** | 4,042 | Small | Industrials | 590,632 | 277,170,154 |
+| 203 | GVT&D | GE Vernova T&D India Limited | NSE | 3077.20 | 4401.50 | **42.3** | 112,508 | Large | Industrials | 893,970 | 3,389,521,909 |
+| 204 | BIRLACABLE | Birla Cable Limited | NSE | 137.18 | 192.35 | **41.8** | 576 | Small | Technology | 75,429 | 12,434,686 |
+| 205 | MACPOWER | Macpower CNC Machines Limited | NSE | 1003.40 | 1422.20 | **41.7** | n/a | nan | Industrials | 33,664 | 35,600,407 |
+| 206 | PANAMAPET | Panama Petrochem Limited | NSE | 299.35 | 425.55 | **41.3** | 2,579 | Small | Energy | 314,326 | 124,370,110 |
+| 207 | ADANIENT | Adani Enterprises Limited | NSE | 2279.50 | 3212.10 | **41.2** | 417,877 | Large | Energy | 1,947,073 | 4,655,626,357 |
+| 208 | CORONA | CORONA Remedies Limited | NSE | 1467.10 | 2037.90 | **41.2** | 12,453 | Mid | Healthcare | 190,669 | 281,479,361 |
+| 209 | VIYASH | Viyash Scientific Limited | NSE | 206.94 | 294.15 | **41.2** | 12,853 | Mid | Healthcare | 1,554,585 | 368,168,411 |
+| 210 | FINCABLES | Finolex Cables Limited | NSE | 781.95 | 1100.10 | **40.6** | 16,826 | Mid | Industrials | 459,377 | 437,780,549 |
+| 211 | DBOL | Dhampur Bio Organics Limited | NSE | 79.81 | 111.92 | **40.2** | 748 | Small | Consumer Defensive | 179,220 | 18,676,377 |
+| 212 | HSCL | Himadri Speciality Chemical Limited | NSE | 489.70 | 680.65 | **40.2** | 34,359 | Large | Basic Materials | 5,629,554 | 3,353,026,956 |
+| 213 | SOTL | Savita Oil Technologies Limited | NSE | 380.10 | 532.65 | **40.1** | 3,627 | Small | Basic Materials | 199,356 | 102,739,577 |
+| 214 | AKUMS | Akums Drugs and Pharmaceuticals Limited | NSE | 447.35 | 626.80 | **40.1** | 9,856 | Mid | Healthcare | 250,661 | 127,161,932 |
+| 215 | NEPHROPLUS | Nephrocare Health Services Limited | NSE | 479.90 | 671.95 | **40.0** | 6,745 | Mid | Healthcare | 357,395 | 189,492,336 |
+| 216 | CGPOWER | CG Power and Industrial Solutions Limited | NSE | 645.25 | 892.55 | **39.9** | 140,661 | Large | Industrials | 3,680,259 | 2,767,630,460 |
+| 217 | GOCLCORP | GOCL Corporation Limited | NSE | 288.20 | 403.50 | **39.9** | 1,998 | Small | Basic Materials | 201,439 | 61,547,235 |
+| 218 | ONIDA | Onida Electronics Limited | NSE | 31.71 | 44.36 | **39.9** | 1,641 | Small | Consumer Cyclical | 1,590,305 | 56,736,673 |
+| 219 | JTLIND | JTL INDUSTRIES LIMITED | NSE | 58.87 | 82.29 | **39.8** | 3,237 | Small | Basic Materials | 5,026,884 | 344,690,098 |
+| 220 | LIKHITHA | Likhitha Infrastructure Limited | NSE | 187.56 | 262.30 | **39.7** | 1,034 | Small | Energy | 102,172 | 19,642,460 |
+| 221 | STEELXIND | STEEL EXCHANGE INDIA LIMITED | NSE | 9.12 | 12.74 | **39.7** | 1,625 | Small | Basic Materials | 2,621,904 | 27,967,090 |
+| 222 | DIACABS | Diamond Power Infrastructure Limited | NSE | 143.13 | 198.89 | **39.6** | 10,463 | Mid | Industrials | 2,931,275 | 510,059,520 |
+| 223 | AMBIKCO | Ambika Cotton Mills Limited | NSE | 1246.80 | 1735.60 | **39.5** | 994 | Small | Consumer Cyclical | 11,792 | 17,562,143 |
+| 224 | QUADFUTURE | Quadrant Future Tek Limited | NSE | 343.00 | 469.80 | **39.4** | 1,880 | Small | Industrials | 1,279,824 | 429,731,113 |
+| 225 | HARDWYN | Hardwyn India Limited | NSE | 17.33 | 24.75 | **39.4** | 1,207 | Small | Industrials | 2,760,643 | 61,401,088 |
+| 226 | QPOWER | Quality Power Electrical Equipments Limited | NSE | 834.65 | 1132.10 | **39.3** | 8,719 | Mid | Industrials | 891,485 | 829,164,468 |
+| 227 | SASKEN | Sasken Technologies Limited | NSE | 1503.10 | 2094.00 | **39.3** | 3,180 | Small | Technology | 113,984 | 200,644,854 |
+| 228 | BOROSCI | Borosil Scientific Limited | NSE | 118.68 | 166.45 | **39.2** | 1,478 | Small | Consumer Cyclical | 158,051 | 22,268,119 |
+| 229 | AVADHSUGAR | Avadh Sugar & Energy Limited | NSE | 372.50 | 511.90 | **39.1** | 1,022 | Small | Consumer Defensive | 72,624 | 30,420,270 |
+| 230 | LAURUSLABS | Laurus Labs Limited | NSE | 1103.20 | 1542.30 | **38.9** | 83,293 | Large | Healthcare | 1,910,536 | 2,209,057,808 |
+| 231 | MENONBE | Menon Bearings Limited | NSE | 114.42 | 158.77 | **38.8** | 890 | Small | Consumer Cyclical | 124,247 | 18,336,000 |
+| 232 | SINDHUTRAD | Sindhu Trade Links Limited | NSE | 20.02 | 27.66 | **38.7** | 4,288 | Small | Industrials | 2,123,330 | 51,358,603 |
+| 233 | GOODLUCK | Goodluck India Limited | NSE | 1100.30 | 1490.20 | **38.7** | 4,952 | Small | Basic Materials | 135,732 | 171,536,642 |
+| 234 | ABSLAMC | Aditya Birla Sun Life AMC Limited | NSE | 853.65 | 1178.40 | **38.6** | 34,077 | Large | Financial Services | 440,713 | 421,589,353 |
+| 235 | SONACOMS | Sona BLW Precision Forgings Limited | NSE | 481.40 | 660.10 | **38.5** | 41,060 | Large | Consumer Cyclical | 2,028,338 | 1,098,819,192 |
+| 236 | MAHABANK | Bank of Maharashtra | NSE | 64.03 | 88.53 | **38.5** | 68,101 | Large | Financial Services | 21,438,424 | 1,508,538,704 |
+| 237 | 544141 | Pune E - Stock Broking Ltd | BSE | 204.00 | 284.00 | **38.4** | 447 | Micro | nan | 23,594 | 5,615,159 |
+| 238 | BHARATSE | Bharat Seats Limited | NSE | 173.96 | 239.73 | **38.3** | 1,506 | Small | Consumer Cyclical | 669,799 | 141,015,201 |
+| 239 | SHREEJISPG | Shreeji Shipping Global Limited | NSE | 375.25 | 520.80 | **38.1** | 8,486 | Mid | Industrials | 1,146,788 | 441,153,844 |
+| 240 | REFEX | Refex Industries Limited | NSE | 259.70 | 358.40 | **38.0** | 4,919 | Small | Energy | 1,848,364 | 534,493,226 |
+| 241 | HEXAGON | Hexagon Nutrition Limited | NSE | 50.66 | 73.39 | **38.0** | 905 | Small | Consumer Defensive | 4,005,206 | 245,689,532 |
+| 242 | HESTERBIO | Hester Biosciences Limited | NSE | 1592.60 | 2198.40 | **37.9** | 1,879 | Small | Healthcare | 8,059 | 14,478,550 |
+| 243 | CHENNPETRO | Chennai Petroleum Corporation Limited | NSE | 813.60 | 1125.80 | **37.8** | 16,758 | Mid | Energy | 1,830,397 | 1,821,226,725 |
+| 244 | MSTCLTD | Mstc Limited | NSE | 529.70 | 715.70 | **37.7** | 5,039 | Mid | Industrials | 600,548 | 346,684,829 |
+| 245 | ASHIANA | Ashiana Housing Limited | NSE | 282.70 | 389.90 | **37.6** | 3,902 | Small | Real Estate | 139,454 | 46,983,420 |
+| 246 | CAPLIPOINT | Caplin Point Laboratories Limited | NSE | 1845.30 | 2538.10 | **37.5** | 19,272 | Mid | Healthcare | 114,663 | 228,484,216 |
+| 247 | NELCAST | Nelcast Limited | NSE | 104.92 | 142.78 | **37.4** | 1,244 | Small | Industrials | 207,761 | 27,195,146 |
+| 248 | SIGNPOST | Signpost India Limited | NSE | 218.34 | 299.70 | **37.3** | 1,596 | Small | Communication Services | 261,112 | 73,290,410 |
+| 249 | NAHARSPING | Nahar Spinning Mills Limited | NSE | 194.61 | 265.85 | **37.0** | 967 | Small | Consumer Cyclical | 27,915 | 5,741,371 |
+| 250 | NAM-INDIA | Nippon Life India Asset Management Limited | NSE | 899.65 | 1218.20 | **36.5** | 77,812 | Large | Financial Services | 959,324 | 928,631,911 |
+| 251 | EMIL | Electronics Mart India Limited | NSE | 103.10 | 140.68 | **36.5** | 5,410 | Mid | Consumer Cyclical | 1,201,305 | 136,212,736 |
+| 252 | BLSE | BLS E-Services Limited | NSE | 193.97 | 265.11 | **36.3** | 2,407 | Small | Industrials | 490,179 | 96,914,355 |
+| 253 | BANDHANBNK | Bandhan Bank Limited | NSE | 147.19 | 200.60 | **36.3** | 32,310 | Large | Financial Services | 10,272,014 | 1,801,599,339 |
+| 254 | WELSPLSOL | Welspun Specialty Solutions Limited | NSE | 38.05 | 52.94 | **36.3** | 3,511 | Small | nan | 1,666,597 | 87,448,514 |
+| 255 | GRANULES | Granules India Limited | NSE | 605.25 | 833.80 | **36.2** | 20,645 | Large | Healthcare | 1,136,195 | 747,566,430 |
+| 256 | BLACKROSE | Black Rose Inds. Limited | NSE | 83.25 | 113.38 | **36.1** | 572 | Small | nan | 75,811 | 8,570,079 |
+| 257 | AYE | Aye Finance Limited | NSE | 128.91 | 176.06 | **35.8** | 4,345 | Small | Financial Services | 1,854,761 | 255,805,536 |
+| 258 | SAREGAMA | Saregama India Limited | NSE | 370.40 | 485.75 | **35.7** | 9,364 | Mid | Communication Services | 1,816,201 | 733,407,929 |
+| 259 | ONMOBILE | OnMobile Global Limited | NSE | 58.68 | 80.03 | **35.7** | 850 | Small | Communication Services | 554,721 | 33,717,834 |
+| 260 | RATEGAIN | Rategain Travel Technologies Limited | NSE | 697.90 | 941.05 | **35.6** | 11,143 | Mid | Technology | 486,041 | 321,633,451 |
+| 261 | 540786 | Sharika Enterprises Ltd | BSE | 13.97 | 18.88 | **35.4** | 82 | Micro | nan | 74,417 | 1,085,842 |
+| 262 | KDDL | KDDL Limited | NSE | 2349.20 | 3244.00 | **35.3** | 3,991 | Small | Consumer Cyclical | 29,903 | 79,259,195 |
+| 263 | QUESS | Quess Corp Limited | NSE | 213.03 | 290.85 | **35.2** | 4,343 | Small | Industrials | 664,696 | 149,013,997 |
+| 264 | KIMS | Krishna Institute of Medical Sciences Limited | NSE | 653.60 | 850.65 | **35.2** | 35,732 | Large | Healthcare | 472,849 | 333,121,837 |
+| 265 | MWL | Mangalam Worldwide Limited | NSE | 271.40 | 376.00 | **35.2** | 1,117 | Small | Basic Materials | 83,199 | 24,468,866 |
+| 266 | NETWEB | Netweb Technologies India Limited | NSE | 3274.60 | 4427.40 | **35.2** | 25,198 | Large | Technology | 1,719,096 | 6,525,824,191 |
+| 267 | GNA | GNA Axles Limited | NSE | 344.80 | 466.00 | **35.1** | 2,009 | Small | Consumer Cyclical | 197,053 | 79,133,318 |
+| 268 | FUSION | Fusion Finance Limited | NSE | 169.93 | 229.40 | **35.0** | 3,724 | Small | Financial Services | 532,733 | 98,226,636 |
+| 269 | 526873 | Rajasthan Securities Ltd | BSE | 39.09 | 52.70 | **34.8** | 405 | Micro | nan | 108,818 | 4,636,516 |
+| 270 | SILVERTUC | Silver Touch Technologies Limited | NSE | 135.16 | 182.15 | **34.8** | 2,310 | Small | Technology | 791,487 | 148,049,158 |
+| 271 | AGIIL | Agi Infra Limited | NSE | 259.10 | 354.05 | **34.8** | 4,427 | Small | Real Estate | 2,012,299 | 666,554,591 |
+| 272 | HALDYNGL | Haldyn Glass Limited | NSE | 89.05 | 118.92 | **34.7** | 645 | Small | nan | 119,144 | 13,734,370 |
+| 273 | APEX | Apex Frozen Foods Limited | NSE | 310.45 | 403.95 | **34.6** | 1,261 | Small | Consumer Defensive | 1,284,871 | 483,432,252 |
+| 274 | PRIVISCL | Privi Speciality Chemicals Limited | NSE | 2735.30 | 3694.90 | **34.3** | 14,434 | Mid | Basic Materials | 141,461 | 421,385,199 |
+| 275 | 540252 | Viram Suvarn Ltd | BSE | 7.80 | 10.70 | **34.2** | 121 | Micro | nan | 435,630 | 4,716,694 |
+| 276 | 539469 | Panorama Studios International Ltd | BSE | 37.09 | 51.92 | **34.2** | 1,353 | Small | nan | 163,891 | 7,334,892 |
+| 277 | RPEL | Raghav Productivity Enhancers Limited | NSE | 940.20 | 1261.50 | **34.2** | 5,799 | Mid | Basic Materials | 91,204 | 81,444,700 |
+| 278 | STOVEKRAFT | Stove Kraft Limited | NSE | 589.35 | 781.85 | **33.9** | 2,584 | Small | Consumer Cyclical | 239,619 | 131,736,165 |
+| 279 | ABB | ABB India Limited | NSE | 5168.50 | 6950.50 | **33.5** | 147,270 | Large | Industrials | 359,525 | 2,255,945,836 |
+| 280 | WOCKPHARMA | Wockhardt Limited | NSE | 1452.40 | 1938.50 | **33.5** | 31,496 | Large | Healthcare | 1,523,042 | 2,505,540,937 |
+| 281 | AUROPHARMA | Aurobindo Pharma Limited | NSE | 1207.40 | 1620.50 | **33.3** | 93,217 | Large | Healthcare | 1,395,726 | 1,835,198,348 |
+| 282 | SANGHVIMOV | Sanghvi Movers Limited | NSE | 350.00 | 463.25 | **33.3** | 4,014 | Small | Industrials | 374,245 | 125,298,890 |
+| 283 | NIBE | NIBE Limited | NSE | 1296.80 | 1648.00 | **33.2** | 2,459 | Small | Industrials | 127,786 | 169,807,169 |
+| 284 | VIPULLTD | Vipul Limited | NSE | 11.52 | 15.34 | **33.2** | 216 | Micro | Real Estate | 574,641 | 6,752,196 |
+| 285 | SKIPPER | Skipper Limited | NSE | 435.00 | 574.95 | **33.1** | 6,491 | Mid | Industrials | 573,258 | 266,389,518 |
+| 286 | TAALTECH | Taal Tech Limited | NSE | 2986.00 | 3991.60 | **33.0** | 1,240 | Small | nan | 2,102 | 7,392,397 |
+| 287 | SOMANYCERA | Somany Ceramics Limited | NSE | 405.65 | 537.20 | **33.0** | 2,204 | Small | Industrials | 102,601 | 48,044,967 |
+| 288 | CEIGALL | Ceigall India Limited | NSE | 274.15 | 364.10 | **33.0** | 6,337 | Mid | Industrials | 464,128 | 148,654,760 |
+| 289 | GROWW | Billionbrains Garage Ventures Limited | NSE | 155.53 | 206.50 | **33.0** | 129,550 | Large | Financial Services | 51,948,965 | 9,292,489,781 |
+| 290 | PREMIERENE | Premier Energies Limited | NSE | 787.75 | 1046.80 | **32.9** | 47,481 | Large | Technology | 1,927,491 | 1,698,915,925 |
+| 291 | LLOYDSME | Lloyds Metals And Energy Limited | NSE | 1336.20 | 1777.00 | **32.9** | 100,010 | Large | Basic Materials | 592,702 | 852,171,323 |
+| 292 | CARBORUNIV | Carborundum Universal Limited | NSE | 858.60 | 1139.60 | **32.7** | 21,716 | Large | Industrials | 286,444 | 272,054,570 |
+| 293 | DEEPAKFERT | Deepak Fertilizers and Petrochemicals Corporation Limited | NSE | 1252.20 | 1649.30 | **32.6** | 20,841 | Large | Basic Materials | 432,927 | 523,435,871 |
+| 294 | GRINDWELL | Grindwell Norton Limited | NSE | 1581.50 | 2088.50 | **32.5** | 23,008 | Large | Industrials | 63,612 | 109,427,496 |
+| 295 | 539479 | GTV Engineering Ltd | BSE | 59.28 | 75.20 | **32.2** | 352 | Micro | nan | 83,992 | 5,438,239 |
+| 296 | TEJASNET | Tejas Networks Limited | NSE | 449.55 | 593.60 | **32.0** | 10,566 | Mid | Technology | 8,522,778 | 4,046,525,595 |
+| 297 | ANANDRATHI | Anand Rathi Wealth Limited | NSE | 1561.80 | 2061.70 | **32.0** | 34,219 | Large | Financial Services | 560,762 | 927,340,524 |
+| 298 | PIXTRANS | Pix Transmissions Limited | NSE | 1372.50 | 1810.60 | **31.9** | 2,474 | Small | Industrials | 44,160 | 75,380,200 |
+| 299 | GOLDIAM | Goldiam International Limited | NSE | 356.40 | 480.40 | **31.8** | 5,427 | Mid | Consumer Cyclical | 808,627 | 316,754,975 |
+| 300 | SCI | Shipping Corporation Of India Limited | NSE | 228.98 | 301.75 | **31.8** | 14,058 | Mid | Industrials | 7,145,968 | 2,034,424,759 |
+| 301 | UNIPARTS | Uniparts India Limited | NSE | 497.10 | 652.45 | **31.8** | 2,943 | Small | Industrials | 137,978 | 75,977,247 |
+| 302 | SUNFLAG | Sunflag Iron And Steel Company Limited | NSE | 268.40 | 353.35 | **31.6** | 6,343 | Mid | Basic Materials | 431,041 | 146,455,712 |
+| 303 | SAILIFE | Sai Life Sciences Limited | NSE | 955.25 | 1257.30 | **31.6** | 26,663 | Large | Healthcare | 553,303 | 559,937,148 |
+| 304 | RSWM | RSWM Limited | NSE | 148.01 | 194.76 | **31.6** | 916 | Small | Consumer Cyclical | 91,737 | 16,510,451 |
+| 305 | TPLPLASTEH | TPL Plastech Limited | NSE | 66.21 | 87.16 | **31.5** | 678 | Small | Consumer Cyclical | 132,961 | 9,106,391 |
+| 306 | 542669 | BMW Industries Ltd | BSE | 43.22 | 55.65 | **31.3** | 1,253 | Small | nan | 267,790 | 13,040,787 |
+| 307 | COMSYN | Commercial Syn Bags Limited | NSE | 153.84 | 200.31 | **31.2** | 813 | Small | Consumer Cyclical | 138,828 | 24,051,642 |
+| 308 | CARYSIL | CARYSIL LIMITED | NSE | 885.55 | 1162.10 | **31.2** | 3,303 | Small | Consumer Cyclical | 115,188 | 113,686,559 |
+| 309 | MARINE | Marine Electricals (India) Limited | NSE | 217.66 | 280.30 | **31.2** | n/a | nan | Industrials | 532,060 | 121,434,738 |
+| 310 | 535916 | Alacrity Securities Ltd | BSE | 52.63 | 67.73 | **31.1** | 316 | Micro | nan | 55,765 | 3,442,652 |
+| 311 | SALSTEEL | S.A.L. Steel Limited | NSE | 43.12 | 56.50 | **31.0** | 621 | Small | Basic Materials | 132,041 | 6,454,935 |
+| 312 | DSSL | Dynacons Systems & Solutions Limited | NSE | 974.40 | 1316.90 | **31.0** | 1,678 | Small | Technology | 178,200 | 206,197,233 |
+| 313 | INNOVACAP | Innova Captab Limited | NSE | 733.20 | 957.85 | **30.9** | 5,474 | Mid | Healthcare | 76,324 | 57,384,117 |
+| 314 | KTKBANK | The Karnataka Bank Limited | NSE | 201.25 | 263.40 | **30.9** | 9,952 | Mid | Financial Services | 4,505,138 | 991,127,387 |
+| 315 | VADILALIND | Vadilal Industries Limited | NSE | 4897.60 | 6361.50 | **30.9** | 4,566 | Small | Consumer Defensive | 18,134 | 91,388,695 |
+| 316 | 530249 | Bridge Securities Ltd | BSE | 12.47 | 16.39 | **30.7** | 64 | Micro | nan | 70,120 | 934,095 |
+| 317 | BHAGCHEM | Bhagiradha Chemicals & Industries Limited | NSE | 216.98 | 283.40 | **30.6** | 3,662 | Small | Basic Materials | 185,050 | 43,597,378 |
+| 318 | MMWL | Media Matrix Worldwide Limited | NSE | 10.35 | 13.44 | **30.5** | 1,499 | Small | Communication Services | 128,960 | 1,845,378 |
+| 319 | SUPRIYA | Supriya Lifescience Limited | NSE | 744.75 | 978.90 | **30.4** | 7,884 | Mid | Healthcare | 293,619 | 245,526,880 |
+| 320 | SEAMECLTD | Seamec Limited | NSE | 1103.70 | 1431.70 | **30.4** | 3,643 | Small | Industrials | 81,906 | 111,818,527 |
+| 321 | ELECTHERM | Electrotherm (India) Limited | NSE | 930.75 | 1200.30 | **30.4** | 1,530 | Small | Basic Materials | 65,475 | 61,127,687 |
+| 322 | RAYMONDREL | Raymond Realty Limited | NSE | 518.60 | 676.00 | **30.4** | 4,505 | Small | Real Estate | 673,447 | 377,648,825 |
+| 323 | AVL | Aditya Vision Limited | NSE | 490.65 | 638.55 | **30.3** | 8,256 | Mid | Consumer Cyclical | 207,652 | 110,734,667 |
+| 324 | SFL | Sheela Foam Limited | NSE | 588.35 | 766.55 | **30.3** | 8,362 | Mid | Consumer Cyclical | 229,518 | 139,601,620 |
+| 325 | KPRMILL | K.P.R. Mill Limited | NSE | 903.05 | 1184.50 | **30.2** | 40,543 | Large | Consumer Cyclical | 594,819 | 599,990,341 |
+| 326 | VIJAYA | Vijaya Diagnostic Centre Limited | NSE | 1055.90 | 1365.20 | **30.2** | 14,043 | Mid | Healthcare | 242,977 | 278,447,820 |
+| 327 | AZAD | Azad Engineering Limited | NSE | 1689.40 | 2149.10 | **30.2** | 13,873 | Mid | Industrials | 312,244 | 593,455,633 |
+| 328 | GULPOLY | Gulshan Polyols Limited | NSE | 149.45 | 191.78 | **30.1** | 1,195 | Small | Basic Materials | 259,096 | 47,217,335 |
+| 329 | WALCHANNAG | Walchandnagar Industries Limited | NSE | 187.24 | 243.55 | **30.1** | 1,652 | Small | Industrials | 2,077,787 | 446,038,506 |
+| 330 | JETFREIGHT | Jet Freight Logistics Limited | NSE | 16.90 | 21.83 | **30.0** | 101 | Micro | Industrials | 191,075 | 3,734,816 |
+| 331 | AARTIIND | Aarti Industries Limited | NSE | 372.70 | 487.70 | **29.8** | 17,685 | Mid | Basic Materials | 1,123,797 | 497,253,063 |
+| 332 | WELSPUNLIV | Welspun Living Limited | NSE | 131.72 | 170.93 | **29.8** | 16,363 | Mid | Consumer Cyclical | 3,605,563 | 509,044,928 |
+| 333 | HCC | Hindustan Construction Company Limited | NSE | 19.80 | 24.83 | **29.5** | 6,512 | Mid | Industrials | 37,117,196 | 773,916,261 |
+| 334 | DHANBANK | Dhanlaxmi Bank Limited | NSE | 26.50 | 34.09 | **29.4** | 1,342 | Small | Financial Services | 1,328,407 | 39,500,348 |
+| 335 | GESHIP | The Great Eastern Shipping Company Limited | NSE | 1125.90 | 1440.40 | **29.3** | 21,169 | Large | Industrials | 768,034 | 1,124,593,706 |
+| 336 | JINDALPOLY | Jindal Poly Films Limited | NSE | 476.85 | 620.45 | **29.3** | 2,720 | Small | Consumer Cyclical | 228,369 | 151,926,132 |
+| 337 | NELCO | NELCO Limited | NSE | 719.10 | 929.55 | **29.3** | 2,121 | Small | Technology | 245,404 | 194,899,153 |
+| 338 | SERVOTECH | Servotech Renewable Power System Limited | NSE | 78.50 | 101.37 | **29.1** | n/a | nan | Industrials | 1,325,813 | 117,905,790 |
+| 339 | ASTERDM | Aster DM Healthcare Limited | NSE | 615.25 | 793.20 | **28.9** | 41,071 | Large | Healthcare | 779,533 | 527,268,375 |
+| 340 | UNIVASTU | Univastu India Limited | NSE | 68.61 | 88.41 | **28.9** | n/a | nan | Industrials | 109,034 | 8,170,405 |
+| 341 | ZENTEC | Zen Technologies Limited | NSE | 1369.70 | 1746.70 | **28.8** | 15,786 | Mid | Industrials | 652,559 | 1,021,170,168 |
+| 342 | BALRAMCHIN | Balrampur Chini Mills Limited | NSE | 440.45 | 562.45 | **28.3** | 11,902 | Mid | Consumer Defensive | 642,546 | 319,682,040 |
+| 343 | SEIL | Shanti Educational Initiatives Limited | NSE | 181.00 | 234.08 | **28.3** | 3,764 | Small | nan | 541,446 | 111,166,643 |
+| 344 | KIRLOSIND | Kirloskar Industries Limited | NSE | 3203.30 | 4099.90 | **28.3** | 4,333 | Small | Industrials | 15,469 | 56,802,678 |
+| 345 | 526775 | Valiant Communications Ltd-$ | BSE | 841.80 | 1080.45 | **28.2** | 1,263 | Small | nan | 15,328 | 14,893,747 |
+| 346 | ORIENTHOT | Oriental Hotels Limited | NSE | 108.54 | 139.26 | **28.2** | 2,490 | Small | Consumer Cyclical | 551,580 | 67,135,547 |
+| 347 | BHEL | Bharat Heavy Electricals Limited | NSE | 300.05 | 383.60 | **28.1** | 133,537 | Large | Industrials | 14,177,000 | 4,505,375,407 |
+| 348 | HAPPYFORGE | Happy Forgings Limited | NSE | 1170.50 | 1499.10 | **28.1** | 14,135 | Mid | Industrials | 76,713 | 101,371,109 |
+| 349 | ENRIN | Siemens Energy India Limited | NSE | 2564.50 | 3281.50 | **28.0** | 117,030 | Large | Utilities | 679,496 | 2,071,374,410 |
+| 350 | SONAMLTD | SONAM LIMITED | NSE | 41.95 | 53.67 | **27.9** | n/a | nan | Consumer Cyclical | 63,920 | 3,164,775 |
+| 351 | NAVINFLUOR | Navin Fluorine International Limited | NSE | 5937.50 | 7552.50 | **27.9** | 38,788 | Large | Basic Materials | 195,751 | 1,266,804,862 |
+| 352 | 539682 | Mobavenue AI Tech Ltd | BSE | 238.84 | 305.15 | **27.9** | 2,359 | Small | nan | 50,873 | 13,035,800 |
+| 353 | INVPRECQ | Investment & Precision Castings Limited | NSE | 672.10 | 859.80 | **27.9** | 860 | Small | nan | 7,703 | 5,364,765 |
+| 354 | GINNIFILA | Ginni Filaments Limited | NSE | 43.10 | 54.65 | **27.9** | 470 | Micro | Consumer Cyclical | 128,656 | 5,418,166 |
+| 355 | RAIN | Rain Industries Limited | NSE | 146.81 | 187.74 | **27.9** | 6,312 | Mid | Basic Materials | 4,949,834 | 762,484,479 |
+| 356 | JBCHEPHARM | JB Chemicals & Pharmaceuticals Limited | NSE | 1840.20 | 2364.60 | **27.8** | 37,944 | Large | Healthcare | 264,715 | 539,171,425 |
+| 357 | SHAILY | Shaily Engineering Plastics Limited | NSE | 2309.20 | 2901.60 | **27.7** | 13,347 | Mid | Basic Materials | 346,231 | 825,861,453 |
+| 358 | DCMSIL | DCM Shriram International Limited | NSE | 52.21 | 70.00 | **27.7** | 622 | Small | Industrials | 142,099 | 11,052,954 |
+| 359 | NUVAMA | Nuvama Wealth Management Limited | NSE | 1492.90 | 1887.50 | **27.7** | 34,440 | Large | Financial Services | 515,633 | 748,060,450 |
+| 360 | GOLDTECH | AION-TECH SOLUTIONS LIMITED | NSE | 50.43 | 64.47 | **27.6** | 335 | Micro | Technology | 81,093 | 4,048,151 |
+| 361 | LINCOLN | Lincoln Pharmaceuticals Limited | NSE | 490.55 | 620.20 | **27.6** | 1,242 | Small | Healthcare | 88,949 | 56,556,477 |
+| 362 | RAMRAT | Ram Ratna Wires Limited | NSE | 305.90 | 395.60 | **27.6** | 3,691 | Small | Industrials | 173,169 | 67,292,479 |
+| 363 | ESAFSFB | ESAF Small Finance Bank Limited | NSE | 27.02 | 34.15 | **27.6** | 1,755 | Small | Financial Services | 936,679 | 27,614,175 |
+| 364 | ALIVUS | Alivus Life Sciences Limited | NSE | 898.60 | 1157.70 | **27.6** | 14,200 | Mid | Healthcare | 93,444 | 91,941,328 |
+| 365 | DENORA | De Nora India Limited | NSE | 690.90 | 879.05 | **27.5** | 464 | Micro | Industrials | 8,276 | 6,270,487 |
+| 366 | UNIMECH | Unimech Aerospace and Manufacturing Limited | NSE | 906.55 | 1155.40 | **27.3** | 5,877 | Mid | Industrials | 100,946 | 97,922,416 |
+| 367 | WSTCSTPAPR | West Coast Paper Mills Limited | NSE | 413.10 | 529.40 | **27.3** | 3,494 | Small | Basic Materials | 98,078 | 46,429,493 |
+| 368 | MENNPIS | Menon Pistons Limited | NSE | 57.00 | 73.45 | **27.3** | 373 | Micro | nan | 69,684 | 4,650,595 |
+| 369 | BETA | Beta Drugs Limited | NSE | 1644.50 | 2090.50 | **27.2** | n/a | nan | Healthcare | 16,898 | 26,145,941 |
+| 370 | ADOR | Ador Welding Limited | NSE | 1028.10 | 1317.80 | **27.1** | 2,287 | Small | Industrials | 24,940 | 26,338,086 |
+| 371 | CUMMINSIND | Cummins India Limited | NSE | 4309.80 | 5478.00 | **27.1** | 151,656 | Large | Industrials | 616,052 | 2,951,467,167 |
+| 372 | KOPRAN | Kopran Limited | NSE | 147.74 | 193.31 | **27.1** | 939 | Small | Healthcare | 502,886 | 81,247,870 |
+| 373 | ELGIRUBCO | Elgi Rubber Company Limited | NSE | 43.51 | 55.29 | **27.1** | n/a | nan | Consumer Cyclical | 63,723 | 3,013,898 |
+| 374 | NACLIND | NACL Industries Limited | NSE | 171.50 | 218.40 | **27.0** | 5,123 | Mid | Basic Materials | 705,295 | 129,141,416 |
+| 375 | MCX | Multi Commodity Exchange of India Limited | NSE | 2199.00 | 2814.00 | **27.0** | 71,762 | Large | Financial Services | 3,332,041 | 8,589,829,512 |
+| 376 | GANESHBE | Ganesh Benzoplast Limited | NSE | 81.36 | 103.32 | **27.0** | 743 | Small | Basic Materials | 260,498 | 24,995,927 |
+| 377 | CCL | CCL Products (India) Limited | NSE | 933.65 | 1173.00 | **26.9** | 15,666 | Mid | Consumer Defensive | 333,440 | 358,312,818 |
+| 378 | 544037 | Amic Forging Ltd | BSE | 1446.70 | 1832.20 | **26.6** | 1,969 | Small | nan | 46,690 | 74,358,203 |
+| 379 | 526433 | ASM Technologies Ltd | BSE | 3184.60 | 4031.55 | **26.6** | 5,881 | Mid | nan | 23,428 | 72,556,401 |
+| 380 | KAPSTON | Kapston Services Limited | NSE | 298.70 | 379.95 | **26.5** | n/a | nan | Industrials | 22,573 | 7,729,476 |
+| 381 | ADANIPORTS | Adani Ports and Special Economic Zone Limited | NSE | 1493.00 | 1874.20 | **26.5** | 431,808 | Large | Industrials | 2,516,424 | 3,950,551,069 |
+| 382 | SURYODAY | Suryoday Small Finance Bank Limited | NSE | 142.70 | 182.15 | **26.5** | 1,936 | Small | Financial Services | 401,266 | 61,541,858 |
+| 383 | STARHEALTH | Star Health and Allied Insurance Company Limited | NSE | 458.80 | 580.30 | **26.5** | 34,146 | Large | Financial Services | 638,379 | 317,481,283 |
+| 384 | WANBURY | Wanbury Limited | NSE | 226.58 | 286.45 | **26.4** | 1,003 | Small | Healthcare | 101,015 | 25,094,344 |
+| 385 | GKSL | Gujarat Kidney And Super Speciality Limited | NSE | 102.40 | 129.83 | **26.4** | 1,024 | Small | Healthcare | 950,124 | 106,146,295 |
+| 386 | DIFFNKG | Diffusion Engineers Limited | NSE | 329.60 | 416.35 | **26.3** | 1,557 | Small | Industrials | 128,967 | 40,787,128 |
+| 387 | PASUPTAC | Pasupati Acrylon Limited | NSE | 49.54 | 63.71 | **26.1** | 572 | Small | Consumer Cyclical | 277,367 | 16,666,617 |
+| 388 | SANSTAR | Sanstar Limited | NSE | 94.22 | 118.70 | **26.0** | 2,161 | Small | Basic Materials | 565,852 | 62,341,924 |
+| 389 | SIS | SIS LIMITED | NSE | 338.30 | 425.75 | **26.0** | 6,018 | Mid | Industrials | 195,507 | 75,291,643 |
+| 390 | IPCALAB | IPCA Laboratories Limited | NSE | 1413.00 | 1778.90 | **25.9** | 45,174 | Large | Healthcare | 247,522 | 378,044,470 |
+| 391 | NEULANDLAB | Neuland Laboratories Limited | NSE | 15040.00 | 18944.00 | **25.8** | 24,270 | Large | Healthcare | 52,492 | 814,231,398 |
+| 392 | TIPSMUSIC | Tips Music Limited | NSE | 545.45 | 684.65 | **25.7** | 8,741 | Mid | Communication Services | 352,129 | 208,654,871 |
+| 393 | AAREYDRUGS | Aarey Drugs & Pharmaceuticals Limited | NSE | 67.62 | 84.87 | **25.6** | 244 | Micro | Healthcare | 172,979 | 12,750,590 |
+| 394 | SMSPHARMA | SMS Pharmaceuticals Limited | NSE | 335.70 | 421.45 | **25.5** | 3,948 | Small | Healthcare | 511,290 | 183,988,912 |
+| 395 | INGERRAND | Ingersoll Rand (India) Limited | NSE | 3459.50 | 4343.00 | **25.5** | 13,711 | Mid | Industrials | 18,728 | 74,099,877 |
+| 396 | 539598 | Credent Global Finance Ltd | BSE | 30.30 | 37.99 | **25.4** | 233 | Micro | nan | 136,290 | 4,112,930 |
+| 397 | 543916 | Hemant Surgical Industries Ltd | BSE | 289.35 | 364.75 | **25.2** | 530 | Small | nan | 27,300 | 9,011,689 |
+| 398 | ATGL | Adani Total Gas Limited | NSE | 577.05 | 721.75 | **25.1** | 79,379 | Large | Utilities | 4,191,920 | 2,714,013,311 |
+| 399 | KAMDHENU | Kamdhenu Limited | NSE | 24.99 | 31.25 | **25.1** | 885 | Small | Basic Materials | 1,695,129 | 40,418,225 |
 
 🟡 = penny stock (price < ₹10), flagged not removed.
 
-**Machine-readable file:** `FINAL_universe_25pct.csv` (375 rows).
+**Machine-readable file:** `FINAL_universe_25pct.csv` (399 rows).
 
 ### Known limitations (full disclosure)
 - 464 universe symbols (of 4,524) returned no Yahoo history (recently renamed post-corporate-action e.g. demerged Tata Motors, thinly-traded, or delisted-from-Yahoo) — excluded from the scan, not from reality. These are predominantly illiquid BSE micro-caps.

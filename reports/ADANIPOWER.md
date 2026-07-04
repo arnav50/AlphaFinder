@@ -1,27 +1,27 @@
 # ADANIPOWER — Adani Power Limited (NSE)
-**Sector:** Utilities | **6m return:** 52.3% | **Close:** ₹224.49 | **Cap:** Large | **Bars:** 355
+**Sector:** Utilities | **6m return:** 50.32% | **Close:** ₹221.79 | **Cap:** Large | **Bars:** 354
 
-## 🏁 SCORECARD: **MILD BEARISH**  (score -2.8, confluence low)
-Leading -3.3 | Lagging 0.5 | Candles -1.0 | Price-action 1.0
+## 🏁 SCORECARD: **MILD BEARISH**  (score -2.5, confluence low)
+Leading -3.0 | Lagging 0.5 | Candles -1.0 | Price-action 1.0
 
 ## A. Leading indicators
-- **RSI(14):** 48.0 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 44.3 / %D 51.4, cross none, neutral, div none
-- **Bollinger(20,2):** below_mid, width 8.4%, SQUEEZE
+- **RSI(14):** 45.1 (neutral), trend falling, divergence none
+- **Stochastic(14,3,3):** %K 36.2 / %D 44.3, cross none, neutral, div none
+- **Bollinger(20,2):** below_mid, width 8.17%, SQUEEZE
 - **Ichimoku:** price inside cloud, Tenkan/Kijun bearish, Chikou below, kumo-twist-ahead none
-- **CCI(20):** -18.2 (below0)
-- **Williams %R(14):** -65.2 (neutral)
+- **CCI(20):** -61.4 (below0)
+- **Williams %R(14):** -81.2 (oversold)
 - **OBV:** trend falling, divergence none
-- **MFI(14):** 45.0 (neutral)
+- **MFI(14):** 38.6 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.834 (expanding_neg), cross none, zero-line above
+- **MACD(12,26,9):** below_signal, hist -1.046 (expanding_neg), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 below, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 13.6 (choppy), -DI>+DI, falling
+- **ADX(14):** 13.8 (choppy), -DI>+DI, falling
 - **Supertrend(7,3):** red_sell (recent flip: none)
-- **ATR(14):** 6.56 (2.92% of price, contracting)
-- **VWAP(20):** px below, dist -0.89%
-- **Pivots:** daily P 225.48 R1 227.46 S1 222.51; weekly position below_S1
+- **ATR(14):** 6.57 (2.96% of price, contracting)
+- **VWAP(20):** px below, dist -1.87%
+- **Pivots:** daily P 222.55 R1 225.56 S1 218.79; weekly position below_S1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
@@ -39,8 +39,8 @@ Leading -3.3 | Lagging 0.5 | Candles -1.0 | Price-action 1.0
 | Hanging Man | 2026-06-29 | bearish | midair | confirmed |
 | Tweezer Top | 2026-06-29 | bearish | midair | confirmed |
 | Tweezer Top | 2026-06-30 | bearish | midair | failed |
-| Tweezer Bottom | 2026-07-02 | bullish | midair | pending (last bar) |
-| Inside Bar | 2026-07-02 | neutral | midair | pending (last bar) |
+| Tweezer Bottom | 2026-07-02 | bullish | midair | failed |
+| Inside Bar | 2026-07-02 | neutral | midair | neutral |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Sideways / range-bound
@@ -49,9 +49,9 @@ Leading -3.3 | Lagging 0.5 | Candles -1.0 | Price-action 1.0
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 134.86-142.59 (Moderate, FRESH, 57.44% away) — quality Moderate
-- **Demand (weekly):** 144.65-178.1 (Moderate, FRESH, 26.05% away)
-- **Supply (daily, overhead):** 217.8-233.47 (Moderate, tested, -2.98% above)
+- **Demand (daily):** 134.86-142.59 (Moderate, FRESH, 55.54% away) — quality Moderate
+- **Demand (weekly):** 144.65-178.1 (Moderate, FRESH, 24.53% away)
+- **Supply (daily, overhead):** 217.8-233.47 (Moderate, tested, -1.8% above)
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
 - **Market structure:** daily ranging | weekly ranging | aligned: True
@@ -61,20 +61,20 @@ Leading -3.3 | Lagging 0.5 | Candles -1.0 | Price-action 1.0
 - **Bearish Order Block:** 245.5-252.65 (2026-05-27, UNMITIGATED)
 - **Fair Value Gaps:** 9 unfilled bullish, 2 unfilled bearish · nearest bull FVG below 200.0-201.87 (2026-04-21) · nearest bear FVG above 236.67-242.19 (2026-06-02)
 - **Liquidity:** buy-side above 234.95 | sell-side below 214.52 | equal-highs 4 / equal-lows 3 | swept: none
-- **Premium/Discount:** **Premium** (price at 76.4% of range 128.1–254.2)
+- **Premium/Discount:** **Premium** (price at 74.3% of range 128.1–254.2)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (103.3% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (100.8% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-10.9%/3b | C2:-3.3%/3b | C3:-15.0%/11b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.78)
-- **Near 52w high:** False | **Pivot:** 234.4 | **% from pivot:** -4.23%
-- **Breakout vol ratio (today/50d):** 0.38 | **close pos in range:** 0.2
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 0.94)
+- **Near 52w high:** False | **Pivot:** 234.4 | **% from pivot:** -5.38%
+- **Breakout vol ratio (today/50d):** 0.53 | **close pos in range:** 0.33
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 128.1 on 2026-01-23):** 1x1=189.71 2x1=251.31 1x2=158.9 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 232.04 · T2 239.72 · T3 255.46 (support S1 217.06, S2 209.76)
-- **Time cycles:** 108 days since swing low → next Gann cycle at 120d (12d away); near cycle: False
+- **Angles (auto-scaled from swing low 128.1 on 2026-01-23):** 1x1=190.28 2x1=252.46 1x2=159.19 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 229.3 · T2 236.93 · T3 252.58 (support S1 214.41, S2 207.15)
+- **Time cycles:** 109 days since swing low → next Gann cycle at 120d (11d away); near cycle: False
 - **Octave position:** 7/8 (exhaustion) | levels 4/8=182.32 6/8=218.26 7/8=236.23
-- **Cardinal square:** nearest perfect-square 225 (0.23% away); near: True
+- **Cardinal square:** nearest perfect-square 225 (1.45% away); near: True

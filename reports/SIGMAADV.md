@@ -1,27 +1,27 @@
 # SIGMAADV — SIGMA ADVANCED SYSTEMS LIMITED (NSE)
-**Sector:** Industrials | **6m return:** 177.17% | **Close:** ₹564.8 | **Cap:** Mid | **Bars:** 354
+**Sector:** Industrials | **6m return:** 170.08% | **Close:** ₹548.4 | **Cap:** Mid | **Bars:** 353
 
-## 🏁 SCORECARD: **BULLISH**  (score 9.3, confluence medium)
-Leading 3.3 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
+## 🏁 SCORECARD: **BULLISH**  (score 8.8, confluence medium)
+Leading 3.3 | Lagging 4.0 | Candles -1.0 | Price-action 2.5
 
 ## A. Leading indicators
-- **RSI(14):** 64.1 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 63.9 / %D 68.4, cross none, neutral, div none
-- **Bollinger(20,2):** above_mid, width 48.75%, SQUEEZE
+- **RSI(14):** 60.0 (neutral), trend falling, divergence none
+- **Stochastic(14,3,3):** %K 61.5 / %D 64.1, cross none, neutral, div none
+- **Bollinger(20,2):** above_mid, width 46.02%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 38.9 (above0)
-- **Williams %R(14):** -37.8 (neutral)
+- **CCI(20):** 22.3 (above0)
+- **Williams %R(14):** -46.3 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 74.4 (neutral)
+- **MFI(14):** 73.9 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -2.621 (expanding_neg), cross bear, zero-line above
+- **MACD(12,26,9):** below_signal, hist -5.924 (expanding_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 61.2 (trending), +DI>-DI, falling
+- **ADX(14):** 59.2 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 27.92 (4.94% of price, expanding)
-- **VWAP(20):** px above, dist 10.66%
-- **Pivots:** daily P 563.6 R1 574.2 S1 554.2; weekly position mid_range
+- **ATR(14):** 27.75 (5.06% of price, expanding)
+- **VWAP(20):** px above, dist 5.56%
+- **Pivots:** daily P 548.33 R1 561.07 S1 535.67; weekly position below_S1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
@@ -38,9 +38,9 @@ Leading 3.3 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
 | Bearish Marubozu | 2026-06-29 | bearish | midair | confirmed |
 | Doji | 2026-06-30 | neutral | midair | neutral |
 | Outside Bar | 2026-07-01 | neutral | midair | neutral |
-| Long-legged Doji | 2026-07-02 | neutral | midair | pending (last bar) |
-| Bearish Harami | 2026-07-02 | bearish | midair | pending (last bar) |
-| Inside Bar | 2026-07-02 | neutral | midair | pending (last bar) |
+| Bearish Harami | 2026-07-02 | bearish | midair | confirmed |
+| Inside Bar | 2026-07-02 | neutral | midair | neutral |
+| Evening Star | 2026-07-03 | bearish | midair | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
@@ -50,7 +50,7 @@ Leading 3.3 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
 - **Demand (daily):** none — quality none
-- **Demand (weekly):** 248.49-354.9 (Moderate, FRESH, 59.14% away)
+- **Demand (weekly):** 248.49-354.9 (Moderate, FRESH, 54.52% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -61,20 +61,20 @@ Leading 3.3 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
 - **Bearish Order Block:** 436.35-482.25 (2026-06-11, mitigated)
 - **Fair Value Gaps:** 24 unfilled bullish, 2 unfilled bearish · nearest bull FVG below 525.05-560.0 (2026-06-23) · nearest bear FVG above 582.85-584.3 (2026-07-01)
 - **Liquidity:** buy-side above none | sell-side below none | equal-highs 1 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 85.3% of range 140.1–638.1)
+- **Premium/Discount:** **Premium** (price at 82.0% of range 140.1–638.1)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (491.2% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (474.1% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-14.7%/5b | C2:-12.9%/6b | C3:-9.7%/2b
-- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.56)
-- **Near 52w high:** False | **Pivot:** 638.1 | **% from pivot:** -11.49%
-- **Breakout vol ratio (today/50d):** 0.59 | **close pos in range:** 0.59
+- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.75)
+- **Near 52w high:** False | **Pivot:** 638.1 | **% from pivot:** -14.06%
+- **Breakout vol ratio (today/50d):** 0.67 | **close pos in range:** 0.5
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 140.1 on 2026-03-16):** 1x1=297.27 2x1=454.45 1x2=218.69 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 576.75 · T2 588.82 · T3 613.33 (support S1 552.98, S2 541.28)
-- **Time cycles:** 73 days since swing low → next Gann cycle at 90d (17d away); near cycle: False
+- **Angles (auto-scaled from swing low 140.1 on 2026-03-16):** 1x1=299.43 2x1=458.75 1x2=219.76 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 560.17 · T2 572.07 · T3 596.24 (support S1 536.75, S2 525.23)
+- **Time cycles:** 74 days since swing low → next Gann cycle at 90d (16d away); near cycle: False
 - **Octave position:** 7/8 (exhaustion) | levels 4/8=366.81 6/8=502.46 7/8=570.28
-- **Cardinal square:** nearest perfect-square 576 (1.98% away); near: True
+- **Cardinal square:** nearest perfect-square 529 (3.54% away); near: False

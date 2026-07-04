@@ -1,356 +1,377 @@
 symbol,trend_structure,chart_pattern,breakout_level,volume_confirm,target,pattern_confidence
-OMNI,Uptrend (HH/HL),Double Top,453.0,no,397.95,medium
+OMNI,Sideways / range-bound,Double Top,453.0,yes,397.95,medium
 CPPLUS,Uptrend (HH/HL),Double Top,3558.5,no,3479.2,medium
-KSHINTL,Uptrend (HH/HL),Rising Wedge (bearish),886.76,no,,low
-HFCL,Uptrend (HH/HL),Double Top,202.29,no,194.97,medium
-MTARTECH,Sideways / range-bound,No clean pattern,,n/a,,n/a
-BHAGYANGR,Uptrend (HH/HL),Rising Wedge (bearish),386.04,no,,low
-AEROFLEX,Uptrend (HH/HL),Rounding Bottom (saucer),510.9,no,,low
-VENUSREM,Uptrend (HH/HL),Double Top,1691.9,no,1500.8,medium
-ONELIFECAP,Sideways / range-bound,Rounding Bottom (saucer),37.0,no,,low
-GVPIL,Uptrend (HH/HL),Rising Wedge (bearish),1184.88,no,,low
-DEEDEV,Uptrend (HH/HL),Rounding Bottom (saucer),738.75,no,,low
+540492,Sideways / range-bound,Double Bottom,11.44,no,12.96,medium
 SIGMAADV,Uptrend (HH/HL),Rounding Bottom (saucer),615.05,no,,low
+AEROFLEX,Uptrend (HH/HL),Rounding Bottom (saucer),510.9,no,,low
+GVPIL,Uptrend (HH/HL),Rising Wedge (bearish),1201.84,no,,low
+STLTECH,Sideways / range-bound,Double Bottom,654.35,yes,740.3,medium
+VENUSREM,Uptrend (HH/HL),Double Top,1691.9,no,1500.8,medium
+HFCL,Uptrend (HH/HL),Double Top,202.29,no,194.97,medium
+CUPID,Uptrend (HH/HL),Rounding Bottom (saucer),198.84,weak,,low
+DEEDEV,Uptrend (HH/HL),Double Bottom,738.75,yes,852.05,medium
+MTARTECH,Sideways / range-bound,No clean pattern,,n/a,,n/a
+INDSWFTLAB,Sideways / range-bound,Double Top,156.69,weak,149.19,medium
+SANGINITA,Uptrend (HH/HL),Rising Wedge (bearish),32.14,no,,low
+ONELIFECAP,Sideways / range-bound,Rounding Bottom (saucer),38.6,yes,,low
 UFBL,Uptrend (HH/HL),Rounding Bottom (saucer),727.2,no,,low
-SANGINITA,Uptrend (HH/HL),Rising Wedge (bearish),31.89,no,,low
-STLTECH,Uptrend (HH/HL),Double Bottom,654.35,no,740.3,medium
-INDSWFTLAB,Sideways / range-bound,Bull Flag / Pennant,205.27,no,305.86,medium
-540492,Downtrend (LH/LL),Double Bottom,11.44,yes,12.96,medium
-CUPID,Uptrend (HH/HL),Bull Flag / Pennant,193.38,no,273.96,medium
-BAJAJCON,Uptrend (HH/HL),Inverse Head & Shoulders,625.25,no,698.45,medium
-SHADOWFAX,Uptrend (HH/HL),Double Top,215.25,no,206.68,medium
-YASHO,Uptrend (HH/HL),Double Top,2723.9,no,2577.4,medium
-CONFIPET,Sideways / range-bound,Rising Wedge (bearish),72.41,no,,low
-NINSYS,Uptrend (HH/HL),Double Top,715.55,no,696.5,medium
-BLISSGVS,Uptrend (HH/HL),Rounding Bottom (saucer),539.6,no,,low
 NGLFINE,Uptrend (HH/HL),Double Top,2930.3,no,2751.3,medium
-SAKAR,Uptrend (HH/HL),Double Top,767.6,no,699.5,medium
-GRWRHITECH,Uptrend (HH/HL),Rounding Bottom (saucer),6972.0,no,,low
-JNKINDIA,Uptrend (HH/HL),Double Top,467.0,no,429.95,medium
-ACUTAAS,Uptrend (HH/HL),Rounding Bottom (saucer),3661.9,no,,low
-RPTECH,Uptrend (HH/HL),Double Top,525.95,no,500.95,medium
-VIDYAWIRES,Downtrend (LH/LL),Double Top,84.84,no,55.68,medium
+BLISSGVS,Uptrend (HH/HL),Rising Wedge (bearish),510.32,no,,low
 OMAXAUTO,Uptrend (HH/HL),Double Top,224.31,no,216.11,medium
-EBGNG,Downtrend (LH/LL),Double Top,428.75,weak,408.5,medium
-RUBICON,Uptrend (HH/HL),Bull Flag / Pennant,1419.6,no,2041.91,medium
-SEDEMAC,Uptrend (HH/HL),Double Top,2696.1,no,2614.0,medium
-INDOTECH,Sideways / range-bound,Double Bottom,2676.5,no,2829.7,medium
-AVALON,Uptrend (HH/HL),Rising Wedge (bearish),1854.48,no,,low
-ATLANTAELE,Sideways / range-bound,Rising Wedge (bearish),1982.55,no,,low
-ANTELOPUS,Sideways / range-bound,Head & Shoulders,695.6,no,475.85,medium
-E2E,Sideways / range-bound,Double Top,369.0,no,285.1,medium
+BAJAJCON,Uptrend (HH/HL),Inverse Head & Shoulders,625.25,no,698.45,medium
+NINSYS,Uptrend (HH/HL),Double Top,715.55,weak,696.5,medium
+KSHINTL,Uptrend (HH/HL),Double Top,833.15,yes,780.1,medium
+BHAGYANGR,Uptrend (HH/HL),Rounding Bottom (saucer),431.85,weak,,low
+GRWRHITECH,Uptrend (HH/HL),Rounding Bottom (saucer),6968.5,no,,low
+SAKAR,Uptrend (HH/HL),Double Top,767.6,yes,699.5,medium
+ACUTAAS,Uptrend (HH/HL),Rounding Bottom (saucer),3694.8,no,,low
+JNKINDIA,Uptrend (HH/HL),Double Top,475.5,no,461.7,medium
+EBGNG,Downtrend (LH/LL),Double Top,428.75,no,408.5,medium
+SCHNEIDER,Sideways / range-bound,Rising Wedge (bearish),1278.43,weak,,low
+CONFIPET,Sideways / range-bound,Rising Wedge (bearish),72.8,weak,,low
 SPORTKING,Uptrend (HH/HL),Double Top,175.77,no,168.05,medium
-PAISALO,Uptrend (HH/HL),Double Top,58.25,yes,57.09,medium
-BALAMINES,Sideways / range-bound,Double Top,2054.0,yes,1865.9,medium
+SHADOWFAX,Uptrend (HH/HL),Double Top,215.25,no,206.68,medium
+ANTELOPUS,Sideways / range-bound,Head & Shoulders,695.6,no,475.85,medium
+RPTECH,Uptrend (HH/HL),Bull Flag / Pennant,797.2,no,1146.26,medium
+PAISALO,Uptrend (HH/HL),Double Top,58.25,weak,57.09,medium
+YASHO,Uptrend (HH/HL),Double Top,2723.9,no,2577.4,medium
+INDOTECH,Sideways / range-bound,Double Bottom,2676.5,weak,2829.7,medium
+SEDEMAC,Uptrend (HH/HL),Double Top,2666.2,no,2467.0,medium
+VIDYAWIRES,Downtrend (LH/LL),Symmetrical Triangle,101.64,no,,low
+PARKHOSPS,Sideways / range-bound,Double Top,285.5,yes,281.75,medium
 SETL,Uptrend (HH/HL),Double Top,132.59,weak,127.33,medium
-SYRMA,Uptrend (HH/HL),Bull Flag / Pennant,1440.5,no,1969.1,medium
-SCHNEIDER,Sideways / range-bound,Double Top,1335.3,no,1228.4,medium
-TIRUPATIFL,Uptrend (HH/HL),Rising Wedge (bearish),45.78,yes,,low
-MODISONLTD,Sideways / range-bound,Rounding Bottom (saucer),362.7,no,,low
-EMMVEE,Uptrend (HH/HL),Double Top,325.8,weak,308.05,medium
-PARKHOSPS,Sideways / range-bound,Double Top,254.15,no,215.8,medium
-PARAS,Uptrend (HH/HL),Rounding Bottom (saucer),1408.65,no,,low
-KIRLOSENG,Uptrend (HH/HL),Bull Flag / Pennant,2484.3,no,3372.54,medium
-KERNEX,Uptrend (HH/HL),Rising Wedge (bearish),2058.75,no,,low
-GAYAPROJ,Sideways / range-bound,Double Bottom,19.54,no,22.01,medium
-THANGAMAYL,Uptrend (HH/HL),Double Top,5351.9,no,5183.2,medium
-IDEAFORGE,Sideways / range-bound,Double Top,864.85,no,764.8,medium
-PARACABLES,Uptrend (HH/HL),Double Bottom,70.34,no,72.54,medium
-WELCORP,Uptrend (HH/HL),Double Top,1370.4,no,1329.2,medium
-SHILPAMED,Uptrend (HH/HL),Double Top,545.6,no,518.8,medium
-POWERINDIA,Uptrend (HH/HL),Double Bottom,36880.0,no,40510.0,medium
-KIRLPNU,Uptrend (HH/HL),Rising Wedge (bearish),2009.01,no,,low
-SATIN,Uptrend (HH/HL),Rounding Bottom (saucer),260.15,no,,low
-DATAPATTNS,Uptrend (HH/HL),Rounding Bottom (saucer),4866.2,no,,low
-ASTRAMICRO,Uptrend (HH/HL),Double Top,1316.2,no,1230.7,medium
-CEMPRO,Uptrend (HH/HL),Double Top,1122.4,yes,1007.7,medium
-WHEELS,Sideways / range-bound,Double Top,1480.3,no,1283.1,medium
-BBOX,Sideways / range-bound,Double Top,1011.7,no,1004.8,medium
-APARINDS,Uptrend (HH/HL),Rising Wedge (bearish),17795.93,no,,low
-SBCL,Uptrend (HH/HL),Inverse Head & Shoulders,776.3,no,884.25,medium
-AEGISLOG,Uptrend (HH/HL),Rising Wedge (bearish),860.9,no,,low
-IOLCP,Downtrend (LH/LL),Double Top,126.92,no,117.68,medium
-NEOGEN,Uptrend (HH/HL),Rising Wedge (bearish),1909.65,no,,low
-MAYURUNIQ,Uptrend (HH/HL),Double Top,793.1,no,774.95,medium
-SPARC,Uptrend (HH/HL),Rising Wedge (bearish),231.19,no,,low
-ZIMLAB,Uptrend (HH/HL),Bull Flag / Pennant,127.87,no,160.1,medium
-SANSERA,Uptrend (HH/HL),Rounding Bottom (saucer),3200.9,no,,low
-SCPL,Sideways / range-bound,Head & Shoulders,445.1,yes,374.9,medium
-BLUSPRING,Uptrend (HH/HL),Double Top,108.03,no,101.77,medium
-ARVIND,Uptrend (HH/HL),Double Bottom,491.85,no,503.35,medium
-LOKESHMACH,Uptrend (HH/HL),Double Bottom,297.7,no,325.15,medium
-KOTYARK,Sideways / range-bound,Double Bottom,37.24,no,37.9,medium
-TDPOWERSYS,Sideways / range-bound,Double Top,1126.0,no,926.5,medium
+BALAMINES,Sideways / range-bound,Double Top,2054.0,no,1865.9,medium
+AVALON,Uptrend (HH/HL),Double Top,1723.0,no,1686.0,medium
 SUVEN,Sideways / range-bound,Double Top,233.55,yes,187.76,medium
-NITINSPIN,Uptrend (HH/HL),Double Top,547.6,no,535.85,medium
-JAYBARMARU,Uptrend (HH/HL),Bull Flag / Pennant,172.18,no,252.71,medium
-AEQUS,Sideways / range-bound,Double Top,228.95,no,221.04,medium
-511523,Uptrend (HH/HL),Bull Flag / Pennant,32.48,no,41.03,medium
-INOXINDIA,Uptrend (HH/HL),Bull Flag / Pennant,1958.4,no,2405.33,medium
-KRN,Uptrend (HH/HL),Double Top,1218.3,no,1175.4,medium
-SKYGOLD,Sideways / range-bound,Double Bottom,533.65,weak,576.55,medium
-APOLLOPIPE,Sideways / range-bound,Double Top,478.65,no,455.55,medium
-IBULLSLTD,Uptrend (HH/HL),Rounding Bottom (saucer),28.1,no,,low
-532380,Uptrend (HH/HL),Double Bottom,14.55,no,14.9,medium
-524520,Uptrend (HH/HL),Double Top,112.55,yes,106.2,medium
-SGFIN,Sideways / range-bound,Double Top,581.1,no,550.45,medium
-ACMESOLAR,Uptrend (HH/HL),Double Top,334.45,no,312.25,medium
-CMPDI,Downtrend (LH/LL),Double Top,248.97,no,239.43,medium
-543787,Uptrend (HH/HL),Rounding Bottom (saucer),1300.25,no,,low
-AFIL,Uptrend (HH/HL),Double Top,9.68,no,8.77,medium
-PREMIERPOL,Sideways / range-bound,Rising Wedge (bearish),62.37,no,,low
-ADVAIT,Uptrend (HH/HL),Double Top,2397.0,no,2359.0,medium
-DJML,Uptrend (HH/HL),Double Top,106.42,no,98.11,medium
-NRBBEARING,Uptrend (HH/HL),Rounding Bottom (saucer),444.0,no,,low
-PRECWIRE,Sideways / range-bound,Double Top,408.25,no,387.6,medium
-CENTUM,Uptrend (HH/HL),Double Top,3489.6,no,3351.4,medium
-APOLLO,Uptrend (HH/HL),Double Top,381.75,no,326.5,medium
-DIVGIITTS,Sideways / range-bound,Double Top,844.85,no,820.5,medium
-HONASA,Sideways / range-bound,Double Top,407.95,no,398.85,medium
-SPAL,Uptrend (HH/HL),Bull Flag / Pennant,1138.15,no,1668.43,medium
-SGMART,Downtrend (LH/LL),Double Top,577.6,no,535.8,medium
-AEROENTER,Uptrend (HH/HL),Double Top,134.14,no,123.29,medium
-ADFFOODS,Uptrend (HH/HL),Rising Wedge (bearish),305.57,yes,,low
-MEGASTAR,Sideways / range-bound,Inverse Head & Shoulders,318.25,no,356.2,medium
-J&KBANK,Uptrend (HH/HL),Double Bottom,134.12,weak,138.19,medium
-WABAG,Uptrend (HH/HL),Bull Flag / Pennant,2110.8,no,2880.08,medium
-XPROINDIA,Uptrend (HH/HL),Rounding Bottom (saucer),1498.6,no,,low
-GVT&D,Sideways / range-bound,Double Bottom,5086.5,no,5418.0,medium
-THERMAX,Sideways / range-bound,Double Top,4571.3,weak,4149.8,medium
-CLEANMAX,Sideways / range-bound,Bull Flag / Pennant,1365.7,no,1682.98,medium
-ICIL,Uptrend (HH/HL),Bull Flag / Pennant,438.25,no,599.42,medium
-SPECTRUM,Uptrend (HH/HL),Double Top,1564.2,no,1359.3,medium
-TALBROAUTO,Uptrend (HH/HL),Double Top,351.7,no,340.9,medium
-UTLSOLAR,Sideways / range-bound,Double Bottom,319.6,yes,334.8,medium
-SENORES,Uptrend (HH/HL),Double Top,1257.2,no,1224.4,medium
-NARMADA,Downtrend (LH/LL),Double Top,35.25,no,26.94,medium
-VENUSPIPES,Sideways / range-bound,Double Top,1373.2,no,1296.3,medium
-RISHABH,Uptrend (HH/HL),Rising Wedge (bearish),588.1,yes,,low
-UNIVPHOTO,Sideways / range-bound,Double Top,350.1,weak,331.65,medium
-HIRECT,Uptrend (HH/HL),Inverse Head & Shoulders,1192.2,no,1331.1,medium
-AYMSYNTEX,Downtrend (LH/LL),Double Top,215.11,yes,205.15,medium
-ROSSTECH,Sideways / range-bound,Double Top,970.8,no,861.1,medium
-ATHERENERG,Uptrend (HH/HL),Double Top,960.6,no,879.2,medium
-DIACABS,Uptrend (HH/HL),Double Top,202.25,no,189.16,medium
-SWANDEF,Uptrend (HH/HL),Double Bottom,2022.9,yes,2074.2,medium
-FCL,Uptrend (HH/HL),Rounding Bottom (saucer),45.41,no,,low
-SAIPARENT,Uptrend (HH/HL),Bull Flag / Pennant,625.95,yes,761.53,medium
-KRISHNADEF,Sideways / range-bound,Double Bottom,1141.3,no,1183.9,medium
-VTL,Uptrend (HH/HL),Double Bottom,661.4,no,696.65,medium
-ADANIPOWER,Sideways / range-bound,Double Bottom,223.07,no,230.63,medium
-SOLARINDS,Sideways / range-bound,Double Top,16899.0,no,15221.0,medium
-JINDALSAW,Uptrend (HH/HL),Double Top,223.49,no,186.98,medium
-POWERICA,Sideways / range-bound,No clean pattern,,n/a,,n/a
-AMAGI,Uptrend (HH/HL),Rising Wedge (bearish),537.12,no,,low
-ONIDA,Downtrend (LH/LL),Double Top,35.75,no,30.16,medium
-NRL,Sideways / range-bound,Bull Flag / Pennant,85.3,no,113.09,medium
-MARKSANS,Uptrend (HH/HL),Inverse Head & Shoulders,252.75,no,272.31,medium
-FAZE3Q,Uptrend (HH/HL),Double Bottom,547.8,no,559.5,medium
-ADANIGREEN,Uptrend (HH/HL),Double Top,1454.5,no,1374.5,medium
-CGPOWER,Uptrend (HH/HL),Double Top,901.35,no,864.8,medium
-EXICOM,Uptrend (HH/HL),Rising Wedge (bearish),159.55,no,,low
-ADANIENSOL,Downtrend (LH/LL),Double Top,1466.7,no,1354.2,medium
-SASKEN,Uptrend (HH/HL),Rounding Bottom (saucer),2647.9,no,,low
-543920,Sideways / range-bound,Rising Wedge (bearish),847.06,weak,,low
-MANINDS,Uptrend (HH/HL),Ascending Triangle,583.15,no,641.47,medium
-RML,Uptrend (HH/HL),Rounding Bottom (saucer),1205.0,no,,low
-GALAPREC,Uptrend (HH/HL),Rounding Bottom (saucer),1173.1,no,,low
-SBC,Uptrend (HH/HL),Rounding Bottom (saucer),44.09,no,,low
-QPOWER,Uptrend (HH/HL),Double Bottom,1124.1,no,1230.6,medium
-VINDHYATEL,Uptrend (HH/HL),Rounding Bottom (saucer),2374.1,no,,low
-GNA,Sideways / range-bound,Double Top,366.7,no,351.0,medium
-NDLVENTURE,Uptrend (HH/HL),Double Top,128.33,no,127.02,medium
-GAUDIUMIVF,Sideways / range-bound,Symmetrical Triangle,111.58,yes,,low
-FINCABLES,Uptrend (HH/HL),Double Top,1116.5,no,1042.5,medium
-MOREPENLAB,Uptrend (HH/HL),Rounding Bottom (saucer),62.68,no,,low
-RUBYMILLS,Sideways / range-bound,Double Top,318.05,no,282.85,medium
-BHARATFORG,Sideways / range-bound,Double Top,2122.8,no,2093.3,medium
-OFSS,Uptrend (HH/HL),Double Bottom,10344.5,no,11164.0,medium
-IFCI,Uptrend (HH/HL),Rounding Bottom (saucer),90.07,no,,low
-STYLAMIND,Uptrend (HH/HL),Double Top,3142.0,no,2956.2,medium
-PANACEABIO,Uptrend (HH/HL),Double Bottom,544.95,no,567.6,medium
-PREMEXPLN,Uptrend (HH/HL),Rounding Bottom (saucer),808.5,no,,low
-BSE,Sideways / range-bound,Double Top,3999.2,no,3836.0,medium
-MENONBE,Uptrend (HH/HL),Rounding Bottom (saucer),177.33,no,,low
-AETHER,Sideways / range-bound,Inverse Head & Shoulders,1252.0,no,1452.7,medium
-CALSOFT,Uptrend (HH/HL),Double Bottom,20.37,no,20.88,medium
-544023,Sideways / range-bound,Double Top,530.0,yes,415.0,medium
-LLOYDSENGG,Sideways / range-bound,Double Top,84.91,no,79.53,medium
-BIRLACABLE,Sideways / range-bound,Double Top,184.89,no,134.1,medium
-NELCAST,Downtrend (LH/LL),Double Top,135.52,yes,127.41,medium
-MANCREDIT,Uptrend (HH/HL),Bull Flag / Pennant,242.73,yes,292.28,medium
-ANGELONE,Uptrend (HH/HL),Double Top,323.75,no,304.85,medium
-STEELCAS,Uptrend (HH/HL),Rising Wedge (bearish),304.23,no,,low
-MAHABANK,Uptrend (HH/HL),Rounding Bottom (saucer),93.85,no,,low
-GLAND,Downtrend (LH/LL),Double Top,2219.5,no,2105.0,medium
-543828,Uptrend (HH/HL),Rising Wedge (bearish),38.83,no,,low
-NETWEB,Uptrend (HH/HL),Double Top,4191.4,no,3448.6,medium
-NEPHROPLUS,Uptrend (HH/HL),Rounding Bottom (saucer),751.3,no,,low
+EMMVEE,Uptrend (HH/HL),Double Top,325.8,no,308.05,medium
+PARAS,Uptrend (HH/HL),Rounding Bottom (saucer),1408.65,no,,low
+IBULLSLTD,Uptrend (HH/HL),Rounding Bottom (saucer),29.3,yes,,low
+RUBICON,Uptrend (HH/HL),Rising Wedge (bearish),1510.88,no,,low
+E2E,Sideways / range-bound,Double Top,369.0,no,285.1,medium
+SHILPAMED,Uptrend (HH/HL),Double Top,545.6,no,518.8,medium
+PARACABLES,Uptrend (HH/HL),Double Bottom,70.34,no,72.54,medium
+ATLANTAELE,Sideways / range-bound,Symmetrical Triangle,1748.87,yes,,low
+SYRMA,Uptrend (HH/HL),Bull Flag / Pennant,1440.5,no,1906.24,medium
+BLUSPRING,Uptrend (HH/HL),Double Top,108.03,yes,101.77,medium
+KOTYARK,Sideways / range-bound,Double Bottom,37.24,no,37.9,medium
+ASTRAMICRO,Uptrend (HH/HL),Double Top,1316.2,no,1230.7,medium
+MODISONLTD,Sideways / range-bound,Rounding Bottom (saucer),362.7,no,,low
+KERNEX,Uptrend (HH/HL),Rising Wedge (bearish),2101.33,weak,,low
+AEGISLOG,Uptrend (HH/HL),Rising Wedge (bearish),866.66,no,,low
+WELCORP,Uptrend (HH/HL),Double Bottom,1411.6,yes,1476.6,medium
+GAYAPROJ,Sideways / range-bound,No clean pattern,,n/a,,n/a
+CEMPRO,Uptrend (HH/HL),Double Top,1122.4,weak,1007.7,medium
+SBCL,Uptrend (HH/HL),Inverse Head & Shoulders,776.3,yes,884.25,medium
+MAYURUNIQ,Uptrend (HH/HL),Double Top,793.1,no,774.95,medium
+THANGAMAYL,Uptrend (HH/HL),Double Bottom,5632.7,weak,5850.0,medium
+ARVIND,Uptrend (HH/HL),Double Bottom,491.85,no,503.35,medium
+BBOX,Downtrend (LH/LL),Double Top,1011.7,no,1004.8,medium
+NITINSPIN,Uptrend (HH/HL),Double Top,545.15,no,521.6,medium
+TIRUPATIFL,Uptrend (HH/HL),Rising Wedge (bearish),45.96,yes,,low
+CMPDI,Sideways / range-bound,Double Top,248.97,yes,239.43,medium
+SPARC,Uptrend (HH/HL),Rising Wedge (bearish),234.38,no,,low
+SCPL,Sideways / range-bound,Head & Shoulders,445.1,yes,374.9,medium
+IOLCP,Downtrend (LH/LL),Double Top,126.92,weak,117.68,medium
+IDEAFORGE,Downtrend (LH/LL),Double Top,864.85,no,764.8,medium
+SATIN,Uptrend (HH/HL),Rounding Bottom (saucer),259.68,weak,,low
+KIRLPNU,Uptrend (HH/HL),Rising Wedge (bearish),2034.19,no,,low
+ZIMLAB,Uptrend (HH/HL),Bull Flag / Pennant,124.9,no,152.75,medium
+LOKESHMACH,Uptrend (HH/HL),Double Bottom,297.7,no,325.15,medium
+DJML,Uptrend (HH/HL),Double Top,106.42,yes,98.11,medium
+511523,Uptrend (HH/HL),Bull Flag / Pennant,32.57,no,41.66,medium
+NEOGEN,Uptrend (HH/HL),Symmetrical Triangle,1962.73,no,,low
+APARINDS,Uptrend (HH/HL),Rising Wedge (bearish),18275.05,yes,,low
+SANSERA,Uptrend (HH/HL),Rounding Bottom (saucer),3251.5,no,,low
+WHEELS,Sideways / range-bound,Double Bottom,1634.7,yes,1789.1,medium
+KIRLOSENG,Uptrend (HH/HL),Rounding Bottom (saucer),2563.6,no,,low
+AEQUS,Sideways / range-bound,Double Top,228.95,weak,221.04,medium
 SKMEGGPROD,Uptrend (HH/HL),Double Bottom,244.31,no,260.09,medium
-VIYASH,Downtrend (LH/LL),Double Bottom,257.4,no,266.8,medium
-PANAMAPET,Uptrend (HH/HL),Rounding Bottom (saucer),496.45,no,,low
-CEIGALL,Sideways / range-bound,Rounding Bottom (saucer),395.95,no,,low
-TMB,Uptrend (HH/HL),Double Top,762.15,weak,743.75,medium
-AKUMS,Uptrend (HH/HL),Double Bottom,619.15,no,646.75,medium
-DBOL,Uptrend (HH/HL),Double Top,111.59,no,105.79,medium
+APOLLO,Uptrend (HH/HL),Double Top,381.75,yes,326.5,medium
+532380,Sideways / range-bound,Double Bottom,14.55,no,14.9,medium
+SKYGOLD,Sideways / range-bound,Double Bottom,533.65,weak,576.55,medium
+INOXINDIA,Uptrend (HH/HL),Head & Shoulders,1786.4,no,1531.9,medium
+DIVGIITTS,Sideways / range-bound,Double Top,844.85,no,820.5,medium
+539730,Sideways / range-bound,Inverse Head & Shoulders,2619.7,yes,2989.85,medium
+544023,Sideways / range-bound,Double Top,530.0,weak,415.0,medium
+JAYBARMARU,Uptrend (HH/HL),Bull Flag / Pennant,171.55,no,255.5,medium
+DATAPATTNS,Uptrend (HH/HL),Rounding Bottom (saucer),4866.2,no,,low
+APOLLOPIPE,Downtrend (LH/LL),Double Top,471.15,no,435.8,medium
+POWERINDIA,Uptrend (HH/HL),Double Bottom,36880.0,yes,40510.0,medium
+KRN,Uptrend (HH/HL),Double Top,1177.2,no,1119.2,medium
+NRL,Sideways / range-bound,Rising Wedge (bearish),86.57,yes,,low
+ATHERENERG,Uptrend (HH/HL),Double Top,960.6,no,879.2,medium
+SGFIN,Sideways / range-bound,Double Top,581.1,no,550.45,medium
+PREMIERPOL,Sideways / range-bound,Rising Wedge (bearish),62.75,no,,low
+ACMESOLAR,Uptrend (HH/HL),Double Top,334.45,no,312.25,medium
+UNIVPHOTO,Sideways / range-bound,Double Top,350.1,no,331.65,medium
+SENORES,Uptrend (HH/HL),Double Top,1257.2,weak,1224.4,medium
+WABAG,Uptrend (HH/HL),Rising Wedge (bearish),1988.18,weak,,low
+CENTUM,Uptrend (HH/HL),Double Top,3562.3,no,3421.2,medium
+FCL,Uptrend (HH/HL),Rounding Bottom (saucer),45.41,no,,low
+SPAL,Uptrend (HH/HL),Double Top,1051.4,no,993.7,medium
+SGMART,Downtrend (LH/LL),Double Top,577.6,no,535.8,medium
+J&KBANK,Uptrend (HH/HL),Rounding Bottom (saucer),165.2,weak,,low
+MEGASTAR,Sideways / range-bound,Inverse Head & Shoulders,318.25,no,356.2,medium
+XPROINDIA,Uptrend (HH/HL),Rounding Bottom (saucer),1503.6,no,,low
+AFIL,Uptrend (HH/HL),Double Top,10.38,no,9.85,medium
+TDPOWERSYS,Sideways / range-bound,Double Top,1126.0,yes,926.5,medium
+ADVAIT,Uptrend (HH/HL),Double Top,2397.0,no,2359.0,medium
+ADFFOODS,Uptrend (HH/HL),Rising Wedge (bearish),307.47,weak,,low
+ROSSTECH,Sideways / range-bound,Double Top,970.8,no,861.1,medium
+PRECWIRE,Sideways / range-bound,Double Top,408.25,no,387.6,medium
+SPECTRUM,Uptrend (HH/HL),Double Top,1564.2,no,1359.3,medium
+AYMSYNTEX,Downtrend (LH/LL),Double Top,215.11,yes,205.15,medium
+NRBBEARING,Uptrend (HH/HL),Double Top,419.8,no,400.65,medium
+EXICOM,Uptrend (HH/HL),Rising Wedge (bearish),160.99,no,,low
+HONASA,Sideways / range-bound,Double Top,400.4,no,383.15,medium
+GALAPREC,Uptrend (HH/HL),Rounding Bottom (saucer),1183.4,no,,low
+543787,Uptrend (HH/HL),Rounding Bottom (saucer),1300.25,no,,low
+NARMADA,Downtrend (LH/LL),Double Top,35.25,no,26.94,medium
+UTLSOLAR,Sideways / range-bound,Double Bottom,319.6,weak,334.8,medium
+524520,Uptrend (HH/HL),Double Top,112.55,no,106.2,medium
+ICIL,Uptrend (HH/HL),Bull Flag / Pennant,441.05,no,602.58,medium
+VTL,Uptrend (HH/HL),Double Bottom,661.4,weak,696.65,medium
+RISHABH,Uptrend (HH/HL),Rising Wedge (bearish),592.37,yes,,low
+RRKABEL,Uptrend (HH/HL),Bull Flag / Pennant,2502.3,no,3028.0,medium
+RUBYMILLS,Sideways / range-bound,Double Top,318.05,no,282.85,medium
+FAZE3Q,Uptrend (HH/HL),Rounding Bottom (saucer),621.85,no,,low
+SAIPARENT,Uptrend (HH/HL),Bull Flag / Pennant,623.8,no,751.41,medium
+JINDALSAW,Uptrend (HH/HL),Double Top,223.49,no,186.98,medium
+VENUSPIPES,Sideways / range-bound,Double Top,1373.2,no,1296.3,medium
+ADANIGREEN,Uptrend (HH/HL),Double Top,1454.5,no,1374.5,medium
+AEROENTER,Uptrend (HH/HL),Double Top,134.14,no,123.29,medium
+ADANIENSOL,Sideways / range-bound,Double Top,1466.7,weak,1354.2,medium
+ADANIPOWER,Sideways / range-bound,Double Bottom,223.07,no,230.63,medium
+543828,Uptrend (HH/HL),Double Bottom,39.95,yes,43.19,medium
+THERMAX,Sideways / range-bound,Double Bottom,4774.4,weak,4977.5,medium
 AMANTA,Uptrend (HH/HL),Double Top,148.95,no,140.76,medium
-REFEX,Uptrend (HH/HL),Double Bottom,316.95,no,326.2,medium
-MBAPL,Uptrend (HH/HL),Double Top,546.15,weak,536.65,medium
-SUYOG,Sideways / range-bound,Inverse Head & Shoulders,824.3,yes,975.4,medium
-AMBIKCO,Uptrend (HH/HL),Double Top,1571.4,no,1431.8,medium
-BANDHANBNK,Uptrend (HH/HL),Double Top,207.12,no,197.5,medium
-SUDEEPPHRM,Uptrend (HH/HL),Double Top,831.15,no,792.1,medium
-544141,Downtrend (LH/LL),Double Bottom,281.6,no,291.2,medium
-BOROSCI,Uptrend (HH/HL),Double Top,151.65,no,149.61,medium
+TALBROAUTO,Uptrend (HH/HL),Double Top,351.7,no,340.9,medium
+543920,Sideways / range-bound,Double Top,831.55,no,802.3,medium
+RAMCOSYS,Uptrend (HH/HL),Rounding Bottom (saucer),836.05,no,,low
+MANCREDIT,Uptrend (HH/HL),Rounding Bottom (saucer),245.33,yes,,low
+MANINDS,Uptrend (HH/HL),Ascending Triangle,583.46,no,641.81,medium
+RML,Uptrend (HH/HL),Rounding Bottom (saucer),1206.8,no,,low
+LLOYDSENGG,Sideways / range-bound,Double Top,84.91,no,79.53,medium
+CLEANMAX,Sideways / range-bound,Head & Shoulders,1252.7,no,1011.4,medium
+ANGELONE,Uptrend (HH/HL),Double Top,323.75,weak,304.85,medium
+SBC,Uptrend (HH/HL),Rounding Bottom (saucer),44.09,no,,low
+HIRECT,Uptrend (HH/HL),Double Top,1121.0,yes,1084.9,medium
+STYLAMIND,Uptrend (HH/HL),Double Top,3142.0,no,2956.2,medium
 INDOBORAX,Uptrend (HH/HL),Double Top,359.9,no,346.35,medium
-APCOTEXIND,Uptrend (HH/HL),Double Top,516.75,no,493.3,medium
-RRKABEL,Uptrend (HH/HL),Bull Flag / Pennant,2502.3,no,3191.43,medium
-HARDWYN,Sideways / range-bound,Double Top,23.83,no,21.37,medium
-ABSLAMC,Uptrend (HH/HL),Double Bottom,1199.0,no,1300.1,medium
+PANACEABIO,Uptrend (HH/HL),Double Top,524.1,no,503.25,medium
+AMAGI,Uptrend (HH/HL),Rising Wedge (bearish),543.53,no,,low
+SWANDEF,Uptrend (HH/HL),Double Bottom,2022.9,yes,2074.2,medium
+OFSS,Uptrend (HH/HL),Rising Wedge (bearish),10598.25,weak,,low
+VINDHYATEL,Uptrend (HH/HL),Rounding Bottom (saucer),2374.1,no,,low
+TMB,Uptrend (HH/HL),Double Top,762.15,yes,743.75,medium
+SUDEEPPHRM,Uptrend (HH/HL),Double Top,831.15,weak,792.1,medium
+KRISHNADEF,Sideways / range-bound,Double Bottom,1141.3,weak,1183.9,medium
+KRISHANA,Sideways / range-bound,Double Bottom,146.79,no,161.39,medium
+MARKSANS,Uptrend (HH/HL),Double Top,256.07,no,246.16,medium
+SOLARINDS,Sideways / range-bound,Double Top,17428.0,no,16415.0,medium
+NDLVENTURE,Uptrend (HH/HL),Double Top,128.33,no,127.02,medium
+BHARATFORG,Uptrend (HH/HL),Double Top,2122.8,no,2093.3,medium
+STEELCAS,Uptrend (HH/HL),Rising Wedge (bearish),307.39,no,,low
+MBAPL,Uptrend (HH/HL),Double Top,110.09,weak,106.85,medium
+PREMEXPLN,Uptrend (HH/HL),Rounding Bottom (saucer),808.5,weak,,low
+GAUDIUMIVF,Sideways / range-bound,Symmetrical Triangle,111.29,no,,low
+GLAND,Downtrend (LH/LL),Double Bottom,2202.2,no,2225.7,medium
+POWERICA,Sideways / range-bound,No clean pattern,,n/a,,n/a
+AETHER,Sideways / range-bound,Inverse Head & Shoulders,1252.0,no,1452.7,medium
+APCOTEXIND,Sideways / range-bound,Double Top,516.75,no,493.3,medium
+BSE,Sideways / range-bound,Double Top,3999.2,no,3836.0,medium
+GCSL,Uptrend (HH/HL),Double Top,428.15,yes,424.65,medium
+CALSOFT,Uptrend (HH/HL),Double Bottom,20.37,no,20.88,medium
+GVT&D,Sideways / range-bound,Double Bottom,5086.5,yes,5418.0,medium
+RAYMOND,Uptrend (HH/HL),Double Top,586.45,weak,581.0,medium
+IFCI,Uptrend (HH/HL),Rounding Bottom (saucer),90.07,no,,low
+MACPOWER,Uptrend (HH/HL),Ascending Triangle,1107.07,no,1217.78,medium
+BIRLACABLE,Sideways / range-bound,Double Top,184.89,no,134.1,medium
+PANAMAPET,Uptrend (HH/HL),Bull Flag / Pennant,425.55,no,523.58,medium
+VIYASH,Downtrend (LH/LL),Double Bottom,257.4,no,266.8,medium
 CORONA,Sideways / range-bound,Double Top,1675.2,no,1530.2,medium
-ADANIENT,Sideways / range-bound,Double Top,2908.8,weak,2769.4,medium
-AYE,Uptrend (HH/HL),Rising Wedge (bearish),166.51,no,,low
-BHARATSE,Uptrend (HH/HL),Double Top,172.54,yes,157.11,medium
-JTLIND,Sideways / range-bound,Ascending Triangle,78.87,no,86.76,medium
-ENRIN,Sideways / range-bound,Double Top,3412.5,no,2952.9,medium
-CAPLIPOINT,Uptrend (HH/HL),Bull Flag / Pennant,2626.0,no,3253.01,medium
-GRINDWELL,Uptrend (HH/HL),Double Bottom,1958.2,no,2076.6,medium
-SAREGAMA,Uptrend (HH/HL),Double Bottom,464.55,no,491.05,medium
-APEX,Downtrend (LH/LL),Double Bottom,426.8,no,464.65,medium
-GOCLCORP,Uptrend (HH/HL),Double Bottom,420.45,no,473.45,medium
-SIGNPOST,Downtrend (LH/LL),Double Bottom,257.2,yes,268.35,medium
-MSTCLTD,Uptrend (HH/HL),Rising Wedge (bearish),661.49,no,,low
-SALSTEEL,Sideways / range-bound,Double Top,54.85,weak,50.14,medium
-LAURUSLABS,Uptrend (HH/HL),Double Top,1368.8,no,1290.8,medium
-NAM-INDIA,Uptrend (HH/HL),Inverse Head & Shoulders,1188.4,no,1335.2,medium
-CHENNPETRO,Uptrend (HH/HL),Double Top,1137.7,no,1049.0,medium
-AGIIL,Downtrend (LH/LL),Double Top,354.65,no,333.65,medium
-LIKHITHA,Downtrend (LH/LL),Double Bottom,210.18,no,224.52,medium
-LLOYDSME,Uptrend (HH/HL),Double Top,1754.3,no,1740.7,medium
-GHCLTEXTIL,Uptrend (HH/HL),Double Top,90.57,weak,82.37,medium
-ASHIANA,Uptrend (HH/HL),Double Top,379.6,no,370.1,medium
-HESTERBIO,Uptrend (HH/HL),Double Bottom,1963.2,no,2004.0,medium
-RAYMOND,Uptrend (HH/HL),Double Top,586.45,no,581.0,medium
-MACPOWER,Uptrend (HH/HL),Ascending Triangle,1108.11,no,1218.92,medium
-GOODLUCK,Uptrend (HH/HL),Rising Wedge (bearish),1409.82,no,,low
-SONACOMS,Sideways / range-bound,Double Top,585.1,yes,551.5,medium
-RATEGAIN,Uptrend (HH/HL),Rounding Bottom (saucer),940.7,weak,,low
-RAMCOSYS,Uptrend (HH/HL),Double Top,540.55,no,518.1,medium
-TEJASNET,Uptrend (HH/HL),Bull Flag / Pennant,622.75,no,784.66,medium
-BHEL,Sideways / range-bound,Inverse Head & Shoulders,422.35,no,474.05,medium
-MWL,Downtrend (LH/LL),Double Top,371.7,no,363.85,medium
-SHREEJISPG,Uptrend (HH/HL),Inverse Head & Shoulders,500.6,weak,550.5,medium
-MARINE,Uptrend (HH/HL),Double Bottom,275.15,no,291.85,medium
-MCX,Sideways / range-bound,Double Top,2803.8,no,2712.0,medium
-540252,Downtrend (LH/LL),Inverse Head & Shoulders,11.88,yes,13.89,medium
-SOTL,Uptrend (HH/HL),Bull Flag / Pennant,527.95,no,663.96,medium
-KDDL,Uptrend (HH/HL),Rising Wedge (bearish),3183.46,no,,low
-540786,Uptrend (HH/HL),Rounding Bottom (saucer),21.93,no,,low
-QUESS,Sideways / range-bound,Double Bottom,251.1,no,256.32,medium
-NIBE,Uptrend (HH/HL),Rising Wedge (bearish),1711.82,no,,low
-HCC,Uptrend (HH/HL),Double Bottom,24.02,no,25.75,medium
-RPEL,Uptrend (HH/HL),Double Top,1189.75,no,1172.85,medium
-SAILIFE,Uptrend (HH/HL),Double Top,1181.2,no,1132.7,medium
-PRIVISCL,Sideways / range-bound,Rounding Bottom (saucer),3725.6,no,,low
-JETFREIGHT,Downtrend (LH/LL),Double Top,21.58,no,19.62,medium
-KIMS,Uptrend (HH/HL),Double Top,763.15,no,725.1,medium
-526873,Sideways / range-bound,Double Bottom,45.75,no,45.95,medium
-QUADFUTURE,Uptrend (HH/HL),Bull Flag / Pennant,449.6,no,683.2,medium
-WOCKPHARMA,Sideways / range-bound,Rounding Bottom (saucer),2152.9,no,,low
-GRANULES,Uptrend (HH/HL),Double Top,760.8,no,727.8,medium
-KRISHANA,Sideways / range-bound,Double Bottom,733.95,weak,806.95,medium
-539479,Sideways / range-bound,Rounding Bottom (saucer),81.77,no,,low
-AVL,Sideways / range-bound,Double Bottom,551.2,no,594.2,medium
-DSSL,Uptrend (HH/HL),Double Bottom,1374.7,no,1502.4,medium
-DHANBANK,Sideways / range-bound,Double Top,31.24,yes,28.49,medium
-UNIPARTS,Sideways / range-bound,Double Bottom,680.95,no,709.0,medium
-SOMANYCERA,Uptrend (HH/HL),Double Top,495.6,no,465.2,medium
-KTKBANK,Uptrend (HH/HL),Double Top,256.6,no,241.35,medium
-VIJAYA,Uptrend (HH/HL),Double Top,1294.6,no,1225.0,medium
-BETA,Uptrend (HH/HL),Double Bottom,1471.7,no,1527.3,medium
-INNOVACAP,Uptrend (HH/HL),Double Top,932.95,no,901.7,medium
-GROWW,Uptrend (HH/HL),No clean pattern,,n/a,,n/a
+DBOL,Uptrend (HH/HL),Double Top,111.59,no,105.79,medium
+SUYOG,Uptrend (HH/HL),Inverse Head & Shoulders,824.3,yes,975.4,medium
+FINCABLES,Sideways / range-bound,Double Top,1116.5,no,1042.5,medium
+ADANIENT,Uptrend (HH/HL),Double Top,2908.8,weak,2769.4,medium
+GHCLTEXTIL,Uptrend (HH/HL),Double Top,90.57,yes,82.37,medium
+ONIDA,Sideways / range-bound,Double Top,35.75,weak,30.16,medium
+MOREPENLAB,Uptrend (HH/HL),Rounding Bottom (saucer),62.68,no,,low
 HSCL,Sideways / range-bound,Double Top,668.9,no,644.8,medium
-SILVERTUC,Uptrend (HH/HL),Rounding Bottom (saucer),208.36,no,,low
-GOLDTECH,Sideways / range-bound,Double Bottom,44.53,no,47.99,medium
-AVADHSUGAR,Sideways / range-bound,Double Top,448.45,no,437.3,medium
-GULPOLY,Sideways / range-bound,Double Top,204.59,no,194.23,medium
-NAHARSPING,Sideways / range-bound,Double Bottom,261.3,no,275.4,medium
-CARBORUNIV,Sideways / range-bound,Rising Wedge (bearish),1163.29,no,,low
-ABB,Uptrend (HH/HL),Double Top,6967.5,no,6677.0,medium
-ZENTEC,Uptrend (HH/HL),Double Bottom,1997.0,no,2278.9,medium
-CARYSIL,Uptrend (HH/HL),Double Top,1163.8,no,1135.7,medium
-STEELXIND,Uptrend (HH/HL),Rising Wedge (bearish),12.5,no,,low
+AKUMS,Uptrend (HH/HL),Double Bottom,619.15,no,646.75,medium
+GOCLCORP,Uptrend (HH/HL),Double Bottom,420.45,no,473.45,medium
+LIKHITHA,Sideways / range-bound,Double Bottom,210.18,no,224.52,medium
+CGPOWER,Uptrend (HH/HL),Double Top,901.35,yes,864.8,medium
+STEELXIND,Uptrend (HH/HL),Rising Wedge (bearish),12.66,no,,low
+DIACABS,Uptrend (HH/HL),Double Top,202.25,weak,189.16,medium
+NEPHROPLUS,Uptrend (HH/HL),Rounding Bottom (saucer),751.3,no,,low
+SOTL,Uptrend (HH/HL),Bull Flag / Pennant,532.65,no,645.28,medium
+AMBIKCO,Uptrend (HH/HL),Double Top,1702.6,no,1634.7,medium
+HARDWYN,Sideways / range-bound,Double Top,23.83,yes,21.37,medium
+QPOWER,Uptrend (HH/HL),Double Bottom,1124.1,weak,1230.6,medium
+JTLIND,Sideways / range-bound,Ascending Triangle,78.95,yes,86.85,medium
+BOROSCI,Uptrend (HH/HL),Rising Wedge (bearish),192.75,no,,low
+QUADFUTURE,Uptrend (HH/HL),Rounding Bottom (saucer),469.8,no,,low
+ABSLAMC,Uptrend (HH/HL),Double Bottom,1199.0,no,1300.1,medium
+544141,Downtrend (LH/LL),Double Bottom,281.6,no,291.2,medium
+GOODLUCK,Uptrend (HH/HL),Rising Wedge (bearish),1415.68,no,,low
+SONACOMS,Sideways / range-bound,Double Top,585.1,no,551.5,medium
+BHARATSE,Uptrend (HH/HL),Double Top,172.54,yes,157.11,medium
+SHREEJISPG,Uptrend (HH/HL),Inverse Head & Shoulders,500.6,no,550.5,medium
+REFEX,Uptrend (HH/HL),Double Bottom,316.95,no,326.2,medium
+MAHABANK,Uptrend (HH/HL),Rounding Bottom (saucer),93.85,no,,low
+AVADHSUGAR,Sideways / range-bound,Double Top,448.45,yes,437.3,medium
+SINDHUTRAD,Sideways / range-bound,Double Top,24.98,yes,23.99,medium
+MENONBE,Uptrend (HH/HL),Head & Shoulders,161.7,no,146.07,medium
+MSTCLTD,Uptrend (HH/HL),Rising Wedge (bearish),667.35,no,,low
+ASHIANA,Uptrend (HH/HL),Double Top,379.6,no,370.1,medium
+CHENNPETRO,Uptrend (HH/HL),Double Bottom,1128.0,no,1158.2,medium
+SASKEN,Uptrend (HH/HL),Rounding Bottom (saucer),2647.9,no,,low
+HESTERBIO,Uptrend (HH/HL),Rounding Bottom (saucer),2239.9,weak,,low
+NELCAST,Downtrend (LH/LL),Double Top,135.52,no,127.41,medium
+SIGNPOST,Sideways / range-bound,Double Bottom,257.2,no,268.35,medium
+LAURUSLABS,Uptrend (HH/HL),Double Top,1368.8,weak,1290.8,medium
+CAPLIPOINT,Uptrend (HH/HL),Double Top,2490.9,no,2444.4,medium
+NAHARSPING,Sideways / range-bound,Double Bottom,261.3,weak,275.4,medium
+EMIL,Uptrend (HH/HL),Double Top,101.56,yes,82.47,medium
+NAM-INDIA,Uptrend (HH/HL),Inverse Head & Shoulders,1188.4,no,1335.2,medium
+BANDHANBNK,Uptrend (HH/HL),Double Top,207.12,no,197.5,medium
+GRANULES,Uptrend (HH/HL),Double Top,760.8,weak,727.8,medium
+BLSE,Sideways / range-bound,Double Top,225.19,yes,219.15,medium
+AYE,Uptrend (HH/HL),Rising Wedge (bearish),167.6,no,,low
+ONMOBILE,Downtrend (LH/LL),Double Top,48.46,yes,45.37,medium
+SAREGAMA,Uptrend (HH/HL),Double Bottom,464.55,no,491.05,medium
+540786,Uptrend (HH/HL),Rounding Bottom (saucer),21.93,no,,low
+RATEGAIN,Uptrend (HH/HL),Rounding Bottom (saucer),945.2,weak,,low
+KDDL,Uptrend (HH/HL),Rising Wedge (bearish),3205.49,no,,low
+KIMS,Uptrend (HH/HL),Double Top,763.15,no,725.1,medium
+QUESS,Sideways / range-bound,Double Bottom,251.1,no,256.32,medium
+MWL,Downtrend (LH/LL),Double Top,371.7,no,363.85,medium
+FUSION,Uptrend (HH/HL),Inverse Head & Shoulders,181.38,yes,199.68,medium
+NETWEB,Uptrend (HH/HL),Double Top,4191.4,no,3448.6,medium
+GNA,Sideways / range-bound,Double Top,366.7,no,351.0,medium
+AGIIL,Downtrend (LH/LL),Double Top,354.65,no,333.65,medium
+APEX,Sideways / range-bound,Double Bottom,426.8,no,464.65,medium
+SILVERTUC,Sideways / range-bound,Double Bottom,195.03,no,204.37,medium
+RPEL,Uptrend (HH/HL),Double Top,1189.75,no,1172.85,medium
+539469,Sideways / range-bound,Double Top,46.07,yes,42.23,medium
+PRIVISCL,Sideways / range-bound,Rounding Bottom (saucer),3750.8,no,,low
+ABB,Uptrend (HH/HL),Double Top,6967.5,weak,6677.0,medium
+WOCKPHARMA,Sideways / range-bound,Rounding Bottom (saucer),2152.9,no,,low
+AUROPHARMA,Sideways / range-bound,Double Top,1449.0,weak,1434.4,medium
+526873,Sideways / range-bound,No clean pattern,,n/a,,n/a
+SANGHVIMOV,Uptrend (HH/HL),Double Top,412.3,no,402.55,medium
+540252,Downtrend (LH/LL),Double Top,10.59,no,10.14,medium
+VIPULLTD,Uptrend (HH/HL),Inverse Head & Shoulders,10.12,yes,11.59,medium
+SKIPPER,Sideways / range-bound,Double Top,520.8,weak,466.95,medium
+NIBE,Uptrend (HH/HL),Head & Shoulders,1435.1,no,1034.9,medium
+GROWW,Uptrend (HH/HL),No clean pattern,,n/a,,n/a
+SOMANYCERA,Uptrend (HH/HL),Double Top,495.6,weak,465.2,medium
+CEIGALL,Uptrend (HH/HL),Rounding Bottom (saucer),395.95,no,,low
+LLOYDSME,Uptrend (HH/HL),Double Top,1754.3,weak,1740.7,medium
+PREMIERENE,Downtrend (LH/LL),Double Top,1034.6,no,978.7,medium
+STOVEKRAFT,Sideways / range-bound,Double Bottom,563.45,weak,598.15,medium
+CARBORUNIV,Uptrend (HH/HL),Rounding Bottom (saucer),1241.7,no,,low
+539479,Sideways / range-bound,Rounding Bottom (saucer),81.77,no,,low
+DEEPAKFERT,Uptrend (HH/HL),Double Top,1508.3,no,1462.0,medium
+GRINDWELL,Uptrend (HH/HL),Double Bottom,1958.2,no,2076.6,medium
+PIXTRANS,Uptrend (HH/HL),Double Bottom,1640.6,no,1700.6,medium
+ANANDRATHI,Sideways / range-bound,Double Top,1725.35,weak,1642.05,medium
+GOLDIAM,Uptrend (HH/HL),Rounding Bottom (saucer),500.0,weak,,low
+542669,Uptrend (HH/HL),Double Top,60.37,no,57.44,medium
+SAILIFE,Uptrend (HH/HL),Double Top,1181.2,no,1132.7,medium
+TPLPLASTEH,Uptrend (HH/HL),Rising Wedge (bearish),71.0,yes,,low
+COMSYN,Uptrend (HH/HL),Double Bottom,170.84,yes,188.68,medium
+UNIPARTS,Sideways / range-bound,Double Top,651.85,weak,622.75,medium
+MARINE,Uptrend (HH/HL),Double Top,231.95,no,194.96,medium
+535916,Uptrend (HH/HL),Double Bottom,74.51,no,81.15,medium
+SUNFLAG,Downtrend (LH/LL),Double Bottom,365.0,no,394.8,medium
+SALSTEEL,Sideways / range-bound,Double Top,54.85,no,50.14,medium
+CARYSIL,Uptrend (HH/HL),Double Top,1153.9,no,1070.0,medium
+INNOVACAP,Uptrend (HH/HL),Double Top,932.95,no,901.7,medium
+TEJASNET,Uptrend (HH/HL),Rising Wedge (bearish),603.02,no,,low
+DSSL,Uptrend (HH/HL),Double Bottom,1374.7,no,1502.4,medium
+VADILALIND,Sideways / range-bound,Bull Flag / Pennant,6377.1,no,9104.17,medium
+KTKBANK,Uptrend (HH/HL),Double Top,256.6,no,241.35,medium
+BHAGCHEM,Uptrend (HH/HL),Double Top,281.72,no,274.97,medium
 SCI,Sideways / range-bound,Double Top,308.6,no,306.45,medium
-SUPRIYA,Sideways / range-bound,Double Top,914.35,no,851.55,medium
-FUSION,Uptrend (HH/HL),Inverse Head & Shoulders,181.38,weak,199.68,medium
-BHAGCHEM,Uptrend (HH/HL),Rounding Bottom (saucer),291.05,no,,low
-RAMRAT,Sideways / range-bound,Inverse Head & Shoulders,470.6,no,581.6,medium
 RSWM,Sideways / range-bound,Double Bottom,201.33,no,211.03,medium
-HAPPYFORGE,Sideways / range-bound,Rounding Bottom (saucer),1554.8,no,,low
-VIPULLTD,Uptrend (HH/HL),Inverse Head & Shoulders,10.12,no,11.59,medium
-PIXTRANS,Sideways / range-bound,Double Bottom,1640.6,no,1700.6,medium
-SHRIPISTON,Sideways / range-bound,Double Top,3238.7,no,2872.0,medium
-UNIMECH,Uptrend (HH/HL),Double Bottom,1197.65,no,1261.65,medium
-UNIVCABLES,Uptrend (HH/HL),Rounding Bottom (saucer),1348.9,no,,low
-STOVEKRAFT,Sideways / range-bound,Double Bottom,563.45,no,598.15,medium
-GCSL,Uptrend (HH/HL),Double Top,428.15,no,424.65,medium
-SKIPPER,Sideways / range-bound,Double Top,520.8,yes,466.95,medium
-KSR,Downtrend (LH/LL),Double Top,30.23,no,26.55,medium
-ORIENTHOT,Sideways / range-bound,Double Top,139.17,no,136.9,medium
+SUPRIYA,Sideways / range-bound,Double Bottom,977.15,no,1053.35,medium
+ELECTHERM,Uptrend (HH/HL),Double Top,1052.7,no,915.3,medium
+SEAMECLTD,Downtrend (LH/LL),No clean pattern,,n/a,,n/a
+RAYMONDREL,Uptrend (HH/HL),Rising Wedge (bearish),623.77,yes,,low
 SFL,Uptrend (HH/HL),Double Bottom,741.75,no,782.85,medium
+AVL,Uptrend (HH/HL),Double Bottom,551.2,no,594.2,medium
+530249,Sideways / range-bound,Double Top,13.77,weak,12.73,medium
+KPRMILL,Uptrend (HH/HL),Double Top,1131.15,no,1075.9,medium
+AZAD,Downtrend (LH/LL),Double Top,2105.7,yes,1981.4,medium
+VIJAYA,Uptrend (HH/HL),Double Top,1294.6,no,1225.0,medium
+GULPOLY,Sideways / range-bound,Double Top,204.59,no,194.23,medium
+JETFREIGHT,Downtrend (LH/LL),Double Top,21.58,no,19.62,medium
 WALCHANNAG,Uptrend (HH/HL),Double Bottom,265.27,no,298.69,medium
-UNIVASTU,Uptrend (HH/HL),Double Top,88.36,no,86.77,medium
+SERVOTECH,Downtrend (LH/LL),Double Top,101.67,no,99.07,medium
+HCC,Uptrend (HH/HL),Double Bottom,24.02,no,25.75,medium
+DHANBANK,Sideways / range-bound,Double Top,31.24,yes,28.49,medium
+WELSPUNLIV,Sideways / range-bound,Double Bottom,169.84,no,178.0,medium
+JINDALPOLY,Sideways / range-bound,Double Bottom,751.95,no,865.9,medium
+ASTERDM,Sideways / range-bound,Double Top,765.95,no,716.95,medium
+ZENTEC,Uptrend (HH/HL),Double Bottom,1997.0,no,2278.9,medium
+UNIVASTU,Uptrend (HH/HL),Double Top,85.15,no,77.18,medium
+BALRAMCHIN,Sideways / range-bound,Double Top,531.6,no,504.15,medium
+KIRLOSIND,Sideways / range-bound,Bull Flag / Pennant,4099.9,no,5130.65,medium
+AARTIIND,Sideways / range-bound,Double Top,427.85,no,354.95,medium
+NELCO,Uptrend (HH/HL),Rounding Bottom (saucer),941.15,no,,low
+GESHIP,Sideways / range-bound,Double Top,1367.8,no,1218.4,medium
+526775,Sideways / range-bound,Double Top,1191.4,no,1123.55,medium
+BHEL,Sideways / range-bound,Double Top,399.85,yes,385.35,medium
+ENRIN,Sideways / range-bound,Double Top,3412.5,yes,2952.9,medium
+HAPPYFORGE,Sideways / range-bound,Rounding Bottom (saucer),1554.8,no,,low
+SONAMLTD,Downtrend (LH/LL),Head & Shoulders,53.71,no,48.35,medium
+ORIENTHOT,Sideways / range-bound,Inverse Head & Shoulders,105.01,no,114.48,medium
+539682,Sideways / range-bound,Double Bottom,309.2,no,337.23,medium
+NAVINFLUOR,Uptrend (HH/HL),Double Top,7486.5,yes,7274.5,medium
+GINNIFILA,Uptrend (HH/HL),Rising Wedge (bearish),48.36,yes,,low
+RAIN,Sideways / range-bound,Double Top,194.69,no,185.41,medium
+NUVAMA,Sideways / range-bound,Double Top,1439.6,yes,1247.7,medium
 LINCOLN,Sideways / range-bound,Double Top,603.8,no,554.65,medium
 DCMSIL,Sideways / range-bound,Inverse Head & Shoulders,68.83,no,78.39,medium
-DEEPAKFERT,Uptrend (HH/HL),Double Top,1508.3,no,1462.0,medium
-NELCO,Uptrend (HH/HL),Rounding Bottom (saucer),941.15,no,,low
-RAIN,Sideways / range-bound,Double Top,194.69,no,185.41,medium
-543916,Uptrend (HH/HL),Double Top,365.85,no,351.7,medium
-ALIVUS,Downtrend (LH/LL),Double Top,1039.0,yes,952.0,medium
-SINDHUTRAD,Sideways / range-bound,Double Top,24.98,no,23.99,medium
-JINDALPOLY,Sideways / range-bound,Double Bottom,751.95,weak,865.9,medium
-AUROPHARMA,Sideways / range-bound,Double Top,1449.0,no,1434.4,medium
-WSTCSTPAPR,Uptrend (HH/HL),Double Top,484.65,no,448.55,medium
-SHAILY,Sideways / range-bound,Double Top,3038.0,no,2931.2,medium
-KPRMILL,Uptrend (HH/HL),Double Top,1131.15,no,1075.9,medium
-SERVOTECH,Sideways / range-bound,Double Top,101.67,no,99.07,medium
-526433,Uptrend (HH/HL),Bull Flag / Pennant,4103.75,weak,5113.86,medium
-SONAMLTD,Downtrend (LH/LL),Head & Shoulders,53.71,weak,48.35,medium
-STARHEALTH,Uptrend (HH/HL),Rising Wedge (bearish),600.18,no,,low
-SMSPHARMA,Sideways / range-bound,Double Top,374.15,no,364.85,medium
-ASTERDM,Downtrend (LH/LL),Double Top,765.95,no,716.95,medium
-EMCURE,Sideways / range-bound,Double Bottom,1756.8,no,1817.6,medium
-SURYODAY,Uptrend (HH/HL),Double Top,164.85,yes,154.73,medium
-BLSE,Sideways / range-bound,Double Top,225.19,weak,219.15,medium
-SEAMECLTD,Downtrend (LH/LL),No clean pattern,,n/a,,n/a
-ATGL,Downtrend (LH/LL),Double Top,702.65,no,643.05,medium
-BALRAMCHIN,Uptrend (HH/HL),Double Top,536.55,no,522.7,medium
-GKSL,Sideways / range-bound,Double Bottom,129.2,no,130.47,medium
-SANGHVIMOV,Uptrend (HH/HL),Double Top,412.3,no,402.55,medium
-AARTIIND,Downtrend (LH/LL),Double Top,427.85,no,354.95,medium
-GESHIP,Downtrend (LH/LL),Double Top,1367.8,no,1218.4,medium
-AAREYDRUGS,Uptrend (HH/HL),Double Bottom,80.24,no,84.88,medium
-ANANDRATHI,Sideways / range-bound,Double Bottom,1785.2,no,1845.05,medium
-INGERRAND,Sideways / range-bound,Rounding Bottom (saucer),4714.1,no,,low
-BELRISE,Uptrend (HH/HL),Double Bottom,219.54,no,224.06,medium
-ICICIAMC,Sideways / range-bound,Double Top,3203.8,no,2869.1,medium
-530249,Downtrend (LH/LL),Double Top,13.77,yes,12.73,medium
-NAVINFLUOR,Sideways / range-bound,Rising Wedge (bearish),7511.64,no,,low
-CCL,Sideways / range-bound,Double Top,1114.6,no,1035.8,medium
-PGIL,Uptrend (HH/HL),Double Bottom,1685.5,no,1779.4,medium
-DIFFNKG,Uptrend (HH/HL),Rounding Bottom (saucer),424.2,no,,low
-GANESHBE,Sideways / range-bound,Double Top,101.58,no,91.21,medium
-ADANIPORTS,Uptrend (HH/HL),Double Top,1787.1,no,1747.8,medium
-DELHIVERY,Sideways / range-bound,Rising Wedge (bearish),464.46,yes,,low
-RADICO,Sideways / range-bound,Double Top,3539.4,no,3478.9,medium
-ESAFSFB,Sideways / range-bound,Rising Wedge (bearish),32.6,no,,low
-VADILALIND,Sideways / range-bound,Bull Flag / Pennant,6417.2,no,9219.02,medium
-PIRAMALFIN,Uptrend (HH/HL),Double Bottom,2017.2,no,2084.2,medium
-SUNFLAG,Downtrend (LH/LL),No clean pattern,,n/a,,n/a
-AZAD,Sideways / range-bound,Double Top,2105.7,no,1981.4,medium
-AERONEU,Sideways / range-bound,Ascending Triangle,93.77,no,103.14,medium
-SIS,Uptrend (HH/HL),Double Top,421.15,no,413.65,medium
+RAMRAT,Sideways / range-bound,Inverse Head & Shoulders,470.6,no,581.6,medium
+ESAFSFB,Uptrend (HH/HL),Rising Wedge (bearish),32.87,no,,low
+UNIMECH,Sideways / range-bound,Double Bottom,1197.65,no,1261.65,medium
 JBCHEPHARM,Uptrend (HH/HL),Double Top,2129.6,no,2030.8,medium
+ALIVUS,Downtrend (LH/LL),Double Top,1039.0,no,952.0,medium
+DENORA,Uptrend (HH/HL),Inverse Head & Shoulders,767.1,no,831.1,medium
+WSTCSTPAPR,Uptrend (HH/HL),Double Top,495.65,no,470.45,medium
+BETA,Uptrend (HH/HL),Double Bottom,1471.7,no,1527.3,medium
+ADOR,Uptrend (HH/HL),Double Bottom,1141.1,yes,1180.8,medium
+GOLDTECH,Sideways / range-bound,Double Bottom,44.53,no,47.99,medium
+SHAILY,Sideways / range-bound,Double Top,3038.0,no,2931.2,medium
+CUMMINSIND,Sideways / range-bound,Double Top,5557.0,yes,5326.5,medium
+KOPRAN,Sideways / range-bound,Double Top,177.8,weak,149.33,medium
+ELGIRUBCO,Downtrend (LH/LL),Double Top,44.54,yes,37.59,medium
 NACLIND,Uptrend (HH/HL),Inverse Head & Shoulders,171.42,no,190.31,medium
-KSB,Downtrend (LH/LL),Inverse Head & Shoulders,1000.05,no,1231.1,medium
+MCX,Sideways / range-bound,Double Top,2803.8,weak,2712.0,medium
+GANESHBE,Sideways / range-bound,Double Top,101.58,no,91.21,medium
+544037,Sideways / range-bound,Double Bottom,1736.45,weak,1805.0,medium
+ADANIPORTS,Sideways / range-bound,Double Top,1787.1,no,1747.8,medium
+STARHEALTH,Uptrend (HH/HL),Double Top,574.3,no,565.0,medium
+WANBURY,Uptrend (HH/HL),Double Top,261.45,no,248.35,medium
+DIFFNKG,Uptrend (HH/HL),Rounding Bottom (saucer),425.35,no,,low
+PASUPTAC,Uptrend (HH/HL),Rounding Bottom (saucer),74.34,no,,low
+SANSTAR,Uptrend (HH/HL),Double Bottom,117.65,no,123.46,medium
+CCL,Sideways / range-bound,Double Top,1114.6,no,1035.8,medium
+526433,Uptrend (HH/HL),Bull Flag / Pennant,4132.15,no,5191.52,medium
+SIS,Uptrend (HH/HL),Double Top,421.15,no,413.65,medium
+GKSL,Sideways / range-bound,Double Bottom,129.2,no,130.47,medium
+SURYODAY,Uptrend (HH/HL),Double Top,164.85,weak,154.73,medium
+IPCALAB,Sideways / range-bound,Double Top,1490.4,yes,1324.6,medium
+KAPSTON,Uptrend (HH/HL),Inverse Head & Shoulders,349.65,weak,383.0,medium
+NEULANDLAB,Sideways / range-bound,Double Bottom,17198.0,yes,17585.0,medium
+AAREYDRUGS,Uptrend (HH/HL),Double Bottom,80.24,no,84.88,medium
+TIPSMUSIC,Downtrend (LH/LL),Double Bottom,653.0,no,670.9,medium
+SMSPHARMA,Sideways / range-bound,Double Top,374.15,no,364.85,medium
+539598,Sideways / range-bound,Double Top,26.49,no,22.98,medium
+543916,Sideways / range-bound,Double Top,365.85,no,351.7,medium
+INGERRAND,Sideways / range-bound,Inverse Head & Shoulders,4714.1,no,5699.5,medium
+ATGL,Downtrend (LH/LL),Double Top,702.65,no,643.05,medium
+KAMDHENU,Uptrend (HH/HL),Double Bottom,29.08,no,29.33,medium

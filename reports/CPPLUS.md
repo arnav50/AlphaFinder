@@ -1,27 +1,27 @@
 # CPPLUS — Aditya Infotech Limited (NSE)
-**Sector:** Industrials | **6m return:** 137.94% | **Close:** ₹3526.9 | **Cap:** Large | **Bars:** 226
+**Sector:** Industrials | **6m return:** 144.94% | **Close:** ₹3588.4 | **Cap:** Large | **Bars:** 227
 
-## 🏁 SCORECARD: **MILD BULLISH**  (score 2.3, confluence low)
-Leading -2.2 | Lagging 5.0 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **MILD BULLISH**  (score 3.3, confluence low)
+Leading -1.2 | Lagging 5.0 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 60.6 (neutral), trend falling, divergence bearish
-- **Stochastic(14,3,3):** %K 60.1 / %D 70.7, cross bear, neutral, div none
-- **Bollinger(20,2):** above_mid, width 12.45%, SQUEEZE
+- **RSI(14):** 62.2 (neutral), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 52.8 / %D 61.8, cross bear, neutral, div none
+- **Bollinger(20,2):** above_mid, width 12.61%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** -1.2 (below0)
-- **Williams %R(14):** -51.7 (neutral)
+- **CCI(20):** 9.6 (above0)
+- **Williams %R(14):** -39.5 (neutral)
 - **OBV:** trend falling, divergence bearish
-- **MFI(14):** 63.5 (neutral)
+- **MFI(14):** 61.1 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -34.777 (expanding_neg), cross none, zero-line above
+- **MACD(12,26,9):** below_signal, hist -37.943 (expanding_neg), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 53.0 (trending), +DI>-DI, falling
+- **ADX(14):** 51.4 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 148.19 (4.2% of price, contracting)
-- **VWAP(20):** px above, dist 0.15%
-- **Pivots:** daily P 3510.57 R1 3606.13 S1 3431.33; weekly position mid_range
+- **ATR(14):** 146.8 (4.09% of price, contracting)
+- **VWAP(20):** px above, dist 1.96%
+- **Pivots:** daily P 3562.47 R1 3634.93 S1 3515.93; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
@@ -39,8 +39,8 @@ Leading -2.2 | Lagging 5.0 | Candles -1.0 | Price-action 0.5
 | Inside Bar | 2026-06-26 | neutral | at resistance | neutral |
 | Outside Bar | 2026-06-29 | neutral | at resistance | neutral |
 | Morning Star | 2026-06-29 | bullish | at resistance | failed |
-| Hanging Man | 2026-07-02 | bearish | at resistance | pending (last bar) |
-| Three Black Crows | 2026-07-02 | bearish | at resistance | pending (last bar) |
+| Three Black Crows | 2026-07-02 | bearish | at resistance | failed |
+| NR4 | 2026-07-03 | neutral | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
@@ -49,8 +49,8 @@ Leading -2.2 | Lagging 5.0 | Candles -1.0 | Price-action 0.5
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 1428.0-1709.9 (Moderate, tested, 106.26% away) — quality Moderate
-- **Demand (weekly):** 2223.9-2903.5 (Moderate, FRESH, 21.47% away)
+- **Demand (daily):** 1428.0-1709.9 (Moderate, tested, 109.86% away) — quality Moderate
+- **Demand (weekly):** 2223.9-2903.5 (Moderate, FRESH, 23.59% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -61,20 +61,20 @@ Leading -2.2 | Lagging 5.0 | Candles -1.0 | Price-action 0.5
 - **Bearish Order Block:** none
 - **Fair Value Gaps:** 11 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 3408.0-3492.6 (2026-06-19) · nearest bear FVG above 3589.8-3637.0 (2026-07-02)
 - **Liquidity:** buy-side above none | sell-side below 1450.65 | equal-highs 1 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 89.3% of range 1348.3–3787.0)
+- **Premium/Discount:** **Premium** (price at 91.9% of range 1348.3–3787.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (247.5% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (253.5% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-8.0%/3b | C2:-7.7%/5b | C3:-2.8%/4b
-- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.66)
-- **Near 52w high:** True | **Pivot:** 3736.4 | **% from pivot:** -5.61%
-- **Breakout vol ratio (today/50d):** 0.73 | **close pos in range:** 0.64
-- **🏆 VCP QUALITY: Strong VCP** | **3rd-leg status: forming / still basing** | entry zone 3736.4-3923.22
+- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.8)
+- **Near 52w high:** True | **Pivot:** 3736.4 | **% from pivot:** -3.96%
+- **Breakout vol ratio (today/50d):** 0.39 | **close pos in range:** 0.83
+- **🏆 VCP QUALITY: Strong VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone 3736.4-3923.22
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 1304.0 on 2025-10-31):** 1x1=3130.0 2x1=4956.0 1x2=2217.0 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 3556.66 · T2 3586.54 · T3 3646.68 (support S1 3497.27, S2 3467.76)
-- **Time cycles:** 166 days since swing low → next Gann cycle at 180d (14d away); near cycle: False
+- **Angles (auto-scaled from swing low 1304.0 on 2025-10-31):** 1x1=3141.0 2x1=4978.0 1x2=2222.5 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 3618.41 · T2 3648.55 · T3 3709.21 (support S1 3558.51, S2 3528.75)
+- **Time cycles:** 167 days since swing low → next Gann cycle at 180d (13d away); near cycle: False
 - **Octave position:** 8/8 (52w high) | levels 4/8=2401.0 6/8=3094.0 7/8=3440.5
-- **Cardinal square:** nearest perfect-square 3481 (1.3% away); near: True
+- **Cardinal square:** nearest perfect-square 3600 (0.32% away); near: True
