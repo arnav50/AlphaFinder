@@ -114,6 +114,28 @@ try:                                        # Phase 7c — intraday plans (27_in
     iz = load("INTRADAY_TRADES.csv")
 except Exception:
     iz = pd.DataFrame()
+try:                                        # Phase 8 — live Nifty option chain (28_option_chain.py)
+    oc = pd.read_csv("OPTION_CHAIN.csv")
+    oc_meta = json.loads(pd.read_csv("OPTION_CHAIN_META.csv").to_json(orient="records"))  # one row per expiry
+except Exception:
+    oc, oc_meta = pd.DataFrame(), []
+try:                                        # Phase 9 — F&O trade finder (29_fno_trade.py)
+    fno_plan_df = pd.read_csv("FNO_PLAN.csv")
+    fno_trades_df = pd.read_csv("FNO_TRADES.csv")
+except Exception:
+    fno_plan_df, fno_trades_df = pd.DataFrame(), pd.DataFrame()
+try:                                        # Phase 8b — intraday per-strike VCP scan (30_fno_vcp.py)
+    fno_vcp_df = pd.read_csv("FNO_VCP.csv")
+except Exception:
+    fno_vcp_df = pd.DataFrame()
+try:                                        # volume-profile entry/SL plan (30_fno_vcp.py)
+    fno_vprofile_df = pd.read_csv("FNO_VPROFILE.csv")
+except Exception:
+    fno_vprofile_df = pd.DataFrame()
+try:                                        # fired alerts log (31_fno_alerts.py) — newest first
+    fno_alerts_df = pd.read_csv("FNO_ALERTS.csv").tail(40).iloc[::-1]
+except Exception:
+    fno_alerts_df = pd.DataFrame()
 
 # ---------- live prices + Layer-1 validation for the watchlist (fetched fresh at build time) ----------
 nifty_ret = None
@@ -166,6 +188,13 @@ DATA = {
  "swing": recs(sw),
  "intraday": recs(iz),
  "fingerprint": recs(fp),
+ "option_chain": recs(oc),
+ "oc_meta": oc_meta,
+ "fno_plan": (json.loads(fno_plan_df.to_json(orient="records"))[0] if len(fno_plan_df) else None),
+ "fno_trades": recs(fno_trades_df),
+ "fno_vcp": recs(fno_vcp_df),
+ "fno_vprofile": recs(fno_vprofile_df),
+ "fno_alerts": recs(fno_alerts_df),
  "agg": {
    "universe_total": 4524,
    "phase1": int(len(p1)),
@@ -291,6 +320,36 @@ tbody tr:hover{background:var(--bg3);cursor:pointer}
    <div class="tablewrap"><table id="t_wl"></table></div>
  </section>
 
+ <section id="fno">
+   <div class="panel" style="margin-bottom:18px"><h3>🔔 Alerts <span class="muted" style="font-weight:500;font-size:13px">— triggered F&amp;O conditions · run <code>py 31_fno_alerts.py --watch 5</code> for live (console · beep · CSV · webhook/Telegram)</span></h3>
+     <div id="fno_alerts_box"></div>
+     <div class="sech" style="margin-top:16px">➕ Add a manual per-strike alert</div>
+     <div class="muted">Build a condition and click <b>Add alert</b> — it appends to <code>ALERTS_CONFIG.csv</code> automatically when the helper is running (<code>py alert_server.py</code>); otherwise it hands you the line to paste. Use <b>*</b> for every strike / expiry / side.</div>
+     <div class="toolbar" style="margin-top:8px" id="ab_row"></div>
+     <div id="ab_out" style="margin-top:8px"></div></div>
+
+   <div class="panel" style="margin-bottom:18px"><h3>🎯 F&amp;O Trade Setup — the 7-phase Watchlist method applied to the Nifty chain</h3>
+     <div id="fno_headline" class="muted">Run <code>py 29_fno_trade.py</code> to generate the setup.</div>
+     <div class="cards" id="fno_cards" style="margin-top:14px"></div>
+     <div class="sech" style="margin-top:18px">Phase-by-phase read</div>
+     <div id="fno_phases"></div></div>
+
+   <div class="panel" style="margin-bottom:18px"><h3>📋 Candidate trades (ranked by confluence)</h3>
+     <div class="muted">Built mechanically from the phases above. Entry = option LTP · stop = bounded 30–50% of premium · target mapped from the underlying move to the OI level via approx delta · size = 1% risk on ₹10L (lot 75). <b>Mechanical signals — not investment advice.</b></div>
+     <div class="tablewrap" style="margin-top:10px"><table id="t_ft"></table></div></div>
+
+   <div class="panel" style="margin-bottom:14px"><h3>🔮 Nifty 50 — Option Chain · 5 strikes (ATM ±2) per expiry</h3>
+     <div class="muted" id="oc_sub">Live NSE option chain — current + upcoming expiries this month.</div>
+     <div class="legend" style="margin-top:8px"><span><b style="color:var(--cyan)">◄ATM</b> = at-the-money</span><span style="color:var(--green)">● green LTP = in-the-money</span><span>Calls ITM below spot · Puts ITM above spot</span><span><b>Mechanical NSE data — not investment advice.</b></span></div></div>
+   <div class="panel" style="margin-bottom:18px"><h3>🔬 Per-strike indicator analysis</h3>
+     <div class="muted">Pick one indicator to analyse every strike individually, per expiry. Bars scale to the largest value within each expiry; ATM marked ◄.</div>
+     <div class="toolbar" style="margin-top:10px"><label class="muted" for="oc_ind">Indicator:</label>
+       <select id="oc_ind" style="background:var(--bg2);border:1px solid var(--line);color:var(--txt);padding:8px 10px;border-radius:8px;font-size:13px"></select></div>
+     <div class="muted" id="oc_ind_note" style="margin-top:2px"></div>
+     <div id="oc_analysis" style="margin-top:12px"></div></div>
+   <div id="oc_expiries"></div>
+ </section>
+
  <section id="swing">
    <div class="panel" style="margin-bottom:18px"><h3>⚡ Short Term Trade — swing setups on the watchlist</h3>
      <div class="muted">The Phase-7 watchlist read on <b>daily</b> bars (no intraday). Each name is classified by its <b>EMA20/50/200 trend</b> and swing <b>setup</b> — <b>breakout</b> (20-day high), <b>pullback</b> (20-EMA reclaim), <b>base</b>, <b>extended</b> or <b>weak</b>. <b>Entry</b> = breakout pivot or 20-EMA reclaim · <b>Stop</b> = tightest valid of recent swing-low / 2×ATR / structural stop · <b>Target</b> = the daily structural swing target. Typical hold <b>~1–3 weeks</b>.</div>
@@ -329,7 +388,7 @@ $("#sd").textContent=DATA.scan_date;
 const mk=DATA.market;$("#mkt").innerHTML=`⚠️ <b>Market context:</b> Nifty 50 = ${mk.nifty} &nbsp;|&nbsp; EMA50 ${mk.ema50} &nbsp;|&nbsp; EMA200 ${mk.ema200} &nbsp;→&nbsp; <b>${mk.trend}</b> &nbsp;·&nbsp; reduce size / await 50-EMA reclaim before acting.`;
 if(DATA.live_fetched_at)$("#wl_live_ts").innerHTML=`🟢 <b>Live</b> prices + <b>validation</b> fetched <b>${DATA.live_fetched_at}</b> (Yahoo). <b>Check</b> = Layer-1 mechanical verdict: <span class="pill t1">✓ GO</span> alive+triggered+volume+RS+not-extended · <span class="pill t3">… WATCH</span> alive but not a clean trigger · <span class="pill ex">✕ DROP</span> below stop / illiquid.${DATA.nifty_3m!=null?` Nifty 3-mo: <b>${DATA.nifty_3m>0?'+':''}${DATA.nifty_3m}%</b> (RS baseline).`:''} <b>Stage:</b> <span class="pill t2">● early</span> coiled below entry (% = rise needed to trigger) · <span class="pill t1">▲ moving</span> broke out, advancing (% = move done) · <span class="pill ex">✕ failed</span> below stop. <i>Mechanical only — still check surveillance/earnings/chart.</i>${DATA.agg.wl_hidden?` <br><b>Showing ${DATA.watchlist.length} qualifying</b> (GO/WATCH) · <b>${DATA.agg.wl_hidden}</b> disqualified (DROP — below stop / illiquid) hidden.`:''}`;
 
-const TABS=[["overview","Overview"],["watchlist","🎯 Watchlist"],["swing","⚡ Short Term Trade"],["intraday","⏱️ Intraday"],["ranking","Ranked 311"],["fingerprint","🧬 Fingerprint"]];
+const TABS=[["overview","Overview"],["watchlist","🎯 Watchlist"],["fno","🔮 F&O Chain"],["swing","⚡ Short Term Trade"],["intraday","⏱️ Intraday"],["ranking","Ranked 311"],["fingerprint","🧬 Fingerprint"]];
 const nav=$("#nav");
 TABS.forEach(([id,lb],i)=>{const b=el("button",i==0?"active":"",lb);b.onclick=()=>{document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));b.classList.add("active");document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));$("#"+id).classList.add("active")};nav.appendChild(b)});
 
@@ -480,6 +539,213 @@ buildTable($("#t_fp"), DATA.fingerprint, [
  {k:"most_common_zone",h:"Most-common zone",l:1,f:v=>`<span style="color:var(--cyan)">${v}</span>`},
  {k:"consistency_pct",h:"Consistency",f:v=>{const c=v>=80?'var(--green)':v>=60?'var(--amber)':'var(--mut)';return `<b style="color:${c}">${v}%</b>`}}
 ], {sort:"consistency_pct"});
+
+// ---- F&O trade setup + phases (Phase 9) ----
+(function(){
+ const P=DATA.fno_plan, FT=DATA.fno_trades||[];
+ if(!P){return;}
+ const vc={GO:'t1',WATCH:'t3',AVOID:'ex'}[P.verdict]||'';
+ $("#fno_headline").innerHTML=`<span class="pill ${vc}" style="font-size:13px">${P.verdict}</span> <b>${P.direction}</b> bias · confidence <b>${P.confidence}</b> · ${P.expiry} (DTE ${P.dte}) · <span class="muted">spot ${P.spot} · as of NSE ${P.nse_timestamp}</span><div style="margin-top:10px;font-size:15px;font-weight:600">${P.headline}</div>`;
+ const cards=[["Direction",P.direction,P.tier!=='—'?P.tier:''],["Verdict",P.verdict,"score "+P.score],["Confidence",P.confidence,""],["ATM IV",P.atm_iv,P.iv_regime],["Expected move",'±'+Math.round(P.exp_move),"pts to expiry"],["PCR · Max-pain",P.pcr+' · '+P.max_pain,"S "+P.support+" / R "+P.resistance]];
+ cards.forEach(([k,v,s])=>{const c=el("div","card");c.innerHTML=`<div class="k">${k}</div><div class="v">${v} <small>${s}</small></div>`;$("#fno_cards").appendChild(c)});
+ const PH=[["1 · Discovery",P.p1],["2 · Technicals — price bias",P.p2],["3 · OI structure",P.p3],["4 · Volatility / expected move",P.p4],["5 · Alignment → direction",P.p5],["6 · Confluence ranking",P.p6],["7 · Trade plan",P.p7]];
+ const ph=$("#fno_phases");
+ PH.forEach(([k,v])=>{const d=el("div");d.style.cssText="padding:9px 0;border-bottom:1px solid #161d2a";d.innerHTML=`<b style="color:var(--violet)">Phase ${k}</b><div class="muted" style="margin-top:3px">${v||'—'}</div>`;ph.appendChild(d)});
+ if(FT.length){
+   const rrCell=v=>v==null?'—':`<b style="color:${v>=1.5?'var(--green)':v>=1?'var(--amber)':'var(--red)'}">${v}</b>`;
+   buildTable($("#t_ft"), FT, [
+    {k:"strategy",h:"Strategy",l:1,f:v=>`<b>${v}</b>`},{k:"instrument",h:"Instrument",l:1,f:v=>`<span class="muted">${v}</span>`},
+    {k:"entry",h:"Entry ₹"},{k:"stop",h:"Stop ₹"},{k:"target",h:"Target ₹"},{k:"rr",h:"R:R",f:rrCell},
+    {k:"lots",h:"Lots"},{k:"qty",h:"Qty"},{k:"score",h:"Score",f:v=>`<b>${v}</b>`},{k:"tier",h:"Tier",l:1,f:tierPill}
+   ], {sort:"score"});
+ } else { $("#t_ft").innerHTML='<tbody><tr><td class="muted" style="padding:14px">No directional candidates — price &amp; OI not aligned (stay flat).</td></tr></tbody>'; }
+})();
+
+// ---- F&O alerts log + manual alert builder (Phase 8c) ----
+(function(){
+ const box=$("#fno_alerts_box"); if(!box) return;
+ const A=DATA.fno_alerts||[], col={HIGH:'var(--red)',MED:'var(--amber)',LOW:'var(--mut)'};
+ box.innerHTML = A.length ? A.map(a=>`<div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #161d2a;font-size:12.8px"><span class="muted" style="width:150px;flex:none">${a.time||''}</span><span style="width:52px;flex:none;font-weight:700;color:${col[a.level]||'var(--mut)'}">${a.level||''}</span><span>${a.message||''}</span></div>`).join('')
+   : '<div class="muted">No alerts logged yet. Run <code>py 31_fno_alerts.py</code> (or <code>--watch 5</code> for live).</div>';
+ const row=$("#ab_row"); if(!row) return;
+ const OC=DATA.option_chain||[], MS=DATA.oc_meta||[];
+ const ss="background:var(--bg2);border:1px solid var(--line);color:var(--txt);padding:7px 9px;border-radius:8px;font-size:12.5px";
+ const mksel=(id,opts)=>`<select id="${id}" style="${ss}">${opts.map(o=>`<option value="${o[0]}">${o[1]}</option>`).join('')}</select>`;
+ row.innerHTML=
+   `<label class="muted">Expiry</label>${mksel("ab_exp",[["*","* any"]].concat(MS.map(m=>[m.expiry,m.expiry])))}`+
+   `<label class="muted">Strike</label>${mksel("ab_strike",[["*","* any"]])}`+
+   `<label class="muted">Side</label>${mksel("ab_side",[["*","*"],["CE","CE"],["PE","PE"]])}`+
+   `<label class="muted">Metric</label>${mksel("ab_metric",[["ltp","LTP"],["oi","OI"],["iv","IV"],["vol","Volume"],["chg_oi","Chg OI"],["chg","Chg"],["vcp","VCP status"],["ema","EMA sig"],["vwap","VWAP pos"],["structure","Structure"],["zone","P/D zone"],["liq","Liquidity"],["trend","Trendline"]])}`+
+   `<label class="muted">Op</label>${mksel("ab_op",[[">",">"],["<","<"],[">=",">="],["<=","<="],["==","=="],["!=","!="],["contains","contains"]])}`+
+   `<input id="ab_val" class="search" style="width:110px" placeholder="value (e.g. 200 or Breakout)">`+
+   `<label class="muted">TF</label>${mksel("ab_tf",[["","—"],["1m","1m"],["3m","3m"],["5m","5m"],["15m","15m"],["1h","1h"]])}`+
+   `<input id="ab_note" class="search" style="width:150px" placeholder="note (optional)">`+
+   `<button id="ab_gen" style="${ss};cursor:pointer;font-weight:700">➕ Add alert</button>`;
+ function fillStrikes(){const exp=$("#ab_exp").value;const ks=[...new Set(OC.filter(r=>exp==='*'||r.expiry===exp).map(r=>r.strike))].sort((a,b)=>a-b);$("#ab_strike").innerHTML='<option value="*">* any</option>'+ks.map(k=>`<option value="${k}">${k}</option>`).join('');}
+ $("#ab_exp").onchange=fillStrikes; fillStrikes();
+ $("#ab_gen").onclick=()=>{
+  const g=id=>($(id).value||'').trim();
+  const rec={expiry:g("#ab_exp"),strike:g("#ab_strike"),side:g("#ab_side"),metric:g("#ab_metric"),op:g("#ab_op"),value:g("#ab_val"),tf:g("#ab_tf"),note:g("#ab_note")};
+  const line=[rec.expiry,rec.strike,rec.side,rec.metric,rec.op,rec.value,rec.tf,rec.note].join(",");
+  const out=$("#ab_out"); out.innerHTML='<span class="muted">Adding…</span>';
+  const host=(location.protocol==='http:'?'':'http://localhost:8777');   // same-origin if served by helper
+  fetch(host+"/add-alert",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(rec)})
+   .then(r=>r.json()).then(j=>{
+     out.innerHTML = j.ok
+       ? `<span style="color:var(--green)">✓ Appended to ALERTS_CONFIG.csv:</span> <code>${line}</code>`
+       : `<span style="color:var(--red)">✕ ${j.error||'rejected'}</span> — metric, op and value are required.`;
+   })
+   .catch(()=>{ out.innerHTML=`<div class="muted" style="margin-bottom:4px">Auto-append helper not running (start <code>py alert_server.py</code>). Meanwhile, copy this line into <code>ALERTS_CONFIG.csv</code>:</div><input class="search" style="width:100%;font-family:monospace" readonly value="${line.replace(/"/g,'&quot;')}" onclick="this.select()">`; });
+ };
+})();
+
+// ---- option chain per expiry (Phase 8) ----
+(function(){
+ const OC=DATA.option_chain||[], MS=DATA.oc_meta||[], host=$("#oc_expiries");
+ if(!MS.length||!OC.length){$("#oc_sub").innerHTML='Option chain unavailable — run <code>py 28_option_chain.py</code> first (fetches live NSE data).';return;}
+ $("#oc_sub").innerHTML=`<b>NIFTY</b> · ${MS.length} expiry(ies) this month · spot <b>${MS[0].spot}</b> · as of NSE <b>${MS[0].nse_timestamp}</b> · fetched ${MS[0].fetched_at}. 5 strikes (ATM ±2) per expiry. <i>Snapshot — rerun 28_option_chain.py to refresh.</i>`;
+ const num=(v,nd)=>v==null?'—':Number(v).toLocaleString('en-IN',{maximumFractionDigits:nd==null?0:nd,minimumFractionDigits:nd==null?0:nd});
+ const chg=v=>{if(v==null)return '—';const c=v>0?'pos':v<0?'neg':'muted';return `<span class="${c}">${v>0?'+':''}${num(v)}</span>`};
+ const ce=(v,r)=>`<b style="color:${r.ce_itm?'var(--green)':'var(--mut)'}">${num(v,2)}</b>`;
+ const pe=(v,r)=>`<b style="color:${r.pe_itm?'var(--green)':'var(--mut)'}">${num(v,2)}</b>`;
+ MS.forEach(M=>{
+   const rows=OC.filter(r=>r.expiry===M.expiry);
+   const pcrTag=M.pcr==null?'':(M.pcr>=1?'put-heavy (bullish)':'call-heavy (bearish)');
+   const panel=el("div","panel"); panel.style.marginBottom="18px";
+   panel.innerHTML=`<h3>🗓️ ${M.expiry} <span class="muted" style="font-weight:500;font-size:13px">· DTE ${M.dte} · ATM ${M.atm} · PCR ${M.pcr}${pcrTag?' ('+pcrTag+')':''} · max-pain ${M.max_pain}</span></h3>`;
+   const wrap=el("div","tablewrap"); wrap.style.marginTop="10px"; const tbl=el("table"); wrap.appendChild(tbl); panel.appendChild(wrap);
+   host.appendChild(panel);
+   buildTable(tbl, rows, [
+    {k:"ce_oi",h:"OI",f:v=>num(v)},{k:"ce_chg_oi",h:"Chg OI",f:chg},{k:"ce_vol",h:"Volume",f:v=>num(v)},
+    {k:"ce_iv",h:"IV",f:v=>num(v,2)},{k:"ce_ltp",h:"CALL LTP",f:ce},
+    {k:"strike",h:"STRIKE",l:1,f:(v,r)=>`<b style="color:${r.atm?'var(--green)':'var(--cyan)'}">${v}${r.atm?' ◄ATM':''}</b>`},
+    {k:"pe_ltp",h:"PUT LTP",f:pe},{k:"pe_iv",h:"IV",f:v=>num(v,2)},{k:"pe_vol",h:"Volume",f:v=>num(v)},
+    {k:"pe_chg_oi",h:"Chg OI",f:chg},{k:"pe_oi",h:"OI",f:v=>num(v)}
+   ], {sort:"strike"});
+   tbl._sort("strike");   // ascending strike (low -> high)
+ });
+
+ // ---- per-strike single-indicator analysis (dropdown) ----
+ const IND=[
+  {k:"oi",lbl:"Open Interest (OI)",ce:"ce_oi",pe:"pe_oi",nd:0,note:"Total open contracts per strike. Highest CE OI = resistance; highest PE OI = support."},
+  {k:"chgoi",lbl:"Change in OI",ce:"ce_chg_oi",pe:"pe_chg_oi",nd:0,signed:true,note:"OI added (coloured) or shed (red) today. Rising CE OI = call writing (resistance); rising PE OI = put writing (support)."},
+  {k:"vol",lbl:"Volume (contracts)",ce:"ce_vol",pe:"pe_vol",nd:0,note:"Contracts traded today — activity & liquidity per strike."},
+  {k:"iv",lbl:"Implied Volatility (IV %)",ce:"ce_iv",pe:"pe_iv",nd:2,note:"Option-implied volatility per strike (the volatility smile)."},
+  {k:"ltp",lbl:"Last Price (LTP ₹)",ce:"ce_ltp",pe:"pe_ltp",nd:2,note:"Option premium per strike."},
+  {k:"pcr",lbl:"PCR at strike (PE OI ÷ CE OI)",single:true,note:"Put/Call OI ratio at each strike. >1 (green) = put-heavy / support; <1 (red) = call-heavy / resistance."},
+  {k:"buildup",lbl:"OI Buildup signal",buildup:true,note:"Price move + OI move → Long Buildup (bullish), Short Buildup (bearish), Short Covering (bullish), Long Unwinding (bearish)."},
+  {k:"vcp",lbl:"Intraday per-strike scan: VCP · VWAP · EMA · SMC",vcp:true,note:"Per-strike intraday scan of <b>each option's own chart</b> — pick a timeframe (1m/3m/5m/15m/1h) and a lens. <b>Momentum</b>: VCP (tightening legs→pivot→breakout), VWAP position, EMA 10/20 crossover. <b>SMC</b>: market structure, premium/discount, supply/demand zones, liquidity sweeps + trendline liquidity. Today's session only; VWAP price-anchored (no volume in feed); higher TFs may have too few bars."},
+  {k:"vprofile",lbl:"Volume Profile — POC / Value Area + entry-SL plan (per strike)",vprofile:true,note:"Per-strike <b>Volume Profile</b> from the intraday session — <b>POC</b> (point of control) + <b>Value Area</b> (VAH/VAL). Gives a long-the-option plan: <b>entry</b> at value, <b>SL</b> below value, <b>target</b> VAH/extension, with R:R. <i>Intraday feed has no exchange volume, so the profile is tick/time-weighted (a TPO-style proxy).</i>"}
+ ];
+ const sel=$("#oc_ind");
+ IND.forEach(i=>{const o=document.createElement("option");o.value=i.k;o.textContent=i.lbl;sel.appendChild(o)});
+ const fmtv=(v,nd)=>v==null?'—':Number(v).toLocaleString('en-IN',{maximumFractionDigits:nd,minimumFractionDigits:nd});
+ const bar=(w,color)=>`<div style="height:14px;width:${w}%;background:${color};border-radius:3px;min-width:2px"></div>`;
+ const strikeCell=r=>`<div style="width:96px;text-align:center;font-weight:700;color:${r.atm?'var(--green)':'var(--txt)'}">${r.strike}${r.atm?' ◄':''}</div>`;
+ function buildupTag(cp,co){if(co==null||cp==null)return['—','var(--mut)'];if(co>0&&cp>0)return['Long Buildup','var(--green)'];if(co>0&&cp<0)return['Short Buildup','var(--red)'];if(co<0&&cp>0)return['Short Covering','var(--green)'];if(co<0&&cp<0)return['Long Unwinding','var(--red)'];return['Neutral','var(--mut)']}
+ function hdr(l,c,r){const d=el("div");d.style.cssText="display:flex;align-items:center;gap:8px;margin:6px 0 2px;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--mut)";d.innerHTML=`<div style="flex:1;text-align:right">${l}</div><div style="width:96px;text-align:center">${c}</div><div style="flex:1">${r}</div>`;return d}
+ function mkRow(html){const row=el("div");row.style.cssText="display:flex;align-items:center;gap:8px;margin:3px 0;font-size:12.5px";row.innerHTML=html;return row}
+ function vcpCell(r){
+  if(!r) return '<span class="muted">—</span>';
+  if(r.status==="insufficient data") return `<span class="muted">insuf ${r.bars}b</span>`;
+  const col={"Breakout":"var(--green)","At pivot":"var(--cyan)","VCP forming":"var(--cyan)","Contracting":"var(--amber)","No VCP":"var(--mut)"}[r.status]||"var(--mut)";
+  return `<span style="color:${col};font-weight:600">${r.status}</span>${r.legs?` <small class="muted">${r.legs}L${r.tightening?'✓':''}</small>`:''}`;
+ }
+ function vwapCell(r){ if(!r||!r.vwap_pos||r.vwap_pos==="—") return '<span class="muted">—</span>'; return r.vwap_pos==="above"?'<span style="color:var(--green)">▲ above</span>':'<span style="color:var(--red)">▼ below</span>'; }
+ function emaCell(r){ if(!r||!r.ema_sig||r.ema_sig==="—") return '<span class="muted">—</span>'; if(r.ema_sig==="bull") return `<span style="color:var(--green)">10&gt;20${r.ema_cross==="golden"?' ⤴':''}</span>`; return `<span style="color:var(--red)">10&lt;20${r.ema_cross==="death"?' ⤵':''}</span>`; }
+ function smcCell(r){
+  if(!r) return '<span class="muted">—</span>';
+  const t=[];
+  const sc={bull:'var(--green)',bear:'var(--red)',range:'var(--mut)'}[r.smc_struct];
+  if(sc) t.push(`<span style="color:${sc}">${r.smc_struct}</span>`);
+  if(r.smc_zone&&r.smc_zone!=="—"){const zc=r.smc_zone==="Discount"?'var(--green)':r.smc_zone==="Premium"?'var(--red)':'var(--mut)';t.push(`<span style="color:${zc}">${r.smc_zone}</span>`);}
+  if(r.smc_sd&&r.smc_sd!=="—"){const dc=/demand/.test(r.smc_sd)?'var(--green)':'var(--red)';t.push(`<span style="color:${dc}">${r.smc_sd}</span>`);}
+  if(r.smc_liq&&r.smc_liq!=="—"){const lc=/bullish|sell-side/.test(r.smc_liq)?'var(--green)':/bearish|buy-side/.test(r.smc_liq)?'var(--red)':'var(--mut)';t.push(`<span style="color:${lc}">${r.smc_liq}</span>`);}
+  if(r.smc_trend&&r.smc_trend!=="—") t.push(`<span style="color:var(--amber)">${r.smc_trend}</span>`);
+  return t.length?t.join(' <span class="muted">·</span> '):'<span class="muted">—</span>';
+ }
+ function renderVCP(host){
+  const V=DATA.fno_vcp||[];
+  if(!V.length){host.innerHTML='<div class="muted">Intraday scan unavailable — run <code>py 30_fno_vcp.py</code> (fetches each strike\'s intraday chart from NSE).</div>';return;}
+  const TFS=["1m","3m","5m","15m","1h"]; let curTf="5m", lens="mom";
+  host.innerHTML='<div class="toolbar" style="margin:2px 0 10px"><span class="muted">Timeframe:</span><span id="vcp_tfs"></span><span class="muted" style="margin-left:14px">Lens:</span><span id="vcp_lens"></span></div><div id="vcp_body"></div>';
+  const tfWrap=host.querySelector("#vcp_tfs"), lensWrap=host.querySelector("#vcp_lens"), body=host.querySelector("#vcp_body");
+  const tbtn=(wrap,label,active,fn)=>{const b=el("button");b.textContent=label;b.style.cssText=`background:var(--bg2);border:1px solid ${active?'var(--accent)':'var(--line)'};color:var(--txt);padding:5px 12px;margin-right:6px;border-radius:8px;font-size:12.5px;cursor:pointer`;b.onclick=fn;wrap.appendChild(b)};
+  function draw(){
+   tfWrap.innerHTML=""; TFS.forEach(tf=>tbtn(tfWrap,tf,tf===curTf,()=>{curTf=tf;draw()}));
+   lensWrap.innerHTML=""; [["mom","Momentum"],["smc","SMC"]].forEach(([k,l])=>tbtn(lensWrap,l,lens===k,()=>{lens=k;draw()}));
+   body.innerHTML="";
+   [...new Set(V.map(r=>r.expiry))].forEach(exp=>{
+    const rows=V.filter(r=>r.expiry===exp&&r.tf===curTf); if(!rows.length)return;
+    const atm=((DATA.oc_meta||[]).find(m=>m.expiry===exp)||{}).atm;
+    const strikes=[...new Set(rows.map(r=>r.strike))].sort((a,b)=>a-b);
+    const sk=k=>`<td class="l"><b style="color:${k===atm?'var(--green)':'var(--cyan)'}">${k}${k===atm?' ◄':''}</b></td>`;
+    let h=`<div class="sech" style="margin:10px 0 2px">🗓️ ${exp} <span class="muted" style="font-weight:500">· intraday @ ${curTf}</span></div><div class="tablewrap"><table>`;
+    if(lens==="mom"){
+     h+='<thead><tr><th class="l">Strike</th><th class="l">Call VCP</th><th class="l">VWAP</th><th class="l">EMA10/20</th><th class="l">Put VCP</th><th class="l">VWAP</th><th class="l">EMA10/20</th></tr></thead><tbody>';
+     strikes.forEach(k=>{const ce=rows.find(r=>r.strike===k&&r.side==="CE"),pe=rows.find(r=>r.strike===k&&r.side==="PE");
+      h+=`<tr>${sk(k)}<td class="l">${vcpCell(ce)}</td><td class="l">${vwapCell(ce)}</td><td class="l">${emaCell(ce)}</td><td class="l">${vcpCell(pe)}</td><td class="l">${vwapCell(pe)}</td><td class="l">${emaCell(pe)}</td></tr>`;});
+    } else {
+     h+='<thead><tr><th class="l">Strike</th><th class="l">Call SMC — structure · P/D · supply-demand · liquidity · trendline</th><th class="l">Put SMC</th></tr></thead><tbody>';
+     strikes.forEach(k=>{const ce=rows.find(r=>r.strike===k&&r.side==="CE"),pe=rows.find(r=>r.strike===k&&r.side==="PE");
+      h+=`<tr>${sk(k)}<td class="l">${smcCell(ce)}</td><td class="l">${smcCell(pe)}</td></tr>`;});
+    }
+    h+='</tbody></table></div>';
+    const box=el("div"); box.style.marginBottom="16px"; box.innerHTML=h; body.appendChild(box);
+   });
+  }
+  draw();
+ }
+ function renderVProfile(host){
+  const VP=DATA.fno_vprofile||[];
+  if(!VP.length){host.innerHTML='<div class="muted">Volume-profile plan unavailable — run <code>py 30_fno_vcp.py</code>.</div>';return;}
+  const nv=(v)=>v==null?'—':Number(v).toLocaleString('en-IN',{maximumFractionDigits:2,minimumFractionDigits:2});
+  let out="";
+  [...new Set(VP.map(r=>r.expiry))].forEach(exp=>{
+   const rows=VP.filter(r=>r.expiry===exp); if(!rows.length)return;
+   const atm=((DATA.oc_meta||[]).find(m=>m.expiry===exp)||{}).atm;
+   let h=`<div class="sech" style="margin:10px 0 2px">🗓️ ${exp} <span class="muted" style="font-weight:500">· session volume profile</span></div><div class="tablewrap"><table><thead><tr><th class="l">Strike</th><th class="l">Side</th><th>POC</th><th>VAH</th><th>VAL</th><th>LTP</th><th class="l">Setup</th><th>Entry</th><th>SL</th><th>Target</th><th>R:R</th></tr></thead><tbody>`;
+   rows.slice().sort((a,b)=>a.strike-b.strike||(a.side<b.side?-1:1)).forEach(r=>{
+    const bc=/avoid|below/i.test(r.vp_bias)?'var(--mut)':/momentum/i.test(r.vp_bias)?'var(--green)':'var(--cyan)';
+    const rrc=r.vp_rr==null?'var(--mut)':r.vp_rr>=2?'var(--green)':r.vp_rr>=1?'var(--amber)':'var(--red)';
+    h+=`<tr><td class="l"><b style="color:${r.strike===atm?'var(--green)':'var(--cyan)'}">${r.strike}${r.strike===atm?' ◄':''}</b></td><td class="l">${r.side}</td><td>${nv(r.poc)}</td><td>${nv(r.vah)}</td><td>${nv(r.val)}</td><td>${nv(r.last)}</td><td class="l" style="color:${bc}">${r.vp_bias}</td><td>${nv(r.vp_entry)}</td><td style="color:var(--red)">${nv(r.vp_sl)}</td><td style="color:var(--green)">${nv(r.vp_target)}</td><td style="color:${rrc};font-weight:700">${r.vp_rr==null?'—':r.vp_rr}</td></tr>`;
+   });
+   h+='</tbody></table></div>';
+   out+=`<div style="margin-bottom:16px">${h}</div>`;
+  });
+  host.innerHTML=out;
+ }
+ function renderAnalysis(){
+  const cfg=IND.find(x=>x.k===sel.value)||IND[0];
+  $("#oc_ind_note").innerHTML=cfg.note;
+  const wrapAll=$("#oc_analysis"); wrapAll.innerHTML="";
+  if(cfg.vcp){ renderVCP(wrapAll); return; }
+  if(cfg.vprofile){ renderVProfile(wrapAll); return; }
+  MS.forEach(M=>{
+   const rows=OC.filter(r=>r.expiry===M.expiry).slice().sort((a,b)=>a.strike-b.strike);
+   const box=el("div"); box.style.cssText="margin-bottom:16px";
+   box.innerHTML=`<div class="sech" style="margin:8px 0 2px">🗓️ ${M.expiry} <span class="muted" style="font-weight:500">· ATM ${M.atm} · DTE ${M.dte}</span></div>`;
+   if(cfg.single){
+     box.appendChild(hdr("","STRIKE","PE OI ÷ CE OI"));
+     const vals=rows.map(r=>r.ce_oi?r.pe_oi/r.ce_oi:null); const mx=Math.max(1,...vals.filter(v=>v!=null));
+     rows.forEach((r,i)=>{const v=vals[i],w=(v||0)/mx*100,col=v==null?'var(--mut)':(v>=1?'var(--green)':'var(--red)');
+       box.appendChild(mkRow(`<div style="flex:1"></div>${strikeCell(r)}<div style="flex:1;display:flex;align-items:center;gap:6px">${bar(w,col)}<span style="color:${col};font-weight:700">${v==null?'—':v.toFixed(2)}</span></div>`))});
+   } else if(cfg.buildup){
+     box.appendChild(hdr("CALL","STRIKE","PUT"));
+     rows.forEach(r=>{const[ct,cc]=buildupTag(r.ce_chg,r.ce_chg_oi),[pt,pc]=buildupTag(r.pe_chg,r.pe_chg_oi);
+       box.appendChild(mkRow(`<div style="flex:1;text-align:right;color:${cc};font-weight:600">${ct}</div>${strikeCell(r)}<div style="flex:1;color:${pc};font-weight:600">${pt}</div>`))});
+   } else {
+     box.appendChild(hdr("CALL","STRIKE","PUT"));
+     const cev=rows.map(r=>Math.abs(r[cfg.ce]||0)),pev=rows.map(r=>Math.abs(r[cfg.pe]||0)),mx=Math.max(1,...cev,...pev);
+     rows.forEach(r=>{const cv=r[cfg.ce],pv=r[cfg.pe],cw=Math.abs(cv||0)/mx*100,pw=Math.abs(pv||0)/mx*100;
+       const cbg=cfg.signed&&cv<0?'var(--red)':'var(--cyan)',pbg=cfg.signed&&pv<0?'var(--red)':'var(--violet)';
+       box.appendChild(mkRow(`<div style="flex:1;display:flex;align-items:center;justify-content:flex-end;gap:6px"><span style="color:var(--mut)">${fmtv(cv,cfg.nd)}</span>${bar(cw,cbg)}</div>${strikeCell(r)}<div style="flex:1;display:flex;align-items:center;gap:6px">${bar(pw,pbg)}<span style="color:var(--mut)">${fmtv(pv,cfg.nd)}</span></div>`))});
+   }
+   wrapAll.appendChild(box);
+  });
+ }
+ sel.onchange=renderAnalysis; renderAnalysis();
+})();
 
 // ---- search wiring ----
 function wire(inp,tbl){$(inp).addEventListener("input",e=>{const q=e.target.value.toLowerCase();const f=tbl._data.filter(r=>Object.values(r).some(v=>v!=null&&(""+v).toLowerCase().includes(q)));tbl._render(f)})}

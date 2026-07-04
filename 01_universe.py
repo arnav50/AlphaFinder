@@ -2,15 +2,27 @@
 Phase 1 / Step 1A-1B : Build the NSE + BSE equity universe.
 Outputs: universe.csv  (columns: symbol, name, exchange, yahoo_ticker, series_or_group, isin)
 """
-import io, json, requests, pandas as pd
+import io, json, time, requests, pandas as pd
 
 HDR = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 S = requests.Session(); S.headers.update(HDR)
 
 
+def get(url, tries=5, **kw):
+    """GET with backoff — survives flaky DNS/connection hiccups (getaddrinfo failures)."""
+    kw.setdefault("timeout", 30)
+    for i in range(tries):
+        try:
+            return S.get(url, **kw)
+        except requests.exceptions.RequestException:
+            if i == tries - 1:
+                raise
+            time.sleep(2 * (i + 1))
+
+
 def nse_universe():
     url = "https://archives.nseindia.com/content/equities/EQUITY_L.csv"
-    df = pd.read_csv(io.StringIO(S.get(url, timeout=30).text))
+    df = pd.read_csv(io.StringIO(get(url).text))
     df.columns = [c.strip() for c in df.columns]
     df = df.rename(columns={
         "SYMBOL": "symbol", "NAME OF COMPANY": "name",
@@ -27,7 +39,7 @@ def bse_universe():
     # BSE scrip master via official API. Group filters out Z (suspended) / T (T2T flagged separately).
     url = ("https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w"
            "?Group=&Scripcode=&industry=&segment=Equity&status=Active")
-    r = S.get(url, headers={**HDR, "Referer": "https://www.bseindia.com/"}, timeout=40)
+    r = get(url, headers={**HDR, "Referer": "https://www.bseindia.com/"}, timeout=40)
     df = pd.DataFrame(r.json())  # keys: SCRIP_CD, Scrip_Name, Status, GROUP, ISIN_NUMBER, INDUSTRY, Mktcap ...
     out = pd.DataFrame({
         "symbol": df["SCRIP_CD"].astype(str).str.strip(),
