@@ -1,80 +1,80 @@
 # QUADFUTURE — Quadrant Future Tek Limited (NSE)
-**Sector:** Industrials | **6m return:** 28.7% | **Close:** ₹343.05 | **Cap:** Small | **Bars:** 348
+**Sector:** Industrials | **6m return:** 33.48% | **Close:** ₹449.6 | **Cap:** Small | **Bars:** 355
 
-## 🏁 SCORECARD: **BULLISH**  (score 7.4, confluence low)
-Leading 3.9 | Lagging 5.0 | Candles -1.0 | Price-action -0.5
+## 🏁 SCORECARD: **BULLISH**  (score 10.4, confluence medium)
+Leading 0.4 | Lagging 7.5 | Candles 0.0 | Price-action 2.5
 
 ## A. Leading indicators
-- **RSI(14):** 69.5 (neutral), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 87.4 / %D 81.1, cross none, overbought, div none
-- **Bollinger(20,2):** above_mid, width 26.73%, expanding
+- **RSI(14):** 70.4 (overbought), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 81.8 / %D 81.9, cross none, overbought, div bearish
+- **Bollinger(20,2):** above_mid, width 44.18%, contracting
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 130.6 (strong_up)
-- **Williams %R(14):** -11.9 (overbought)
+- **CCI(20):** 53.2 (above0)
+- **Williams %R(14):** -12.6 (overbought)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 95.1 (overbought)
+- **MFI(14):** 89.9 (overbought)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 5.666 (expanding_pos), cross none, zero-line above
-- **EMA:** alignment mixed; px vs E20 above, E50 above, E200 above; E200 slope falling
-- **ADX(14):** 34.4 (trending), +DI>-DI, rising
+- **MACD(12,26,9):** above_signal, hist 1.625 (contracting_pos), cross none, zero-line above
+- **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
+- **ADX(14):** 54.6 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 16.24 (4.73% of price, expanding)
-- **VWAP(20):** px above, dist 8.94%
-- **Pivots:** daily P 342.87 R1 349.13 S1 336.78; weekly position mid_range
+- **ATR(14):** 21.64 (4.81% of price, contracting)
+- **VWAP(20):** px above, dist 11.65%
+- **Pivots:** daily P 448.05 R1 455.2 S1 442.45; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Inside Bar | 2026-05-28 | neutral | at support | neutral |
-| Shooting Star | 2026-05-29 | bearish | at support | failed |
-| Outside Bar | 2026-05-29 | neutral | at support | neutral |
-| Inside Bar | 2026-06-02 | neutral | at resistance | neutral |
-| Inside Bar | 2026-06-03 | neutral | at resistance | neutral |
-| NR4 | 2026-06-03 | neutral | at resistance | neutral |
-| Doji | 2026-06-04 | neutral | at resistance | neutral |
-| Hanging Man | 2026-06-04 | bearish | at resistance | failed |
-| Bullish Pin Bar | 2026-06-04 | bullish | at resistance | confirmed |
-| Tweezer Top | 2026-06-04 | bearish | at resistance | failed |
-| Three White Soldiers | 2026-06-08 | bullish | at resistance | confirmed |
-| Long-legged Doji | 2026-06-09 | neutral | at resistance | pending (last bar) |
-| Inside Bar | 2026-06-09 | neutral | at resistance | pending (last bar) |
-| NR4 | 2026-06-09 | neutral | at resistance | pending (last bar) |
-| Three White Soldiers | 2026-06-09 | bullish | at resistance | pending (last bar) |
+| Evening Star | 2026-06-19 | bearish | at S/R confluence | failed |
+| Shooting Star | 2026-06-22 | bearish | at S/R confluence | confirmed |
+| Bearish Pin Bar | 2026-06-22 | bearish | at S/R confluence | confirmed |
+| Bullish Harami | 2026-06-22 | bullish | at S/R confluence | failed |
+| Bearish Engulfing | 2026-06-23 | bearish | at S/R confluence | failed |
+| Bullish Engulfing | 2026-06-24 | bullish | at S/R confluence | failed |
+| Outside Bar | 2026-06-24 | neutral | at S/R confluence | neutral |
+| Doji | 2026-06-26 | neutral | at support | neutral |
+| Inside Bar | 2026-06-26 | neutral | at support | neutral |
+| Shooting Star | 2026-06-29 | bearish | at support | confirmed |
+| Outside Bar | 2026-06-29 | neutral | at support | neutral |
+| Shooting Star | 2026-07-01 | bearish | at support | failed |
+| Bullish Harami | 2026-07-01 | bullish | at support | confirmed |
+| Inside Bar | 2026-07-02 | neutral | at S/R confluence | pending (last bar) |
+| NR4 | 2026-07-02 | neutral | at S/R confluence | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Downtrend (LH/LL)
-- **Chart pattern:** Inverse Head & Shoulders | breakout 326.85 | target 373.1 | volume no | confidence medium
+- **Trend structure:** Uptrend (HH/HL)
+- **Chart pattern:** Bull Flag / Pennant | breakout 449.6 | target 683.2 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 281.2-326.95 (Moderate, tested, 4.92% away) — quality Moderate · PRICE NEAR
-- **Demand (weekly):** none
-- **Supply (daily, overhead):** 355.75-369.6 (Moderate, tested, 3.7% above) · PRICE APPROACHING (long risk)
+- **Demand (daily):** 402.65-438.0 (Moderate, tested, 2.65% away) — quality Moderate · PRICE NEAR
+- **Demand (weekly):** 277.25-351.9 (Moderate, FRESH, 27.76% away)
+- **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly ranging | aligned: True
-- **Break of Structure (last):** bear @ 306.1 on 2026-05-12
-- **Change of Character (last):** bear @ 275.0 on 2026-03-30
-- **Bullish Order Block:** 293.35-307.0 (2026-05-27, UNMITIGATED)
+- **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
+- **Break of Structure (last):** bull @ 446.45 on 2026-06-24
+- **Change of Character (last):** bull @ 351.9 on 2026-06-15
+- **Bullish Order Block:** 402.65-418.9 (2026-06-23, UNMITIGATED)
 - **Bearish Order Block:** 303.85-317.0 (2026-02-10, mitigated)
-- **Fair Value Gaps:** 2 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 326.35-330.0 (2026-06-08) · nearest bear FVG above none
-- **Liquidity:** buy-side above 344.22 | sell-side below 287.55 | equal-highs 3 / equal-lows 1 | swept: buy-side swept (bearish stop-hunt)
-- **Premium/Discount:** **Premium** (price at 78.0% of range 248.55–369.7)
+- **Fair Value Gaps:** 5 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 418.9-445.5 (2026-06-25) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below 287.55 | equal-highs 3 / equal-lows 1 | swept: none
+- **Premium/Discount:** **Premium** (price at 92.2% of range 262.25–465.45)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (38.0% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-6.7%/5b | C2:-17.7%/10b | C3:-11.9%/3b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.0)
-- **Near 52w high:** False | **Pivot:** 326.95 | **% from pivot:** 4.92%
-- **Breakout vol ratio (today/50d):** 0.41 | **close pos in range:** 0.52
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
+- **Prior uptrend:** True (80.9% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-11.9%/3b | C2:-5.1%/2b | C3:-9.8%/4b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.35)
+- **Near 52w high:** False | **Pivot:** 460.65 | **% from pivot:** -2.4%
+- **Breakout vol ratio (today/50d):** 0.15 | **close pos in range:** 0.68
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 248.55 on 2025-12-18):** 1x1=378.57 2x1=508.58 1x2=313.56 → **moderate (>1x2)** (above 1x1: False)
-- **Square-of-9 targets:** T1 352.37 · T2 361.82 · T3 381.09 (support S1 333.85, S2 324.78)
-- **Time cycles:** 116 days since swing low → next Gann cycle at 120d (4d away); near cycle: True
-- **Octave position:** 3/8 | levels 4/8=389.78 6/8=460.39 7/8=495.69
-- **Cardinal square:** nearest perfect-square 361 (5.23% away); near: False
+- **Angles (auto-scaled from swing low 248.55 on 2025-12-18):** 1x1=397.62 2x1=546.69 1x2=323.09 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 460.26 · T2 471.05 · T3 493.01 (support S1 439.06, S2 428.65)
+- **Time cycles:** 133 days since swing low → next Gann cycle at 144d (11d away); near cycle: False
+- **Octave position:** 6/8 (75%) | levels 4/8=389.78 6/8=460.39 7/8=495.69
+- **Cardinal square:** nearest perfect-square 441 (1.91% away); near: True

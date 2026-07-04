@@ -1,80 +1,80 @@
 # SANSTAR — Sanstar Limited (NSE)
-**Sector:** Basic Materials | **6m return:** 29.06% | **Close:** ₹117.96 | **Cap:** Small | **Bars:** 352
+**Sector:** Basic Materials | **6m return:** 26.54% | **Close:** ₹121.47 | **Cap:** Small | **Bars:** 353
 
-## 🏁 SCORECARD: **BULLISH**  (score 9.8, confluence medium)
-Leading 3.8 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
+## 🏁 SCORECARD: **BULLISH**  (score 9.0, confluence high)
+Leading 3.5 | Lagging 3.5 | Candles 1.0 | Price-action 1.0
 
 ## A. Leading indicators
-- **RSI(14):** 63.4 (neutral), trend flat, divergence none
-- **Stochastic(14,3,3):** %K 77.1 / %D 75.8, cross bull, neutral, div bearish
-- **Bollinger(20,2):** above_mid, width 26.24%, contracting
+- **RSI(14):** 57.5 (neutral), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 42.3 / %D 50.3, cross bear, neutral, div none
+- **Bollinger(20,2):** above_mid, width 13.79%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 42.0 (above0)
-- **Williams %R(14):** -20.8 (neutral)
+- **CCI(20):** 60.8 (above0)
+- **Williams %R(14):** -61.6 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 73.1 (neutral)
+- **MFI(14):** 90.4 (overbought)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.1 (expanding_neg), cross bear, zero-line above
+- **MACD(12,26,9):** below_signal, hist -0.091 (expanding_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 43.3 (trending), +DI>-DI, falling
+- **ADX(14):** 40.3 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 6.28 (5.32% of price, expanding)
-- **VWAP(20):** px above, dist 6.69%
-- **Pivots:** daily P 117.37 R1 121.49 S1 113.85; weekly position mid_range
+- **ATR(14):** 6.19 (5.1% of price, expanding)
+- **VWAP(20):** px below, dist -2.94%
+- **Pivots:** daily P 122.33 R1 124.04 S1 119.75; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Evening Star | 2026-05-25 | bearish | at S/R confluence | failed |
-| Bullish Harami | 2026-05-26 | bullish | at S/R confluence | confirmed |
-| Inside Bar | 2026-05-26 | neutral | at S/R confluence | neutral |
-| NR7 | 2026-05-26 | neutral | at S/R confluence | neutral |
-| Morning Star | 2026-05-27 | bullish | at resistance | failed |
-| Doji | 2026-05-28 | neutral | at resistance | neutral |
-| Inside Bar | 2026-05-28 | neutral | at resistance | neutral |
-| Long-legged Doji | 2026-05-29 | neutral | at resistance | neutral |
-| Outside Bar | 2026-05-29 | neutral | at resistance | neutral |
-| Inside Bar | 2026-06-03 | neutral | at resistance | neutral |
-| NR4 | 2026-06-03 | neutral | at resistance | neutral |
-| Bearish Engulfing | 2026-06-04 | bearish | at resistance | failed |
-| NR4 | 2026-06-04 | neutral | at resistance | neutral |
-| Bullish Harami | 2026-06-05 | bullish | at resistance | pending (last bar) |
-| Outside Bar | 2026-06-05 | neutral | at resistance | pending (last bar) |
+| Three Black Crows | 2026-06-17 | bearish | at resistance | failed |
+| Doji | 2026-06-18 | neutral | at resistance | neutral |
+| Shooting Star | 2026-06-18 | bearish | at resistance | failed |
+| Bearish Pin Bar | 2026-06-18 | bearish | at resistance | failed |
+| Bullish Engulfing | 2026-06-18 | bullish | at resistance | confirmed |
+| Hammer | 2026-06-19 | bullish | at resistance | confirmed |
+| Bullish Marubozu | 2026-06-22 | bullish | midair | failed |
+| Three White Soldiers | 2026-06-22 | bullish | midair | failed |
+| Inside Bar | 2026-06-25 | neutral | midair | neutral |
+| NR4 | 2026-06-25 | neutral | midair | neutral |
+| NR7 | 2026-06-29 | neutral | at resistance | neutral |
+| Evening Star | 2026-06-29 | bearish | at resistance | failed |
+| Doji | 2026-06-30 | neutral | at resistance | pending (last bar) |
+| Shooting Star | 2026-06-30 | bearish | at resistance | pending (last bar) |
+| Bearish Pin Bar | 2026-06-30 | bearish | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Bull Flag / Pennant | breakout 118.27 | target 155.25 | volume no | confidence medium
+- **Trend structure:** Sideways / range-bound
+- **Chart pattern:** Double Bottom | breakout 117.65 | target 123.46 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 96.25-101.9 (Moderate, FRESH, 15.76% away) — quality Moderate
-- **Demand (weekly):** 85.32-102.8 (Moderate, tested, 14.75% away)
-- **Supply (daily, overhead):** 108.01-120.71 (Moderate, tested, -8.44% above)
+- **Demand (daily):** 112.62-119.99 (Moderate, tested, 1.23% away) — quality Moderate · PRICE NEAR
+- **Demand (weekly):** 85.32-102.8 (Moderate, tested, 18.16% away)
+- **Supply (daily, overhead):** 108.01-120.71 (Moderate, tested, -11.08% above)
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily bullish (HH/HL) | weekly bearish (LH/LL) | aligned: False
-- **Break of Structure (last):** bull @ 102.8 on 2026-05-18
+- **Market structure:** daily ranging | weekly bearish (LH/LL) | aligned: False
+- **Break of Structure (last):** bull @ 121.41 on 2026-06-22
 - **Change of Character (last):** bull @ 83.51 on 2026-04-10
-- **Bullish Order Block:** 102.6-118.48 (2026-05-25, mitigated)
+- **Bullish Order Block:** 119.76-125.79 (2026-06-23, mitigated)
 - **Bearish Order Block:** 112.5-120.0 (2026-05-21, mitigated)
-- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 108.35-115.24 (2026-05-28) · nearest bear FVG above none
-- **Liquidity:** buy-side above none | sell-side below 89.23 | equal-highs 2 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 91.5% of range 74.3–121.99)
+- **Fair Value Gaps:** 8 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 117.25-119.76 (2026-06-23) · nearest bear FVG above none
+- **Liquidity:** buy-side above 121.7 | sell-side below 89.23 | equal-highs 2 / equal-lows 2 | swept: buy-side swept (bearish stop-hunt)
+- **Premium/Discount:** **Premium** (price at 74.6% of range 74.3–137.49)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (58.8% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-9.0%/2b | C2:-4.6%/5b | C3:-14.5%/2b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.11)
-- **Near 52w high:** True | **Pivot:** 120.0 | **% from pivot:** -1.7%
-- **Breakout vol ratio (today/50d):** 1.61 | **close pos in range:** 0.62
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Prior uptrend:** True (63.5% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-14.5%/2b | C2:-7.5%/6b | C3:-6.8%/2b
+- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 4.51)
+- **Near 52w high:** False | **Pivot:** 137.49 | **% from pivot:** -11.65%
+- **Breakout vol ratio (today/50d):** 0.34 | **close pos in range:** 0.2
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 74.3 on 2026-04-02):** 1x1=82.63 2x1=90.95 1x2=78.46 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 123.45 · T2 129.07 · T3 140.68 (support S1 112.59, S2 107.35)
-- **Time cycles:** 44 days since swing low → next Gann cycle at 45d (1d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=98.15 6/8=110.07 7/8=116.03
-- **Cardinal square:** nearest perfect-square 121 (2.58% away); near: False
+- **Angles (auto-scaled from swing low 74.3 on 2026-04-02):** 1x1=89.35 2x1=104.39 1x2=81.82 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 127.04 · T2 132.74 · T3 144.51 (support S1 116.02, S2 110.7)
+- **Time cycles:** 60 days since swing low → next Gann cycle at 90d (30d away); near cycle: True
+- **Octave position:** 6/8 (75%) | levels 4/8=105.9 6/8=121.69 7/8=129.59
+- **Cardinal square:** nearest perfect-square 121 (0.39% away); near: True

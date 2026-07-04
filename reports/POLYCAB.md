@@ -1,80 +1,80 @@
 # POLYCAB — Polycab India Limited (NSE)
-**Sector:** Industrials | **6m return:** 32.14% | **Close:** ₹9615.5 | **Cap:** Large | **Bars:** 354
+**Sector:** Industrials | **6m return:** 28.33% | **Close:** ₹9961.0 | **Cap:** Large | **Bars:** 354
 
-## 🏁 SCORECARD: **BULLISH**  (score 7.8, confluence high)
-Leading 1.3 | Lagging 5.0 | Candles 1.0 | Price-action 0.5
+## 🏁 SCORECARD: **BULLISH**  (score 6.6, confluence medium)
+Leading 2.8 | Lagging 4.3 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 66.0 (neutral), trend falling, divergence bearish
-- **Stochastic(14,3,3):** %K 69.7 / %D 77.7, cross bear, neutral, div bearish
-- **Bollinger(20,2):** above_mid, width 9.82%, SQUEEZE
+- **RSI(14):** 62.1 (neutral), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 52.3 / %D 38.7, cross bull, neutral, div none
+- **Bollinger(20,2):** above_mid, width 8.26%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 24.5 (above0)
-- **Williams %R(14):** -33.1 (neutral)
+- **CCI(20):** 50.7 (above0)
+- **Williams %R(14):** -21.3 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 65.5 (neutral)
+- **MFI(14):** 70.2 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -38.784 (expanding_neg), cross none, zero-line above
+- **MACD(12,26,9):** below_signal, hist -35.796 (contracting_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 34.0 (trending), +DI>-DI, falling
+- **ADX(14):** 23.4 (transitional), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 218.28 (2.27% of price, expanding)
-- **VWAP(20):** px above, dist 2.66%
-- **Pivots:** daily P 9579.0 R1 9734.5 S1 9460.0; weekly position mid_range
+- **ATR(14):** 238.68 (2.4% of price, expanding)
+- **VWAP(20):** px above, dist 2.34%
+- **Pivots:** daily P 9855.33 R1 10113.67 S1 9702.67; weekly position above_R1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Tweezer Top | 2026-05-22 | bearish | at resistance | failed |
-| NR7 | 2026-05-22 | neutral | at resistance | neutral |
-| Three White Soldiers | 2026-05-26 | bullish | at resistance | confirmed |
-| Tweezer Top | 2026-05-27 | bearish | at resistance | failed |
-| Three White Soldiers | 2026-05-27 | bullish | at resistance | failed |
-| Doji | 2026-05-28 | neutral | at resistance | neutral |
-| Inside Bar | 2026-05-28 | neutral | at resistance | neutral |
-| Outside Bar | 2026-05-29 | neutral | at resistance | neutral |
-| Evening Star | 2026-05-29 | bearish | at resistance | failed |
-| Long-legged Doji | 2026-06-01 | neutral | at resistance | neutral |
-| Bullish Engulfing | 2026-06-02 | bullish | at resistance | confirmed |
-| NR4 | 2026-06-03 | neutral | at resistance | neutral |
-| Three White Soldiers | 2026-06-04 | bullish | at resistance | failed |
-| Evening Star | 2026-06-08 | bearish | at resistance | failed |
-| Tweezer Bottom | 2026-06-09 | bullish | at resistance | pending (last bar) |
+| Long-legged Doji | 2026-06-16 | neutral | at S/R confluence | neutral |
+| Morning Star | 2026-06-17 | bullish | at resistance | confirmed |
+| Long-legged Doji | 2026-06-18 | neutral | at resistance | neutral |
+| Tweezer Top | 2026-06-18 | bearish | at resistance | failed |
+| NR7 | 2026-06-18 | neutral | at resistance | neutral |
+| Outside Bar | 2026-06-19 | neutral | at resistance | neutral |
+| Three White Soldiers | 2026-06-19 | bullish | at resistance | failed |
+| Tweezer Top | 2026-06-22 | bearish | at resistance | confirmed |
+| Evening Star | 2026-06-23 | bearish | at resistance | confirmed |
+| Three Black Crows | 2026-06-24 | bearish | at resistance | confirmed |
+| Three Black Crows | 2026-06-25 | bearish | at S/R confluence | failed |
+| Doji | 2026-06-26 | neutral | at S/R confluence | neutral |
+| Inside Bar | 2026-06-26 | neutral | at S/R confluence | neutral |
+| Outside Bar | 2026-06-29 | neutral | at resistance | neutral |
+| Morning Star | 2026-06-29 | bullish | at resistance | confirmed |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Double Top | breakout 9477.5 | target 9291.0 | volume no | confidence medium
+- **Chart pattern:** Double Top | breakout 9372.0 | target 9026.5 | volume weak | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 8062.5-8525.0 (Moderate, FRESH, 12.79% away) — quality Moderate
-- **Demand (weekly):** 6663.0-7948.0 (Moderate, tested, 20.98% away)
+- **Demand (daily):** 8062.5-8525.0 (Moderate, FRESH, 16.84% away) — quality Moderate
+- **Demand (weekly):** 6663.0-7948.0 (Moderate, tested, 25.33% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly bullish (HH/HL) | aligned: False
-- **Break of Structure (last):** bull @ 8305.0 on 2026-05-04
+- **Market structure:** daily bullish (HH/HL) | weekly bullish (HH/HL) | aligned: True
+- **Break of Structure (last):** bull @ 9833.0 on 2026-06-17
 - **Change of Character (last):** bull @ 8305.0 on 2026-05-04
-- **Bullish Order Block:** 9176.0-9309.5 (2026-05-21, UNMITIGATED)
+- **Bullish Order Block:** 9475.0-9671.0 (2026-06-16, mitigated)
 - **Bearish Order Block:** 9561.0-9696.0 (2026-05-27, mitigated)
-- **Fair Value Gaps:** 9 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 9316.5-9358.0 (2026-05-26) · nearest bear FVG above none
-- **Liquidity:** buy-side above none | sell-side below 7449.67 | equal-highs 2 / equal-lows 3 | swept: none
-- **Premium/Discount:** **Premium** (price at 93.1% of range 6663.0–9833.0)
+- **Fair Value Gaps:** 10 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 9531.0-9597.0 (2026-06-30) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below 9336.5 | equal-highs 1 / equal-lows 4 | swept: none
+- **Premium/Discount:** **Premium** (price at 95.2% of range 6663.0–10126.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (66.9% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-8.9%/3b | C2:-3.2%/3b | C3:-2.8%/2b
-- **Depths decreasing:** True | **Duration decreasing:** True | **Volume dry-up (VDU):** True (vol ratio 0.54)
-- **Near 52w high:** True | **Pivot:** 9774.5 | **% from pivot:** -1.63%
-- **Breakout vol ratio (today/50d):** 0.57 | **close pos in range:** 0.7
-- **🏆 VCP QUALITY: Strong VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone 9774.5-10263.23
+- **Prior uptrend:** True (55.9% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-2.8%/2b | C2:-4.3%/5b | C3:-6.0%/4b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.29)
+- **Near 52w high:** True | **Pivot:** 10120.0 | **% from pivot:** -1.57%
+- **Breakout vol ratio (today/50d):** 1.19 | **close pos in range:** 0.89
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 6663.0 on 2026-01-27):** 1x1=8117.64 2x1=9572.29 1x2=7390.32 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 9664.59 · T2 9713.81 · T3 9812.62 (support S1 9566.53, S2 9517.69)
-- **Time cycles:** 90 days since swing low → next Gann cycle at 120d (30d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=7796.5 6/8=8814.75 7/8=9323.88
-- **Cardinal square:** nearest perfect-square 9604 (0.12% away); near: True
+- **Angles (auto-scaled from swing low 6663.0 on 2026-01-27):** 1x1=8219.67 2x1=9776.33 1x2=7441.33 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 10010.96 · T2 10061.05 · T3 10161.61 (support S1 9911.16, S2 9861.45)
+- **Time cycles:** 105 days since swing low → next Gann cycle at 120d (15d away); near cycle: False
+- **Octave position:** 8/8 (52w high) | levels 4/8=8258.0 6/8=9192.0 7/8=9659.0
+- **Cardinal square:** nearest perfect-square 10000 (0.39% away); near: True

@@ -1,80 +1,80 @@
 # AVALON — Avalon Technologies Limited (NSE)
-**Sector:** Technology | **6m return:** 89.64% | **Close:** ₹1639.5 | **Cap:** Mid | **Bars:** 354
+**Sector:** Technology | **6m return:** 101.75% | **Close:** ₹1803.1 | **Cap:** Mid | **Bars:** 355
 
-## 🏁 SCORECARD: **BULLISH**  (score 9.7, confluence medium)
-Leading 1.7 | Lagging 8.5 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **BULLISH**  (score 6.5, confluence medium)
+Leading 2.0 | Lagging 5.0 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 72.0 (overbought), trend flat, divergence bearish
-- **Stochastic(14,3,3):** %K 81.8 / %D 84.0, cross bear, overbought, div bearish
-- **Bollinger(20,2):** above_mid, width 29.4%, contracting
+- **RSI(14):** 70.7 (overbought), trend rising, divergence bearish
+- **Stochastic(14,3,3):** %K 80.5 / %D 84.8, cross bear, overbought, div none
+- **Bollinger(20,2):** above_mid, width 18.25%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 70.6 (above0)
-- **Williams %R(14):** -12.8 (overbought)
-- **OBV:** trend rising, divergence bullish
-- **MFI(14):** 67.6 (neutral)
+- **CCI(20):** 46.3 (above0)
+- **Williams %R(14):** -30.6 (neutral)
+- **OBV:** trend rising, divergence none
+- **MFI(14):** 65.5 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 4.547 (expanding_pos), cross bull, zero-line above
+- **MACD(12,26,9):** below_signal, hist -7.279 (expanding_neg), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 29.0 (trending), +DI>-DI, falling
+- **ADX(14):** 28.9 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 88.05 (5.37% of price, expanding)
-- **VWAP(20):** px above, dist 12.65%
-- **Pivots:** daily P 1639.9 R1 1669.5 S1 1609.9; weekly position mid_range
+- **ATR(14):** 74.65 (4.14% of price, contracting)
+- **VWAP(20):** px above, dist 5.65%
+- **Pivots:** daily P 1812.13 R1 1843.97 S1 1771.27; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Bearish Engulfing | 2026-05-26 | bearish | at S/R confluence | failed |
-| Outside Bar | 2026-05-26 | neutral | at S/R confluence | neutral |
-| Inside Bar | 2026-05-27 | neutral | midair | neutral |
-| Doji | 2026-05-28 | neutral | midair | neutral |
-| Inside Bar | 2026-05-28 | neutral | midair | neutral |
-| Hanging Man | 2026-05-29 | bearish | midair | confirmed |
-| Outside Bar | 2026-05-29 | neutral | midair | neutral |
-| Bearish Engulfing | 2026-06-01 | bearish | at S/R confluence | failed |
-| Outside Bar | 2026-06-01 | neutral | at S/R confluence | neutral |
-| Long-legged Doji | 2026-06-03 | neutral | midair | neutral |
-| NR4 | 2026-06-03 | neutral | midair | neutral |
-| Three White Soldiers | 2026-06-04 | bullish | midair | failed |
-| Shooting Star | 2026-06-05 | bearish | midair | confirmed |
-| Bearish Harami | 2026-06-05 | bearish | midair | confirmed |
-| NR4 | 2026-06-09 | neutral | midair | pending (last bar) |
+| Shooting Star | 2026-06-24 | bearish | at resistance | failed |
+| Bearish Pin Bar | 2026-06-24 | bearish | at resistance | failed |
+| Inside Bar | 2026-06-24 | neutral | at resistance | neutral |
+| NR4 | 2026-06-24 | neutral | at resistance | neutral |
+| Doji | 2026-06-26 | neutral | at resistance | neutral |
+| Inside Bar | 2026-06-26 | neutral | at resistance | neutral |
+| Outside Bar | 2026-06-29 | neutral | at resistance | neutral |
+| Morning Star | 2026-06-29 | bullish | at resistance | confirmed |
+| Doji | 2026-06-30 | neutral | at resistance | neutral |
+| Shooting Star | 2026-06-30 | bearish | at resistance | confirmed |
+| Bearish Pin Bar | 2026-06-30 | bearish | at resistance | confirmed |
+| Bearish Engulfing | 2026-07-01 | bearish | at resistance | failed |
+| Tweezer Top | 2026-07-01 | bearish | at resistance | failed |
+| Long-legged Doji | 2026-07-02 | neutral | at resistance | pending (last bar) |
+| Bearish Pin Bar | 2026-07-02 | bearish | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Double Top | breakout 1461.3 | target 1411.4 | volume no | confidence medium
+- **Chart pattern:** Rising Wedge (bearish) | breakout 1854.48 | target n/a | volume no | confidence low
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 1050.4-1306.1 (Moderate, tested, 25.53% away) — quality Moderate
-- **Demand (weekly):** 921.4-1152.0 (Moderate, FRESH, 42.32% away)
+- **Demand (daily):** 1050.4-1306.1 (Moderate, tested, 38.05% away) — quality Moderate
+- **Demand (weekly):** 921.4-1152.0 (Moderate, FRESH, 56.52% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
 - **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
-- **Break of Structure (last):** bull @ 1558.6 on 2026-06-04
+- **Break of Structure (last):** bull @ 1688.5 on 2026-06-15
 - **Change of Character (last):** bull @ 999.0 on 2026-04-09
 - **Bullish Order Block:** 1441.0-1570.1 (2026-06-01, mitigated)
-- **Bearish Order Block:** 935.3-971.7 (2026-03-20, mitigated)
-- **Fair Value Gaps:** 4 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1180.3-1271.6 (2026-05-08) · nearest bear FVG above none
-- **Liquidity:** buy-side above none | sell-side below 956.65 | equal-highs 1 / equal-lows 3 | swept: none
-- **Premium/Discount:** **Premium** (price at 94.6% of range 777.3–1688.5)
+- **Bearish Order Block:** 1610.3-1669.9 (2026-06-09, mitigated)
+- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1750.3-1788.0 (2026-06-30) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below 881.9 | equal-highs 1 / equal-lows 2 | swept: none
+- **Premium/Discount:** **Premium** (price at 95.4% of range 777.3–1853.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (110.9% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-13.5%/4b | C2:-15.0%/1b | C3:-5.7%/1b
-- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** True (vol ratio 0.79)
-- **Near 52w high:** True | **Pivot:** 1528.4 | **% from pivot:** 7.27%
-- **Breakout vol ratio (today/50d):** 0.66 | **close pos in range:** 0.49
-- **🏆 VCP QUALITY: Moderate VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone 1528.4-1604.82
+- **Prior uptrend:** True (132.0% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-15.0%/1b | C2:-5.7%/1b | C3:-4.2%/5b
+- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.53)
+- **Near 52w high:** True | **Pivot:** 1777.0 | **% from pivot:** 1.47%
+- **Breakout vol ratio (today/50d):** 0.33 | **close pos in range:** 0.31
+- **🏆 VCP QUALITY: Strong VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone 1777.0-1865.85
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 777.3 on 2026-01-29):** 1x1=1095.5 2x1=1413.69 1x2=936.4 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 1659.81 · T2 1680.24 · T3 1721.48 (support S1 1619.32, S2 1599.26)
-- **Time cycles:** 88 days since swing low → next Gann cycle at 90d (2d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=1232.9 6/8=1460.7 7/8=1574.6
-- **Cardinal square:** nearest perfect-square 1600 (2.41% away); near: False
+- **Angles (auto-scaled from swing low 777.3 on 2026-01-29):** 1x1=1225.51 2x1=1673.72 1x2=1001.4 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 1824.39 · T2 1845.81 · T3 1889.03 (support S1 1781.93, S2 1760.89)
+- **Time cycles:** 105 days since swing low → next Gann cycle at 120d (15d away); near cycle: False
+- **Octave position:** 8/8 (52w high) | levels 4/8=1315.15 6/8=1584.07 7/8=1718.54
+- **Cardinal square:** nearest perfect-square 1764 (2.17% away); near: False

@@ -1,80 +1,80 @@
 # KRN — KRN Heat Exchanger and Refrigeration Limited (NSE)
-**Sector:** Technology | **6m return:** 61.55% | **Close:** ₹1232.0 | **Cap:** Mid | **Bars:** 354
+**Sector:** Technology | **6m return:** 65.36% | **Close:** ₹1215.0 | **Cap:** Mid | **Bars:** 355
 
-## 🏁 SCORECARD: **BULLISH**  (score 9.0, confluence high)
-Leading 1.5 | Lagging 5.5 | Candles 1.0 | Price-action 1.0
+## 🏁 SCORECARD: **BULLISH**  (score 5.2, confluence medium)
+Leading 3.2 | Lagging 2.5 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 58.3 (neutral), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 75.2 / %D 79.3, cross bear, neutral, div none
-- **Bollinger(20,2):** above_mid, width 19.92%, SQUEEZE
-- **Ichimoku:** price above cloud, Tenkan/Kijun bearish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 51.4 (above0)
-- **Williams %R(14):** -17.0 (overbought)
-- **OBV:** trend flat, divergence none
-- **MFI(14):** 59.6 (neutral)
+- **RSI(14):** 52.0 (neutral), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 55.4 / %D 57.8, cross bear, neutral, div none
+- **Bollinger(20,2):** below_mid, width 8.48%, SQUEEZE
+- **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead bear
+- **CCI(20):** 1.7 (above0)
+- **Williams %R(14):** -56.6 (neutral)
+- **OBV:** trend rising, divergence none
+- **MFI(14):** 55.6 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 11.88 (expanding_pos), cross bull, zero-line above
+- **MACD(12,26,9):** below_signal, hist -1.123 (expanding_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 18.5 (choppy), -DI>+DI, falling
-- **Supertrend(7,3):** red_sell (recent flip: none)
-- **ATR(14):** 69.0 (5.6% of price, expanding)
-- **VWAP(20):** px above, dist 7.68%
-- **Pivots:** daily P 1200.0 R1 1264.0 S1 1168.0; weekly position mid_range
+- **ADX(14):** 9.7 (choppy), +DI>-DI, falling
+- **Supertrend(7,3):** green_buy (recent flip: none)
+- **ATR(14):** 54.51 (4.49% of price, contracting)
+- **VWAP(20):** px below, dist -1.29%
+- **Pivots:** daily P 1224.9 R1 1238.8 S1 1201.1; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Bullish Marubozu | 2026-05-27 | bullish | midair | failed |
-| NR4 | 2026-05-27 | neutral | midair | neutral |
-| Morning Star | 2026-05-27 | bullish | midair | failed |
-| Doji | 2026-05-28 | neutral | midair | neutral |
-| Inside Bar | 2026-05-28 | neutral | midair | neutral |
-| Outside Bar | 2026-05-29 | neutral | midair | neutral |
-| Piercing Line | 2026-06-02 | bullish | midair | confirmed |
-| Dragonfly Doji | 2026-06-03 | bullish | midair | confirmed |
-| Bullish Pin Bar | 2026-06-03 | bullish | midair | confirmed |
-| NR4 | 2026-06-03 | neutral | midair | neutral |
-| Bullish Marubozu | 2026-06-04 | bullish | at support | failed |
-| Doji | 2026-06-08 | neutral | at support | neutral |
-| Shooting Star | 2026-06-08 | bearish | at support | failed |
-| Bearish Pin Bar | 2026-06-08 | bearish | at support | failed |
-| Outside Bar | 2026-06-09 | neutral | midair | pending (last bar) |
+| Bearish Marubozu | 2026-06-15 | bearish | at resistance | confirmed |
+| NR7 | 2026-06-15 | neutral | at resistance | neutral |
+| NR7 | 2026-06-17 | neutral | midair | neutral |
+| NR7 | 2026-06-18 | neutral | at support | neutral |
+| Bullish Engulfing | 2026-06-19 | bullish | at resistance | failed |
+| Three Black Crows | 2026-06-24 | bearish | at support | failed |
+| Bullish Harami | 2026-06-25 | bullish | at support | failed |
+| Outside Bar | 2026-06-25 | neutral | at support | neutral |
+| Doji | 2026-06-26 | neutral | at support | neutral |
+| Inside Bar | 2026-06-26 | neutral | at support | neutral |
+| Outside Bar | 2026-06-29 | neutral | at resistance | neutral |
+| Inverted Hammer | 2026-06-30 | bullish | at resistance | failed |
+| Bearish Pin Bar | 2026-06-30 | bearish | at resistance | confirmed |
+| Bearish Engulfing | 2026-07-01 | bearish | at resistance | confirmed |
+| NR4 | 2026-07-02 | neutral | at support | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Sideways / range-bound
-- **Chart pattern:** Double Bottom | breakout 1123.3 | target 1206.9 | volume no | confidence medium
+- **Trend structure:** Uptrend (HH/HL)
+- **Chart pattern:** Double Top | breakout 1218.3 | target 1175.4 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 880.0-986.2 (Moderate, FRESH, 24.92% away) — quality Moderate
-- **Demand (weekly):** 823.3-986.2 (Moderate, FRESH, 24.92% away)
+- **Demand (daily):** 1146.1-1238.9 (Moderate, tested, -1.93% away) — quality Moderate · PRICE NEAR
+- **Demand (weekly):** 823.3-986.2 (Moderate, FRESH, 23.2% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly ranging | aligned: True
+- **Market structure:** daily ranging | weekly bullish (HH/HL) | aligned: False
 - **Break of Structure (last):** bull @ 1149.0 on 2026-06-03
 - **Change of Character (last):** bull @ 1149.0 on 2026-06-03
-- **Bullish Order Block:** 1192.3-1246.8 (2026-05-05, mitigated)
+- **Bullish Order Block:** 1170.0-1210.0 (2026-06-24, UNMITIGATED)
 - **Bearish Order Block:** 1271.0-1314.0 (2026-04-30, mitigated)
-- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1104.6-1159.8 (2026-06-04) · nearest bear FVG above none
-- **Liquidity:** buy-side above none | sell-side below none | equal-highs 2 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 78.8% of range 589.8–1405.0)
+- **Fair Value Gaps:** 6 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 1191.0-1238.0 (2026-06-30) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below none | equal-highs 1 / equal-lows 0 | swept: none
+- **Premium/Discount:** **Premium** (price at 76.7% of range 589.8–1405.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (108.9% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-11.0%/6b | C2:-23.0%/8b | C3:-6.5%/3b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.26)
-- **Near 52w high:** False | **Pivot:** 1125.4 | **% from pivot:** 9.47%
-- **Breakout vol ratio (today/50d):** 0.15 | **close pos in range:** 1.0
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: extended past pivot** | entry zone n/a
+- **Prior uptrend:** True (106.0% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-23.0%/8b | C2:-6.5%/3b | C3:-6.3%/3b
+- **Depths decreasing:** True | **Duration decreasing:** True | **Volume dry-up (VDU):** True (vol ratio 0.3)
+- **Near 52w high:** False | **Pivot:** 1249.0 | **% from pivot:** -2.72%
+- **Breakout vol ratio (today/50d):** 0.08 | **close pos in range:** 0.11
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 589.8 on 2026-01-27):** 1x1=880.94 2x1=1172.09 1x2=735.37 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 1249.61 · T2 1267.35 · T3 1303.2 (support S1 1214.51, S2 1197.15)
-- **Time cycles:** 90 days since swing low → next Gann cycle at 120d (30d away); near cycle: True
+- **Angles (auto-scaled from swing low 589.8 on 2026-01-27):** 1x1=935.94 2x1=1282.07 1x2=762.87 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 1232.49 · T2 1250.11 · T3 1285.71 (support S1 1197.63, S2 1180.39)
+- **Time cycles:** 107 days since swing low → next Gann cycle at 120d (13d away); near cycle: False
 - **Octave position:** 7/8 (exhaustion) | levels 4/8=997.4 6/8=1201.2 7/8=1303.1
-- **Cardinal square:** nearest perfect-square 1225 (0.57% away); near: True
+- **Cardinal square:** nearest perfect-square 1225 (0.82% away); near: True

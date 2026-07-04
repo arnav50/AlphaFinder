@@ -1,80 +1,80 @@
 # CENTUM — Centum Electronics Limited (NSE)
-**Sector:** Technology | **6m return:** 46.66% | **Close:** ₹3355.2 | **Cap:** Small | **Bars:** 352
+**Sector:** Technology | **6m return:** 61.87% | **Close:** ₹3656.4 | **Cap:** Mid | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 9.3, confluence medium)
-Leading 3.3 | Lagging 4.5 | Candles -1.0 | Price-action 2.5
+## 🏁 SCORECARD: **BULLISH**  (score 4.8, confluence medium)
+Leading 0.8 | Lagging 4.5 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 57.4 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 56.7 / %D 67.1, cross none, neutral, div none
-- **Bollinger(20,2):** above_mid, width 27.11%, expanding
+- **RSI(14):** 58.0 (neutral), trend flat, divergence bearish
+- **Stochastic(14,3,3):** %K 66.0 / %D 73.6, cross bear, neutral, div bearish
+- **Bollinger(20,2):** above_mid, width 15.33%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 27.8 (above0)
-- **Williams %R(14):** -51.0 (neutral)
-- **OBV:** trend rising, divergence none
-- **MFI(14):** 73.7 (neutral)
+- **CCI(20):** 45.1 (above0)
+- **Williams %R(14):** -51.9 (neutral)
+- **OBV:** trend rising, divergence bearish
+- **MFI(14):** 63.6 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -1.646 (expanding_neg), cross bear, zero-line above
+- **MACD(12,26,9):** below_signal, hist -6.047 (expanding_neg), cross bear, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 27.7 (trending), +DI>-DI, rising
+- **ADX(14):** 32.4 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 175.08 (5.22% of price, expanding)
-- **VWAP(20):** px above, dist 3.78%
-- **Pivots:** daily P 3332.07 R1 3402.13 S1 3285.13; weekly position mid_range
+- **ATR(14):** 168.22 (4.6% of price, contracting)
+- **VWAP(20):** px above, dist 2.75%
+- **Pivots:** daily P 3684.07 R1 3716.13 S1 3624.33; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Shooting Star | 2026-06-01 | bearish | midair | failed |
-| Bearish Pin Bar | 2026-06-01 | bearish | midair | failed |
-| Bullish Engulfing | 2026-06-02 | bullish | at resistance | failed |
-| Hanging Man | 2026-06-03 | bearish | at resistance | confirmed |
-| Tweezer Top | 2026-06-03 | bearish | at resistance | confirmed |
-| Inside Bar | 2026-06-03 | neutral | at resistance | neutral |
-| NR4 | 2026-06-03 | neutral | at resistance | neutral |
-| Outside Bar | 2026-06-04 | neutral | midair | neutral |
-| Evening Star | 2026-06-04 | bearish | midair | confirmed |
-| Three Black Crows | 2026-06-05 | bearish | midair | confirmed |
-| Three Black Crows | 2026-06-08 | bearish | midair | failed |
-| Hanging Man | 2026-06-09 | bearish | midair | pending (last bar) |
-| Bullish Harami | 2026-06-09 | bullish | midair | pending (last bar) |
-| Inside Bar | 2026-06-09 | neutral | midair | pending (last bar) |
-| NR4 | 2026-06-09 | neutral | midair | pending (last bar) |
+| Three White Soldiers | 2026-06-15 | bullish | at resistance | confirmed |
+| Inside Bar | 2026-06-16 | neutral | at resistance | neutral |
+| NR7 | 2026-06-16 | neutral | at resistance | neutral |
+| Tweezer Top | 2026-06-17 | bearish | at resistance | confirmed |
+| Outside Bar | 2026-06-17 | neutral | at resistance | neutral |
+| Tweezer Top | 2026-06-18 | bearish | midair | failed |
+| Three Black Crows | 2026-06-18 | bearish | midair | failed |
+| Inside Bar | 2026-06-19 | neutral | midair | neutral |
+| NR7 | 2026-06-19 | neutral | midair | neutral |
+| Morning Star | 2026-06-22 | bullish | at resistance | failed |
+| Shooting Star | 2026-06-24 | bearish | at resistance | confirmed |
+| Three Black Crows | 2026-06-25 | bearish | at resistance | failed |
+| Bullish Engulfing | 2026-06-29 | bullish | at resistance | confirmed |
+| Inside Bar | 2026-07-01 | neutral | at resistance | neutral |
+| NR4 | 2026-07-02 | neutral | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Rounding Bottom (saucer) | breakout 3600.0 | target n/a | volume no | confidence low
+- **Chart pattern:** Double Top | breakout 3489.6 | target 3351.4 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 2075.0-2273.8 (Moderate, tested, 47.56% away) — quality Moderate
+- **Demand (daily):** 2075.0-2273.8 (Moderate, tested, 60.81% away) — quality Moderate
 - **Demand (weekly):** none
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly bearish (LH/LL) | aligned: False
-- **Break of Structure (last):** bull @ 3324.0 on 2026-05-29
+- **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
+- **Break of Structure (last):** bull @ 3749.8 on 2026-06-30
 - **Change of Character (last):** bull @ 3066.6 on 2026-04-17
 - **Bullish Order Block:** 3135.4-3275.2 (2026-05-26, mitigated)
 - **Bearish Order Block:** 2930.5-3198.8 (2026-05-08, mitigated)
-- **Fair Value Gaps:** 4 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 3241.5-3480.0 (2026-06-01) · nearest bear FVG above 3379.0-3418.1 (2026-06-09)
-- **Liquidity:** buy-side above none | sell-side below 2111.5 | equal-highs 2 / equal-lows 1 | swept: none
-- **Premium/Discount:** **Premium** (price at 78.5% of range 2044.2–3714.0)
+- **Fair Value Gaps:** 5 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 3648.6-3683.7 (2026-06-30) · nearest bear FVG above none
+- **Liquidity:** buy-side above 3719.5 | sell-side below 3478.35 | equal-highs 3 / equal-lows 2 | swept: buy-side swept (bearish stop-hunt)
+- **Premium/Discount:** **Premium** (price at 86.1% of range 2044.2–3916.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (64.1% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-5.7%/4b | C2:-8.6%/2b | C3:-4.7%/3b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.76)
-- **Near 52w high:** False | **Pivot:** 3629.0 | **% from pivot:** -7.54%
-- **Breakout vol ratio (today/50d):** 0.8 | **close pos in range:** 0.8
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
+- **Prior uptrend:** True (78.9% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-10.3%/4b | C2:-6.1%/2b | C3:-6.6%/3b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.65)
+- **Near 52w high:** True | **Pivot:** 3731.9 | **% from pivot:** -2.02%
+- **Breakout vol ratio (today/50d):** 0.19 | **close pos in range:** 0.05
+- **🏆 VCP QUALITY: Moderate VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone 3731.9-3918.49
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 2044.2 on 2026-01-12):** 1x1=2693.57 2x1=3342.93 1x2=2368.88 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 3384.22 · T2 3413.37 · T3 3472.05 (support S1 3326.3, S2 3297.53)
-- **Time cycles:** 98 days since swing low → next Gann cycle at 120d (22d away); near cycle: False
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=2879.1 6/8=3296.55 7/8=3505.27
-- **Cardinal square:** nearest perfect-square 3364 (0.26% away); near: True
+- **Angles (auto-scaled from swing low 2044.2 on 2026-01-12):** 1x1=2890.97 2x1=3737.73 1x2=2467.58 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 3686.7 · T2 3717.12 · T3 3778.34 (support S1 3626.23, S2 3596.18)
+- **Time cycles:** 114 days since swing low → next Gann cycle at 120d (6d away); near cycle: False
+- **Octave position:** 7/8 (exhaustion) | levels 4/8=2980.1 6/8=3448.05 7/8=3682.02
+- **Cardinal square:** nearest perfect-square 3600 (1.54% away); near: True

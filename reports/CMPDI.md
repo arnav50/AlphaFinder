@@ -1,50 +1,50 @@
 # CMPDI — Central Mine Planning & Design Institute Limited (NSE)
-**Sector:** Basic Materials | **6m return:** 51.0% | **Close:** ₹235.55 | **Cap:** Mid | **Bars:** 44
+**Sector:** Basic Materials | **6m return:** 70.27% | **Close:** ₹264.62 | **Cap:** Mid | **Bars:** 66
 
-## 🏁 SCORECARD: **NEUTRAL**  (score -1.2, confluence low)
-Leading -1.7 | Lagging 1.0 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **BULLISH**  (score 5.3, confluence low)
+Leading 2.8 | Lagging 5.0 | Candles 0.0 | Price-action -2.5
 
 ## A. Leading indicators
-- **RSI(14):** 61.3 (neutral), trend falling, divergence bearish
-- **Stochastic(14,3,3):** %K 36.8 / %D 49.4, cross bear, neutral, div bearish
-- **Bollinger(20,2):** above_mid, width 21.58%, SQUEEZE
+- **RSI(14):** 63.4 (neutral), trend flat, divergence none
+- **Stochastic(14,3,3):** %K 75.5 / %D 65.8, cross bull, neutral, div none
+- **Bollinger(20,2):** above_mid, width 17.35%, SQUEEZE
 - **Ichimoku:** price n/a cloud, Tenkan/Kijun n/a, Chikou n/a, kumo-twist-ahead n/a
-- **CCI(20):** 3.5 (above0)
-- **Williams %R(14):** -59.4 (neutral)
-- **OBV:** trend rising, divergence bearish
-- **MFI(14):** 49.7 (neutral)
+- **CCI(20):** 149.7 (strong_up)
+- **Williams %R(14):** -25.4 (neutral)
+- **OBV:** trend rising, divergence none
+- **MFI(14):** 70.1 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -2.13 (expanding_neg), cross bear, zero-line above
-- **EMA:** alignment n/a (short); px vs E20 above, E50 n/a, E200 n/a; E200 slope n/a
-- **ADX(14):** 56.2 (trending), +DI>-DI, falling
+- **MACD(12,26,9):** above_signal, hist 0.165 (expanding_pos), cross bull, zero-line above
+- **EMA:** alignment n/a (short); px vs E20 above, E50 above, E200 n/a; E200 slope n/a
+- **ADX(14):** 29.8 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 12.51 (5.31% of price, contracting)
-- **VWAP(20):** px above, dist 0.83%
-- **Pivots:** daily P 233.6 R1 238.68 S1 230.48; weekly position mid_range
+- **ATR(14):** 12.48 (4.72% of price, contracting)
+- **VWAP(20):** px above, dist 5.67%
+- **Pivots:** daily P 266.61 R1 271.71 S1 259.51; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| NR4 | 2026-05-15 | neutral | midair | neutral |
-| NR4 | 2026-05-18 | neutral | midair | neutral |
-| Three Black Crows | 2026-05-18 | bearish | midair | failed |
-| Shooting Star | 2026-05-20 | bearish | midair | failed |
-| Bearish Pin Bar | 2026-05-20 | bearish | midair | failed |
-| Bearish Harami | 2026-05-20 | bearish | midair | failed |
-| Inside Bar | 2026-05-20 | neutral | midair | neutral |
-| NR7 | 2026-05-20 | neutral | midair | neutral |
-| Shooting Star | 2026-05-22 | bearish | midair | failed |
-| NR4 | 2026-05-26 | neutral | midair | neutral |
-| Doji | 2026-05-28 | neutral | midair | neutral |
-| Inside Bar | 2026-05-28 | neutral | midair | neutral |
-| Outside Bar | 2026-05-29 | neutral | midair | neutral |
-| Evening Star | 2026-05-29 | bearish | midair | confirmed |
-| Inside Bar | 2026-06-02 | neutral | midair | pending (last bar) |
+| NR7 | 2026-06-17 | neutral | at resistance | neutral |
+| Evening Star | 2026-06-18 | bearish | midair | failed |
+| NR7 | 2026-06-19 | neutral | at resistance | neutral |
+| Doji | 2026-06-22 | neutral | at resistance | neutral |
+| Hanging Man | 2026-06-22 | bearish | at resistance | failed |
+| Bullish Pin Bar | 2026-06-22 | bullish | at resistance | confirmed |
+| Outside Bar | 2026-06-22 | neutral | at resistance | neutral |
+| Shooting Star | 2026-06-24 | bearish | at resistance | confirmed |
+| Bearish Engulfing | 2026-06-25 | bearish | midair | failed |
+| Doji | 2026-06-26 | neutral | midair | neutral |
+| Inside Bar | 2026-06-26 | neutral | midair | neutral |
+| Outside Bar | 2026-06-29 | neutral | midair | neutral |
+| Bullish Harami | 2026-06-30 | bullish | midair | confirmed |
+| Tweezer Bottom | 2026-06-30 | bullish | midair | confirmed |
+| Bullish Marubozu | 2026-07-01 | bullish | at resistance | failed |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Double Top | breakout 224.48 | target 206.33 | volume no | confidence medium
+- **Trend structure:** Downtrend (LH/LL)
+- **Chart pattern:** Double Top | breakout 248.97 | target 239.43 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
@@ -54,27 +54,27 @@ Leading -1.7 | Lagging 1.0 | Candles -1.0 | Price-action 0.5
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** n/a (short)
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly n/a | aligned: n/a
-- **Break of Structure (last):** bull @ 193.0 on 2026-05-04
-- **Change of Character (last):** none
-- **Bullish Order Block:** 212.6-223.3 (2026-05-11, mitigated)
-- **Bearish Order Block:** none
-- **Fair Value Gaps:** 5 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 201.9-206.49 (2026-05-08) · nearest bear FVG above 240.9-248.16 (2026-06-01)
-- **Liquidity:** buy-side above none | sell-side below none | equal-highs 0 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 75.2% of range 150.16–263.65)
+- **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
+- **Break of Structure (last):** bull @ 256.0 on 2026-06-16
+- **Change of Character (last):** bull @ 256.0 on 2026-06-16
+- **Bullish Order Block:** 241.82-250.37 (2026-06-29, UNMITIGATED)
+- **Bearish Order Block:** 234.81-247.4 (2026-06-09, mitigated)
+- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 250.28-261.5 (2026-07-02) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below 221.21 | equal-highs 0 / equal-lows 1 | swept: none
+- **Premium/Discount:** **Premium** (price at 92.7% of range 150.16–273.7)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** False (56.9% above 52w low, above EMA200: False)
-- **Contractions (1):** C1:-16.0%/3b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.4)
-- **Near 52w high:** False | **Pivot:** 256.0 | **% from pivot:** -7.99%
-- **Breakout vol ratio (today/50d):** 0.28 | **close pos in range:** 0.86
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
+- **Prior uptrend:** False (76.2% above 52w low, above EMA200: False)
+- **Contractions (3):** C1:-11.7%/5b | C2:-10.7%/2b | C3:-9.8%/3b
+- **Depths decreasing:** True | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.61)
+- **Near 52w high:** True | **Pivot:** 268.0 | **% from pivot:** -1.26%
+- **Breakout vol ratio (today/50d):** 0.64 | **close pos in range:** 0.26
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 150.16 on 2026-04-07):** 1x1=167.72 2x1=185.29 1x2=158.94 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 243.29 · T2 251.15 · T3 267.25 (support S1 227.94, S2 220.45)
-- **Time cycles:** 39 days since swing low → next Gann cycle at 45d (6d away); near cycle: False
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=206.9 6/8=235.28 7/8=249.46
-- **Cardinal square:** nearest perfect-square 225 (4.48% away); near: False
+- **Angles (auto-scaled from swing low 150.16 on 2026-04-07):** 1x1=180.06 2x1=209.97 1x2=165.11 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 272.82 · T2 281.14 · T3 298.15 (support S1 256.55, S2 248.6)
+- **Time cycles:** 61 days since swing low → next Gann cycle at 90d (29d away); near cycle: True
+- **Octave position:** 8/8 (52w high) | levels 4/8=211.93 6/8=242.82 7/8=258.26
+- **Cardinal square:** nearest perfect-square 256 (3.26% away); near: False

@@ -7,7 +7,7 @@ Per the system's own accuracy protocol ("avoid in bear markets"), breakout follo
 
 ## ✓ VERIFICATION CHECKPOINT (Phase 7 — FINAL)
 - ✅ Prime-filter values derived from **Phase 5 actual data** (not assumptions): RSI 55–75, MACD hist>0 & line>signal, ADX 18–30, vol-spike ≥1.5×, Supertrend green, OBV rising, EMA20>EMA50, price>EMA200, within −35%..−3% of 52w high
-- ✅ Scanner built as a **confluence-count filter (≥6 of 9)** and **back-tested**: -> 240/295 (81.4%) would have been flagged at initiation (RECALL).
+- ✅ Scanner built as a **confluence-count filter (≥6 of 9)** and **back-tested**: -> 298/355 (83.9%) would have been flagged at initiation (RECALL).
 - ✅ Every scan result validated with Phase 2–4 quick check (VCP stage, SMC zone, Gann 1×1, candlestick screen)
 - ✅ Final watchlist produced with entry, stop, and Gann targets
 - ✅ **Risk:Reward ≥ 3:1 enforced for every name** on the list (hard gate)
@@ -15,9 +15,9 @@ Per the system's own accuracy protocol ("avoid in bear markets"), breakout follo
 - ✅ Sector + market context confirmed (sectors fetched; market = DOWNTREND, flagged above)
 
 ## Funnel
-- Universe scanned: **4,524** → prime-filter passers (≥6/9): **462** → no bearish reversal candle: **183** → RR≥3 & top-ranked: **FINAL 30**
+- Universe scanned: **4,524** → prime-filter passers (≥6/9): **654** → no bearish reversal candle: **289** → RR≥3 & top-ranked: **FINAL 30**
 
-Sector breadth of final list: {'Consumer Cyclical': 7, 'Basic Materials': 6, 'Industrials': 5, 'Consumer Defensive': 4, 'Technology': 2, 'Financial Services': 2, 'Energy': 2, 'Healthcare': 1, 'Utilities': 1}
+Sector breadth of final list: {'Consumer Cyclical': 11, 'Financial Services': 10, 'Healthcare': 3, 'Industrials': 3, 'Basic Materials': 3}
 Momentum is concentrated in **Industrials, Financial Services, Technology** — those sectors are 'in favour'.
 
 ## 🎯 FINAL WATCHLIST (forward 25%+ candidates)
@@ -25,36 +25,36 @@ Entry = breakout pivot (20-bar high / current). Stop = 1.8×ATR (structural ref 
 
 | # | Symbol | Company | Sector | Price | VCP stage | RSI | ADX | Vol× | SMC | Gann>1×1 | Entry | Stop | Stop% | T1(Gann) | Target2 | R:R | Qty/₹10L | Score | Tier |
 |--:|---|---|---|--:|---|--:|--:|--:|---|:--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
-| 1 | CCL | CCL Products (India) L | Consumer Defensive | 1149.1 | BROKEN OUT (fresh) | 60.2 | 19.4 | 15.97 | Premium | Y | 1219.9 | 1143.52 | 6.26% | 1255.08 | 1524.88 | **3.99** | 130 | 17 | TIER 1 |
-| 2 | DLINKINDIA | D-Link (India) Limited | Technology | 493.25 | BROKEN OUT (fresh) | 66.3 | 23.4 | 2.59 | Premium | Y | 499.15 | 472.96 | 5.25% | 521.74 | 623.94 | **4.76** | 381 | 16 | TIER 1 |
-| 3 | FILATEX | Filatex India Limited | Consumer Cyclical | 52.38 | BROKEN OUT (fresh) | 74.8 | 26.3 | 4.65 | Premium | Y | 54.37 | 50.3 | 7.49% | 61.99 | 70.12 | **3.87** | 2457 | 16 | TIER 1 |
-| 4 | ITDC | India Tourism Developm | Consumer Cyclical | 593.9 | BROKEN OUT (fresh) | 55.5 | 25.1 | 10.08 | Premium | Y | 706.95 | 652.0 | 7.77% | 733.79 | 883.69 | **3.22** | 181 | 16 | TIER 1 |
-| 5 | ABSLAMC | Aditya Birla Sun Life  | Financial Services | 1062.4 | AT PIVOT (actionable) | 56.9 | 26.4 | 2.36 | Premium | Y | 1089.5 | 1023.56 | 6.05% | 1122.76 | 1361.88 | **4.13** | 151 | 15 | TIER 1 |
-| 6 | BCLIND | Bcl Industries Limited | Consumer Defensive | 38.14 | BROKEN OUT (fresh) | 71.9 | 21.7 | 16.21 | Premium | Y | 39.2 | 35.88 | 8.47% | 45.71 | 52.72 | **4.07** | 3012 | 15 | TIER 1 |
-| 7 | IGIL | International Gemologi | Basic Materials | 372.05 | AT PIVOT (actionable) | 58.5 | 20.1 | 1.99 | Premium | Y | 388.3 | 363.83 | 6.3% | 408.26 | 485.38 | **3.97** | 408 | 15 | TIER 1 |
-| 8 | ZENTEC | Zen Technologies Limit | Industrials | 1782.5 | BROKEN OUT (fresh) | 63.7 | 15.0 | 6.35 | Premium | Y | 1885.0 | 1750.34 | 7.14% | 1928.67 | 2356.25 | **3.5** | 74 | 15 | TIER 1 |
-| 9 | HINDOILEXP | Hindustan Oil Explorat | Energy | 183.03 | BROKEN OUT (fresh) | 65.1 | 21.6 | 1.51 | Premium | Y | 183.03 | 169.48 | 7.4% | 196.81 | 228.79 | **3.38** | 738 | 15 | TIER 1 |
-| 10 | PRINCEPIPE | Prince Pipes And Fitti | Industrials | 283.2 | BROKEN OUT (fresh) | 63.5 | 22.8 | 2.33 | Premium | Y | 295.95 | 273.74 | 7.5% | 313.4 | 369.94 | **3.33** | 450 | 15 | TIER 1 |
-| 11 | JGCHEM | J.G.Chemicals Limited | Basic Materials | 438.1 | AT PIVOT (actionable) | 62.8 | 23.5 | 2.72 | Premium | Y | 453.7 | 419.66 | 7.5% | 475.25 | 567.12 | **3.33** | 293 | 15 | TIER 1 |
-| 12 | CHEMCON | Chemcon Speciality Che | Basic Materials | 205.94 | AT PIVOT (actionable) | 65.1 | 38.8 | 24.51 | Premium | Y | 214.45 | 196.6 | 8.32% | 229.34 | 268.06 | **3.0** | 560 | 15 | TIER 1 |
-| 13 | FORTIS | Fortis Healthcare Limi | Healthcare | 989.75 | BROKEN OUT (fresh) | 65.5 | 21.8 | 3.08 | Premium | Y | 1004.5 | 959.04 | 4.53% | 1036.44 | 1255.62 | **5.52** | 219 | 14 | TIER 1 |
-| 14 | WELSPUNLIV | Welspun Living Limited | Consumer Cyclical | 142.44 | AT PIVOT (actionable) | 58.1 | 18.9 | 1.01 | Premium | Y | 146.0 | 138.21 | 5.34% | 158.33 | 182.5 | **4.69** | 1283 | 14 | TIER 1 |
-| 15 | KAMDHENU | Kamdhenu Limited | Basic Materials | 27.28 | BROKEN OUT (fresh) | 65.9 | 19.2 | 7.27 | Premium | Y | 27.28 | 24.74 | 9.31% | 32.75 | 38.73 | **4.51** | 3937 | 14 | TIER 1 |
-| 16 | NBCC | NBCC (India) Limited | Industrials | 105.83 | AT PIVOT (actionable) | 65.0 | 27.0 | 1.92 | Premium | Y | 107.73 | 101.36 | 5.91% | 118.36 | 134.66 | **4.23** | 1569 | 14 | TIER 1 |
-| 17 | ABDL | Allied Blenders and Di | Consumer Defensive | 583.1 | AT PIVOT (actionable) | 62.6 | 24.7 | 0.85 | Premium | Y | 590.8 | 553.97 | 6.23% | 615.36 | 738.5 | **4.01** | 271 | 14 | TIER 1 |
-| 18 | REDINGTON | Redington Limited | Technology | 240.3 | AT PIVOT (actionable) | 59.7 | 24.9 | 1.72 | Equilibrium | Y | 250.88 | 234.98 | 6.34% | 266.97 | 313.6 | **3.94** | 628 | 14 | TIER 1 |
-| 19 | GREAVESCOT | Greaves Cotton Limited | Industrials | 190.23 | BROKEN OUT (fresh) | 67.8 | 29.7 | 3.22 | Premium | Y | 195.95 | 183.49 | 6.36% | 210.2 | 244.94 | **3.93** | 802 | 14 | TIER 1 |
-| 20 | SFL | Sheela Foam Limited | Consumer Cyclical | 680.9 | BROKEN OUT (fresh) | 72.7 | 32.7 | 2.74 | Premium | Y | 680.9 | 633.7 | 6.93% | 707.24 | 851.12 | **3.61** | 211 | 14 | TIER 1 |
-| 21 | SIYSIL | Siyaram Silk Mills Lim | Consumer Cyclical | 628.85 | BROKEN OUT (fresh) | 63.0 | 17.6 | 2.74 | Premium | Y | 633.45 | 588.86 | 7.04% | 658.87 | 791.81 | **3.55** | 224 | 14 | TIER 1 |
-| 22 | TASTYBITE | Tasty Bite Eatables Li | Consumer Defensive | 7972.0 | BROKEN OUT (fresh) | 62.0 | 28.9 | 2.0 | Premium | Y | 8239.5 | 7646.57 | 7.2% | 8330.52 | 10299.38 | **3.47** | 16 | 14 | TIER 1 |
-| 23 | NORTHARC | Northern Arc Capital L | Financial Services | 299.95 | BROKEN OUT (fresh) | 61.6 | 28.5 | 1.7 | Premium | Y | 318.15 | 294.81 | 7.34% | 336.24 | 397.69 | **3.41** | 428 | 14 | TIER 1 |
-| 24 | MIDHANI | Mishra Dhatu Nigam Lim | Basic Materials | 450.35 | BROKEN OUT (fresh) | 64.8 | 36.9 | 5.18 | Premium | Y | 450.35 | 413.87 | 8.1% | 471.82 | 562.94 | **3.09** | 274 | 14 | TIER 1 |
-| 25 | CARTRADE | Cartrade Tech Limited | Consumer Cyclical | 2187.6 | extended past pivot | 74.0 | 25.9 | 4.74 | Discount | Y | 2187.6 | 2010.7 | 8.09% | 2234.62 | 2734.5 | **3.09** | 56 | 14 | TIER 1 |
-| 26 | MUNJALAU | Munjal Auto Industries | Consumer Cyclical | 96.99 | AT PIVOT (actionable) | 61.1 | 29.4 | 6.47 | Premium | Y | 99.0 | 90.94 | 8.14% | 109.2 | 123.75 | **3.07** | 1240 | 14 | TIER 1 |
-| 27 | SETL | Standard Engineering T | Industrials | 156.54 | BROKEN OUT (fresh) | 69.4 | 16.1 | 10.72 | Premium | Y | 158.9 | 145.8 | 8.24% | 171.76 | 198.62 | **3.03** | 763 | 14 | TIER 1 |
-| 28 | LIKHITHA | Likhitha Infrastructur | Energy | 227.11 | BROKEN OUT (fresh) | 64.2 | 23.3 | 0.54 | Premium | Y | 227.2 | 208.34 | 8.3% | 242.52 | 284.0 | **3.01** | 530 | 14 | TIER 1 |
-| 29 | PIDILITIND | Pidilite Industries Li | Basic Materials | 1481.8 | AT PIVOT (actionable) | 58.8 | 16.1 | 0.83 | Premium | Y | 1508.4 | 1456.05 | 3.47% | 1547.49 | 1885.5 | **7.2** | 191 | 13 | TIER 1 |
-| 30 | GAIL | GAIL (India) Limited | Utilities | 167.59 | AT PIVOT (actionable) | 57.6 | 13.9 | 1.0 | Premium | Y | 170.7 | 163.0 | 4.51% | 184.02 | 213.38 | **5.54** | 1298 | 13 | TIER 1 |
+| 1 | SSWL | Steel Strips Wheels Li | Consumer Cyclical | 244.58 | BROKEN OUT (fresh) | 66.9 | 29.9 | 4.94 | Premium | Y | 248.1 | 232.5 | 6.29% | 264.1 | 310.12 | **3.98** | 641 | 17 | TIER 1 |
+| 2 | ETERNAL | ETERNAL LIMITED | Consumer Cyclical | 280.65 | BROKEN OUT (fresh) | 70.8 | 19.7 | 2.07 | Premium | Y | 280.65 | 266.86 | 4.91% | 297.65 | 350.81 | **5.09** | 725 | 16 | TIER 1 |
+| 3 | APLLTD | Alembic Pharmaceutical | Healthcare | 812.85 | BROKEN OUT (fresh) | 65.6 | 27.8 | 5.41 | Premium | Y | 846.0 | 802.45 | 5.15% | 875.34 | 1057.5 | **4.86** | 229 | 16 | TIER 1 |
+| 4 | REPCOHOME | Repco Home Finance Lim | Financial Services | 427.8 | BROKEN OUT (fresh) | 71.5 | 25.3 | 12.39 | Premium | Y | 433.0 | 409.42 | 5.45% | 454.06 | 541.25 | **4.59** | 424 | 16 | TIER 1 |
+| 5 | SWARAJENG | Swaraj Engines Limited | Consumer Cyclical | 4083.4 | BROKEN OUT (fresh) | 72.4 | 24.7 | 2.81 | Premium | Y | 4083.4 | 3952.59 | 3.2% | 4147.55 | 5104.25 | **7.8** | 76 | 15 | TIER 1 |
+| 6 | PNBHOUSING | PNB Housing Finance Li | Financial Services | 1053.4 | BROKEN OUT (fresh) | 60.4 | 20.6 | 1.63 | Premium | Y | 1079.9 | 1032.53 | 4.39% | 1113.01 | 1349.88 | **5.7** | 211 | 15 | TIER 1 |
+| 7 | SHRIRAMFIN | Shriram Finance Limite | Financial Services | 1066.0 | BROKEN OUT (fresh) | 72.1 | 23.8 | 1.9 | Premium | Y | 1066.0 | 1017.94 | 4.51% | 1098.9 | 1332.5 | **5.55** | 208 | 15 | TIER 1 |
+| 8 | 3MINDIA | 3M India Limited | Industrials | 33710.0 | AT PIVOT (actionable) | 61.0 | 14.8 | 2.21 | Equilibrium | Y | 34295.0 | 32743.79 | 4.52% | 34480.44 | 42868.75 | **5.53** | 6 | 15 | TIER 1 |
+| 9 | UJJIVANSFB | Ujjivan Small Finance  | Financial Services | 61.51 | BROKEN OUT (fresh) | 67.6 | 29.5 | 2.39 | Premium | N | 61.8 | 58.63 | 5.13% | 69.91 | 78.52 | **5.27** | 3154 | 15 | TIER 1 |
+| 10 | CEATLTD | CEAT Limited | Consumer Cyclical | 3815.9 | BROKEN OUT (fresh) | 71.8 | 15.9 | 1.96 | Premium | Y | 3815.9 | 3632.63 | 4.8% | 3877.92 | 4769.88 | **5.21** | 54 | 15 | TIER 1 |
+| 11 | HCG | Healthcare Global Ente | Healthcare | 650.1 | BROKEN OUT (fresh) | 62.0 | 16.6 | 2.21 | Premium | Y | 655.05 | 621.98 | 5.05% | 680.89 | 818.81 | **4.95** | 302 | 15 | TIER 1 |
+| 12 | APTUS | Aptus Value Housing Fi | Financial Services | 293.6 | BROKEN OUT (fresh) | 72.2 | 23.4 | 2.29 | Premium | Y | 293.6 | 277.92 | 5.34% | 310.98 | 367.0 | **4.68** | 637 | 15 | TIER 1 |
+| 13 | MAMATA | Mamata Machinery Limit | Industrials | 415.4 | AT PIVOT (actionable) | 64.6 | 24.1 | 1.1 | Premium | Y | 422.0 | 399.16 | 5.41% | 442.79 | 527.5 | **4.62** | 437 | 15 | TIER 1 |
+| 14 | PRICOLLTD | Pricol Limited | Consumer Cyclical | 617.6 | BROKEN OUT (fresh) | 67.6 | 21.8 | 2.34 | Premium | Y | 618.7 | 583.75 | 5.65% | 643.82 | 773.38 | **4.43** | 286 | 15 | TIER 1 |
+| 15 | TVSSRICHAK | TVS Srichakra Limited | Consumer Cyclical | 4299.0 | BROKEN OUT (fresh) | 66.1 | 27.6 | 1.8 | Premium | Y | 4299.0 | 4052.24 | 5.74% | 4364.82 | 5373.75 | **4.36** | 40 | 15 | TIER 1 |
+| 16 | WSTCSTPAPR | West Coast Paper Mills | Basic Materials | 531.7 | BROKEN OUT (fresh) | 61.0 | 16.8 | 6.42 | Premium | Y | 553.0 | 520.38 | 5.9% | 576.77 | 691.25 | **4.24** | 306 | 15 | TIER 1 |
+| 17 | TNPETRO | Tamilnadu PetroProduct | Basic Materials | 99.34 | AT PIVOT (actionable) | 70.0 | 28.6 | 1.18 | Premium | Y | 102.8 | 96.53 | 6.1% | 113.19 | 128.5 | **4.1** | 1594 | 15 | TIER 1 |
+| 18 | NDRAUTO | Ndr Auto Components Li | Consumer Cyclical | 872.0 | BROKEN OUT (fresh) | 63.8 | 20.5 | 2.18 | Premium | Y | 885.0 | 827.24 | 6.53% | 915.0 | 1106.25 | **3.83** | 173 | 15 | TIER 1 |
+| 19 | TVSSCS | TVS Supply Chain Solut | Industrials | 136.73 | AT PIVOT (actionable) | 60.4 | 25.9 | 1.9 | Premium | Y | 142.3 | 132.97 | 6.56% | 154.48 | 177.88 | **3.81** | 1071 | 15 | TIER 1 |
+| 20 | FIVESTAR | Five-Star Business Fin | Financial Services | 541.5 | BROKEN OUT (fresh) | 72.1 | 27.3 | 1.6 | Premium | Y | 541.5 | 505.88 | 6.58% | 565.02 | 676.88 | **3.8** | 280 | 15 | TIER 1 |
+| 21 | EMIL | Electronics Mart India | Consumer Cyclical | 131.55 | BROKEN OUT (fresh) | 69.1 | 23.7 | 2.45 | Premium | Y | 131.55 | 122.02 | 7.24% | 143.27 | 164.44 | **3.45** | 1049 | 15 | TIER 1 |
+| 22 | BAJAJHFL | Bajaj Housing Finance  | Financial Services | 88.65 | AT PIVOT (actionable) | 61.1 | 29.8 | 0.8 | Premium | Y | 91.38 | 88.32 | 3.35% | 101.19 | 114.22 | **7.46** | 3267 | 14 | TIER 1 |
+| 23 | ASIANPAINT | Asian Paints Limited | Basic Materials | 2745.9 | AT PIVOT (actionable) | 61.7 | 31.5 | 3.89 | Premium | Y | 2832.7 | 2735.49 | 3.43% | 2886.17 | 3540.88 | **7.29** | 102 | 14 | TIER 1 |
+| 24 | TITAN | Titan Company Limited | Consumer Cyclical | 4445.9 | AT PIVOT (actionable) | 62.7 | 13.8 | 1.17 | Premium | Y | 4504.5 | 4336.21 | 3.74% | 4571.87 | 5630.62 | **6.69** | 59 | 14 | TIER 1 |
+| 25 | MSUMI | Motherson Sumi Wiring  | Consumer Cyclical | 41.25 | AT PIVOT (actionable) | 61.9 | 20.8 | 1.76 | Discount | Y | 42.0 | 39.88 | 5.05% | 48.73 | 55.96 | **6.58** | 4716 | 14 | TIER 1 |
+| 26 | INDUSINDBK | IndusInd Bank Limited | Financial Services | 936.8 | AT PIVOT (actionable) | 55.9 | 18.9 | 1.53 | Premium | Y | 953.5 | 915.95 | 3.94% | 984.63 | 1191.88 | **6.35** | 266 | 14 | TIER 1 |
+| 27 | JBCHEPHARM | JB Chemicals & Pharmac | Healthcare | 2309.9 | BROKEN OUT (fresh) | 69.3 | 26.2 | 3.18 | Premium | Y | 2332.0 | 2238.15 | 4.02% | 2380.54 | 2915.0 | **6.21** | 106 | 14 | TIER 1 |
+| 28 | MARUTI | Maruti Suzuki India Li | Consumer Cyclical | 14375.0 | BROKEN OUT (fresh) | 67.0 | 14.9 | 3.21 | Equilibrium | Y | 14549.0 | 13958.25 | 4.06% | 14669.87 | 18186.25 | **6.16** | 16 | 14 | TIER 1 |
+| 29 | CHOICEIN | Choice International L | Financial Services | 778.6 | BROKEN OUT (fresh) | 75.2 | 26.4 | 3.13 | Premium | Y | 778.6 | 745.52 | 4.25% | 806.75 | 973.25 | **5.88** | 302 | 14 | TIER 1 |
+| 30 | AUBANK | AU Small Finance Bank  | Financial Services | 1056.5 | AT PIVOT (actionable) | 60.8 | 25.8 | 5.28 | Premium | Y | 1079.2 | 1032.53 | 4.32% | 1112.3 | 1349.0 | **5.78** | 214 | 14 | TIER 1 |
 
 ## Position sizing rule (applied)
 - **Risk per trade = 1% of capital** (max 2%). Example capital used: ₹10,00,000 → ₹10,000 risk/trade.

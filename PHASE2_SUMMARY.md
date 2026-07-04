@@ -1,5 +1,5 @@
 # PHASE 2 — DEEP TECHNICAL ANALYSIS — SUMMARY
-Scan date 2026-06-02 · 295 stocks analysed (of 312 Phase-1 names; 1 dropped — KISSHT, <20 bars of history).
+Scan date 2026-06-02 · 355 stocks analysed (of 312 Phase-1 names; 1 dropped — KISSHT, <20 bars of history).
 
 ## ✓ VERIFICATION CHECKPOINT (Phase 2)
 - ✅ All **leading** indicators (RSI, Stochastic, Bollinger, Ichimoku, CCI, Williams %R, OBV, MFI) scored for every stock
@@ -11,62 +11,62 @@ Scan date 2026-06-02 · 295 stocks analysed (of 312 Phase-1 names; 1 dropped —
 ## Scorecard distribution
 | Verdict | Count |
 |---|--:|
-| BULLISH | 220 |
-| MILD BULLISH | 32 |
-| NEUTRAL | 17 |
-| MILD BEARISH | 13 |
-| BEARISH | 13 |
+| BULLISH | 271 |
+| MILD BULLISH | 36 |
+| NEUTRAL | 26 |
+| MILD BEARISH | 11 |
+| BEARISH | 11 |
 
-**Confluence confidence:** {'medium': 154, 'low': 77, 'high': 64}
+**Confluence confidence:** {'medium': 183, 'low': 108, 'high': 64}
 
-Key insight: all 311 names gained ≥25% over 6m, but only **252** remain technically bullish; **26** are rolling over (momentum exhausted) and **17** are consolidating.
+Key insight: all 311 names gained ≥25% over 6m, but only **307** remain technically bullish; **22** are rolling over (momentum exhausted) and **26** are consolidating.
 
 ## Top 25 by confluence score (strongest technical setups)
 | # | Symbol | Company | Score | Verdict | Conf | Supertrend | EMA | ADX | RSI | Trend |
 |--:|---|---|--:|---|---|---|---|--:|--:|---|
-| 1 | NRBBEARING | NRB Bearing Limited | 15.9 | BULLISH | high | green_buy | bullish | 49.7 | 82.8 | Uptrend |
-| 2 | OCCLLTD | OCCL Limited | 15.9 | BULLISH | high | green_buy | bullish | 38.9 | 79.0 | Uptrend |
-| 3 | JNKINDIA | JNK India Limited | 15.5 | BULLISH | high | green_buy | bullish | 27.6 | 75.8 | Uptrend |
-| 4 | SYRMA | Syrma SGS Technology Limit | 15.4 | BULLISH | high | green_buy | bullish | 46.6 | 77.3 | Uptrend |
-| 5 | PREMEXPLN | Premier Explosives Limited | 14.8 | BULLISH | high | green_buy | bullish | 29.5 | 69.9 | Uptrend |
-| 6 | CUPID | Cupid Limited | 14.7 | BULLISH | high | green_buy | bullish | 23.5 | 78.5 | Uptrend |
-| 7 | ANTELOPUS | Antelopus Selan Energy Lim | 14.5 | BULLISH | high | green_buy | bullish | 46.5 | 62.8 | Uptrend |
-| 8 | SANGHVIMOV | Sanghvi Movers Limited | 14.5 | BULLISH | high | green_buy | bullish | 34.4 | 70.2 | Uptrend |
-| 9 | NEOGEN | Neogen Chemicals Limited | 14.2 | BULLISH | high | green_buy | bullish | 39.5 | 69.6 | Sideways / range-bound |
-| 10 | MAHABANK | Bank of Maharashtra | 14.0 | BULLISH | medium | green_buy | bullish | 12.9 | 65.4 | Downtrend |
-| 11 | SHAILY | Shaily Engineering Plastic | 13.7 | BULLISH | medium | green_buy | bullish | 33.3 | 71.6 | Uptrend |
-| 12 | THYROCARE | Thyrocare Technologies Lim | 13.5 | BULLISH | medium | green_buy | bullish | 50.1 | 76.6 | Uptrend |
-| 13 | BLISSGVS | Bliss GVS Pharma Limited | 13.5 | BULLISH | high | green_buy | bullish | 55.1 | 68.7 | Uptrend |
-| 14 | SERVOTECH | Servotech Renewable Power  | 13.5 | BULLISH | high | green_buy | mixed | 31.2 | 58.4 | Uptrend |
-| 15 | SAILIFE | Sai Life Sciences Limited | 13.5 | BULLISH | high | green_buy | bullish | 20.3 | 70.1 | Uptrend |
-| 16 | SURYODAY | Suryoday Small Finance Ban | 13.5 | BULLISH | medium | green_buy | bullish | 40.1 | 68.1 | Uptrend |
-| 17 | CPPLUS | Aditya Infotech Limited | 13.4 | BULLISH | high | green_buy | bullish | 51.4 | 82.9 | Uptrend |
-| 18 | BALAMINES | Balaji Amines Limited | 13.4 | BULLISH | high | green_buy | bullish | 42.8 | 75.6 | Uptrend |
-| 19 | CHENNPETRO | Chennai Petroleum Corporat | 13.4 | BULLISH | high | green_buy | bullish | 23.8 | 75.0 | Sideways / range-bound |
-| 20 | CEMPRO | Cemindia Projects Limited | 13.2 | BULLISH | medium | green_buy | bullish | 48.0 | 75.4 | Uptrend |
-| 21 | PASUPTAC | Pasupati Acrylon Limited | 13.2 | BULLISH | medium | green_buy | bullish | 46.7 | 76.1 | Uptrend |
-| 22 | GULPOLY | Gulshan Polyols Limited | 13.0 | BULLISH | medium | green_buy | bullish | 36.2 | 70.5 | Sideways / range-bound |
-| 23 | 526775 | Valiant Communications Ltd | 13.0 | BULLISH | medium | green_buy | bullish | 36.1 | 65.4 | Uptrend |
-| 24 | STEELXIND | STEEL EXCHANGE INDIA LIMIT | 13.0 | BULLISH | high | green_buy | bullish | 24.9 | 60.8 | Uptrend |
-| 25 | AEROENTER | Aeroflex Enterprises Limit | 13.0 | BULLISH | medium | green_buy | bullish | 35.3 | 66.4 | Uptrend |
+| 1 | ACUTAAS | Acutaas Chemicals Limited | 15.9 | BULLISH | high | green_buy | bullish | 48.6 | 75.6 | Uptrend |
+| 2 | KRISHANA | Krishana Phoschem Limited | 15.3 | BULLISH | high | green_buy | bullish | 25.3 | 57.7 | Sideways / range-bound |
+| 3 | OFSS | Oracle Financial Services  | 15.2 | BULLISH | high | green_buy | bullish | 26.6 | 71.7 | Uptrend |
+| 4 | RATEGAIN | Rategain Travel Technologi | 15.2 | BULLISH | high | green_buy | bullish | 56.4 | 76.0 | Uptrend |
+| 5 | FUSION | Fusion Finance Limited | 14.9 | BULLISH | high | green_buy | bullish | 23.0 | 72.4 | Uptrend |
+| 6 | PGIL | Pearl Global Industries Li | 14.9 | BULLISH | high | green_buy | bullish | 52.1 | 73.3 | Uptrend |
+| 7 | PRIVISCL | Privi Speciality Chemicals | 14.7 | BULLISH | high | green_buy | bullish | 28.6 | 69.9 | Sideways / range-bound |
+| 8 | IBULLSLTD | Indiabulls Limited | 14.7 | BULLISH | high | green_buy | bullish | 39.8 | 72.8 | Uptrend |
+| 9 | RML | Rane (Madras) Limited | 14.7 | BULLISH | high | green_buy | bullish | 46.0 | 75.2 | Uptrend |
+| 10 | SANGHVIMOV | Sanghvi Movers Limited | 14.5 | BULLISH | high | green_buy | bullish | 45.7 | 69.4 | Uptrend |
+| 11 | 511523 | Veerhealth Care Ltd | 14.4 | BULLISH | high | green_buy | bullish | 45.9 | 95.5 | Uptrend |
+| 12 | XPROINDIA | Xpro India Limited | 14.4 | BULLISH | medium | green_buy | bullish | 47.1 | 77.2 | Uptrend |
+| 13 | SANSERA | Sansera Engineering Limite | 14.4 | BULLISH | high | green_buy | bullish | 30.8 | 70.6 | Uptrend |
+| 14 | SATIN | Satin Creditcare Network L | 14.4 | BULLISH | medium | green_buy | bullish | 31.3 | 69.4 | Uptrend |
+| 15 | ONELIFECAP | Onelife Capital Advisors L | 14.4 | BULLISH | high | green_buy | bullish | 55.5 | 81.6 | Sideways / range-bound |
+| 16 | NINSYS | NINtec Systems Limited | 14.2 | BULLISH | high | green_buy | bullish | 60.4 | 85.3 | Uptrend |
+| 17 | DIFFNKG | Diffusion Engineers Limite | 14.2 | BULLISH | high | green_buy | bullish | 47.5 | 78.8 | Uptrend |
+| 18 | WABAG | VA Tech Wabag Limited | 14.0 | BULLISH | high | green_buy | bullish | 43.9 | 70.3 | Uptrend |
+| 19 | GHCLTEXTIL | GHCL Textiles Limited | 14.0 | BULLISH | high | green_buy | bullish | 20.3 | 63.1 | Uptrend |
+| 20 | SURYODAY | Suryoday Small Finance Ban | 14.0 | BULLISH | high | green_buy | bullish | 36.3 | 68.6 | Uptrend |
+| 21 | 526433 | ASM Technologies Ltd | 13.9 | BULLISH | high | green_buy | bullish | 38.4 | 72.5 | Uptrend |
+| 22 | SETL | Standard Engineering Techn | 13.9 | BULLISH | high | green_buy | bullish | 54.5 | 90.9 | Uptrend |
+| 23 | SKMEGGPROD | SKM Egg Products Export (I | 13.9 | BULLISH | medium | green_buy | bullish | 64.9 | 78.0 | Uptrend |
+| 24 | STOVEKRAFT | Stove Kraft Limited | 13.8 | BULLISH | high | green_buy | bullish | 58.0 | 74.4 | Sideways / range-bound |
+| 25 | RISHABH | Rishabh Instruments Limite | 13.7 | BULLISH | high | green_buy | bullish | 30.8 | 72.5 | Uptrend |
 
 ## Bottom 15 (deteriorating — caution / avoid despite the 6m gain)
 | # | Symbol | Company | Score | Verdict | Supertrend | Trend |
 |--:|---|---|--:|---|---|---|
-| 281 | GESHIP | The Great Eastern Shipping | -3.2 | MILD BEARISH | red_sell | Downtrend |
-| 282 | EBGNG | GNG Electronics Limited | -3.5 | MILD BEARISH | green_buy | Sideways / range-bound |
-| 283 | JINDALPOLY | Jindal Poly Films Limited | -4.3 | BEARISH | red_sell | Sideways / range-bound |
-| 284 | NATIONALUM | National Aluminium Company | -4.7 | BEARISH | red_sell | Uptrend |
-| 285 | LINCOLN | Lincoln Pharmaceuticals Li | -4.8 | BEARISH | red_sell | Sideways / range-bound |
-| 286 | UNIVPHOTO | Universus Photo Imagings L | -5.4 | BEARISH | red_sell | Sideways / range-bound |
-| 287 | 540545 | Guru Krupa Gems and Jewell | -5.5 | BEARISH | red_sell | Sideways / range-bound |
-| 288 | SCHNEIDER | Schneider Electric Infrast | -6.0 | BEARISH | red_sell | Uptrend |
-| 289 | HINDCOPPER | Hindustan Copper Limited | -6.5 | BEARISH | red_sell | Sideways / range-bound |
-| 290 | 540252 | Viram Suvarn Ltd | -7.3 | BEARISH | red_sell | Downtrend |
-| 291 | ARFIN | Arfin India Limited | -7.5 | BEARISH | red_sell | Sideways / range-bound |
-| 292 | GAUDIUMIVF | Gaudium IVF and Women Heal | -7.7 | BEARISH | red_sell | Downtrend |
-| 293 | KSR | KSR Footwear Limited | -7.8 | BEARISH | red_sell | Downtrend |
-| 294 | KESORAMIND | Kesoram Industries Limited | -7.9 | BEARISH | red_sell | Sideways / range-bound |
-| 295 | AVANTIFEED | Avanti Feeds Limited | -9.6 | BEARISH | red_sell | Downtrend |
+| 341 | GESHIP | The Great Eastern Shipping | -2.3 | MILD BEARISH | red_sell | Downtrend |
+| 342 | ADANIPOWER | Adani Power Limited | -2.8 | MILD BEARISH | red_sell | Sideways / range-bound |
+| 343 | ADVAIT | Advait Energy Transitions  | -3.0 | MILD BEARISH | green_buy | Uptrend |
+| 344 | VIDYAWIRES | Vidya Wires Limited | -3.2 | MILD BEARISH | green_buy | Downtrend |
+| 345 | BSE | BSE Limited | -4.2 | BEARISH | red_sell | Sideways / range-bound |
+| 346 | UNIVPHOTO | Universus Photo Imagings L | -4.8 | BEARISH | red_sell | Sideways / range-bound |
+| 347 | 540252 | Viram Suvarn Ltd | -4.8 | BEARISH | red_sell | Downtrend |
+| 348 | AGIIL | Agi Infra Limited | -5.0 | BEARISH | green_buy | Downtrend |
+| 349 | JINDALPOLY | Jindal Poly Films Limited | -5.4 | BEARISH | red_sell | Sideways / range-bound |
+| 350 | SEAMECLTD | Seamec Limited | -5.8 | BEARISH | red_sell | Downtrend |
+| 351 | HARDWYN | Hardwyn India Limited | -5.8 | BEARISH | red_sell | Sideways / range-bound |
+| 352 | NARMADA | Narmada Agrobase Limited | -6.0 | BEARISH | red_sell | Downtrend |
+| 353 | KSR | KSR Footwear Limited | -6.3 | BEARISH | red_sell | Downtrend |
+| 354 | APEX | Apex Frozen Foods Limited | -7.3 | BEARISH | red_sell | Downtrend |
+| 355 | ATLANTAELE | Atlanta Electricals Limite | -7.7 | BEARISH | red_sell | Sideways / range-bound |
 
 **Files:** `PHASE2_SCORECARD.csv` (full 40-column table) · `indicators.csv` · `candles.csv` · `patterns.csv` · `reports/` (311 per-stock scorecards).

@@ -1,80 +1,80 @@
 # SALSTEEL — S.A.L. Steel Limited (NSE)
-**Sector:** Basic Materials | **6m return:** 68.61% | **Close:** ₹59.52 | **Cap:** Small | **Bars:** 352
+**Sector:** Basic Materials | **6m return:** 37.78% | **Close:** ₹59.59 | **Cap:** Small | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 5.7, confluence medium)
-Leading 3.2 | Lagging 2.5 | Candles 1.0 | Price-action -1.0
+## 🏁 SCORECARD: **BULLISH**  (score 5.6, confluence medium)
+Leading 1.8 | Lagging 3.8 | Candles 1.0 | Price-action -1.0
 
 ## A. Leading indicators
-- **RSI(14):** 53.2 (neutral), trend rising, divergence bearish
-- **Stochastic(14,3,3):** %K 65.5 / %D 74.8, cross bear, neutral, div none
-- **Bollinger(20,2):** below_mid, width 15.11%, SQUEEZE
-- **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 44.3 (above0)
-- **Williams %R(14):** -45.0 (neutral)
-- **OBV:** trend rising, divergence bullish
-- **MFI(14):** 51.2 (neutral)
+- **RSI(14):** 55.6 (neutral), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 46.8 / %D 30.9, cross bull, neutral, div none
+- **Bollinger(20,2):** above_mid, width 15.98%, SQUEEZE
+- **Ichimoku:** price above cloud, Tenkan/Kijun bearish, Chikou above, kumo-twist-ahead bear
+- **CCI(20):** 20.2 (above0)
+- **Williams %R(14):** -22.5 (neutral)
+- **OBV:** trend falling, divergence none
+- **MFI(14):** 54.4 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.088 (expanding_neg), cross bear, zero-line above
+- **MACD(12,26,9):** below_signal, hist -0.139 (contracting_neg), cross none, zero-line below
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 17.4 (choppy), +DI>-DI, falling
+- **ADX(14):** 23.9 (transitional), -DI>+DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 3.72 (6.24% of price, expanding)
-- **VWAP(20):** px below, dist -0.28%
-- **Pivots:** daily P 60.79 R1 62.23 S1 58.07; weekly position mid_range
+- **ATR(14):** 3.4 (5.7% of price, contracting)
+- **VWAP(20):** px above, dist 2.28%
+- **Pivots:** daily P 58.74 R1 60.73 S1 57.6; weekly position above_R1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Bullish Engulfing | 2026-05-27 | bullish | at support | failed |
-| Doji | 2026-05-28 | neutral | at support | neutral |
-| Dragonfly Doji | 2026-05-29 | bullish | at resistance | failed |
-| Hammer | 2026-05-29 | bullish | at resistance | failed |
-| Bullish Pin Bar | 2026-05-29 | bullish | at resistance | failed |
-| Outside Bar | 2026-06-01 | neutral | at resistance | neutral |
-| Dragonfly Doji | 2026-06-03 | bullish | at resistance | confirmed |
-| Hanging Man | 2026-06-03 | bearish | at resistance | failed |
-| Bullish Pin Bar | 2026-06-03 | bullish | at resistance | confirmed |
-| Three White Soldiers | 2026-06-03 | bullish | at resistance | confirmed |
-| Long-legged Doji | 2026-06-04 | neutral | at resistance | neutral |
-| NR4 | 2026-06-04 | neutral | at resistance | neutral |
-| Outside Bar | 2026-06-05 | neutral | midair | neutral |
-| Evening Star | 2026-06-05 | bearish | midair | failed |
-| Inside Bar | 2026-06-09 | neutral | at resistance | pending (last bar) |
+| Outside Bar | 2026-06-17 | neutral | at support | neutral |
+| Bullish Engulfing | 2026-06-19 | bullish | midair | failed |
+| NR4 | 2026-06-22 | neutral | at support | neutral |
+| Inside Bar | 2026-06-23 | neutral | at resistance | neutral |
+| NR7 | 2026-06-23 | neutral | at resistance | neutral |
+| Inside Bar | 2026-06-25 | neutral | at support | neutral |
+| NR7 | 2026-06-25 | neutral | at support | neutral |
+| Inverted Hammer | 2026-06-29 | bullish | at support | failed |
+| Long-legged Doji | 2026-06-30 | neutral | at support | neutral |
+| Bullish Marubozu | 2026-07-01 | bullish | at support | confirmed |
+| Bullish Engulfing | 2026-07-01 | bullish | at support | confirmed |
+| Morning Star | 2026-07-01 | bullish | at support | confirmed |
+| Dragonfly Doji | 2026-07-02 | bullish | at resistance | pending (last bar) |
+| Hammer | 2026-07-02 | bullish | at resistance | pending (last bar) |
+| Bullish Pin Bar | 2026-07-02 | bullish | at resistance | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Sideways / range-bound
-- **Chart pattern:** Double Top | breakout 54.13 | target 46.44 | volume weak | confidence medium
+- **Chart pattern:** Double Top | breakout 54.85 | target 50.14 | volume weak | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 37.6-45.49 (Moderate, tested, 30.84% away) — quality Moderate
-- **Demand (weekly):** 33.65-45.8 (Moderate, FRESH, 29.96% away)
+- **Demand (daily):** 37.6-45.49 (Moderate, tested, 31.0% away) — quality Moderate
+- **Demand (weekly):** 33.65-45.8 (Moderate, FRESH, 30.11% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly ranging | aligned: True
-- **Break of Structure (last):** bull @ 60.0 on 2026-05-15
-- **Change of Character (last):** bull @ 47.92 on 2026-04-13
-- **Bullish Order Block:** 40.5-42.98 (2026-04-09, UNMITIGATED)
+- **Market structure:** daily ranging | weekly bullish (HH/HL) | aligned: False
+- **Break of Structure (last):** bear @ 55.0 on 2026-06-18
+- **Change of Character (last):** bear @ 55.0 on 2026-06-18
+- **Bullish Order Block:** 53.0-56.0 (2026-06-30, UNMITIGATED)
 - **Bearish Order Block:** none
-- **Fair Value Gaps:** 3 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 49.7-52.13 (2026-04-16) · nearest bear FVG above none
-- **Liquidity:** buy-side above none | sell-side below none | equal-highs 1 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 81.3% of range 33.5–65.5)
+- **Fair Value Gaps:** 4 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 56.0-56.75 (2026-07-02) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below 53.09 | equal-highs 0 / equal-lows 1 | swept: sell-side swept (bullish stop-hunt)
+- **Premium/Discount:** **Premium** (price at 81.4% of range 33.65–65.5)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (314.2% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-7.9%/2b | C2:-5.1%/1b | C3:-14.9%/5b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.68)
-- **Near 52w high:** False | **Pivot:** 63.89 | **% from pivot:** -6.84%
-- **Breakout vol ratio (today/50d):** 0.74 | **close pos in range:** 0.04
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
+- **Prior uptrend:** True (314.7% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-14.9%/5b | C2:-12.0%/5b | C3:-9.2%/3b
+- **Depths decreasing:** True | **Duration decreasing:** True | **Volume dry-up (VDU):** True (vol ratio 0.58)
+- **Near 52w high:** False | **Pivot:** 58.77 | **% from pivot:** 1.4%
+- **Breakout vol ratio (today/50d):** 0.97 | **close pos in range:** 0.91
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 26.1 on 2025-10-09):** 1x1=58.97 2x1=91.84 1x2=42.53 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 63.44 · T2 67.48 · T3 75.95 (support S1 55.73, S2 52.06)
-- **Time cycles:** 162 days since swing low → next Gann cycle at 180d (18d away); near cycle: False
+- **Angles (auto-scaled from swing low 26.1 on 2025-10-09):** 1x1=62.22 2x1=98.33 1x2=44.16 → **moderate (>1x2)** (above 1x1: False)
+- **Square-of-9 targets:** T1 63.51 · T2 67.56 · T3 76.03 (support S1 55.79, S2 52.12)
+- **Time cycles:** 178 days since swing low → next Gann cycle at 180d (2d away); near cycle: True
 - **Octave position:** 8/8 (52w high) | levels 4/8=39.93 6/8=52.72 7/8=59.11
-- **Cardinal square:** nearest perfect-square 64 (7.53% away); near: False
+- **Cardinal square:** nearest perfect-square 64 (7.4% away); near: False

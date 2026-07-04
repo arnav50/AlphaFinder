@@ -1,56 +1,56 @@
 # GUJALKALI — Gujarat Alkalies and Chemicals Limited (NSE)
-**Sector:** Basic Materials | **6m return:** 28.36% | **Close:** ₹650.85 | **Cap:** Small | **Bars:** 351
+**Sector:** Basic Materials | **6m return:** 28.72% | **Close:** ₹646.85 | **Cap:** Small | **Bars:** 353
 
-## 🏁 SCORECARD: **BEARISH**  (score -4.4, confluence medium)
-Leading -3.4 | Lagging -0.5 | Candles 0.0 | Price-action -0.5
+## 🏁 SCORECARD: **NEUTRAL**  (score 0.2, confluence low)
+Leading 0.2 | Lagging 1.5 | Candles -1.0 | Price-action -0.5
 
 ## A. Leading indicators
-- **RSI(14):** 39.2 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 12.5 / %D 15.5, cross bear, oversold, div none
-- **Bollinger(20,2):** below_lower, width 10.36%, SQUEEZE
-- **Ichimoku:** price inside cloud, Tenkan/Kijun bearish, Chikou below, kumo-twist-ahead none
-- **CCI(20):** -61.5 (below0)
-- **Williams %R(14):** -93.0 (oversold)
-- **OBV:** trend falling, divergence none
-- **MFI(14):** 48.8 (neutral)
+- **RSI(14):** 45.8 (neutral), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 43.3 / %D 39.0, cross bull, neutral, div none
+- **Bollinger(20,2):** below_mid, width 12.8%, SQUEEZE
+- **Ichimoku:** price inside cloud, Tenkan/Kijun bearish, Chikou below, kumo-twist-ahead bear
+- **CCI(20):** -6.2 (below0)
+- **Williams %R(14):** -53.5 (neutral)
+- **OBV:** trend rising, divergence none
+- **MFI(14):** 44.8 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -7.48 (expanding_neg), cross none, zero-line below
-- **EMA:** alignment bullish; px vs E20 below, E50 below, E200 above; E200 slope rising
-- **ADX(14):** 19.6 (choppy), -DI>+DI, falling
+- **MACD(12,26,9):** above_signal, hist 1.688 (expanding_pos), cross bull, zero-line below
+- **EMA:** alignment mixed; px vs E20 below, E50 below, E200 above; E200 slope rising
+- **ADX(14):** 15.2 (choppy), +DI>-DI, falling
 - **Supertrend(7,3):** red_sell (recent flip: none)
-- **ATR(14):** 29.7 (4.56% of price, contracting)
-- **VWAP(20):** px below, dist -6.24%
-- **Pivots:** daily P 655.75 R1 666.45 S1 640.15; weekly position below_S1
+- **ATR(14):** 26.42 (4.09% of price, contracting)
+- **VWAP(20):** px below, dist -2.59%
+- **Pivots:** daily P 651.78 R1 657.52 S1 641.12; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| NR4 | 2026-05-26 | neutral | at S/R confluence | neutral |
-| Shooting Star | 2026-05-27 | bearish | at S/R confluence | failed |
-| Bearish Pin Bar | 2026-05-27 | bearish | at S/R confluence | failed |
-| NR7 | 2026-05-27 | neutral | at S/R confluence | neutral |
-| Doji | 2026-05-28 | neutral | at S/R confluence | neutral |
-| Inside Bar | 2026-05-28 | neutral | at S/R confluence | neutral |
-| Outside Bar | 2026-05-29 | neutral | at S/R confluence | neutral |
-| Inside Bar | 2026-06-01 | neutral | at S/R confluence | neutral |
-| Three Black Crows | 2026-06-02 | bearish | at S/R confluence | failed |
-| Inverted Hammer | 2026-06-03 | bullish | at S/R confluence | failed |
-| Bearish Pin Bar | 2026-06-03 | bearish | at S/R confluence | confirmed |
-| Bullish Harami | 2026-06-03 | bullish | at S/R confluence | failed |
-| Doji | 2026-06-04 | neutral | at S/R confluence | neutral |
-| Bearish Pin Bar | 2026-06-04 | bearish | at S/R confluence | confirmed |
-| Evening Star | 2026-06-05 | bearish | at support | pending (last bar) |
+| NR4 | 2026-06-09 | neutral | at resistance | neutral |
+| Outside Bar | 2026-06-10 | neutral | at S/R confluence | neutral |
+| Morning Star | 2026-06-12 | bullish | at resistance | confirmed |
+| Inverted Hammer | 2026-06-15 | bullish | at S/R confluence | failed |
+| Three White Soldiers | 2026-06-15 | bullish | at S/R confluence | failed |
+| Bearish Harami | 2026-06-16 | bearish | at support | failed |
+| Inside Bar | 2026-06-16 | neutral | at support | neutral |
+| Long-legged Doji | 2026-06-17 | neutral | at support | neutral |
+| Bullish Harami | 2026-06-17 | bullish | at support | failed |
+| Inside Bar | 2026-06-17 | neutral | at support | neutral |
+| NR7 | 2026-06-17 | neutral | at support | neutral |
+| Long-legged Doji | 2026-06-19 | neutral | at S/R confluence | neutral |
+| Outside Bar | 2026-06-22 | neutral | at S/R confluence | neutral |
+| Morning Star | 2026-06-22 | bullish | at S/R confluence | failed |
+| Bearish Marubozu | 2026-06-23 | bearish | at support | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Downtrend (LH/LL)
-- **Chart pattern:** Double Bottom | breakout 717.25 | target 751.75 | volume no | confidence medium
+- **Chart pattern:** Double Bottom | breakout 653.95 | target 690.1 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 412.7-583.8 (Moderate, tested, 11.49% away) — quality Moderate
-- **Demand (weekly):** 409.15-669.3 (Moderate, tested, -2.76% away)
+- **Demand (daily):** 412.7-583.8 (Moderate, tested, 10.8% away) — quality Moderate
+- **Demand (weekly):** 409.15-669.3 (Moderate, tested, -3.35% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -59,22 +59,22 @@ Leading -3.4 | Lagging -0.5 | Candles 0.0 | Price-action -0.5
 - **Change of Character (last):** bear @ 700.1 on 2026-05-12
 - **Bullish Order Block:** 700.1-732.9 (2026-04-28, mitigated)
 - **Bearish Order Block:** 789.85-815.0 (2026-05-05, UNMITIGATED)
-- **Fair Value Gaps:** 4 unfilled bullish, 2 unfilled bearish · nearest bull FVG below 631.2-639.6 (2026-04-15) · nearest bear FVG above 724.0-728.65 (2026-05-12)
+- **Fair Value Gaps:** 5 unfilled bullish, 2 unfilled bearish · nearest bull FVG below 644.0-646.05 (2026-06-23) · nearest bear FVG above 724.0-728.65 (2026-05-12)
 - **Liquidity:** buy-side above none | sell-side below 496.0 | equal-highs 0 / equal-lows 2 | swept: none
-- **Premium/Discount:** **Premium** (price at 59.6% of range 409.15–815.0)
+- **Premium/Discount:** **Premium** (price at 58.6% of range 409.15–815.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (59.1% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-10.6%/2b | C2:-17.5%/5b | C3:-5.6%/2b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.03)
-- **Near 52w high:** False | **Pivot:** 721.4 | **% from pivot:** -9.78%
-- **Breakout vol ratio (today/50d):** 0.02 | **close pos in range:** 0.22
+- **Prior uptrend:** True (58.1% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-17.5%/5b | C2:-5.6%/2b | C3:-8.2%/3b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.1)
+- **Near 52w high:** False | **Pivot:** 689.7 | **% from pivot:** -6.21%
+- **Breakout vol ratio (today/50d):** 0.05 | **close pos in range:** 0.05
 - **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 409.15 on 2026-03-16):** 1x1=497.73 2x1=586.31 1x2=453.44 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 663.67 · T2 676.61 · T3 702.87 (support S1 638.16, S2 625.59)
-- **Time cycles:** 55 days since swing low → next Gann cycle at 60d (5d away); near cycle: True
+- **Angles (auto-scaled from swing low 409.15 on 2026-03-16):** 1x1=517.05 2x1=624.96 1x2=463.1 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 659.63 · T2 672.53 · T3 698.72 (support S1 634.2, S2 621.67)
+- **Time cycles:** 67 days since swing low → next Gann cycle at 90d (23d away); near cycle: False
 - **Octave position:** 5/8 | levels 4/8=612.07 6/8=713.54 7/8=764.27
-- **Cardinal square:** nearest perfect-square 676 (3.86% away); near: False
+- **Cardinal square:** nearest perfect-square 625 (3.38% away); near: False

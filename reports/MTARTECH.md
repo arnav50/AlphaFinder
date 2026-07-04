@@ -1,80 +1,80 @@
 # MTARTECH — Mtar Technologies Limited (NSE)
-**Sector:** Industrials | **6m return:** 217.97% | **Close:** ₹7458.0 | **Cap:** Large | **Bars:** 354
+**Sector:** Industrials | **6m return:** 206.91% | **Close:** ₹7409.0 | **Cap:** Large | **Bars:** 355
 
-## 🏁 SCORECARD: **BULLISH**  (score 6.2, confluence medium)
-Leading 1.2 | Lagging 5.5 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **NEUTRAL**  (score -0.1, confluence low)
+Leading -1.6 | Lagging 2.5 | Candles -1.0 | Price-action 0.0
 
 ## A. Leading indicators
-- **RSI(14):** 55.9 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 35.8 / %D 43.2, cross bear, neutral, div none
-- **Bollinger(20,2):** below_mid, width 21.03%, SQUEEZE
-- **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** -14.1 (below0)
-- **Williams %R(14):** -60.6 (neutral)
-- **OBV:** trend rising, divergence none
-- **MFI(14):** 50.8 (neutral)
+- **RSI(14):** 47.9 (neutral), trend falling, divergence none
+- **Stochastic(14,3,3):** %K 45.3 / %D 54.1, cross none, neutral, div none
+- **Bollinger(20,2):** below_mid, width 26.62%, SQUEEZE
+- **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou below, kumo-twist-ahead none
+- **CCI(20):** -26.3 (below0)
+- **Williams %R(14):** -76.6 (neutral)
+- **OBV:** trend falling, divergence none
+- **MFI(14):** 81.3 (overbought)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -140.567 (contracting_neg), cross none, zero-line above
-- **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 35.1 (trending), +DI>-DI, falling
+- **MACD(12,26,9):** below_signal, hist -93.465 (expanding_neg), cross none, zero-line above
+- **EMA:** alignment bullish; px vs E20 below, E50 above, E200 above; E200 slope rising
+- **ADX(14):** 19.7 (choppy), -DI>+DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 468.39 (6.28% of price, expanding)
-- **VWAP(20):** px above, dist 0.14%
-- **Pivots:** daily P 7320.0 R1 7637.0 S1 7141.0; weekly position mid_range
+- **ATR(14):** 454.92 (6.14% of price, contracting)
+- **VWAP(20):** px below, dist -2.18%
+- **Pivots:** daily P 7526.67 R1 7652.33 S1 7283.33; weekly position below_S1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| NR7 | 2026-05-26 | neutral | midair | neutral |
-| Long-legged Doji | 2026-05-27 | neutral | midair | neutral |
-| Bullish Harami | 2026-05-27 | bullish | midair | failed |
-| NR7 | 2026-05-27 | neutral | midair | neutral |
-| Doji | 2026-05-28 | neutral | midair | neutral |
-| Inside Bar | 2026-05-28 | neutral | midair | neutral |
-| Long-legged Doji | 2026-05-29 | neutral | midair | neutral |
-| Outside Bar | 2026-05-29 | neutral | midair | neutral |
-| Evening Star | 2026-05-29 | bearish | midair | confirmed |
-| Hanging Man | 2026-06-02 | bearish | midair | failed |
-| Bullish Harami | 2026-06-02 | bullish | midair | confirmed |
-| Inside Bar | 2026-06-02 | neutral | midair | neutral |
-| NR4 | 2026-06-03 | neutral | midair | neutral |
-| Three White Soldiers | 2026-06-04 | bullish | midair | failed |
-| Tweezer Bottom | 2026-06-05 | bullish | midair | failed |
+| NR7 | 2026-06-18 | neutral | at resistance | neutral |
+| NR7 | 2026-06-22 | neutral | at resistance | neutral |
+| Three Black Crows | 2026-06-23 | bearish | midair | confirmed |
+| Three Black Crows | 2026-06-24 | bearish | midair | failed |
+| Bullish Harami | 2026-06-25 | bullish | midair | failed |
+| Inside Bar | 2026-06-25 | neutral | midair | neutral |
+| NR7 | 2026-06-25 | neutral | midair | neutral |
+| Doji | 2026-06-26 | neutral | midair | neutral |
+| Inside Bar | 2026-06-26 | neutral | midair | neutral |
+| Evening Star | 2026-06-29 | bearish | midair | failed |
+| Piercing Line | 2026-06-30 | bullish | midair | confirmed |
+| Outside Bar | 2026-06-30 | neutral | midair | neutral |
+| Doji | 2026-07-01 | neutral | midair | neutral |
+| Bearish Marubozu | 2026-07-02 | bearish | midair | pending (last bar) |
+| Evening Star | 2026-07-02 | bearish | midair | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Double Top | breakout 7069.5 | target 6063.5 | volume no | confidence medium
+- **Trend structure:** Sideways / range-bound
+- **Chart pattern:** No clean pattern | breakout n/a | target n/a | volume n/a | confidence n/a
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 5100.1-5749.0 (Moderate, FRESH, 29.73% away) — quality Moderate
-- **Demand (weekly):** 3356.0-5445.0 (Moderate, FRESH, 36.97% away)
-- **Supply (daily, overhead):** none
+- **Demand (daily):** 5100.1-5749.0 (Moderate, FRESH, 28.87% away) — quality Moderate
+- **Demand (weekly):** 3356.0-5445.0 (Moderate, FRESH, 36.07% away)
+- **Supply (daily, overhead):** 6926.0-7848.5 (Moderate, tested, -6.52% above)
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily bullish (HH/HL) | weekly bullish (HH/HL) | aligned: True
-- **Break of Structure (last):** bull @ 7730.0 on 2026-05-21
-- **Change of Character (last):** bull @ 3705.0 on 2026-04-07
-- **Bullish Order Block:** 6735.0-7217.5 (2026-05-19, mitigated)
-- **Bearish Order Block:** 7761.0-7968.0 (2026-05-27, mitigated)
-- **Fair Value Gaps:** 9 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 6622.5-7027.5 (2026-05-14) · nearest bear FVG above none
+- **Market structure:** daily ranging | weekly bullish (HH/HL) | aligned: False
+- **Break of Structure (last):** bull @ 7848.5 on 2026-06-17
+- **Change of Character (last):** bull @ 7848.5 on 2026-06-17
+- **Bullish Order Block:** 6180.0-7154.0 (2026-06-11, UNMITIGATED)
+- **Bearish Order Block:** 7003.0-7499.0 (2026-06-09, mitigated)
+- **Fair Value Gaps:** 8 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 5749.0-6457.1 (2026-05-01) · nearest bear FVG above 7840.0-7976.5 (2026-06-30)
 - **Liquidity:** buy-side above none | sell-side below 3315.15 | equal-highs 0 / equal-lows 1 | swept: none
-- **Premium/Discount:** **Premium** (price at 84.0% of range 2238.2–8449.5)
+- **Premium/Discount:** **Premium** (price at 79.4% of range 2365.0–8714.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (436.4% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-8.1%/3b | C2:-12.9%/3b | C3:-7.6%/2b
-- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** False (vol ratio 0.98)
-- **Near 52w high:** False | **Pivot:** 7804.0 | **% from pivot:** -4.43%
-- **Breakout vol ratio (today/50d):** 1.16 | **close pos in range:** 0.92
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Prior uptrend:** True (432.8% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-12.9%/3b | C2:-7.6%/2b | C3:-20.8%/5b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.08)
+- **Near 52w high:** False | **Pivot:** 8714.0 | **% from pivot:** -14.98%
+- **Breakout vol ratio (today/50d):** 0.07 | **close pos in range:** 0.02
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 1706.7 on 2025-09-17):** 1x1=6720.83 2x1=11734.96 1x2=4213.77 → **strong (>1x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 7501.24 · T2 7544.61 · T3 7631.72 (support S1 7414.88, S2 7371.89)
+- **Angles (auto-scaled from swing low 1866.2 on 2025-10-13):** 1x1=7068.21 2x1=12270.22 1x2=4467.2 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 7452.1 · T2 7495.33 · T3 7582.15 (support S1 7366.02, S2 7323.17)
 - **Time cycles:** 179 days since swing low → next Gann cycle at 180d (1d away); near cycle: True
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=4920.0 6/8=6684.75 7/8=7567.12
-- **Cardinal square:** nearest perfect-square 7396 (0.83% away); near: True
+- **Octave position:** 7/8 (exhaustion) | levels 4/8=5052.25 6/8=6883.12 7/8=7798.56
+- **Cardinal square:** nearest perfect-square 7396 (0.18% away); near: True
