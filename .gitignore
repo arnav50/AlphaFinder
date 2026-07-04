@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# runtime artifacts (regenerated per run)
+run_full.log
+.fno_alerts_state.json
+FNO_ALERTS.csv

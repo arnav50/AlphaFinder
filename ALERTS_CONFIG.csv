@@ -1,0 +1,12 @@
+# AlphaFinder — MANUAL per-strike F&O alert conditions. One condition per row.
+# Wildcards: expiry / strike / side = *  (apply to EVERY match, e.g. every strike)
+# metric (chain snapshot): ltp  oi  iv  vol  chg_oi  chg      (leave tf blank)
+# metric (intraday):       vcp  ema  vwap  structure  zone  liq  trend   (set tf: 1m/3m/5m/15m/1h)
+# op: >  <  >=  <=  ==  !=  contains
+# The engine (31_fno_alerts.py) fires when the condition becomes true. Delete rows to stop them.
+expiry,strike,side,metric,op,value,tf,note
+07-Jul-2026,24000,CE,ltp,>=,200,,CE profit target
+07-Jul-2026,24000,PE,ltp,>=,180,,PE profit target
+*,*,PE,vcp,==,Breakout,5m,any PE VCP breakout on 5m
+07-Jul-2026,23900,PE,oi,>=,150000,,PE OI build-up
+*,*,CE,iv,>=,25,,IV spike on any call
