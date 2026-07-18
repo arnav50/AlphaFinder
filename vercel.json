@@ -1,15 +1,17 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/", "destination": "/alphafinder_dashboard.html" }
+  "builds": [
+    { "src": "alphafinder_dashboard.html", "use": "@vercel/static" }
   ],
-  "headers": [
+  "routes": [
     {
-      "source": "/alphafinder_dashboard.html",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
+      "src": "/",
+      "headers": { "cache-control": "public, max-age=0, must-revalidate" },
+      "dest": "/alphafinder_dashboard.html"
+    },
+    {
+      "src": "/alphafinder_dashboard.html",
+      "headers": { "cache-control": "public, max-age=0, must-revalidate" },
+      "dest": "/alphafinder_dashboard.html"
     }
   ]
 }
