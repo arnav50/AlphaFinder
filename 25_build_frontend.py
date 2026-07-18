@@ -1,6 +1,6 @@
 """Generate a self-contained HTML dashboard (alphafinder_dashboard.html) from the phase CSVs.
 Data is embedded as JSON so the file opens by double-click (no server needed)."""
-import json, time, datetime, requests, pandas as pd, numpy as np
+import os, json, time, datetime, requests, pandas as pd, numpy as np
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
 
@@ -40,9 +40,18 @@ def pct_return(series, n):
 def enrich_watchlist(df):
     """Add live-price + Layer-1 GO/WATCH/DROP validation columns from one fresh fetch each."""
     sx = requests.Session(); sx.headers.update({"User-Agent": UA})
+    market = None
     try:
-        ndf, _, _ = fetch_ohlc("%5ENSEI", sx, suffixes=("",))
+        ndf, nlive, _ = fetch_ohlc("%5ENSEI", sx, suffixes=("",))
         nifty_ret = pct_return(ndf["close"], RS_WINDOW) or 0.0
+        nc = ndf["close"]
+        spot = float(nlive) if nlive else float(nc.iloc[-1])
+        ema50 = float(nc.ewm(span=50, adjust=False).mean().iloc[-1])
+        ema200 = float(nc.ewm(span=200, adjust=False).mean().iloc[-1])
+        if spot >= ema50 >= ema200:   trend = "UPTREND"
+        elif spot <= ema50 <= ema200: trend = "DOWNTREND"
+        else:                         trend = "SIDEWAYS"
+        market = {"nifty": round(spot), "ema50": round(ema50), "ema200": round(ema200), "trend": trend}
     except Exception:
         nifty_ret = 0.0
     keys = ["live", "live_chg", "live_state", "live_to_entry", "vol_x", "ext_pct",
@@ -97,7 +106,7 @@ def enrich_watchlist(df):
         time.sleep(0.2)
     df = df.copy()
     for k in keys: df[k] = out[k]
-    return df, nifty_ret
+    return df, nifty_ret, market
 
 p1 = load("FINAL_universe_25pct.csv")
 p2 = load("PHASE2_SCORECARD.csv")
@@ -139,8 +148,9 @@ except Exception:
 
 # ---------- live prices + Layer-1 validation for the watchlist (fetched fresh at build time) ----------
 nifty_ret = None
+market = None
 try:
-    wl, nifty_ret = enrich_watchlist(wl)
+    wl, nifty_ret, market = enrich_watchlist(wl)
     live_ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     vc = wl["verdict"].value_counts().to_dict()
     print(f"Live + validation: {int(wl['live'].notna().sum())}/{len(wl)} fetched @ {live_ts} | "
@@ -211,8 +221,8 @@ DATA = {
    "vcp_quality": p4["vcp_quality"].value_counts().to_dict(),
    "pd_zone": p3["pd_zone"].value_counts().to_dict(),
  },
- "market": {"nifty": 23484, "ema50": 23940, "ema200": 24667, "trend": "DOWNTREND"},
- "scan_date": "2026-06-02",
+ "market": market or {"nifty": "—", "ema50": "—", "ema200": "—", "trend": "UNKNOWN"},
+ "scan_date": datetime.date.today().strftime("%Y-%m-%d"),
  "live_fetched_at": live_ts,
  "nifty_3m": round(nifty_ret, 1) if nifty_ret is not None else None,
 }
@@ -588,7 +598,7 @@ buildTable($("#t_fp"), DATA.fingerprint, [
   const rec={expiry:g("#ab_exp"),strike:g("#ab_strike"),side:g("#ab_side"),metric:g("#ab_metric"),op:g("#ab_op"),value:g("#ab_val"),tf:g("#ab_tf"),note:g("#ab_note")};
   const line=[rec.expiry,rec.strike,rec.side,rec.metric,rec.op,rec.value,rec.tf,rec.note].join(",");
   const out=$("#ab_out"); out.innerHTML='<span class="muted">Adding…</span>';
-  const host=(location.protocol==='http:'?'':'http://localhost:8777');   // same-origin if served by helper
+  const host=("__ALPHA_BACKEND__"||(location.protocol==='http:'?'':'http://localhost:8777'));   // build-time backend URL, else same-origin / local helper
   fetch(host+"/add-alert",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(rec)})
    .then(r=>r.json()).then(j=>{
      out.innerHTML = j.ok
@@ -783,5 +793,8 @@ $("#modal").onclick=e=>{if(e.target.id=="modal")$("#modal").classList.remove("op
 </script></body></html>"""
 
 out = HTML.replace("__DATA__", json.dumps(DATA, separators=(",",":")))
+# Inject the deployed backend base URL (Render) at build time. Empty locally -> the
+# JS falls back to same-origin (if http-served) or the local helper on :8777.
+out = out.replace("__ALPHA_BACKEND__", os.environ.get("ALPHAFINDER_BACKEND_URL", "").rstrip("/"))
 open("alphafinder_dashboard.html","w",encoding="utf-8").write(out)
 print(f"Wrote alphafinder_dashboard.html ({len(out)//1024} KB) | master={len(DATA['master'])} watchlist={len(DATA['watchlist'])} fingerprint={len(DATA['fingerprint'])}")

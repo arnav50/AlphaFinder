@@ -1,0 +1,38 @@
+# Render Blueprint — backend for AlphaFinder.
+#
+# SETUP: local-only refresh (deployed dashboard == your local run).
+#   You run the pipeline locally (where NSE/Yahoo work), then commit & push the
+#   rebuilt, self-contained alphafinder_dashboard.html. Vercel redeploys it verbatim,
+#   so the deployed data is EXACTLY what you see locally.
+#
+#   Render therefore runs ONLY the alert web service (the "Add alert" button's
+#   backend). There is no cron here — data refreshes come from your local push.
+#   See DEPLOY.md for the exact local build+push command.
+services:
+  # ---------------------- add-alert endpoint (always on) ----------------------
+  - type: web
+    name: alphafinder-alerts
+    runtime: python
+    plan: free
+    region: singapore                 # closest Render region to NSE/India
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash render_web.sh
+    healthCheckPath: /alphafinder_dashboard.html
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.10.0"
+      - key: HOST
+        value: "0.0.0.0"              # Render requires binding all interfaces
+      - key: FNO_ALERT_BEAP
+        value: "0"                    # no console beep in the cloud
+      # Alerts added from the deployed dashboard persist on this service's disk.
+      # (Local-only refresh: they don't feed the pipeline, which you run locally.
+      #  To push dashboard alerts back into git instead, see Strategy B in DEPLOY.md.)
+      - key: ALERTS_CONFIG_PATH
+        value: /var/data/ALERTS_CONFIG.csv
+      - key: ALERTS_GIT_PUSH
+        value: "0"
+    disk:
+      name: alerts-data
+      mountPath: /var/data
+      sizeGB: 1

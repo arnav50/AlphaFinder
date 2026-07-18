@@ -1,0 +1,2 @@
+# Keep shell scripts LF so they run on Render's Linux hosts (avoids CRLF shebang breakage).
+*.sh text eol=lf

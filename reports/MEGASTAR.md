@@ -1,80 +1,80 @@
 # MEGASTAR — Megastar Foods Limited (NSE)
-**Sector:** Consumer Defensive | **6m return:** 58.4% | **Close:** ₹366.7 | **Cap:** Micro | **Bars:** 353
+**Sector:** Consumer Defensive | **6m return:** 53.24% | **Close:** ₹337.35 | **Cap:** n/a | **Bars:** 351
 
-## 🏁 SCORECARD: **BULLISH**  (score 10.7, confluence medium)
-Leading 2.9 | Lagging 7.8 | Candles -1.0 | Price-action 1.0
+## 🏁 SCORECARD: **NEUTRAL**  (score 0.0, confluence low)
+Leading -1.5 | Lagging 1.0 | Candles 0.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 68.7 (neutral), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 92.6 / %D 93.8, cross bear, overbought, div none
-- **Bollinger(20,2):** above_mid, width 28.1%, expanding
+- **RSI(14):** 46.3 (neutral), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 17.3 / %D 26.9, cross none, oversold, div bearish
+- **Bollinger(20,2):** below_mid, width 15.82%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 92.0 (above0)
-- **Williams %R(14):** -12.5 (overbought)
-- **OBV:** trend rising, divergence none
-- **MFI(14):** 87.0 (overbought)
+- **CCI(20):** -52.2 (below0)
+- **Williams %R(14):** -72.9 (neutral)
+- **OBV:** trend falling, divergence none
+- **MFI(14):** 63.3 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 3.037 (contracting_pos), cross none, zero-line above
-- **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 34.9 (trending), +DI>-DI, rising
+- **MACD(12,26,9):** below_signal, hist -5.865 (expanding_neg), cross bear, zero-line above
+- **EMA:** alignment bullish; px vs E20 below, E50 above, E200 above; E200 slope rising
+- **ADX(14):** 34.0 (trending), -DI>+DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 16.14 (4.4% of price, contracting)
-- **VWAP(20):** px above, dist 9.44%
-- **Pivots:** daily P 367.48 R1 372.02 S1 362.17; weekly position above_R1
+- **ATR(14):** 20.02 (5.93% of price, expanding)
+- **VWAP(20):** px below, dist -6.35%
+- **Pivots:** daily P 336.1 R1 349.2 S1 324.25; weekly position below_S1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| NR4 | 2026-06-23 | neutral | midair | neutral |
-| Bullish Engulfing | 2026-06-24 | bullish | midair | confirmed |
-| Outside Bar | 2026-06-24 | neutral | midair | neutral |
-| Tweezer Top | 2026-06-25 | bearish | midair | failed |
-| NR7 | 2026-06-25 | neutral | midair | neutral |
-| Doji | 2026-06-26 | neutral | midair | neutral |
-| Inside Bar | 2026-06-26 | neutral | midair | neutral |
-| Outside Bar | 2026-06-29 | neutral | midair | neutral |
-| Long-legged Doji | 2026-07-01 | neutral | midair | neutral |
-| Outside Bar | 2026-07-01 | neutral | midair | neutral |
-| Three White Soldiers | 2026-07-01 | bullish | midair | confirmed |
-| Three White Soldiers | 2026-07-02 | bullish | midair | failed |
-| Bearish Harami | 2026-07-03 | bearish | midair | pending (last bar) |
-| Inside Bar | 2026-07-03 | neutral | midair | pending (last bar) |
-| NR4 | 2026-07-03 | neutral | midair | pending (last bar) |
+| NR4 | 2026-07-03 | neutral | midair | neutral |
+| Long-legged Doji | 2026-07-06 | neutral | midair | neutral |
+| Outside Bar | 2026-07-06 | neutral | midair | neutral |
+| Tweezer Top | 2026-07-07 | bearish | midair | confirmed |
+| Morning Star | 2026-07-07 | bullish | midair | failed |
+| Bullish Engulfing | 2026-07-09 | bullish | midair | confirmed |
+| Bearish Engulfing | 2026-07-13 | bearish | midair | failed |
+| Outside Bar | 2026-07-13 | neutral | midair | neutral |
+| Long-legged Doji | 2026-07-14 | neutral | midair | neutral |
+| Bullish Pin Bar | 2026-07-14 | bullish | midair | failed |
+| Bullish Harami | 2026-07-14 | bullish | midair | failed |
+| NR4 | 2026-07-14 | neutral | midair | neutral |
+| Bearish Engulfing | 2026-07-15 | bearish | midair | confirmed |
+| Tweezer Top | 2026-07-15 | bearish | midair | confirmed |
+| Bullish Harami | 2026-07-17 | bullish | midair | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Sideways / range-bound
-- **Chart pattern:** Inverse Head & Shoulders | breakout 318.25 | target 356.2 | volume no | confidence medium
+- **Trend structure:** Uptrend (HH/HL)
+- **Chart pattern:** Double Top | breakout 359.95 | target 345.6 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 209.88-234.5 (Moderate, tested, 56.38% away) — quality Moderate
-- **Demand (weekly):** 203.0-234.94 (Moderate, tested, 56.08% away)
+- **Demand (daily):** 209.88-234.5 (Moderate, tested, 43.86% away) — quality Moderate
+- **Demand (weekly):** 203.0-234.94 (Moderate, tested, 43.59% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily ranging | weekly bullish (HH/HL) | aligned: False
-- **Break of Structure (last):** bull @ 317.15 on 2026-06-12
-- **Change of Character (last):** bull @ 317.15 on 2026-06-12
-- **Bullish Order Block:** 270.0-305.0 (2026-05-26, mitigated)
-- **Bearish Order Block:** 316.6-332.0 (2026-06-15, mitigated)
-- **Fair Value Gaps:** 3 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 351.85-356.0 (2026-06-30) · nearest bear FVG above none
+- **Market structure:** daily bullish (HH/HL) | weekly bullish (HH/HL) | aligned: True
+- **Break of Structure (last):** bear @ 353.9 on 2026-07-15
+- **Change of Character (last):** bear @ 353.9 on 2026-07-15
+- **Bullish Order Block:** 353.9-369.4 (2026-07-08, mitigated)
+- **Bearish Order Block:** 356.6-372.95 (2026-07-14, UNMITIGATED)
+- **Fair Value Gaps:** 1 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 265.0-268.0 (2026-04-07) · nearest bear FVG above 345.4-356.6 (2026-07-16)
 - **Liquidity:** buy-side above none | sell-side below none | equal-highs 3 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 95.3% of range 204.4–374.75)
+- **Premium/Discount:** **Premium** (price at 70.9% of range 204.4–392.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (80.6% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-7.1%/3b | C2:-15.6%/5b | C3:-8.5%/4b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.66)
-- **Near 52w high:** True | **Pivot:** 332.0 | **% from pivot:** 10.45%
-- **Breakout vol ratio (today/50d):** 0.5 | **close pos in range:** 0.38
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: extended past pivot** | entry zone n/a
+- **Prior uptrend:** True (66.2% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-15.6%/5b | C2:-8.5%/4b | C3:-5.6%/4b
+- **Depths decreasing:** True | **Duration decreasing:** True | **Volume dry-up (VDU):** False (vol ratio 1.11)
+- **Near 52w high:** False | **Pivot:** 386.0 | **% from pivot:** -12.6%
+- **Breakout vol ratio (today/50d):** 0.56 | **close pos in range:** 0.58
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 204.4 on 2026-02-25):** 1x1=263.69 2x1=322.99 1x2=234.05 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 376.34 · T2 386.1 · T3 406.0 (support S1 357.19, S2 347.8)
-- **Time cycles:** 87 days since swing low → next Gann cycle at 90d (3d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=288.88 6/8=331.81 7/8=353.28
-- **Cardinal square:** nearest perfect-square 361 (1.55% away); near: True
+- **Angles (auto-scaled from swing low 204.4 on 2026-02-25):** 1x1=277.15 2x1=349.9 1x2=240.77 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 346.6 · T2 355.97 · T3 375.08 (support S1 328.23, S2 319.23)
+- **Time cycles:** 97 days since swing low → next Gann cycle at 120d (23d away); near cycle: False
+- **Octave position:** 6/8 (75%) | levels 4/8=297.5 6/8=344.75 7/8=368.38
+- **Cardinal square:** nearest perfect-square 324 (3.96% away); near: False

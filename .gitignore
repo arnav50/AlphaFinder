@@ -2,7 +2,12 @@ __pycache__/
 *.pyc
 *.pyo
 
+# local virtualenv — never commit (Render installs deps via requirements.txt)
+.venv/
+
 # runtime artifacts (regenerated per run)
 run_full.log
+alert_server.log
+pipeline_run.log
 .fno_alerts_state.json
 FNO_ALERTS.csv

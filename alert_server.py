@@ -8,12 +8,29 @@ Then either:
 Endpoints:  POST /add-alert  {expiry,strike,side,metric,op,value,tf,note}  -> appends one row.
 The alert engine (31_fno_alerts.py) then picks the new condition up on its next evaluation.
 """
-import http.server, socketserver, json, os, csv
+import http.server, socketserver, json, os, csv, subprocess
 
-PORT = 8777
-CFG  = "ALERTS_CONFIG.csv"
-COLS = ["expiry", "strike", "side", "metric", "op", "value", "tf", "note"]
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+PORT = int(os.environ.get("PORT", "8777"))          # Render injects $PORT
+HOST = os.environ.get("HOST", "127.0.0.1")          # set 0.0.0.0 on Render
+CFG  = os.environ.get("ALERTS_CONFIG_PATH", "ALERTS_CONFIG.csv")
+GIT_PUSH = os.environ.get("ALERTS_GIT_PUSH", "0") == "1"   # commit+push each new alert
+COLS = ["expiry", "strike", "side", "metric", "op", "value", "tf", "note"]
+
+
+def _git_push_alert(line):
+    """Commit the appended alert so the scheduled pipeline (which reads the
+    git-tracked ALERTS_CONFIG.csv) picks it up. No-op unless ALERTS_GIT_PUSH=1
+    and git auth is configured on the host."""
+    if not GIT_PUSH:
+        return
+    try:
+        subprocess.run(["git", "add", CFG], check=True)
+        subprocess.run(["git", "commit", "-m", f"chore: alert via dashboard [{line}]"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("  git: pushed new alert", flush=True)
+    except Exception as e:
+        print(f"  git push failed (alert saved locally): {e}", flush=True)
 
 
 def append_row(d):
@@ -58,6 +75,7 @@ class H(http.server.SimpleHTTPRequestHandler):
             d = json.loads(self.rfile.read(n) or b"{}")
             line = append_row(d)
             print(f"  + appended: {line}", flush=True)
+            _git_push_alert(line)
             self._json(200, {"ok": True, "line": line})
         except Exception as e:
             self._json(400, {"ok": False, "error": str(e)})
@@ -73,9 +91,9 @@ class H(http.server.SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("127.0.0.1", PORT), H) as httpd:
-        print(f"Alert helper running on http://localhost:{PORT}")
-        print(f"  auto-append target: {CFG}")
-        print(f"  same-origin dashboard: http://localhost:{PORT}/alphafinder_dashboard.html")
+    with socketserver.TCPServer((HOST, PORT), H) as httpd:
+        print(f"Alert helper running on http://{HOST}:{PORT}")
+        print(f"  auto-append target: {CFG}  (git push: {'on' if GIT_PUSH else 'off'})")
+        print(f"  same-origin dashboard: http://{HOST}:{PORT}/alphafinder_dashboard.html")
         print("  Ctrl+C to stop.")
         httpd.serve_forever()

@@ -1,5 +1,5 @@
 # PHASE 3 — SUPPLY/DEMAND + SMC — SUMMARY
-Scan date 2026-06-02 · 376 stocks · daily primary, weekly structure overlay.
+Scan date 2026-06-02 · 543 stocks · daily primary, weekly structure overlay.
 
 ## ✓ VERIFICATION CHECKPOINT (Phase 3)
 - ✅ Demand & supply zones mapped on **daily and weekly** (`demand_zone_D/W`, `supply_zone_D/W`)
@@ -10,49 +10,54 @@ Scan date 2026-06-02 · 376 stocks · daily primary, weekly structure overlay.
 - ✅ **Premium/Discount** classification for every stock (`pd_zone`, `range_pos_pct`)
 
 ## Structural landscape
-- **Market structure (daily):** {'bullish (HH/HL)': 214, 'ranging': 126, 'bearish (LH/LL)': 36}
-- **Premium/Discount:** {'Premium': 368, 'Equilibrium': 6, 'Discount': 2}
-- **Last BoS direction:** {'bull': 303, 'bear': 73}
-- **Liquidity swept recently:** {'none': 341, 'sell-side swept (bullish stop-hunt)': 19, 'buy-side swept (bearish stop-hunt)': 16}
-- **Unmitigated bullish order blocks (pullback support):** 193
-- **Price near a demand zone:** 86 · **approaching overhead supply (long risk):** 11
+- **Market structure (daily):** {'bullish (HH/HL)': 276, 'ranging': 179, 'bearish (LH/LL)': 88}
+- **Premium/Discount:** {'Premium': 511, 'Equilibrium': 25, 'Discount': 7}
+- **Last BoS direction:** {'bull': 375, 'bear': 168}
+- **Liquidity swept recently:** {'none': 455, 'buy-side swept (bearish stop-hunt)': 63, 'sell-side swept (bullish stop-hunt)': 25}
+- **Unmitigated bullish order blocks (pullback support):** 255
+- **Price near a demand zone:** 174 · **approaching overhead supply (long risk):** 20
 
-> **Key institutional read:** 368/376 names sit in **Premium** (expensive, extended) — smart-money playbook is to wait for a retracement into discount / an unmitigated demand OB rather than chase. Only 2 are currently in a discount zone.
+> **Key institutional read:** 511/543 names sit in **Premium** (expensive, extended) — smart-money playbook is to wait for a retracement into discount / an unmitigated demand OB rather than chase. Only 7 are currently in a discount zone.
 
 ## Stocks currently in DISCOUNT (institutional buy zone)
 | Symbol | Company | Range pos% | Structure(D) | Last BoS | Scorecard |
 |---|---|--:|---|---|---|
-| JINDALPOLY | Jindal Poly Films Limited | 38.6 | ranging | bear @ 630.0 on 2026-06-30 | BEARISH |
-| DCMSIL | DCM Shriram International Limited | 36.8 | ranging | bull @ 69.39 on 2026-06-24 | BULLISH |
+| JINDALPOLY | Jindal Poly Films Limited | 44.4 | bearish (LH/LL) | bear @ 630.0 on 2026-06-30 | NEUTRAL |
+| SETCO | Setco Automotive Limited | 37.8 | ranging | bear @ 15.93 on 2026-07-06 | MILD BULLISH |
+| AXISCADES | AXISCADES Technologies Limited | 40.2 | bearish (LH/LL) | bear @ 1636.2 on 2026-07-06 | BEARISH |
+| AVANTIFEED | Avanti Feeds Limited | 32.5 | bearish (LH/LL) | bull @ 971.85 on 2026-07-15 | MILD BULLISH |
+| JYOTISTRUC | Jyoti Structures Limited | 43.6 | bearish (LH/LL) | bear @ 11.25 on 2026-07-17 | BEARISH |
+| GUJALKALI | Gujarat Alkalies and Chemicals Limited | 43.6 | bearish (LH/LL) | bear @ 601.0 on 2026-07-07 | BEARISH |
+| DSSL | Dynacons Systems & Solutions Limited | 37.9 | bullish (HH/HL) | bear @ 1261.1 on 2026-07-15 | BEARISH |
 
 ## High-conviction confluence: bullish structure + unmitigated demand OB + not in extreme premium
-**28 stocks** meet bullish-structure + unmitigated-bull-OB + range_pos<85%:
+**62 stocks** meet bullish-structure + unmitigated-bull-OB + range_pos<85%:
 | Symbol | Company | pos% | Bull OB | Demand zone | Scorecard |
 |---|---|--:|---|---|---|
-| PIXTRANS | Pix Transmissions Limite | 82.4 | 1598.2-1626.0 (2026-06-24, UNMITIGATED) | 1598.2-1659.0 (Moderate, FRESH, 9.14% away) | BULLISH |
-| ICIL | Indo Count Industries Li | 84.9 | 386.3-401.0 (2026-06-22, UNMITIGATED) | 343.1-410.5 (Moderate, tested, 3.9% away) | BULLISH |
-| MANCREDIT | Mangal Credit and Fincor | 82.6 | 165.7-169.9 (2026-05-22, UNMITIGATED) | 165.7-174.0 (Moderate, FRESH, 40.99% away) | BULLISH |
-| 539730 | Fredun Pharmaceuticals L | 80.2 | 2270.0-2364.85 (2026-06-15, UNMITIGATED) | 2226.0-2375.0 (Moderate, FRESH, 9.0% away) | BULLISH |
-| BOROSCI | Borosil Scientific Limit | 82.9 | 154.0-157.99 (2026-06-25, UNMITIGATED) | 153.05-162.01 (Moderate, FRESH, 2.74% away) | BULLISH |
-| HAPPYFORGE | Happy Forgings Limited | 84.4 | 1422.1-1462.9 (2026-06-18, UNMITIGATED) | 1323.2-1384.0 (Moderate, FRESH, 8.32% away) | BULLISH |
-| KIRLOSENG | Kirloskar Oil Engines Li | 70.6 | 1972.2-2052.7 (2026-06-18, UNMITIGATED) | 1910.0-2052.7 (Moderate, FRESH, 8.68% away) | BULLISH |
-| PANAMAPET | Panama Petrochem Limited | 69.4 | 371.95-387.0 (2026-06-17, UNMITIGATED) | 371.95-418.95 (Moderate, tested, 1.58% away) | BULLISH |
-| CARBORUNIV | Carborundum Universal Li | 70.7 | 1051.8-1073.7 (2026-06-16, UNMITIGATED) | 993.2-1082.5 (Moderate, FRESH, 5.27% away) | BULLISH |
-| SAIPARENT | Sai Parenterals Limited | 71.4 | 492.0-505.0 (2026-06-03, UNMITIGATED) | 474.0-543.2 (Moderate, tested, 13.88% away) | BULLISH |
-| CARYSIL | CARYSIL LIMITED | 83.4 | 1051.6-1123.0 (2026-06-08, UNMITIGATED) | 882.6-942.0 (Moderate, FRESH, 23.37% away) | BULLISH |
-| INDOBORAX | Indo Borax & Chemicals L | 83.7 | 271.6-277.95 (2026-05-20, UNMITIGATED) | 268.7-284.45 (Moderate, FRESH, 37.9% away) | BULLISH |
-| PANACEABIO | Panacea Biotec Limited | 73.0 | 395.0-443.9 (2026-06-01, UNMITIGATED) | 391.0-443.9 (Moderate, FRESH, 24.17% away) | BULLISH |
-| SOTL | Savita Oil Technologies  | 73.0 | 411.65-445.0 (2026-06-01, UNMITIGATED) | 411.65-450.35 (Moderate, FRESH, 18.27% away) | BULLISH |
-| UNIVASTU | Univastu India Limited | 83.1 | 80.5-83.49 (2026-06-15, UNMITIGATED) | 77.11-83.52 (Moderate, FRESH, 5.85% away) | BULLISH |
-| ZENTEC | Zen Technologies Limited | 65.4 | 1607.1-1676.9 (2026-06-01, UNMITIGATED) | 1582.3-1714.4 (Moderate, tested, 1.88% away) | BULLISH |
-| RRKABEL | R R Kabel Limited | 83.8 | 1964.3-2039.0 (2026-06-02, UNMITIGATED) | 1951.0-2130.0 (Moderate, tested, 10.01% away) | BULLISH |
-| NIBE | NIBE Limited | 80.7 | 1413.0-1494.0 (2026-06-11, UNMITIGATED) | 1002.6-1409.5 (Moderate, tested, 16.92% away) | BULLISH |
-| CALSOFT | California Software Comp | 67.3 | 19.8-20.53 (2026-06-11, UNMITIGATED) | 13.54-15.54 (Moderate, tested, 43.44% away) | BULLISH |
-| DIACABS | Diamond Power Infrastruc | 80.6 | 168.3-176.0 (2026-05-12, UNMITIGATED) | 168.06-184.75 (Moderate, tested, 7.65% away) | BULLISH |
-| FCL | Fineotex Chemical Limite | 71.3 | 30.64-34.12 (2026-05-21, UNMITIGATED) | 30.55-35.8 (Moderate, FRESH, 9.27% away) | BULLISH |
-| IFCI | IFCI Limited | 59.7 | 70.01-73.27 (2026-06-11, UNMITIGATED) | 70.01-79.06 (Moderate, tested, -3.98% away) | MILD BULLISH |
-| INOXINDIA | INOX India Limited | 77.9 | 1433.3-1510.0 (2026-06-01, UNMITIGATED) | 1469.1-1753.0 (Moderate, FRESH, 6.73% away) | MILD BULLISH |
-| 535916 | Alacrity Securities Ltd | 67.2 | 58.99-60.0 (2026-04-29, UNMITIGATED) | 54.0-61.0 (Moderate, FRESH, 11.03% away) | MILD BULLISH |
-| NETWEB | Netweb Technologies Indi | 63.5 | 3792.9-3908.6 (2026-05-25, UNMITIGATED) | 3792.9-4097.7 (Moderate, tested, 8.05% away) | NEUTRAL |
+| ROLEXRINGS | Rolex Rings Limited | 72.5 | 140.0-143.82 (2026-07-10, UNMITIGATED) | 138.1-147.44 (Moderate, FRESH, 7.09% away) | BULLISH |
+| JITFINFRA | JITF Infralogistics Limi | 69.0 | 294.0-299.8 (2026-07-09, UNMITIGATED) | 290.0-325.1 (Moderate, FRESH, 13.1% away) | BULLISH |
+| J&KBANK | The Jammu & Kashmir Bank | 81.5 | 162.2-166.9 (2026-07-07, UNMITIGATED) | 162.2-171.0 (Moderate, FRESH, 6.84% away) | BULLISH |
+| BLUESTONE | BlueStone Jewellery and  | 82.9 | 466.1-478.0 (2026-05-27, UNMITIGATED) | 421.0-465.5 (Moderate, tested, 28.69% away) | BULLISH |
+| UNICHEMLAB | Unichem Laboratories Lim | 76.0 | 457.75-478.45 (2026-07-06, UNMITIGATED) | 454.05-486.0 (Moderate, FRESH, 21.2% away) | BULLISH |
+| OMAXE | Omaxe Limited | 79.7 | 83.82-90.49 (2026-07-08, UNMITIGATED) | 78.0-88.9 (Moderate, tested, 5.17% away) | BULLISH |
+| PPAP | PPAP Automotive Limited | 59.2 | 244.21-260.18 (2026-07-06, UNMITIGATED) | 243.31-331.95 (Moderate, tested, -10.67% away) | BULLISH |
+| GODREJIND | Godrej Industries Limite | 84.5 | 1195.6-1234.0 (2026-07-07, UNMITIGATED) | 1195.6-1254.7 (Moderate, FRESH, 6.38% away) | BULLISH |
+| PLASTIBLEN | Plastiblends India Limit | 81.4 | 168.1-179.91 (2026-07-08, UNMITIGATED) | 168.1-184.0 (Moderate, FRESH, 7.92% away) | BULLISH |
+| FUSION | Fusion Finance Limited | 83.9 | 185.11-195.0 (2026-06-29, UNMITIGATED) | 182.0-197.96 (Moderate, FRESH, 14.11% away) | BULLISH |
+| PIXTRANS | Pix Transmissions Limite | 79.1 | 1598.2-1626.0 (2026-06-24, UNMITIGATED) | 1598.2-1659.0 (Moderate, FRESH, 8.38% away) | BULLISH |
+| DYCL | Dynamic Cables Limited | 79.2 | 360.1-367.25 (2026-07-10, UNMITIGATED) | 308.2-332.55 (Moderate, FRESH, 16.22% away) | BULLISH |
+| GRINDWELL | Grindwell Norton Limited | 67.3 | 1971.0-2034.1 (2026-07-14, UNMITIGATED) | 1971.0-2083.9 (Moderate, tested, 0.13% away) | BULLISH |
+| DALMIASUG | Dalmia Bharat Sugar and  | 66.3 | 331.75-341.6 (2026-07-02, UNMITIGATED) | 322.4-349.05 (Moderate, FRESH, 5.26% away) | BULLISH |
+| UTLSOLAR | Fujiyama Power Systems L | 83.8 | 331.5-348.05 (2026-07-07, UNMITIGATED) | 194.55-204.0 (Moderate, FRESH, 79.0% away) | BULLISH |
+| DIACABS | Diamond Power Infrastruc | 78.4 | 168.3-176.0 (2026-05-12, UNMITIGATED) | 168.06-184.75 (Moderate, tested, 20.37% away) | BULLISH |
+| SKMEGGPROD | SKM Egg Products Export  | 76.8 | 291.8-310.0 (2026-07-08, UNMITIGATED) | 291.8-325.05 (Moderate, tested, -1.88% away) | BULLISH |
+| IVALUE | Ivalue Infosolutions Lim | 81.3 | 226.98-234.9 (2026-06-11, UNMITIGATED) | none | BULLISH |
+| VIPULLTD | Vipul Limited | 70.5 | 14.67-15.6 (2026-07-06, UNMITIGATED) | 8.61-9.41 (Moderate, tested, 66.21% away) | BULLISH |
+| FERMENTA | Fermenta Biotech Limited | 79.7 | 348.15-383.05 (2026-07-08, UNMITIGATED) | 336.8-369.0 (Moderate, tested, 17.25% away) | BULLISH |
+| MOREPENLAB | Morepen Laboratories Lim | 82.0 | 51.41-53.24 (2026-06-24, UNMITIGATED) | 42.5-46.42 (Moderate, FRESH, 26.88% away) | BULLISH |
+| KIMS | Krishna Institute of Med | 80.5 | 735.3-752.25 (2026-06-03, UNMITIGATED) | 669.6-721.2 (Moderate, tested, 11.34% away) | BULLISH |
+| TARSONS | Tarsons Products Limited | 75.9 | 260.0-273.1 (2026-07-01, UNMITIGATED) | 199.41-244.9 (Moderate, FRESH, 17.37% away) | BULLISH |
+| SCANSTL | Scan Steels Limited | 82.1 | 39.47-43.0 (2026-07-08, UNMITIGATED) | 37.1-43.2 (Moderate, FRESH, 11.81% away) | BULLISH |
+| NITCO | Nitco Limited | 84.6 | 103.58-106.52 (2026-07-14, UNMITIGATED) | 102.63-109.5 (Moderate, tested, 1.24% away) | BULLISH |
 
 **Files:** `PHASE3_SMC.csv` (full table) · per-stock SMC appended to `reports/<symbol>.md`.

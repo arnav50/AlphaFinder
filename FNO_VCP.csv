@@ -1,201 +1,101 @@
 expiry,strike,side,tf,status,legs,tightening,pivot,pct,bars,depths,vwap_pos,vwap,ema_sig,ema_cross,smc_struct,smc_zone,smc_sd,smc_liq,smc_trend
-07-Jul-2026,24150,CE,1m,VCP forming,3,True,179.15,-5.55,375,-7.6% / -7.1% / -4.7%,below,217.78,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24150,CE,3m,Contracting,3,False,179.15,-5.55,125,-14.9% / -10.9% / -14.9%,below,217.67,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24150,CE,5m,Contracting,3,False,180.8,-6.42,75,-9.8% / -12.4% / -14.9%,below,217.74,bear,,bear,Discount,—,BSL above,—
-07-Jul-2026,24150,CE,15m,No VCP,1,False,256.0,-33.91,25,-8.3%,below,217.52,bear,,range,Discount,—,—,uptrend line swept (SSL)
-07-Jul-2026,24150,CE,1h,insufficient data,0,False,,,7,,below,214.26,—,,—,—,—,—,—
-07-Jul-2026,24150,PE,1m,Contracting,3,False,41.5,-9.04,375,-24.3% / -9.4% / -17.2%,below,39.06,bear,,bear,Discount,demand below,BSL above,—
-07-Jul-2026,24150,PE,3m,Contracting,3,False,43.65,-13.52,125,-17.0% / -8.4% / -23.6%,below,39.07,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24150,PE,5m,Contracting,3,False,53.75,-29.77,75,-21.3% / -12.5% / -15.5%,below,39.03,bear,death,bull,Discount,demand below,—,uptrend line swept (SSL)
-07-Jul-2026,24150,PE,15m,No VCP,1,False,53.3,-29.17,25,-22.0%,below,39.17,bull,,range,Discount,demand below,—,—
-07-Jul-2026,24150,PE,1h,insufficient data,0,False,,,7,,below,39.82,—,,—,—,—,—,—
-07-Jul-2026,24200,CE,1m,VCP forming,3,True,142.8,-7.39,375,-8.3% / -7.8% / -5.7%,below,179.88,bear,,range,Discount,supply above,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24200,CE,3m,Contracting,3,False,142.8,-7.39,125,-5.5% / -12.2% / -16.5%,below,179.77,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24200,CE,5m,Contracting,3,False,145.05,-8.82,75,-11.1% / -13.6% / -16.5%,below,179.79,bear,,range,Discount,—,BSL above,—
-07-Jul-2026,24200,CE,15m,No VCP,1,False,215.0,-38.49,25,-9.7%,below,179.68,bear,,range,Discount,—,—,uptrend line swept (SSL)
-07-Jul-2026,24200,CE,1h,insufficient data,0,False,,,7,,below,176.64,—,,—,—,—,—,—
-07-Jul-2026,24200,PE,1m,Contracting,3,False,56.05,-7.85,375,-22.0% / -8.5% / -15.8%,above,50.92,bear,,bear,Discount,demand below,BSL above,—
-07-Jul-2026,24200,PE,3m,Contracting,3,False,58.25,-11.33,125,-7.8% / -21.4% / -13.0%,above,50.93,bear,,bear,Discount,demand below,buy-side swept (bearish stop-hunt),downtrend line broken (BSL)
-07-Jul-2026,24200,PE,5m,Contracting,3,False,70.6,-26.84,75,-5.9% / -17.5% / -14.3%,above,50.89,bear,death,bull,Discount,demand below,buy-side swept (bearish stop-hunt),uptrend line swept (SSL)
-07-Jul-2026,24200,PE,15m,Breakout,1,False,50.15,2.99,25,-22.6%,above,51.03,bull,,range,Discount,demand below,—,—
-07-Jul-2026,24200,PE,1h,insufficient data,0,False,,,7,,below,51.92,—,,—,—,—,—,—
-07-Jul-2026,24250,CE,1m,Contracting,3,False,106.5,-4.23,375,-7.1% / -9.9% / -5.6%,below,145.44,bear,,range,Discount,supply above,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24250,CE,3m,Contracting,3,False,111.05,-8.15,125,-18.3% / -13.1% / -18.6%,below,145.34,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24250,CE,5m,Contracting,3,False,122.85,-16.97,75,-29.8% / -15.0% / -18.6%,below,145.35,bear,,bear,Discount,—,—,—
-07-Jul-2026,24250,CE,15m,No VCP,1,False,177.0,-42.37,25,-10.9%,below,145.25,bear,,range,Discount,—,—,—
-07-Jul-2026,24250,CE,1h,insufficient data,0,False,,,7,,below,142.58,—,,—,—,—,—,—
-07-Jul-2026,24250,PE,1m,Contracting,3,False,75.75,-6.93,375,-21.1% / -3.2% / -14.2%,above,66.55,bear,,bear,Discount,demand below,BSL above,—
-07-Jul-2026,24250,PE,3m,Contracting,3,False,80.4,-12.31,125,-7.0% / -20.4% / -14.2%,above,66.57,bear,,bear,Equilibrium,demand below,SSL below,downtrend line broken (BSL)
-07-Jul-2026,24250,PE,5m,Contracting,3,False,92.15,-23.49,75,-6.2% / -9.7% / -13.4%,above,66.52,bear,death,bull,Equilibrium,at demand,—,—
-07-Jul-2026,24250,PE,15m,Breakout,1,False,65.1,8.29,25,-22.4%,above,66.69,bull,,range,Equilibrium,at demand,—,—
-07-Jul-2026,24250,PE,1h,insufficient data,0,False,,,7,,above,67.87,—,,—,—,—,—,—
-07-Jul-2026,24300,CE,1m,VCP forming,3,True,83.3,-9.48,375,-10.8% / -10.0% / -5.9%,below,114.75,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24300,CE,3m,Contracting,3,False,83.3,-9.48,125,-19.5% / -14.5% / -21.0%,below,114.64,bear,,bear,Discount,—,—,uptrend line swept (SSL)
-07-Jul-2026,24300,CE,5m,Contracting,3,False,94.5,-20.21,75,-32.6% / -16.6% / -21.0%,below,114.66,bear,,range,Discount,—,—,—
-07-Jul-2026,24300,CE,15m,No VCP,1,False,142.3,-47.01,25,-12.7%,below,114.51,bear,,range,Discount,—,—,—
-07-Jul-2026,24300,CE,1h,insufficient data,0,False,,,7,,below,112.1,—,,—,—,—,—,—
-07-Jul-2026,24300,PE,1m,Contracting,3,False,99.4,-6.24,375,-19.3% / -7.3% / -11.5%,above,85.81,bear,,bear,Discount,demand below,BSL above,—
-07-Jul-2026,24300,PE,3m,Contracting,3,False,104.2,-10.56,125,-6.2% / -20.2% / -12.3%,above,85.84,bear,,bear,Equilibrium,demand below,SSL below,downtrend line broken (BSL)
-07-Jul-2026,24300,PE,5m,Contracting,3,False,116.6,-20.07,75,-8.4% / -12.7% / -18.5%,above,85.77,bull,,bull,Equilibrium,demand below,—,—
-07-Jul-2026,24300,PE,15m,Breakout,1,False,83.95,11.02,25,-21.4%,above,85.95,bull,,range,Equilibrium,—,—,downtrend line broken (BSL)
-07-Jul-2026,24300,PE,1h,insufficient data,0,False,,,7,,above,87.38,—,,—,—,—,—,—
-07-Jul-2026,24350,CE,1m,Contracting,3,False,61.1,-11.13,375,-8.4% / -11.9% / -6.6%,below,87.89,bear,,range,Discount,supply above,BSL above,uptrend line swept (SSL)
-07-Jul-2026,24350,CE,3m,Contracting,3,False,61.1,-11.13,125,-21.7% / -16.8% / -22.6%,below,87.79,bear,,bear,Discount,demand below,—,uptrend line swept (SSL)
-07-Jul-2026,24350,CE,5m,Contracting,3,False,70.15,-22.59,75,-34.9% / -18.8% / -22.6%,below,87.81,bear,,range,Discount,—,—,—
-07-Jul-2026,24350,CE,15m,No VCP,1,False,111.3,-51.21,25,-14.1%,below,87.7,bear,,range,Discount,—,—,—
-07-Jul-2026,24350,CE,1h,insufficient data,0,False,,,7,,below,85.73,—,,—,—,—,—,—
-07-Jul-2026,24350,PE,1m,Contracting,3,False,127.85,-4.97,375,-16.8% / -6.0% / -10.0%,above,109.15,bear,,bear,Discount,demand below,BSL above,—
-07-Jul-2026,24350,PE,3m,Contracting,3,False,132.6,-8.37,125,-6.3% / -17.6% / -10.0%,above,109.18,bear,,bear,Premium,at demand,SSL below,downtrend line broken (BSL)
-07-Jul-2026,24350,PE,5m,Contracting,3,False,146.3,-16.95,75,-7.6% / -11.5% / -16.2%,above,109.1,bull,,bull,Premium,demand below,—,—
-07-Jul-2026,24350,PE,15m,Breakout,1,False,106.55,14.03,25,-19.8%,above,109.33,bull,,range,Premium,—,—,downtrend line broken (BSL)
-07-Jul-2026,24350,PE,1h,insufficient data,0,False,,,7,,above,111.19,—,,—,—,—,—,—
-14-Jul-2026,24150,CE,1m,At pivot,3,True,269.35,-0.5,375,-3.3% / -3.0% / -2.6%,below,301.37,bull,golden,range,Discount,at demand,BSL above,—
-14-Jul-2026,24150,CE,3m,At pivot,3,False,269.35,-0.5,125,-3.2% / -8.3% / -5.7%,below,301.12,bear,,range,Discount,at supply,BSL above,downtrend line broken (BSL)
-14-Jul-2026,24150,CE,5m,At pivot,3,False,270.95,-1.09,75,-6.4% / -6.6% / -8.3%,below,301.04,bear,,bear,Discount,—,BSL above,—
-14-Jul-2026,24150,CE,15m,No VCP,1,False,333.0,-19.52,25,-5.6%,below,300.33,bear,,range,Discount,—,—,—
-14-Jul-2026,24150,CE,1h,insufficient data,0,False,,,7,,below,295.48,—,,—,—,—,—,—
-14-Jul-2026,24150,PE,1m,Contracting,3,False,104.65,-1.58,375,-6.8% / -11.8% / -7.3%,above,95.56,bear,,bear,Discount,demand below,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-14-Jul-2026,24150,PE,3m,Contracting,3,False,108.45,-5.03,125,-8.5% / -11.9% / -7.3%,above,95.57,bear,,bear,Premium,demand below,sell-side swept (bullish stop-hunt),—
-14-Jul-2026,24150,PE,5m,Contracting,3,False,115.25,-10.63,75,-5.9% / -12.7% / -8.5%,above,95.53,bull,,range,Premium,demand below,sell-side swept (bullish stop-hunt),—
-14-Jul-2026,24150,PE,15m,Breakout,1,False,94.0,9.57,25,-12.8%,above,95.66,bull,,range,Premium,—,—,downtrend line broken (BSL)
-14-Jul-2026,24150,PE,1h,insufficient data,0,False,,,7,,above,96.92,—,,—,—,—,—,—
-14-Jul-2026,24200,CE,1m,VCP forming,3,True,237.3,-2.04,375,-4.6% / -3.7% / -2.9%,below,268.07,bear,,range,Discount,at supply,BSL above,downtrend line broken (BSL)
-14-Jul-2026,24200,CE,3m,Contracting,3,False,237.3,-2.04,125,-4.1% / -6.5% / -6.1%,below,267.84,bear,,range,Discount,demand below,BSL above,—
-14-Jul-2026,24200,CE,5m,Contracting,3,False,238.7,-2.62,75,-6.9% / -7.2% / -8.1%,below,267.72,bear,,bear,Discount,—,BSL above,—
-14-Jul-2026,24200,CE,15m,No VCP,1,False,298.6,-22.15,25,-6.1%,below,266.94,bear,,range,Discount,—,—,—
-14-Jul-2026,24200,CE,1h,insufficient data,0,False,,,7,,below,262.33,—,,—,—,—,—,—
-14-Jul-2026,24200,PE,1m,Contracting,3,False,123.0,-1.95,375,-2.4% / -1.9% / -6.3%,above,111.31,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-14-Jul-2026,24200,PE,3m,Contracting,3,False,126.45,-4.63,125,-8.2% / -11.9% / -6.3%,above,111.28,bear,,bear,Premium,demand below,SSL below,downtrend line broken (BSL)
-14-Jul-2026,24200,PE,5m,Contracting,3,False,135.35,-10.9,75,-6.5% / -11.5% / -8.2%,above,111.18,bull,,bull,Premium,—,sell-side swept (bullish stop-hunt),—
-14-Jul-2026,24200,PE,15m,Breakout,1,False,109.4,10.24,25,-12.8%,above,111.2,bull,,range,Premium,—,—,downtrend line broken (BSL)
-14-Jul-2026,24200,PE,1h,insufficient data,0,False,,,7,,above,112.31,—,,—,—,—,—,—
-14-Jul-2026,24250,CE,1m,At pivot,3,False,206.35,-0.65,375,-3.8% / -4.8% / -2.3%,below,236.41,bull,golden,range,Discount,demand below,BSL above,—
-14-Jul-2026,24250,CE,3m,At pivot,3,False,207.8,-1.35,125,-7.4% / -4.9% / -5.9%,below,236.34,bear,,range,Discount,—,sell-side swept (bullish stop-hunt),—
-14-Jul-2026,24250,CE,5m,Contracting,3,False,216.2,-5.18,75,-7.3% / -7.6% / -9.3%,below,236.34,bear,,bear,Discount,—,BSL above,—
-14-Jul-2026,24250,CE,15m,No VCP,1,False,264.3,-22.44,25,-6.8%,below,236.14,bear,,range,Discount,—,—,—
-14-Jul-2026,24250,CE,1h,insufficient data,0,False,,,7,,below,233.86,—,,—,—,—,—,—
-14-Jul-2026,24250,PE,1m,VCP forming,3,True,143.0,-3.46,375,-10.9% / -6.4% / -2.7%,above,129.24,bear,,bear,Discount,demand below,BSL above,—
-14-Jul-2026,24250,PE,3m,Contracting,3,False,146.85,-5.99,125,-7.9% / -3.5% / -10.3%,above,129.34,bear,,bear,Premium,demand below,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-14-Jul-2026,24250,PE,5m,Contracting,3,False,155.0,-10.94,75,-6.1% / -12.5% / -7.9%,above,129.39,bull,,bull,Discount,demand below,—,—
-14-Jul-2026,24250,PE,15m,Breakout,1,False,126.95,8.74,25,-12.5%,above,129.96,bull,,range,Discount,demand below,—,downtrend line broken (BSL)
-14-Jul-2026,24250,PE,1h,insufficient data,0,False,,,7,,above,133.22,—,,—,—,—,—,—
-14-Jul-2026,24300,CE,1m,Contracting,3,False,178.2,-2.24,375,-3.3% / -4.1% / -3.2%,below,205.83,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),—
-14-Jul-2026,24300,CE,3m,VCP forming,3,True,178.2,-2.24,125,-11.3% / -8.0% / -4.9%,below,205.7,bear,,range,Discount,—,BSL above,—
-14-Jul-2026,24300,CE,5m,Contracting,3,False,180.2,-3.33,75,-7.7% / -8.1% / -9.8%,below,205.75,bear,,bear,Discount,—,BSL above,—
-14-Jul-2026,24300,CE,15m,No VCP,1,False,231.7,-24.82,25,-7.4%,below,205.57,bear,,range,Discount,—,—,—
-14-Jul-2026,24300,CE,1h,insufficient data,0,False,,,7,,below,203.3,—,,—,—,—,—,—
-14-Jul-2026,24300,PE,1m,At pivot,3,False,164.65,-0.58,375,-2.2% / -2.1% / -5.2%,above,148.85,bear,,range,Equilibrium,at supply,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-14-Jul-2026,24300,PE,3m,Contracting,3,False,168.2,-2.68,125,-7.7% / -10.1% / -5.2%,above,148.87,bear,,bear,Premium,at supply,SSL below,downtrend line broken (BSL)
-14-Jul-2026,24300,PE,5m,Contracting,3,False,179.65,-8.88,75,-12.3% / -7.7% / -10.9%,above,148.77,bull,,bull,Premium,—,—,—
-14-Jul-2026,24300,PE,15m,Breakout,1,False,146.35,11.86,25,-12.3%,above,149.0,bull,,range,Premium,—,—,downtrend line broken (BSL)
-14-Jul-2026,24300,PE,1h,insufficient data,0,False,,,7,,above,150.85,—,,—,—,—,—,—
-14-Jul-2026,24350,CE,1m,Contracting,3,False,153.1,-2.65,375,-4.5% / -4.5% / -3.2%,below,178.42,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),—
-14-Jul-2026,24350,CE,3m,Contracting,3,False,153.1,-2.65,125,-2.9% / -4.3% / -6.7%,below,178.3,bear,,range,Discount,—,BSL above,—
-14-Jul-2026,24350,CE,5m,Contracting,3,False,154.7,-3.65,75,-19.5% / -8.7% / -9.8%,below,178.31,bear,,range,Discount,—,BSL above,—
-14-Jul-2026,24350,CE,15m,No VCP,1,False,201.6,-26.07,25,-7.9%,below,178.0,bear,,range,Discount,—,—,—
-14-Jul-2026,24350,CE,1h,insufficient data,0,False,,,7,,below,175.93,—,,—,—,—,—,—
-14-Jul-2026,24350,PE,1m,At pivot,3,False,189.6,-1.42,375,-2.5% / -10.9% / -4.8%,above,171.33,bear,,range,Equilibrium,at supply,BSL above,downtrend line broken (BSL)
-14-Jul-2026,24350,PE,3m,Contracting,3,False,193.5,-3.41,125,-6.8% / -11.1% / -5.2%,above,171.5,bear,,bear,Premium,at supply,buy-side swept (bearish stop-hunt),downtrend line broken (BSL)
-14-Jul-2026,24350,PE,5m,Contracting,3,False,205.05,-8.85,75,-5.5% / -11.7% / -6.8%,above,171.56,bull,,bull,Discount,—,—,—
-14-Jul-2026,24350,PE,15m,Breakout,1,False,169.9,10.01,25,-12.5%,above,172.32,bull,,range,Discount,—,—,downtrend line broken (BSL)
-14-Jul-2026,24350,PE,1h,insufficient data,0,False,,,7,,above,176.6,—,,—,—,—,—,—
-21-Jul-2026,24150,CE,1m,At pivot,3,True,338.55,0.0,375,-4.7% / -3.2% / -2.6%,below,373.36,bear,,bear,Discount,demand below,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-21-Jul-2026,24150,CE,3m,At pivot,3,True,342.85,-1.25,125,-9.0% / -5.6% / -4.7%,below,373.26,bear,,range,Discount,demand below,BSL above,—
-21-Jul-2026,24150,CE,5m,At pivot,3,False,342.15,-1.05,75,-1.2% / -9.0% / -4.0%,below,372.89,bear,,bear,Discount,demand below,—,—
-21-Jul-2026,24150,CE,15m,No VCP,1,False,401.0,-15.57,25,-5.4%,below,372.42,bear,,range,Discount,—,—,—
-21-Jul-2026,24150,CE,1h,insufficient data,0,False,,,7,,below,366.42,—,,—,—,—,—,—
-21-Jul-2026,24150,PE,1m,At pivot,3,False,152.35,-1.44,375,-4.8% / -9.7% / -4.2%,above,143.76,bear,,bull,Discount,demand below,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24150,PE,3m,Contracting,3,False,154.25,-2.66,125,-4.8% / -9.7% / -4.2%,above,143.85,bear,,bear,Premium,demand below,SSL below,downtrend line broken (BSL)
-21-Jul-2026,24150,PE,5m,Contracting,3,False,163.8,-8.33,75,-9.2% / -4.8% / -9.7%,above,143.84,bull,,range,Discount,demand below,SSL below,—
-21-Jul-2026,24150,PE,15m,Breakout,1,False,143.15,4.89,25,-9.2%,above,144.46,bull,,range,Discount,demand below,—,—
-21-Jul-2026,24150,PE,1h,insufficient data,0,False,,,7,,above,147.38,—,,—,—,—,—,—
-21-Jul-2026,24200,CE,1m,At pivot,3,True,310.1,-1.24,375,-3.0% / -2.9% / -2.7%,below,337.17,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),—
-21-Jul-2026,24200,CE,3m,At pivot,3,False,310.1,-1.24,125,-6.1% / -5.5% / -5.9%,below,337.05,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),uptrend line swept (SSL)
-21-Jul-2026,24200,CE,5m,At pivot,3,True,310.3,-1.31,75,-10.9% / -6.0% / -5.8%,below,336.81,bear,,bear,Discount,demand below,BSL above,—
-21-Jul-2026,24200,CE,15m,No VCP,1,False,365.0,-16.1,25,-4.4%,below,336.41,bear,,range,Discount,—,—,—
-21-Jul-2026,24200,CE,1h,insufficient data,0,False,,,7,,below,332.32,—,,—,—,—,—,—
-21-Jul-2026,24200,PE,1m,Breakout,3,False,169.5,1.71,375,-1.9% / -8.9% / -4.5%,above,159.47,bear,,range,Premium,demand below,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-21-Jul-2026,24200,PE,3m,At pivot,3,False,173.1,-0.4,125,-6.5% / -8.9% / -4.5%,above,159.61,bear,,bear,Premium,demand below,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24200,PE,5m,Contracting,3,False,181.35,-4.94,75,-2.1% / -4.8% / -9.6%,above,159.7,bull,,range,Discount,supply above,buy-side swept (bearish stop-hunt),—
-21-Jul-2026,24200,PE,15m,Breakout,1,False,159.75,7.92,25,-9.8%,above,160.3,bull,,range,Discount,—,—,—
-21-Jul-2026,24200,PE,1h,insufficient data,0,False,,,7,,above,163.19,—,,—,—,—,—,—
-21-Jul-2026,24250,CE,1m,Contracting,3,False,279.0,-2.51,375,-2.1% / -1.6% / -1.8%,below,307.19,bear,,bull,Discount,at supply,BSL above,uptrend line swept (SSL)
-21-Jul-2026,24250,CE,3m,VCP forming,3,True,281.0,-3.2,125,-5.6% / -5.4% / -4.2%,below,306.99,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-21-Jul-2026,24250,CE,5m,Contracting,3,False,284.65,-4.44,75,-2.0% / -6.0% / -5.0%,below,307.02,bear,,bear,Discount,—,BSL above,—
-21-Jul-2026,24250,CE,15m,No VCP,1,False,331.85,-18.04,25,-4.4%,below,306.17,bear,,range,Discount,—,—,—
-21-Jul-2026,24250,CE,1h,insufficient data,0,False,,,7,,below,302.12,—,,—,—,—,—,—
-21-Jul-2026,24250,PE,1m,At pivot,3,False,187.6,-1.15,375,-5.9% / -8.4% / -4.6%,above,179.12,bear,,range,Discount,demand below,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24250,PE,3m,Contracting,3,False,191.8,-3.31,125,-5.9% / -8.4% / -4.6%,above,178.84,bear,,bear,Premium,demand below,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24250,PE,5m,Contracting,3,False,201.45,-7.94,75,-3.8% / -5.9% / -8.4%,above,179.01,bull,,bull,Discount,at demand,buy-side swept (bearish stop-hunt),—
-21-Jul-2026,24250,PE,15m,Breakout,1,False,179.05,3.57,25,-9.5%,above,179.54,bull,,range,Discount,—,—,—
-21-Jul-2026,24250,PE,1h,insufficient data,0,False,,,7,,above,182.45,—,,—,—,—,—,—
-21-Jul-2026,24300,CE,1m,At pivot,3,False,250.25,-1.3,375,-3.8% / -2.5% / -2.7%,below,276.79,bull,golden,range,Discount,demand below,sell-side swept (bullish stop-hunt),—
-21-Jul-2026,24300,CE,3m,At pivot,3,True,250.0,-1.2,125,-7.9% / -7.3% / -5.8%,below,276.72,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),uptrend line swept (SSL)
-21-Jul-2026,24300,CE,5m,Contracting,3,False,256.0,-3.52,75,-5.4% / -7.4% / -7.3%,below,276.63,bear,,bear,Discount,demand below,BSL above,—
-21-Jul-2026,24300,CE,15m,No VCP,1,False,303.75,-18.68,25,-6.2%,below,275.84,bear,,range,Discount,—,—,—
-21-Jul-2026,24300,CE,1h,insufficient data,0,False,,,7,,below,271.77,—,,—,—,—,—,—
-21-Jul-2026,24300,PE,1m,At pivot,3,False,210.0,0.0,375,-2.7% / -8.1% / -4.7%,above,198.54,bear,,range,Discount,demand below,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24300,PE,3m,Contracting,3,False,214.8,-2.23,125,-6.0% / -8.5% / -4.7%,above,198.63,bear,,bear,Premium,at supply,buy-side swept (bearish stop-hunt),uptrend line swept (SSL)
-21-Jul-2026,24300,PE,5m,Contracting,3,False,223.0,-5.83,75,-1.9% / -4.8% / -8.2%,above,198.68,bull,,range,Discount,at supply,BSL above,—
-21-Jul-2026,24300,PE,15m,Breakout,1,False,197.7,6.22,25,-8.9%,above,199.39,bull,,range,Discount,—,—,downtrend line broken (BSL)
-21-Jul-2026,24300,PE,1h,insufficient data,0,False,,,7,,above,202.46,—,,—,—,—,—,—
-21-Jul-2026,24350,CE,1m,At pivot,3,True,224.45,-0.51,375,-4.0% / -3.2% / -3.1%,below,248.67,bull,golden,range,Discount,demand below,BSL above,—
-21-Jul-2026,24350,CE,3m,At pivot,3,False,223.9,-0.27,125,-3.2% / -5.3% / -7.4%,below,248.73,bear,,range,Discount,demand below,BSL above,—
-21-Jul-2026,24350,CE,5m,At pivot,3,False,224.25,-0.42,75,-9.1% / -6.9% / -7.4%,below,248.6,bear,,bear,Discount,—,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24350,CE,15m,No VCP,1,False,273.0,-18.21,25,-6.6%,below,248.27,bear,,range,Discount,—,—,—
-21-Jul-2026,24350,CE,1h,insufficient data,0,False,,,7,,below,244.8,—,,—,—,—,—,—
-21-Jul-2026,24350,PE,1m,Contracting,3,False,238.3,-1.68,375,-7.5% / -2.2% / -4.4%,above,219.76,bear,,bull,Equilibrium,at demand,BSL above,—
-21-Jul-2026,24350,PE,3m,Contracting,3,False,238.3,-1.68,125,-4.9% / -8.3% / -4.4%,above,219.83,bear,,bear,Premium,demand below,BSL above,downtrend line broken (BSL)
-21-Jul-2026,24350,PE,5m,Contracting,3,False,248.7,-5.79,75,-3.0% / -2.0% / -8.6%,above,219.88,bull,,bull,Discount,at supply,SSL below,—
-21-Jul-2026,24350,PE,15m,Breakout,1,False,219.25,6.86,25,-8.8%,above,220.43,bull,,range,Discount,—,—,downtrend line broken (BSL)
-21-Jul-2026,24350,PE,1h,insufficient data,0,False,,,7,,above,223.89,—,,—,—,—,—,—
-28-Jul-2026,24150,CE,1m,VCP forming,3,True,409.85,-1.71,375,-2.2% / -2.0% / -1.1%,below,434.53,bull,,range,Discount,demand below,sell-side swept (bullish stop-hunt),—
-28-Jul-2026,24150,CE,3m,At pivot,3,False,403.0,-0.04,125,-2.3% / -3.7% / -2.8%,below,434.32,bear,,range,Discount,demand below,BSL above,uptrend line swept (SSL)
-28-Jul-2026,24150,CE,5m,At pivot,3,False,408.2,-1.31,75,-2.0% / -4.3% / -4.8%,below,434.24,bear,,bear,Discount,—,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24150,CE,15m,No VCP,1,False,464.4,-13.25,25,-3.2%,below,433.43,bear,,range,Discount,—,—,—
-28-Jul-2026,24150,CE,1h,insufficient data,0,False,,,7,,below,429.13,—,,—,—,—,—,—
-28-Jul-2026,24150,PE,1m,At pivot,3,False,195.05,-0.15,375,-2.1% / -3.5% / -1.1%,above,183.46,bear,,range,Equilibrium,at demand,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24150,PE,3m,Contracting,3,False,198.85,-2.06,125,-4.9% / -7.2% / -3.9%,above,183.61,bear,,bear,Premium,at supply,buy-side swept (bearish stop-hunt),—
-28-Jul-2026,24150,PE,5m,Contracting,3,False,205.0,-5.0,75,-4.0% / -4.9% / -7.2%,above,183.62,bull,,range,Premium,at supply,BSL above,—
-28-Jul-2026,24150,PE,15m,Breakout,1,False,183.0,6.42,25,-8.9%,above,183.89,bull,,range,Premium,—,—,—
-28-Jul-2026,24150,PE,1h,insufficient data,0,False,,,7,,above,185.76,—,,—,—,—,—,—
-28-Jul-2026,24200,CE,1m,At pivot,3,True,372.7,-0.87,375,-3.1% / -2.2% / -1.4%,below,402.95,bear,,range,Discount,at supply,BSL above,—
-28-Jul-2026,24200,CE,3m,At pivot,3,False,372.7,-0.87,125,-1.3% / -5.3% / -2.9%,below,402.75,bear,,range,Discount,at supply,sell-side swept (bullish stop-hunt),downtrend line broken (BSL)
-28-Jul-2026,24200,CE,5m,Contracting,3,False,380.0,-2.78,75,-3.8% / -4.6% / -5.3%,below,402.68,bear,,bear,Discount,—,BSL above,—
-28-Jul-2026,24200,CE,15m,No VCP,1,False,434.25,-14.92,25,-3.8%,below,401.92,bear,,range,Discount,—,—,uptrend line swept (SSL)
-28-Jul-2026,24200,CE,1h,insufficient data,0,False,,,7,,below,397.63,—,,—,—,—,—,—
-28-Jul-2026,24200,PE,1m,At pivot,3,False,212.9,-0.21,375,-1.6% / -6.9% / -3.4%,above,200.47,bear,,range,Equilibrium,at supply,BSL above,uptrend line swept (SSL)
-28-Jul-2026,24200,PE,3m,Contracting,3,False,216.1,-1.69,125,-2.8% / -7.0% / -3.4%,above,200.49,bear,,bear,Premium,at supply,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24200,PE,5m,Contracting,3,False,224.0,-5.16,75,-8.2% / -4.3% / -6.9%,above,200.41,bull,,bull,Premium,—,SSL below,—
-28-Jul-2026,24200,PE,15m,Breakout,2,False,199.55,6.46,25,-4.7% / -8.3%,above,200.63,bull,,range,Premium,—,—,downtrend line broken (BSL)
-28-Jul-2026,24200,PE,1h,insufficient data,0,False,,,7,,above,201.82,—,,—,—,—,—,—
-28-Jul-2026,24250,CE,1m,Breakout,3,True,343.5,0.26,375,-3.4% / -2.0% / -1.6%,below,370.86,bull,,bear,Discount,at demand,sell-side swept (bullish stop-hunt),—
-28-Jul-2026,24250,CE,3m,At pivot,3,False,345.4,-0.29,125,-4.5% / -4.5% / -3.0%,below,370.73,bear,,range,Discount,demand below,sell-side swept (bullish stop-hunt),—
-28-Jul-2026,24250,CE,5m,At pivot,3,False,347.95,-1.02,75,-4.1% / -4.7% / -5.3%,below,370.59,bear,,bear,Discount,—,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24250,CE,15m,No VCP,1,False,400.0,-13.9,25,-4.3%,below,369.86,bear,,range,Discount,—,—,—
-28-Jul-2026,24250,CE,1h,insufficient data,0,False,,,7,,below,365.61,—,,—,—,—,—,—
-28-Jul-2026,24250,PE,1m,At pivot,3,False,232.85,-0.37,375,-6.5% / -2.2% / -2.8%,above,218.58,bear,,range,Equilibrium,at supply,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24250,PE,3m,At pivot,3,False,235.5,-1.49,125,-5.0% / -6.8% / -2.9%,above,218.69,bear,,bear,Premium,at supply,BSL above,—
-28-Jul-2026,24250,PE,5m,Contracting,3,False,243.4,-4.68,75,-8.6% / -3.0% / -6.6%,above,218.76,bull,,bull,Equilibrium,demand below,buy-side swept (bearish stop-hunt),—
-28-Jul-2026,24250,PE,15m,Breakout,1,False,217.4,6.72,25,-8.4%,above,219.1,bull,,range,Equilibrium,demand below,—,downtrend line broken (BSL)
-28-Jul-2026,24250,PE,1h,insufficient data,0,False,,,7,,above,221.29,—,,—,—,—,—,—
-28-Jul-2026,24300,CE,1m,At pivot,3,False,313.2,0.08,375,-2.3% / -3.1% / -1.8%,below,340.82,bull,golden,range,Discount,at demand,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24300,CE,3m,At pivot,3,False,317.2,-1.18,125,-4.7% / -5.9% / -3.2%,below,340.67,bear,,range,Discount,at supply,sell-side swept (bullish stop-hunt),uptrend line swept (SSL)
-28-Jul-2026,24300,CE,5m,At pivot,3,False,314.5,-0.33,75,-4.1% / -5.1% / -5.9%,below,340.62,bear,,bear,Discount,—,BSL above,—
-28-Jul-2026,24300,CE,15m,No VCP,1,False,368.8,-15.01,25,-4.4%,below,339.99,bear,,range,Discount,—,—,—
-28-Jul-2026,24300,CE,1h,insufficient data,0,False,,,7,,below,336.15,—,,—,—,—,—,—
-28-Jul-2026,24300,PE,1m,Breakout,3,False,254.35,0.18,375,-1.3% / -6.7% / -3.5%,above,238.15,bear,,range,Premium,at supply,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24300,PE,3m,At pivot,3,False,257.5,-1.05,125,-5.0% / -7.0% / -3.5%,above,238.17,bear,,bear,Premium,at supply,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24300,PE,5m,Contracting,3,False,266.5,-4.39,75,-2.8% / -4.4% / -6.7%,above,238.15,bull,,bull,Premium,demand below,SSL below,—
-28-Jul-2026,24300,PE,15m,Breakout,1,False,236.9,7.56,25,-8.2%,above,238.31,bull,,range,Premium,—,—,downtrend line broken (BSL)
-28-Jul-2026,24300,PE,1h,insufficient data,0,False,,,7,,above,239.73,—,,—,—,—,—,—
-28-Jul-2026,24350,CE,1m,At pivot,3,False,286.0,-1.1,375,-1.8% / -3.4% / -1.9%,below,311.05,bull,,range,Discount,demand below,BSL above,—
-28-Jul-2026,24350,CE,3m,At pivot,3,False,285.85,-1.05,125,-3.0% / -5.5% / -3.4%,below,310.88,bear,,range,Discount,at supply,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24350,CE,5m,Contracting,3,False,290.3,-2.57,75,-4.7% / -5.5% / -5.3%,below,310.78,bear,,bear,Discount,—,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24350,CE,15m,No VCP,1,False,337.95,-16.3,25,-4.7%,below,310.18,bear,,range,Discount,—,—,—
-28-Jul-2026,24350,CE,1h,insufficient data,0,False,,,7,,below,306.38,—,,—,—,—,—,—
-28-Jul-2026,24350,PE,1m,Breakout,3,False,275.75,0.63,375,-4.0% / -6.3% / -3.0%,above,258.4,bear,,range,Premium,demand below,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24350,PE,3m,At pivot,3,False,278.75,-0.45,125,-3.9% / -6.5% / -3.0%,above,258.45,bear,,bear,Premium,demand below,BSL above,downtrend line broken (BSL)
-28-Jul-2026,24350,PE,5m,Contracting,3,False,288.1,-3.68,75,-8.0% / -3.9% / -6.5%,above,258.48,bull,,bull,Premium,—,SSL below,—
-28-Jul-2026,24350,PE,15m,Breakout,1,False,257.25,7.87,25,-8.5%,above,258.63,bull,,range,Premium,—,—,downtrend line broken (BSL)
-28-Jul-2026,24350,PE,1h,insufficient data,0,False,,,7,,above,260.3,—,,—,—,—,—,—
+21-Jul-2026,24250,CE,1m,Breakout,3,False,152.45,12.59,359,-4.0% / -3.7% / -7.7%,above,118.24,bull,,bear,Premium,—,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24250,CE,3m,Breakout,3,False,150.55,14.02,125,-32.4% / -7.6% / -7.7%,above,118.31,bull,,range,Premium,—,SSL below,—
+21-Jul-2026,24250,CE,5m,Breakout,3,False,151.35,13.41,75,-10.2% / -11.4% / -7.6%,above,118.42,bull,,range,Premium,—,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24250,CE,15m,Breakout,2,True,129.75,32.29,25,-26.0% / -24.4%,above,119.04,bull,,range,Premium,—,—,—
+21-Jul-2026,24250,CE,1h,insufficient data,0,False,,,7,,above,121.89,—,,—,—,—,—,—
+21-Jul-2026,24250,PE,1m,Contracting,3,False,102.75,-12.21,375,-2.8% / -10.7% / -6.9%,below,138.26,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24250,PE,3m,Contracting,3,False,107.4,-16.01,125,-3.6% / -43.4% / -9.2%,below,138.21,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24250,PE,5m,Contracting,3,False,109.4,-17.55,75,-12.7% / -3.9% / -40.5%,below,138.05,bear,,bull,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24250,PE,15m,VCP forming,2,True,151.75,-40.56,25,-12.2% / -11.3%,below,137.73,bear,,range,Discount,—,—,—
+21-Jul-2026,24250,PE,1h,insufficient data,0,False,,,7,,below,136.76,—,,—,—,—,—,—
+21-Jul-2026,24300,CE,1m,Breakout,3,False,124.2,13.61,359,-4.1% / -4.4% / -9.2%,above,94.39,bull,,bear,Premium,supply above,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24300,CE,3m,Breakout,3,False,122.4,15.28,125,-34.9% / -8.2% / -8.2%,above,94.47,bull,,range,Premium,—,—,—
+21-Jul-2026,24300,CE,5m,Breakout,3,False,120.25,17.34,75,-11.3% / -12.6% / -6.0%,above,94.51,bull,,range,Premium,—,—,downtrend line broken (BSL)
+21-Jul-2026,24300,CE,15m,Breakout,2,True,104.55,34.96,25,-28.2% / -26.5%,above,95.12,bull,,range,Premium,—,—,—
+21-Jul-2026,24300,CE,1h,insufficient data,0,False,,,7,,above,97.84,—,,—,—,—,—,—
+21-Jul-2026,24300,PE,1m,Contracting,3,False,123.6,-10.92,359,-2.6% / -6.3% / -6.0%,below,164.69,bear,,bear,Discount,—,BSL above,—
+21-Jul-2026,24300,PE,3m,Contracting,3,False,129.65,-15.08,125,-7.1% / -41.9% / -8.2%,below,164.61,bear,,range,Discount,—,BSL above,—
+21-Jul-2026,24300,PE,5m,Contracting,3,False,132.5,-16.91,75,-4.0% / -1.4% / -41.9%,below,164.54,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24300,PE,15m,No VCP,1,False,179.45,-38.65,25,-12.3%,below,164.22,bear,,bull,Discount,—,—,—
+21-Jul-2026,24300,PE,1h,insufficient data,0,False,,,7,,below,163.25,—,,—,—,—,—,—
+21-Jul-2026,24350,CE,1m,Breakout,3,False,98.8,15.69,359,-5.2% / -5.4% / -9.9%,above,73.79,bull,,bear,Premium,supply above,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24350,CE,3m,Breakout,3,True,97.35,17.41,125,-36.7% / -9.5% / -9.4%,above,73.85,bull,,range,Premium,—,SSL below,—
+21-Jul-2026,24350,CE,5m,Breakout,3,False,95.9,19.19,75,-12.3% / -13.8% / -7.0%,above,73.87,bull,,range,Premium,—,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24350,CE,15m,Breakout,2,False,82.6,38.38,25,-30.5% / -41.9%,above,74.4,bull,,range,Premium,—,—,—
+21-Jul-2026,24350,CE,1h,insufficient data,0,False,,,7,,above,76.77,—,,—,—,—,—,—
+21-Jul-2026,24350,PE,1m,Contracting,3,False,155.3,-14.23,375,-2.8% / -5.9% / -6.6%,below,194.06,bear,,bear,Discount,—,BSL above,—
+21-Jul-2026,24350,PE,3m,Contracting,3,False,155.5,-14.34,125,-3.5% / -41.8% / -7.6%,below,194.03,bear,,range,Discount,—,—,uptrend line swept (SSL)
+21-Jul-2026,24350,PE,5m,Contracting,3,False,158.35,-15.88,75,-12.3% / -10.6% / -41.8%,below,193.81,bear,,range,Discount,—,—,uptrend line swept (SSL)
+21-Jul-2026,24350,PE,15m,No VCP,1,False,212.0,-37.17,25,-11.8%,below,193.39,bear,,range,Discount,—,—,—
+21-Jul-2026,24350,PE,1h,insufficient data,0,False,,,7,,below,191.96,—,,—,—,—,—,—
+21-Jul-2026,24400,CE,1m,Breakout,3,False,76.75,16.87,359,-12.7% / -6.3% / -10.4%,above,56.54,bull,,bear,Premium,—,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24400,CE,3m,Breakout,3,True,75.55,18.73,125,-40.5% / -10.4% / -9.9%,above,56.61,bull,,range,Premium,—,SSL below,—
+21-Jul-2026,24400,CE,5m,Breakout,3,False,77.05,16.42,75,-13.1% / -15.0% / -10.4%,above,56.66,bull,,range,Premium,—,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24400,CE,15m,Breakout,2,False,63.75,40.71,25,-32.6% / -43.1%,above,57.17,bull,,range,Premium,—,—,—
+21-Jul-2026,24400,CE,1h,insufficient data,0,False,,,7,,above,59.31,—,,—,—,—,—,—
+21-Jul-2026,24400,PE,1m,Contracting,3,False,185.75,-15.05,359,-2.6% / -10.2% / -5.7%,below,226.97,bear,,bear,Discount,—,BSL above,—
+21-Jul-2026,24400,PE,3m,Contracting,3,False,186.95,-15.59,125,-4.2% / -40.0% / -7.5%,below,226.88,bear,,range,Discount,—,BSL above,—
+21-Jul-2026,24400,PE,5m,Contracting,3,False,188.5,-16.29,75,-11.7% / -6.9% / -37.2%,below,226.81,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24400,PE,15m,No VCP,1,False,246.0,-35.85,25,-11.7%,below,226.44,bear,,bull,Discount,—,—,—
+21-Jul-2026,24400,PE,1h,insufficient data,0,False,,,7,,below,225.07,—,,—,—,—,—,—
+21-Jul-2026,24450,CE,1m,Breakout,3,False,66.8,2.84,375,-6.0% / -6.4% / -12.1%,above,42.44,bull,,bear,Premium,—,SSL below,downtrend line broken (BSL)
+21-Jul-2026,24450,CE,3m,Breakout,3,True,57.9,18.65,125,-44.1% / -11.6% / -11.5%,above,42.45,bull,,bear,Premium,—,—,downtrend line broken (BSL)
+21-Jul-2026,24450,CE,5m,Breakout,3,False,58.65,17.14,75,-14.3% / -21.0% / -10.8%,above,42.58,bull,,range,Premium,—,—,downtrend line broken (BSL)
+21-Jul-2026,24450,CE,15m,Breakout,2,False,51.05,34.57,25,-38.0% / -49.4%,above,42.98,bull,,range,Premium,—,—,—
+21-Jul-2026,24450,CE,1h,insufficient data,0,False,,,7,,above,44.79,—,,—,—,—,—,—
+21-Jul-2026,24450,PE,1m,Contracting,3,False,218.05,-14.13,375,-5.5% / -5.7% / -3.3%,below,262.66,bear,,bear,Discount,supply above,BSL above,—
+21-Jul-2026,24450,PE,3m,Contracting,3,False,220.85,-15.21,125,-2.7% / -39.2% / -7.1%,below,262.65,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24450,PE,5m,Contracting,3,False,222.3,-15.77,75,-11.3% / -9.6% / -39.2%,below,262.34,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+21-Jul-2026,24450,PE,15m,No VCP,1,False,285.1,-34.32,25,-10.7%,below,261.82,bear,,range,Discount,—,—,—
+21-Jul-2026,24450,PE,1h,insufficient data,0,False,,,7,,below,259.89,—,,—,—,—,—,—
+28-Jul-2026,24250,CE,1m,Breakout,3,False,250.8,5.26,375,-2.3% / -1.9% / -4.7%,above,211.44,bull,,bull,Premium,supply above,SSL below,—
+28-Jul-2026,24250,CE,3m,Breakout,3,False,247.3,6.75,125,-15.5% / -3.2% / -3.8%,above,211.45,bull,,bull,Premium,demand below,SSL below,downtrend line broken (BSL)
+28-Jul-2026,24250,CE,5m,Breakout,3,False,243.65,8.35,75,-5.4% / -8.6% / -3.2%,above,211.79,bull,,range,Premium,—,—,—
+28-Jul-2026,24250,CE,15m,Breakout,2,False,229.8,14.88,25,-15.3% / -23.8%,above,212.41,bull,,range,Premium,—,—,—
+28-Jul-2026,24250,CE,1h,insufficient data,0,False,,,7,,above,214.75,—,,—,—,—,—,—
+28-Jul-2026,24250,PE,1m,Contracting,3,False,195.3,-9.37,359,-1.8% / -6.1% / -2.8%,below,222.09,bear,,range,Discount,—,BSL above,—
+28-Jul-2026,24250,PE,3m,Contracting,3,False,194.9,-9.18,125,-1.4% / -6.0% / -4.4%,below,222.03,bear,,bull,Discount,supply above,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24250,PE,5m,Contracting,3,False,196.0,-9.69,75,-4.4% / -2.5% / -28.4%,below,221.91,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24250,PE,15m,No VCP,1,False,233.0,-24.03,25,-8.1%,below,221.56,bear,,range,Discount,—,—,—
+28-Jul-2026,24250,PE,1h,insufficient data,0,False,,,7,,below,220.0,—,,—,—,—,—,—
+28-Jul-2026,24300,CE,1m,Breakout,3,False,222.0,7.21,375,-1.6% / -2.4% / -4.5%,above,186.2,bull,,range,Premium,—,SSL below,—
+28-Jul-2026,24300,CE,3m,Breakout,3,False,219.75,8.3,125,-15.7% / -3.8% / -3.8%,above,186.2,bull,,range,Premium,—,SSL below,downtrend line broken (BSL)
+28-Jul-2026,24300,CE,5m,Breakout,3,False,216.4,9.98,75,-5.4% / -8.7% / -3.4%,above,186.42,bull,,range,Premium,—,—,downtrend line broken (BSL)
+28-Jul-2026,24300,CE,15m,Breakout,2,False,203.1,17.18,25,-16.6% / -24.2%,above,186.91,bull,,range,Premium,—,—,—
+28-Jul-2026,24300,CE,1h,insufficient data,0,False,,,7,,above,188.94,—,,—,—,—,—,—
+28-Jul-2026,24300,PE,1m,VCP forming,3,True,217.5,-9.08,375,-5.9% / -2.3% / -2.2%,below,245.97,bear,,range,Discount,supply above,BSL above,—
+28-Jul-2026,24300,PE,3m,Contracting,3,False,216.0,-8.45,125,-1.9% / -28.5% / -3.9%,below,245.93,bear,,bull,Discount,supply above,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24300,PE,5m,Contracting,3,False,217.4,-9.04,75,-6.6% / -1.4% / -26.8%,below,245.71,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24300,PE,15m,No VCP,1,False,258.4,-23.47,25,-8.1%,below,245.23,bear,,range,Discount,—,—,—
+28-Jul-2026,24300,PE,1h,insufficient data,0,False,,,7,,below,243.54,—,,—,—,—,—,—
+28-Jul-2026,24350,CE,1m,Breakout,3,False,193.8,8.36,359,-1.8% / -2.3% / -4.5%,above,161.65,bull,,range,Premium,supply above,SSL below,downtrend line broken (BSL)
+28-Jul-2026,24350,CE,3m,Breakout,3,False,192.55,9.06,125,-17.6% / -3.4% / -4.4%,above,161.72,bull,,bull,Premium,—,SSL below,—
+28-Jul-2026,24350,CE,5m,Breakout,3,False,186.35,12.69,75,-6.2% / -7.3% / -2.1%,above,161.81,bull,,range,Premium,—,—,downtrend line broken (BSL)
+28-Jul-2026,24350,CE,15m,Breakout,2,False,173.65,20.93,25,-16.5% / -25.1%,above,162.29,bull,,range,Premium,—,—,—
+28-Jul-2026,24350,CE,1h,insufficient data,0,False,,,7,,above,164.46,—,,—,—,—,—,—
+28-Jul-2026,24350,PE,1m,VCP forming,3,True,242.35,-10.01,375,-4.4% / -3.1% / -2.1%,below,271.95,bear,,bear,Discount,—,BSL above,—
+28-Jul-2026,24350,PE,3m,Contracting,3,False,242.35,-10.01,125,-1.1% / -6.9% / -4.7%,below,271.97,bear,,range,Discount,supply above,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24350,PE,5m,Contracting,3,False,242.85,-10.19,75,-8.2% / -2.3% / -28.4%,below,271.7,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24350,PE,15m,VCP forming,2,True,286.5,-23.87,25,-7.9% / -6.2%,below,271.32,bear,,range,Discount,—,—,—
+28-Jul-2026,24350,PE,1h,insufficient data,0,False,,,7,,below,269.8,—,,—,—,—,—,—
+28-Jul-2026,24400,CE,1m,Breakout,3,False,169.6,9.02,359,-5.3% / -2.5% / -5.0%,above,139.59,bull,,range,Premium,supply above,SSL below,downtrend line broken (BSL)
+28-Jul-2026,24400,CE,3m,Breakout,3,False,168.15,9.96,125,-17.9% / -22.5% / -4.5%,above,139.67,bull,,bull,Premium,—,—,—
+28-Jul-2026,24400,CE,5m,Breakout,3,False,162.5,13.78,75,-6.2% / -8.1% / -2.4%,above,139.75,bull,,range,Premium,—,—,downtrend line broken (BSL)
+28-Jul-2026,24400,CE,15m,Breakout,2,False,150.95,22.49,25,-17.0% / -25.8%,above,140.22,bull,,range,Premium,—,—,—
+28-Jul-2026,24400,CE,1h,insufficient data,0,False,,,7,,above,142.17,—,,—,—,—,—,—
+28-Jul-2026,24400,PE,1m,VCP forming,3,True,266.65,-8.42,375,-5.9% / -2.3% / -2.0%,below,299.5,bear,,bear,Discount,—,BSL above,—
+28-Jul-2026,24400,PE,3m,Contracting,3,False,266.75,-8.45,125,-1.8% / -27.1% / -3.9%,below,299.53,bear,,range,Discount,supply above,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24400,PE,5m,Contracting,3,False,266.85,-8.49,75,-6.4% / -1.1% / -28.3%,below,299.26,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24400,PE,15m,No VCP,1,False,314.75,-22.41,25,-7.8%,below,298.85,bear,,range,Discount,—,—,—
+28-Jul-2026,24400,PE,1h,insufficient data,0,False,,,7,,below,296.98,—,,—,—,—,—,—
+28-Jul-2026,24450,CE,1m,Breakout,3,False,146.1,8.18,359,-2.4% / -2.3% / -4.9%,above,119.94,bull,,range,Premium,supply above,SSL below,—
+28-Jul-2026,24450,CE,3m,Breakout,3,False,144.9,9.08,125,-23.0% / -23.8% / -4.7%,above,119.99,bull,,bull,Premium,—,SSL below,—
+28-Jul-2026,24450,CE,5m,Breakout,3,False,140.4,12.57,75,-10.0% / -6.3% / -8.4%,above,120.09,bull,,range,Premium,—,—,downtrend line broken (BSL)
+28-Jul-2026,24450,CE,15m,Breakout,2,False,130.15,21.44,25,-17.7% / -27.0%,above,120.52,bull,,range,Premium,—,—,—
+28-Jul-2026,24450,CE,1h,insufficient data,0,False,,,7,,above,122.35,—,,—,—,—,—,—
+28-Jul-2026,24450,PE,1m,VCP forming,3,True,295.25,-8.89,375,-3.6% / -2.0% / -1.8%,below,330.29,bear,,range,Discount,supply above,BSL above,—
+28-Jul-2026,24450,PE,3m,Contracting,3,False,295.5,-8.97,125,-1.6% / -27.5% / -5.0%,below,330.31,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24450,PE,5m,Contracting,3,False,294.9,-8.78,75,-1.8% / -2.1% / -27.5%,below,330.0,bear,,range,Discount,—,BSL above,uptrend line swept (SSL)
+28-Jul-2026,24450,PE,15m,No VCP,1,False,347.45,-22.58,25,-7.5%,below,329.47,bear,,range,Discount,—,—,—
+28-Jul-2026,24450,PE,1h,insufficient data,0,False,,,7,,below,327.04,—,,—,—,—,—,—

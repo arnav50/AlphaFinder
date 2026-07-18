@@ -1,80 +1,80 @@
 # TVSSCS — TVS Supply Chain Solutions Limited (NSE)
-**Sector:** Industrials | **6m return:** 27.0% | **Close:** ₹136.7 | **Cap:** Mid | **Bars:** 353
+**Sector:** Industrials | **6m return:** 38.25% | **Close:** ₹135.54 | **Cap:** n/a | **Bars:** 351
 
-## 🏁 SCORECARD: **BULLISH**  (score 12.2, confluence high)
-Leading 3.2 | Lagging 7.5 | Candles 1.0 | Price-action 0.5
+## 🏁 SCORECARD: **MILD BULLISH**  (score 3.7, confluence low)
+Leading 0.2 | Lagging 4.0 | Candles -1.0 | Price-action 0.5
 
 ## A. Leading indicators
-- **RSI(14):** 62.2 (neutral), trend rising, divergence none
-- **Stochastic(14,3,3):** %K 86.2 / %D 88.3, cross bear, overbought, div none
-- **Bollinger(20,2):** above_mid, width 26.53%, expanding
+- **RSI(14):** 51.7 (neutral), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 43.9 / %D 51.7, cross none, neutral, div bearish
+- **Bollinger(20,2):** below_mid, width 8.62%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 88.3 (above0)
-- **Williams %R(14):** -21.3 (neutral)
+- **CCI(20):** -15.1 (below0)
+- **Williams %R(14):** -77.2 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 80.8 (overbought)
+- **MFI(14):** 70.7 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 0.998 (contracting_pos), cross none, zero-line above
-- **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 29.2 (trending), +DI>-DI, rising
+- **MACD(12,26,9):** below_signal, hist -0.682 (expanding_neg), cross none, zero-line above
+- **EMA:** alignment bullish; px vs E20 below, E50 above, E200 above; E200 slope rising
+- **ADX(14):** 28.7 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 5.69 (4.17% of price, contracting)
-- **VWAP(20):** px above, dist 5.58%
-- **Pivots:** daily P 137.27 R1 138.43 S1 135.54; weekly position mid_range
+- **ATR(14):** 4.97 (3.66% of price, contracting)
+- **VWAP(20):** px below, dist -1.82%
+- **Pivots:** daily P 136.16 R1 138.38 S1 133.33; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Morning Star | 2026-06-12 | bullish | at S/R confluence | confirmed |
-| NR4 | 2026-06-15 | neutral | at resistance | neutral |
-| Inside Bar | 2026-06-16 | neutral | at resistance | neutral |
-| NR7 | 2026-06-16 | neutral | at resistance | neutral |
-| Long-legged Doji | 2026-06-17 | neutral | at S/R confluence | neutral |
-| Bullish Harami | 2026-06-17 | bullish | at S/R confluence | confirmed |
-| Outside Bar | 2026-06-17 | neutral | at S/R confluence | neutral |
-| Shooting Star | 2026-06-18 | bearish | at S/R confluence | failed |
-| Tweezer Top | 2026-06-18 | bearish | at S/R confluence | failed |
-| Inside Bar | 2026-06-18 | neutral | at S/R confluence | neutral |
-| Morning Star | 2026-06-18 | bullish | at S/R confluence | confirmed |
-| Three White Soldiers | 2026-06-19 | bullish | at S/R confluence | failed |
-| Tweezer Top | 2026-06-22 | bearish | at S/R confluence | confirmed |
-| NR4 | 2026-06-22 | neutral | at S/R confluence | neutral |
-| NR7 | 2026-06-23 | neutral | at S/R confluence | pending (last bar) |
+| Outside Bar | 2026-06-29 | neutral | at S/R confluence | neutral |
+| Long-legged Doji | 2026-07-02 | neutral | at S/R confluence | neutral |
+| Bearish Harami | 2026-07-02 | bearish | at S/R confluence | confirmed |
+| Inside Bar | 2026-07-02 | neutral | at S/R confluence | neutral |
+| NR4 | 2026-07-02 | neutral | at S/R confluence | neutral |
+| Tweezer Bottom | 2026-07-03 | bullish | at S/R confluence | confirmed |
+| Outside Bar | 2026-07-03 | neutral | at S/R confluence | neutral |
+| Evening Star | 2026-07-03 | bearish | at S/R confluence | failed |
+| Inside Bar | 2026-07-06 | neutral | at resistance | neutral |
+| Shooting Star | 2026-07-07 | bearish | at resistance | confirmed |
+| Bearish Pin Bar | 2026-07-07 | bearish | at resistance | confirmed |
+| Shooting Star | 2026-07-13 | bearish | at resistance | failed |
+| Bearish Pin Bar | 2026-07-13 | bearish | at resistance | failed |
+| Evening Star | 2026-07-13 | bearish | at resistance | failed |
+| NR7 | 2026-07-14 | neutral | at resistance | neutral |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Rising Wedge (bearish) | breakout 123.32 | target n/a | volume no | confidence low
+- **Chart pattern:** Double Top | breakout 131.49 | target 122.67 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 119.34-130.1 (Moderate, FRESH, 5.07% away) — quality Moderate · PRICE NEAR
-- **Demand (weekly):** 92.16-114.03 (Moderate, tested, 19.88% away)
+- **Demand (daily):** 119.34-130.1 (Moderate, tested, 4.18% away) — quality Moderate · PRICE NEAR
+- **Demand (weekly):** 92.16-114.03 (Moderate, tested, 18.86% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
 - **Market structure:** daily bullish (HH/HL) | weekly bullish (HH/HL) | aligned: True
 - **Break of Structure (last):** bull @ 130.39 on 2026-06-12
 - **Change of Character (last):** bull @ 126.85 on 2026-06-05
-- **Bullish Order Block:** 119.34-125.1 (2026-06-11, UNMITIGATED)
+- **Bullish Order Block:** 134.0-139.31 (2026-07-08, mitigated)
 - **Bearish Order Block:** 124.53-130.1 (2026-06-09, mitigated)
-- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 132.26-132.61 (2026-06-16) · nearest bear FVG above none
-- **Liquidity:** buy-side above none | sell-side below none | equal-highs 3 / equal-lows 0 | swept: none
-- **Premium/Discount:** **Premium** (price at 89.2% of range 90.32–142.3)
+- **Fair Value Gaps:** 8 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 132.4-133.65 (2026-07-01) · nearest bear FVG above none
+- **Liquidity:** buy-side above 142.15 | sell-side below none | equal-highs 4 / equal-lows 0 | swept: buy-side swept (bearish stop-hunt)
+- **Premium/Discount:** **Premium** (price at 80.5% of range 90.32–146.5)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (51.4% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-11.3%/2b | C2:-12.1%/4b | C3:-8.5%/4b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 1.81)
-- **Near 52w high:** True | **Pivot:** 130.39 | **% from pivot:** 4.84%
-- **Breakout vol ratio (today/50d):** 0.81 | **close pos in range:** 0.2
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: BROKEN OUT (fresh)** | entry zone n/a
+- **Prior uptrend:** True (50.1% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-12.1%/4b | C2:-8.5%/4b | C3:-8.4%/4b
+- **Depths decreasing:** True | **Duration decreasing:** True | **Volume dry-up (VDU):** True (vol ratio 0.62)
+- **Near 52w high:** True | **Pivot:** 146.5 | **% from pivot:** -7.48%
+- **Breakout vol ratio (today/50d):** 0.56 | **close pos in range:** 0.31
+- **🏆 VCP QUALITY: Strong VCP** | **3rd-leg status: forming / still basing** | entry zone 146.5-153.83
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 90.32 on 2026-03-30):** 1x1=103.14 2x1=115.96 1x2=96.73 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 142.61 · T2 148.64 · T3 161.08 (support S1 130.92, S2 125.26)
-- **Time cycles:** 57 days since swing low → next Gann cycle at 60d (3d away); near cycle: True
-- **Octave position:** 7/8 (exhaustion) | levels 4/8=118.66 6/8=132.83 7/8=139.91
-- **Cardinal square:** nearest perfect-square 144 (5.34% away); near: False
+- **Angles (auto-scaled from swing low 90.32 on 2026-03-30):** 1x1=107.04 2x1=123.76 1x2=98.68 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 141.42 · T2 147.43 · T3 159.82 (support S1 129.78, S2 124.15)
+- **Time cycles:** 75 days since swing low → next Gann cycle at 90d (15d away); near cycle: False
+- **Octave position:** 7/8 (exhaustion) | levels 4/8=118.41 6/8=132.45 7/8=139.48
+- **Cardinal square:** nearest perfect-square 144 (6.24% away); near: False

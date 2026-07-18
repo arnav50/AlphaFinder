@@ -1,5 +1,5 @@
 # PHASE 4 — VCP + GANN — SUMMARY
-Scan date 2026-06-02 · 376 stocks analysed.
+Scan date 2026-06-02 · 543 stocks analysed.
 
 ## ✓ VERIFICATION CHECKPOINT (Phase 4)
 - ✅ VCP contraction pattern validated per stock (legs with depth%/duration, decreasing test)
@@ -13,111 +13,121 @@ Scan date 2026-06-02 · 376 stocks analysed.
 - ✅ Shortlist of VCP at 3rd-leg pivot (highest priority) below
 
 ## Distributions
-- **VCP quality:** {'No VCP': 285, 'Moderate VCP': 72, 'Strong VCP': 19}
-- **3rd-leg status:** {'forming / still basing': 126, 'AT PIVOT (actionable)': 124, 'BROKEN OUT (fresh)': 70, 'extended past pivot': 56}
-- **Gann octave:** {'8/8 (52w high)': 173, '7/8 (exhaustion)': 106, '6/8 (75%)': 74, '5/8': 14, '4/8 (50%)': 7, '1/8': 1, '3/8': 1}
-- **Above Gann 1x1 (strong trend):** 358/376
-- **Near a Gann time cycle (±5d):** 114 | **near cardinal square:** 196
+- **VCP quality:** {'No VCP': 424, 'Moderate VCP': 102, 'Strong VCP': 17}
+- **3rd-leg status:** {'forming / still basing': 250, 'AT PIVOT (actionable)': 173, 'BROKEN OUT (fresh)': 80, 'extended past pivot': 40}
+- **Gann octave:** {'7/8 (exhaustion)': 170, '8/8 (52w high)': 153, '6/8 (75%)': 125, '5/8': 59, '4/8 (50%)': 29, '3/8': 4, '1/8': 3}
+- **Above Gann 1x1 (strong trend):** 503/543
+- **Near a Gann time cycle (±5d):** 240 | **near cardinal square:** 283
 
-## ⭐ HIGHEST PRIORITY — VCP at 3rd-leg PIVOT (actionable), 48 names
+## ⭐ HIGHEST PRIORITY — VCP at 3rd-leg PIVOT (actionable), 61 names
 Tightest part of the base, within ~5% of pivot. Entry on breakout above pivot with volume ≥1.4× 50d-avg.
 
 | Symbol | Company | VCP | Contractions (C1→C3) | VDU | %from pivot | Entry zone | T1 (Gann) | Scorecard | Octave |
 |---|---|---|---|---|--:|---|--:|---|---|
-| BAJAJCON | Bajaj Consumer Care Limi | Moderate | C1:-5.7%/5b | C2:-4.6%/3b | C3:-8.8%/4b | Y | -2.59 | 632.6-664.23 | 628.67 | BULLISH | 8/8 (52w high) |
-| STOVEKRAFT | Stove Kraft Limited | Moderate | C1:-16.3%/6b | C2:-10.3%/5b | C3:-12.5%/2b | Y | -2.27 | 800.0-840.0 | 795.89 | BULLISH | 8/8 (52w high) |
-| UFBL | United Foodbrands Limite | Moderate | C1:-13.4%/2b | C2:-10.3%/4b | C3:-14.4%/4b | Y | -2.98 | 728.15-764.56 | 719.8 | BULLISH | 8/8 (52w high) |
-| NDLVENTURE | NDL Ventures Limited | Moderate | C1:-7.4%/7b | C2:-5.2%/2b | C3:-7.1%/4b | Y | -4.72 | 139.98-146.98 | 139.21 | BULLISH | 8/8 (52w high) |
-| AKUMS | Akums Drugs and Pharmace | Moderate | C1:-9.0%/8b | C2:-4.8%/2b | C3:-7.3%/3b | Y | -1.14 | 634.0-665.7 | 639.38 | BULLISH | 8/8 (52w high) |
-| VIJAYA | Vijaya Diagnostic Centre | Moderate | C1:-11.7%/3b | C2:-7.1%/2b | C3:-6.6%/2b | N | -0.73 | 1375.3-1444.07 | 1383.74 | BULLISH | 8/8 (52w high) |
-| RPTECH | Rashi Peripherals Limite | Moderate | C1:-6.9%/4b | C2:-7.2%/3b | C3:-8.7%/2b | Y | -4.06 | 790.0-829.5 | 771.78 | BULLISH | 8/8 (52w high) |
-| 543828 | Sudarshan Pharma Industr | Moderate | C1:-9.3%/7b | C2:-7.3%/2b | C3:-7.2%/3b | N | -2.28 | 40.41-42.43 | 42.69 | BULLISH | 8/8 (52w high) |
-| ELECTHERM | Electrotherm (India) Lim | Moderate | C1:-21.1%/15b | C2:-23.0%/4b | C3:-15.2%/6b | Y | -1.04 | 1212.9-1273.55 | 1217.69 | BULLISH | 8/8 (52w high) |
-| AMBIKCO | Ambika Cotton Mills Limi | Moderate | C1:-6.3%/3b | C2:-9.0%/5b | C3:-7.0%/3b | Y | -2.63 | 1782.4-1871.52 | 1756.49 | BULLISH | 8/8 (52w high) |
-| CCL | CCL Products (India) Lim | Moderate | C1:-5.3%/2b | C2:-3.4%/2b | C3:-10.7%/5b | Y | -0.16 | 1174.9-1233.65 | 1190.19 | BULLISH | 7/8 (exhaustion) |
-| GRWRHITECH | Garware Hi-Tech Films Li | Moderate | C1:-7.1%/2b | C2:-11.1%/3b | C3:-6.3%/4b | Y | -1.76 | 6998.5-7348.43 | 6916.52 | BULLISH | 8/8 (52w high) |
-| HAPPYFORGE | Happy Forgings Limited | Moderate | C1:-7.6%/2b | C2:-10.0%/9b | C3:-3.9%/3b | Y | -4.21 | 1565.0-1643.25 | 1518.52 | BULLISH | 7/8 (exhaustion) |
-| SAKAR | Sakar Healthcare Limited | Moderate | C1:-9.7%/2b | C2:-13.3%/5b | C3:-8.2%/3b | Y | -0.73 | 855.0-897.75 | 863.43 | BULLISH | 8/8 (52w high) |
-| HESTERBIO | Hester Biosciences Limit | Moderate | C1:-7.7%/3b | C2:-4.5%/2b | C3:-6.0%/3b | Y | -3.9 | 2287.7-2402.08 | 2221.91 | BULLISH | 7/8 (exhaustion) |
-| JAYBARMARU | Jay Bharat Maruti Limite | Moderate | C1:-10.3%/4b | C2:-7.6%/3b | C3:-9.1%/4b | Y | -0.72 | 172.79-181.43 | 178.16 | BULLISH | 8/8 (52w high) |
-| SPECTRUM | Spectrum Electrical Indu | Moderate | C1:-5.7%/7b | C2:-14.0%/7b | C3:-6.1%/5b | Y | 0.01 | 1853.0-1945.65 | 1874.79 | BULLISH | 7/8 (exhaustion) |
-| NITINSPIN | Nitin Spinners Limited | Moderate | C1:-4.4%/4b | C2:-3.5%/3b | C3:-5.4%/2b | Y | -1.99 | 575.0-603.75 | 575.48 | BULLISH | 8/8 (52w high) |
-| PREMEXPLN | Premier Explosives Limit | Moderate | C1:-18.1%/4b | C2:-11.2%/2b | C3:-10.0%/4b | N | -4.04 | 815.0-855.75 | 796.1 | BULLISH | 8/8 (52w high) |
-| SAILIFE | Sai Life Sciences Limite | Moderate | C1:-5.8%/1b | C2:-4.5%/2b | C3:-4.6%/2b | Y | -0.21 | 1260.0-1323.0 | 1275.09 | BULLISH | 8/8 (52w high) |
-| AMANTA | Amanta Healthcare Limite | Moderate | C1:-12.9%/6b | C2:-15.1%/5b | C3:-10.6%/3b | Y | -0.55 | 164.0-172.2 | 169.54 | BULLISH | 8/8 (52w high) |
-| 539682 | Mobavenue AI Tech Ltd | Moderate | C1:-4.5%/4b | C2:-11.6%/3b | C3:-11.4%/10b | Y | -1.33 | 309.25-324.71 | 313.95 | BULLISH | 8/8 (52w high) |
-| BALAMINES | Balaji Amines Limited | Moderate | C1:-13.1%/5b | C2:-10.1%/2b | C3:-17.6%/7b | Y | -4.1 | 2288.0-2402.4 | 2217.68 | BULLISH | 8/8 (52w high) |
-| CARYSIL | CARYSIL LIMITED | Moderate | C1:-8.2%/5b | C2:-8.4%/3b | C3:-9.3%/3b | Y | -3.92 | 1209.5-1269.98 | 1179.21 | BULLISH | 7/8 (exhaustion) |
-| MANINDS | Man Industries (India) L | Moderate | C1:-9.9%/2b | C2:-20.0%/8b | C3:-6.3%/3b | Y | -3.39 | 603.0-633.15 | 594.68 | BULLISH | 7/8 (exhaustion) |
-| 543920 | CFF Fluid Control Ltd | Moderate | C1:-11.2%/8b | C2:-7.3%/3b | C3:-6.1%/2b | N | -2.18 | 899.0-943.95 | 894.29 | BULLISH | 8/8 (52w high) |
-| TMB | Tamilnad Mercantile Bank | Moderate | C1:-3.1%/5b | C2:-3.4%/5b | C3:-8.0%/6b | Y | -1.87 | 793.5-833.18 | 792.66 | BULLISH | 8/8 (52w high) |
-| VADILALIND | Vadilal Industries Limit | Moderate | C1:-5.7%/6b | C2:-5.4%/4b | C3:-13.8%/8b | Y | -1.37 | 6450.0-6772.5 | 6401.44 | BULLISH | 8/8 (52w high) |
-| STYLAMIND | Stylam Industries Limite | Moderate | C1:-3.6%/8b | C2:-8.2%/3b | C3:-6.8%/2b | Y | -3.58 | 3350.0-3517.5 | 3258.48 | BULLISH | 8/8 (52w high) |
-| RUBYMILLS | The Ruby Mills Limited | Moderate | C1:-12.2%/7b | C2:-9.2%/5b | C3:-13.5%/5b | Y | -2.67 | 348.95-366.4 | 348.93 | BULLISH | 8/8 (52w high) |
-| JINDALSAW | Jindal Saw Limited | Moderate | C1:-12.6%/9b | C2:-17.1%/5b | C3:-4.0%/2b | Y | -1.5 | 264.92-278.17 | 269.09 | BULLISH | 8/8 (52w high) |
-| ASTERDM | Aster DM Healthcare Limi | Moderate | C1:-7.1%/8b | C2:-9.0%/3b | C3:-7.3%/2b | Y | -3.16 | 819.05-860.0 | 807.34 | BULLISH | 7/8 (exhaustion) |
-| HFCL | HFCL Limited | Moderate | C1:-11.8%/3b | C2:-12.8%/4b | C3:-19.4%/6b | Y | -0.24 | 215.0-225.75 | 221.87 | BULLISH | 8/8 (52w high) |
-| MARKSANS | Marksans Pharma Limited | Moderate | C1:-4.2%/4b | C2:-9.1%/4b | C3:-3.1%/5b | Y | -4.53 | 277.0-290.85 | 272.64 | MILD BULLISH | 8/8 (52w high) |
-| INNOVACAP | Innova Captab Limited | Moderate | C1:-5.3%/1b | C2:-7.7%/4b | C3:-6.2%/2b | Y | -4.21 | 999.9-1049.9 | 973.39 | MILD BULLISH | 7/8 (exhaustion) |
-| UNIPARTS | Uniparts India Limited | Moderate | C1:-10.2%/5b | C2:-5.6%/3b | C3:-7.0%/3b | Y | -3.33 | 674.95-708.7 | 665.28 | MILD BULLISH | 7/8 (exhaustion) |
-| 544037 | Amic Forging Ltd | Strong | C1:-15.9%/4b | C2:-10.4%/5b | C3:-6.8%/6b | Y | -3.82 | 1905.0-2000.25 | 1853.66 | BULLISH | 8/8 (52w high) |
-| PARACABLES | Paramount Communications | Strong | C1:-15.9%/3b | C2:-15.4%/5b | C3:-11.9%/2b | Y | -4.33 | 74.34-78.06 | 75.4 | BULLISH | 8/8 (52w high) |
-| AARTIIND | Aarti Industries Limited | Strong | C1:-15.8%/10b | C2:-15.4%/11b | C3:-9.9%/10b | Y | -3.41 | 504.9-530.14 | 498.8 | BULLISH | 7/8 (exhaustion) |
-| STARHEALTH | Star Health and Allied I | Strong | C1:-12.0%/4b | C2:-4.8%/4b | C3:-4.2%/1b | Y | -2.31 | 594.0-623.7 | 592.41 | BULLISH | 7/8 (exhaustion) |
-| SAREGAMA | Saregama India Limited | Strong | C1:-11.8%/2b | C2:-11.0%/7b | C3:-9.1%/3b | Y | -4.74 | 509.9-535.39 | 496.83 | BULLISH | 7/8 (exhaustion) |
-| INDOBORAX | Indo Borax & Chemicals L | Strong | C1:-8.0%/3b | C2:-7.3%/3b | C3:-5.8%/4b | Y | -0.03 | 392.35-411.97 | 402.22 | BULLISH | 7/8 (exhaustion) |
-| AVALON | Avalon Technologies Limi | Strong | C1:-15.0%/1b | C2:-5.7%/1b | C3:-4.2%/5b | Y | -2.73 | 1838.5-1930.43 | 1809.51 | BULLISH | 8/8 (52w high) |
-| JNKINDIA | JNK India Limited | Strong | C1:-13.4%/7b | C2:-8.5%/4b | C3:-6.4%/1b | Y | -4.59 | 507.0-532.35 | 494.81 | BULLISH | 8/8 (52w high) |
-| NAVINFLUOR | Navin Fluorine Internati | Strong | C1:-6.6%/5b | C2:-5.1%/3b | C3:-3.6%/3b | Y | -2.52 | 7748.0-8135.4 | 7596.02 | BULLISH | 8/8 (52w high) |
-| ADANIGREEN | Adani Green Energy Limit | Strong | C1:-6.6%/6b | C2:-6.1%/2b | C3:-4.6%/6b | Y | 0.08 | 1555.0-1632.75 | 1575.99 | BULLISH | 8/8 (52w high) |
-| CPPLUS | Aditya Infotech Limited | Strong | C1:-8.0%/3b | C2:-7.7%/5b | C3:-2.8%/4b | Y | -3.96 | 3736.4-3923.22 | 3618.41 | MILD BULLISH | 8/8 (52w high) |
-| PREMIERENE | Premier Energies Limited | Strong | C1:-8.7%/5b | C2:-7.1%/4b | C3:-4.3%/2b | Y | -3.74 | 1087.5-1141.88 | 1063.04 | NEUTRAL | 7/8 (exhaustion) |
+| BUTTERFLY | Butterfly Gandhimathi Ap | Moderate | C1:-7.9%/5b | C2:-5.6%/4b | C3:-6.7%/4b | Y | -0.95 | 783.4-822.57 | 789.94 | BULLISH | 7/8 (exhaustion) |
+| AETHER | Aether Industries Limite | Moderate | C1:-3.3%/4b | C2:-5.2%/3b | C3:-6.9%/2b | Y | -4.11 | 1538.5-1615.43 | 1494.57 | BULLISH | 8/8 (52w high) |
+| ACUTAAS | Acutaas Chemicals Limite | Moderate | C1:-5.0%/1b | C2:-11.6%/7b | C3:-10.3%/2b | Y | -2.99 | 3730.9-3917.44 | 3649.54 | BULLISH | 8/8 (52w high) |
+| INDOTECH | Indo Tech Transformers L | Moderate | C1:-12.0%/6b | C2:-6.6%/3b | C3:-8.5%/4b | Y | -4.2 | 3550.0-3727.5 | 3430.12 | BULLISH | 8/8 (52w high) |
+| INDNIPPON | India Nippon Electricals | Moderate | C1:-9.9%/5b | C2:-7.1%/5b | C3:-4.5%/2b | N | -2.58 | 1245.5-1307.78 | 1230.88 | BULLISH | 8/8 (52w high) |
+| NINSYS | NINtec Systems Limited | Moderate | C1:-7.2%/3b | C2:-11.9%/5b | C3:-8.8%/3b | Y | -3.39 | 925.0-971.25 | 908.61 | BULLISH | 8/8 (52w high) |
+| 543828 | Sudarshan Pharma Industr | Moderate | C1:-7.3%/2b | C2:-7.2%/4b | C3:-5.5%/1b | N | -4.76 | 42.0-44.1 | 43.22 | BULLISH | 8/8 (52w high) |
+| PRIVISCL | Privi Speciality Chemica | Moderate | C1:-7.2%/7b | C2:-3.9%/3b | C3:-6.6%/4b | Y | -2.09 | 3755.0-3942.75 | 3706.88 | BULLISH | 8/8 (52w high) |
+| PREMIERENE | Premier Energies Limited | Moderate | C1:-7.1%/4b | C2:-4.3%/2b | C3:-4.4%/3b | Y | -4.22 | 1134.0-1190.7 | 1102.74 | BULLISH | 8/8 (52w high) |
+| AJANTPHARM | Ajanta Pharma Limited | Moderate | C1:-12.7%/13b | C2:-3.8%/2b | C3:-4.8%/2b | Y | -0.02 | 3420.0-3591.0 | 3448.7 | BULLISH | 8/8 (52w high) |
+| SAREGAMA | Saregama India Limited | Moderate | C1:-11.0%/7b | C2:-9.1%/3b | C3:-13.1%/7b | Y | -1.62 | 503.0-528.15 | 506.04 | BULLISH | 8/8 (52w high) |
+| RAIN | Rain Industries Limited | Moderate | C1:-11.5%/5b | C2:-7.8%/3b | C3:-14.4%/6b | Y | -3.46 | 214.17-224.88 | 214.02 | BULLISH | 8/8 (52w high) |
+| VADILALIND | Vadilal Industries Limit | Moderate | C1:-13.8%/8b | C2:-6.6%/5b | C3:-5.0%/1b | N | -2.3 | 6874.0-7217.7 | 6757.04 | BULLISH | 8/8 (52w high) |
+| ADANIENT | Adani Enterprises Limite | Moderate | C1:-5.4%/4b | C2:-4.0%/3b | C3:-6.1%/3b | Y | -1.83 | 3219.7-3380.68 | 3188.87 | BULLISH | 8/8 (52w high) |
+| PGIL | Pearl Global Industries  | Moderate | C1:-8.2%/2b | C2:-5.9%/3b | C3:-9.4%/5b | Y | -1.54 | 2073.3-2176.97 | 2063.95 | BULLISH | 8/8 (52w high) |
+| CENTUM | Centum Electronics Limit | Moderate | C1:-6.1%/2b | C2:-6.6%/3b | C3:-12.0%/6b | Y | -2.56 | 3809.0-3999.45 | 3741.92 | BULLISH | 8/8 (52w high) |
+| TINNARUBR | Tinna Rubber and Infrast | Moderate | C1:-7.3%/3b | C2:-6.9%/6b | C3:-8.0%/5b | Y | -3.55 | 1028.15-1079.56 | 1007.41 | BULLISH | 7/8 (exhaustion) |
+| ANANDRATHI | Anand Rathi Wealth Limit | Moderate | C1:-3.8%/3b | C2:-5.8%/4b | C3:-6.1%/4b | Y | -4.76 | 2176.2-2285.01 | 2095.53 | BULLISH | 8/8 (52w high) |
+| KTKBANK | The Karnataka Bank Limit | Moderate | C1:-6.9%/8b | C2:-5.5%/6b | C3:-5.7%/5b | Y | -2.38 | 279.8-293.79 | 281.48 | BULLISH | 8/8 (52w high) |
+| AARTIIND | Aarti Industries Limited | Moderate | C1:-15.4%/11b | C2:-9.9%/10b | C3:-7.8%/2b | N | -1.41 | 501.0-526.05 | 505.12 | BULLISH | 7/8 (exhaustion) |
+| TMB | Tamilnad Mercantile Bank | Moderate | C1:-3.4%/5b | C2:-8.0%/6b | C3:-6.4%/3b | Y | -0.26 | 799.4-839.37 | 811.53 | BULLISH | 8/8 (52w high) |
+| RADICO | Radico Khaitan Limited | Moderate | C1:-4.3%/4b | C2:-4.5%/1b | C3:-3.0%/5b | Y | -0.95 | 4137.0-4343.85 | 4129.97 | BULLISH | 8/8 (52w high) |
+| BHAGYANGR | Bhagyanagar India Limite | Moderate | C1:-8.6%/2b | C2:-14.3%/3b | C3:-12.5%/5b | Y | -1.7 | 408.0-428.4 | 411.13 | BULLISH | 8/8 (52w high) |
+| ZYDUSWELL | Zydus Wellness Limited | Moderate | C1:-6.6%/2b | C2:-7.1%/3b | C3:-7.8%/3b | Y | -2.24 | 599.9-629.9 | 598.62 | BULLISH | 8/8 (52w high) |
+| LOKESHMACH | Lokesh Machines Limited | Moderate | C1:-7.5%/7b | C2:-4.6%/3b | C3:-9.3%/4b | Y | -4.09 | 343.9-361.09 | 338.99 | BULLISH | 8/8 (52w high) |
+| CAPLIPOINT | Caplin Point Laboratorie | Moderate | C1:-6.7%/7b | C2:-4.1%/3b | C3:-5.4%/2b | Y | -1.18 | 2645.5-2777.78 | 2639.83 | BULLISH | 8/8 (52w high) |
+| KAMDHENU | Kamdhenu Limited | Moderate | C1:-10.8%/3b | C2:-5.5%/2b | C3:-9.2%/2b | Y | -1.87 | 34.18-35.89 | 36.5 | BULLISH | 8/8 (52w high) |
+| KIMS | Krishna Institute of Med | Moderate | C1:-3.4%/2b | C2:-6.4%/2b | C3:-3.1%/1b | Y | -2.57 | 824.15-865.36 | 817.18 | BULLISH | 7/8 (exhaustion) |
+| SETL | Standard Engineering Tec | Moderate | C1:-8.6%/2b | C2:-13.0%/3b | C3:-9.3%/2b | Y | -3.3 | 290.7-305.24 | 289.55 | BULLISH | 8/8 (52w high) |
+| UNIPARTS | Uniparts India Limited | Moderate | C1:-5.6%/3b | C2:-7.0%/3b | C3:-5.3%/6b | Y | -4.9 | 710.85-746.39 | 689.06 | BULLISH | 8/8 (52w high) |
+| LAURUSLABS | Laurus Labs Limited | Moderate | C1:-2.3%/2b | C2:-4.8%/3b | C3:-6.9%/3b | Y | -2.78 | 1573.5-1652.18 | 1549.42 | BULLISH | 8/8 (52w high) |
+| ADANIPORTS | Adani Ports and Special  | Moderate | C1:-2.8%/2b | C2:-3.8%/3b | C3:-5.6%/4b | Y | -2.68 | 1888.0-1982.4 | 1858.89 | BULLISH | 8/8 (52w high) |
+| SPANDANA | Spandana Sphoorty Financ | Moderate | C1:-7.1%/4b | C2:-14.8%/5b | C3:-10.1%/2b | Y | -4.23 | 310.0-325.5 | 305.58 | BULLISH | 7/8 (exhaustion) |
+| GRWRHITECH | Garware Hi-Tech Films Li | Moderate | C1:-11.1%/3b | C2:-6.3%/5b | C3:-6.4%/2b | Y | -2.84 | 7174.0-7532.7 | 7012.31 | BULLISH | 8/8 (52w high) |
+| RPEL | Raghav Productivity Enha | Moderate | C1:-5.3%/1b | C2:-6.2%/4b | C3:-5.6%/1b | Y | -1.21 | 1329.9-1396.4 | 1331.99 | BULLISH | 8/8 (52w high) |
+| ZYDUSLIFE | Zydus Lifesciences Limit | Moderate | C1:-5.1%/4b | C2:-2.7%/3b | C3:-3.7%/2b | Y | -2.36 | 1171.3-1229.87 | 1160.67 | BULLISH | 8/8 (52w high) |
+| CCL | CCL Products (India) Lim | Moderate | C1:-5.3%/2b | C2:-3.4%/2b | C3:-10.7%/5b | Y | -4.09 | 1242.2-1304.31 | 1208.72 | BULLISH | 8/8 (52w high) |
+| YASHO | Yasho Industries Limited | Moderate | C1:-10.7%/3b | C2:-8.0%/4b | C3:-11.2%/4b | Y | -3.5 | 3120.0-3276.0 | 3038.2 | BULLISH | 8/8 (52w high) |
+| HONASA | Honasa Consumer Limited | Moderate | C1:-5.5%/5b | C2:-3.5%/3b | C3:-9.1%/3b | Y | -4.97 | 491.35-515.92 | 477.82 | BULLISH | 8/8 (52w high) |
+| SBC | SBC Exports Limited | Moderate | C1:-4.7%/3b | C2:-4.6%/2b | C3:-8.0%/6b | Y | -2.31 | 43.27-45.43 | 45.58 | BULLISH | 8/8 (52w high) |
+| MOTHERSON | Samvardhana Motherson In | Moderate | C1:-5.4%/6b | C2:-10.1%/9b | C3:-2.4%/1b | Y | -0.4 | 144.75-151.99 | 150.24 | BULLISH | 7/8 (exhaustion) |
+| INOXINDIA | INOX India Limited | Moderate | C1:-10.8%/5b | C2:-9.5%/5b | C3:-10.2%/3b | Y | -2.3 | 2026.8-2128.14 | 2002.51 | BULLISH | 8/8 (52w high) |
+| GLAND | Gland Pharma Limited | Moderate | C1:-6.4%/9b | C2:-9.5%/3b | C3:-5.7%/4b | Y | -4.44 | 2562.9-2691.04 | 2473.81 | BULLISH | 8/8 (52w high) |
+| KRISHANA | Krishana Phoschem Limite | Moderate | C1:-10.8%/3b | C2:-17.1%/3b | C3:-5.9%/2b | Y | -0.64 | 141.35-148.42 | 146.44 | MILD BULLISH | 7/8 (exhaustion) |
+| 515043 | Saint Gobain Sekurit Ind | Moderate | C1:-6.1%/3b | C2:-6.5%/8b | C3:-3.9%/3b | Y | -2.6 | 136.35-143.17 | 138.62 | MILD BULLISH | 8/8 (52w high) |
+| SANSERA | Sansera Engineering Limi | Moderate | C1:-4.5%/1b | C2:-3.8%/3b | C3:-6.0%/3b | Y | -3.42 | 3332.7-3499.33 | 3247.23 | MILD BULLISH | 8/8 (52w high) |
+| CPPLUS | Aditya Infotech Limited | Moderate | C1:-7.7%/5b | C2:-2.8%/4b | C3:-8.6%/3b | Y | -3.27 | 3736.4-3923.22 | 3644.52 | MILD BULLISH | 8/8 (52w high) |
+| NITINSPIN | Nitin Spinners Limited | Moderate | C1:-3.5%/3b | C2:-5.4%/2b | C3:-6.4%/5b | Y | -3.28 | 569.0-597.45 | 562.14 | MILD BULLISH | 8/8 (52w high) |
+| ABSLAMC | Aditya Birla Sun Life AM | Moderate | C1:-7.0%/1b | C2:-7.2%/2b | C3:-6.8%/4b | Y | -2.42 | 1179.1-1238.05 | 1167.62 | MILD BULLISH | 7/8 (exhaustion) |
+| NAVINFLUOR | Navin Fluorine Internati | Moderate | C1:-5.1%/3b | C2:-3.6%/3b | C3:-5.9%/2b | Y | -2.35 | 7761.0-8149.05 | 7622.59 | MILD BULLISH | 8/8 (52w high) |
+| SOLARINDS | Solar Industries India L | Moderate | C1:-10.1%/9b | C2:-6.2%/3b | C3:-9.3%/7b | Y | -1.67 | 18780.0-19719.0 | 18535.01 | MILD BULLISH | 8/8 (52w high) |
+| AVALON | Avalon Technologies Limi | Moderate | C1:-5.7%/1b | C2:-4.2%/5b | C3:-11.8%/6b | Y | -2.87 | 1775.0-1863.75 | 1744.82 | MILD BULLISH | 8/8 (52w high) |
+| STARHEALTH | Star Health and Allied I | Moderate | C1:-4.8%/4b | C2:-4.2%/1b | C3:-3.7%/3b | N | -3.8 | 606.0-636.3 | 595.08 | NEUTRAL | 7/8 (exhaustion) |
+| VTL | Vardhman Textiles Limite | Moderate | C1:-5.5%/4b | C2:-6.3%/7b | C3:-8.1%/3b | Y | -2.51 | 652.95-685.6 | 649.23 | NEUTRAL | 7/8 (exhaustion) |
+| RATEGAIN | Rategain Travel Technolo | Strong | C1:-7.7%/5b | C2:-7.1%/5b | C3:-4.3%/1b | Y | -0.09 | 951.6-999.18 | 966.18 | BULLISH | 8/8 (52w high) |
+| NYKAA | FSN E-Commerce Ventures  | Strong | C1:-9.3%/5b | C2:-4.1%/7b | C3:-3.0%/1b | Y | -2.39 | 330.95-347.5 | 332.1 | BULLISH | 8/8 (52w high) |
+| RISHABH | Rishabh Instruments Limi | Strong | C1:-16.6%/6b | C2:-13.1%/3b | C3:-6.1%/2b | Y | -4.2 | 684.85-719.09 | 668.97 | BULLISH | 8/8 (52w high) |
+| STYLAMIND | Stylam Industries Limite | Strong | C1:-8.2%/3b | C2:-6.8%/2b | C3:-6.6%/4b | Y | -2.16 | 3322.0-3488.1 | 3278.97 | BULLISH | 8/8 (52w high) |
+| SJS | S.J.S. Enterprises Limit | Strong | C1:-8.0%/3b | C2:-6.7%/7b | C3:-3.3%/2b | Y | -4.09 | 2268.0-2381.4 | 2198.68 | BULLISH | 8/8 (52w high) |
+| INNOVACAP | Innova Captab Limited | Strong | C1:-7.7%/4b | C2:-6.2%/2b | C3:-5.8%/5b | Y | -3.72 | 999.9-1049.9 | 978.28 | MILD BULLISH | 7/8 (exhaustion) |
+| AMBIKCO | Ambika Cotton Mills Limi | Strong | C1:-9.0%/5b | C2:-7.0%/3b | C3:-6.4%/6b | Y | -2.64 | 1775.0-1863.75 | 1749.05 | MILD BULLISH | 8/8 (52w high) |
 
-## 🔵 STRONG VCP (any status), 19 names
+## 🔵 STRONG VCP (any status), 17 names
 | Symbol | Company | Status | Contractions | %from pivot | Scorecard |
 |---|---|---|---|--:|---|
-| 544037 | Amic Forging Ltd | AT PIVOT (actionable) | C1:-15.9%/4b | C2:-10.4%/5b | C3:-6.8%/6b | -3.82 | BULLISH |
-| SANSERA | Sansera Engineering Limite | BROKEN OUT (fresh) | C1:-6.6%/3b | C2:-4.5%/1b | C3:-3.8%/3b | 1.47 | BULLISH |
-| SFL | Sheela Foam Limited | BROKEN OUT (fresh) | C1:-12.0%/3b | C2:-10.2%/8b | C3:-3.6%/3b | 2.75 | BULLISH |
-| SKYGOLD | SKY GOLD AND DIAMONDS LIMI | BROKEN OUT (fresh) | C1:-21.6%/4b | C2:-17.1%/5b | C3:-10.6%/6b | 3.16 | BULLISH |
-| DEEPAKFERT | Deepak Fertilizers and Pet | BROKEN OUT (fresh) | C1:-10.9%/2b | C2:-6.1%/7b | C3:-4.4%/3b | 2.58 | BULLISH |
-| PARACABLES | Paramount Communications L | AT PIVOT (actionable) | C1:-15.9%/3b | C2:-15.4%/5b | C3:-11.9%/2b | -4.33 | BULLISH |
-| AARTIIND | Aarti Industries Limited | AT PIVOT (actionable) | C1:-15.8%/10b | C2:-15.4%/11b | C3:-9.9%/10b | -3.41 | BULLISH |
-| STARHEALTH | Star Health and Allied Ins | AT PIVOT (actionable) | C1:-12.0%/4b | C2:-4.8%/4b | C3:-4.2%/1b | -2.31 | BULLISH |
-| SAREGAMA | Saregama India Limited | AT PIVOT (actionable) | C1:-11.8%/2b | C2:-11.0%/7b | C3:-9.1%/3b | -4.74 | BULLISH |
-| SKIPPER | Skipper Limited | BROKEN OUT (fresh) | C1:-11.8%/6b | C2:-11.0%/5b | C3:-7.5%/9b | 2.21 | BULLISH |
-| INDOBORAX | Indo Borax & Chemicals Lim | AT PIVOT (actionable) | C1:-8.0%/3b | C2:-7.3%/3b | C3:-5.8%/4b | -0.03 | BULLISH |
-| AVALON | Avalon Technologies Limite | AT PIVOT (actionable) | C1:-15.0%/1b | C2:-5.7%/1b | C3:-4.2%/5b | -2.73 | BULLISH |
-| JNKINDIA | JNK India Limited | AT PIVOT (actionable) | C1:-13.4%/7b | C2:-8.5%/4b | C3:-6.4%/1b | -4.59 | BULLISH |
-| NAVINFLUOR | Navin Fluorine Internation | AT PIVOT (actionable) | C1:-6.6%/5b | C2:-5.1%/3b | C3:-3.6%/3b | -2.52 | BULLISH |
-| ADANIGREEN | Adani Green Energy Limited | AT PIVOT (actionable) | C1:-6.6%/6b | C2:-6.1%/2b | C3:-4.6%/6b | 0.08 | BULLISH |
-| NGLFINE | NGL Fine-Chem Limited | BROKEN OUT (fresh) | C1:-12.3%/2b | C2:-10.1%/2b | C3:-8.3%/3b | 0.5 | MILD BULLISH |
-| CPPLUS | Aditya Infotech Limited | AT PIVOT (actionable) | C1:-8.0%/3b | C2:-7.7%/5b | C3:-2.8%/4b | -3.96 | MILD BULLISH |
-| KTKBANK | The Karnataka Bank Limited | forming / still basing | C1:-13.3%/10b | C2:-6.9%/8b | C3:-5.5%/6b | -5.86 | NEUTRAL |
-| PREMIERENE | Premier Energies Limited | AT PIVOT (actionable) | C1:-8.7%/5b | C2:-7.1%/4b | C3:-4.3%/2b | -3.74 | NEUTRAL |
+| KOPRAN | Kopran Limited | forming / still basing | C1:-20.1%/9b | C2:-8.6%/8b | C3:-8.5%/2b | -5.73 | BULLISH |
+| MENONBE | Menon Bearings Limited | extended past pivot | C1:-13.5%/12b | C2:-10.8%/7b | C3:-7.6%/3b | 17.45 | BULLISH |
+| SIGNPOST | Signpost India Limited | BROKEN OUT (fresh) | C1:-17.1%/10b | C2:-14.2%/5b | C3:-9.1%/3b | 3.17 | BULLISH |
+| RSWM | RSWM Limited | BROKEN OUT (fresh) | C1:-11.5%/8b | C2:-8.0%/3b | C3:-6.7%/2b | 6.62 | BULLISH |
+| TALBROAUTO | Talbros Automotive Compone | forming / still basing | C1:-10.2%/7b | C2:-9.2%/3b | C3:-9.0%/3b | -6.87 | BULLISH |
+| RATEGAIN | Rategain Travel Technologi | AT PIVOT (actionable) | C1:-7.7%/5b | C2:-7.1%/5b | C3:-4.3%/1b | -0.09 | BULLISH |
+| SKYGOLD | SKY GOLD AND DIAMONDS LIMI | extended past pivot | C1:-21.6%/4b | C2:-17.1%/5b | C3:-10.6%/6b | 14.45 | BULLISH |
+| NYKAA | FSN E-Commerce Ventures Li | AT PIVOT (actionable) | C1:-9.3%/5b | C2:-4.1%/7b | C3:-3.0%/1b | -2.39 | BULLISH |
+| ASTERDM | Aster DM Healthcare Limite | BROKEN OUT (fresh) | C1:-9.0%/3b | C2:-7.3%/2b | C3:-3.6%/3b | 2.41 | BULLISH |
+| SHILPAMED | Shilpa Medicare Limited | BROKEN OUT (fresh) | C1:-9.5%/4b | C2:-6.2%/6b | C3:-3.6%/3b | 1.68 | BULLISH |
+| RISHABH | Rishabh Instruments Limite | AT PIVOT (actionable) | C1:-16.6%/6b | C2:-13.1%/3b | C3:-6.1%/2b | -4.2 | BULLISH |
+| STYLAMIND | Stylam Industries Limited | AT PIVOT (actionable) | C1:-8.2%/3b | C2:-6.8%/2b | C3:-6.6%/4b | -2.16 | BULLISH |
+| SJS | S.J.S. Enterprises Limited | AT PIVOT (actionable) | C1:-8.0%/3b | C2:-6.7%/7b | C3:-3.3%/2b | -4.09 | BULLISH |
+| INNOVACAP | Innova Captab Limited | AT PIVOT (actionable) | C1:-7.7%/4b | C2:-6.2%/2b | C3:-5.8%/5b | -3.72 | MILD BULLISH |
+| TVSSCS | TVS Supply Chain Solutions | forming / still basing | C1:-12.1%/4b | C2:-8.5%/4b | C3:-8.4%/4b | -7.48 | MILD BULLISH |
+| NGLFINE | NGL Fine-Chem Limited | forming / still basing | C1:-12.3%/2b | C2:-10.1%/2b | C3:-8.3%/3b | -5.09 | MILD BULLISH |
+| AMBIKCO | Ambika Cotton Mills Limite | AT PIVOT (actionable) | C1:-9.0%/5b | C2:-7.0%/3b | C3:-6.4%/6b | -2.64 | MILD BULLISH |
 
-## 🟢 Fresh VCP breakouts (broken out ≤8% past pivot), 19 names
+## 🟢 Fresh VCP breakouts (broken out ≤8% past pivot), 18 names
 | Symbol | Company | %past pivot | Breakout vol× | Scorecard |
 |---|---|--:|--:|---|
-| RATEGAIN | Rategain Travel Technologi | 4.38 | 0.78 | BULLISH |
-| SATIN | Satin Creditcare Network L | 4.51 | 0.53 | BULLISH |
-| SANSERA | Sansera Engineering Limite | 1.47 | 0.66 | BULLISH |
-| NAM-INDIA | Nippon Life India Asset Ma | 2.03 | 0.36 | BULLISH |
-| SHREEJISPG | Shreeji Shipping Global Li | 3.71 | 0.73 | BULLISH |
-| LOKESHMACH | Lokesh Machines Limited | 5.78 | 0.9 | BULLISH |
-| KIMS | Krishna Institute of Medic | 4.25 | 0.91 | BULLISH |
-| SFL | Sheela Foam Limited | 2.75 | 0.43 | BULLISH |
-| PRIVISCL | Privi Speciality Chemicals | 0.6 | 0.4 | BULLISH |
-| NEULANDLAB | Neuland Laboratories Limit | 2.78 | 1.24 | BULLISH |
-| SKYGOLD | SKY GOLD AND DIAMONDS LIMI | 3.16 | 0.79 | BULLISH |
-| DEEPAKFERT | Deepak Fertilizers and Pet | 2.58 | 0.71 | BULLISH |
-| MAYURUNIQ | Mayur Uniquoters Ltd | 5.77 | 0.61 | BULLISH |
-| MBAPL | Madhya Bharat Agro Product | 6.97 | 0.99 | BULLISH |
-| RPEL | Raghav Productivity Enhanc | 3.74 | 0.36 | BULLISH |
-| IOLCP | IOL Chemicals and Pharmace | 5.9 | 0.98 | BULLISH |
-| SENORES | Senores Pharmaceuticals Li | 1.61 | 1.24 | BULLISH |
-| SKIPPER | Skipper Limited | 2.21 | 0.77 | BULLISH |
-| NGLFINE | NGL Fine-Chem Limited | 0.5 | 1.02 | MILD BULLISH |
+| SIGNPOST | Signpost India Limited | 3.17 | 0.29 | BULLISH |
+| INGERRAND | Ingersoll Rand (India) Lim | 1.31 | 1.72 | BULLISH |
+| 506854 | TANFAC Industries Ltd-$ | 7.41 | 1.78 | BULLISH |
+| ORCHPHARMA | Orchid Pharma Limited | 2.66 | 0.55 | BULLISH |
+| NAHARSPING | Nahar Spinning Mills Limit | 2.5 | 0.6 | BULLISH |
+| KMEW | Knowledge Marine & Enginee | 3.67 | 0.43 | BULLISH |
+| RSWM | RSWM Limited | 6.62 | 0.24 | BULLISH |
+| ADANIENSOL | Adani Energy Solutions Lim | 0.62 | 0.95 | BULLISH |
+| 544023 | Kalyani Cast-Tech Ltd | 3.09 | 1.06 | BULLISH |
+| 531911 | Galaxy Agrico Exports Ltd | 1.32 | 0.18 | BULLISH |
+| SONACOMS | Sona BLW Precision Forging | 4.58 | 2.46 | BULLISH |
+| SAILIFE | Sai Life Sciences Limited | 0.95 | 0.32 | BULLISH |
+| HAPPYFORGE | Happy Forgings Limited | 2.92 | 0.61 | BULLISH |
+| ASTERDM | Aster DM Healthcare Limite | 2.41 | 0.8 | BULLISH |
+| CHENNPETRO | Chennai Petroleum Corporat | 1.15 | 1.47 | BULLISH |
+| SHILPAMED | Shilpa Medicare Limited | 1.68 | 0.38 | BULLISH |
+| SENORES | Senores Pharmaceuticals Li | 3.32 | 0.48 | BULLISH |
+| BHARATFORG | Bharat Forge Limited | 1.74 | 1.71 | BULLISH |
 
 **Files:** `PHASE4_VCP_GANN.csv` (full table) · per-stock VCP+Gann appended to `reports/<symbol>.md`.
 

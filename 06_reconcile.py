@@ -16,12 +16,30 @@ df = pd.read_csv("hits_final.csv", dtype={"symbol": str})
 # canonical: today's last close / robust past median
 df["return_pct_final"] = ((df["price_today"] / df["robust_past"] - 1) * 100).round(2)
 
-# Build ISIN -> BSE scrip code map for cross-source current price on NSE names
-master = pd.DataFrame(requests.get(
-    "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Active",
-    headers=H, timeout=40).json())
-master["isin"] = master["ISIN_NUMBER"].astype(str).str.strip().str.upper()
-isin2code = dict(zip(master["isin"], master["SCRIP_CD"].astype(str)))
+# Build ISIN -> BSE scrip code map for cross-source current price on NSE names.
+# The BSE API is flaky (intermittently returns HTML/empty instead of JSON); retry
+# with backoff, and degrade gracefully if it stays down -- the winner list only
+# depends on return_pct_final, the BSE cross-source price is a secondary check.
+def bse_master(tries=4):
+    for i in range(tries):
+        try:
+            r = requests.get(
+                "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Active",
+                headers=H, timeout=40)
+            return pd.DataFrame(r.json())
+        except Exception as e:
+            if i == tries - 1:
+                print(f"[warn] BSE master fetch failed ({type(e).__name__}); "
+                      f"skipping BSE cross-source price check.")
+                return None
+            time.sleep(2 * (i + 1))
+
+master = bse_master()
+if master is not None:
+    master["isin"] = master["ISIN_NUMBER"].astype(str).str.strip().str.upper()
+    isin2code = dict(zip(master["isin"], master["SCRIP_CD"].astype(str)))
+else:
+    isin2code = {}
 
 bse = requests.Session(); bse.headers.update(H)
 def bse_ltp(code):

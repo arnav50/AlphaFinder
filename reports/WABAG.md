@@ -1,80 +1,80 @@
 # WABAG — VA Tech Wabag Limited (NSE)
-**Sector:** Industrials | **6m return:** 62.04% | **Close:** ₹2080.9 | **Cap:** Mid | **Bars:** 354
+**Sector:** Industrials | **6m return:** 77.16% | **Close:** ₹1991.1 | **Cap:** n/a | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 12.2, confluence high)
-Leading 3.2 | Lagging 7.5 | Candles 1.0 | Price-action 0.5
+## 🏁 SCORECARD: **MILD BULLISH**  (score 3.0, confluence low)
+Leading -2.0 | Lagging 3.5 | Candles -1.0 | Price-action 2.5
 
 ## A. Leading indicators
-- **RSI(14):** 66.8 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 85.9 / %D 82.4, cross bull, overbought, div none
-- **Bollinger(20,2):** above_mid, width 49.27%, expanding
+- **RSI(14):** 50.3 (neutral), trend falling, divergence bearish
+- **Stochastic(14,3,3):** %K 25.8 / %D 41.3, cross bear, neutral, div bearish
+- **Bollinger(20,2):** below_mid, width 12.26%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 69.2 (above0)
-- **Williams %R(14):** -23.4 (neutral)
-- **OBV:** trend rising, divergence none
-- **MFI(14):** 80.2 (overbought)
+- **CCI(20):** -28.6 (below0)
+- **Williams %R(14):** -91.4 (oversold)
+- **OBV:** trend falling, divergence none
+- **MFI(14):** 56.6 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 9.353 (contracting_pos), cross none, zero-line above
-- **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 45.2 (trending), +DI>-DI, rising
+- **MACD(12,26,9):** below_signal, hist -31.688 (expanding_neg), cross none, zero-line above
+- **EMA:** alignment bullish; px vs E20 below, E50 above, E200 above; E200 slope rising
+- **ADX(14):** 46.4 (trending), +DI>-DI, falling
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 86.99 (4.18% of price, expanding)
-- **VWAP(20):** px above, dist 7.01%
-- **Pivots:** daily P 2118.63 R1 2179.27 S1 2020.27; weekly position mid_range
+- **ATR(14):** 95.65 (4.8% of price, expanding)
+- **VWAP(20):** px below, dist -5.31%
+- **Pivots:** daily P 2004.47 R1 2042.63 S1 1952.93; weekly position below_S1
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Hanging Man | 2026-06-24 | bearish | midair | failed |
-| NR4 | 2026-06-24 | neutral | midair | neutral |
-| Three White Soldiers | 2026-06-24 | bullish | midair | confirmed |
-| Doji | 2026-06-25 | neutral | midair | neutral |
-| Shooting Star | 2026-06-25 | bearish | midair | failed |
-| Bearish Pin Bar | 2026-06-25 | bearish | midair | failed |
-| Three White Soldiers | 2026-06-25 | bullish | midair | failed |
-| Doji | 2026-06-26 | neutral | midair | neutral |
-| Inside Bar | 2026-06-26 | neutral | midair | neutral |
-| Tweezer Top | 2026-06-29 | bearish | midair | failed |
-| Evening Star | 2026-06-29 | bearish | midair | failed |
-| Bullish Harami | 2026-06-30 | bullish | midair | confirmed |
-| Morning Star | 2026-07-01 | bullish | midair | confirmed |
-| Three White Soldiers | 2026-07-02 | bullish | midair | failed |
-| Bearish Engulfing | 2026-07-03 | bearish | midair | pending (last bar) |
+| Bearish Harami | 2026-07-08 | bearish | midair | failed |
+| Outside Bar | 2026-07-08 | neutral | midair | neutral |
+| Shooting Star | 2026-07-09 | bearish | midair | failed |
+| Bullish Harami | 2026-07-09 | bullish | midair | confirmed |
+| Inside Bar | 2026-07-09 | neutral | midair | neutral |
+| Morning Star | 2026-07-10 | bullish | at resistance | failed |
+| Long-legged Doji | 2026-07-13 | neutral | at resistance | neutral |
+| Bearish Harami | 2026-07-13 | bearish | at resistance | confirmed |
+| Tweezer Top | 2026-07-13 | bearish | at resistance | confirmed |
+| NR4 | 2026-07-13 | neutral | at resistance | neutral |
+| Evening Star | 2026-07-14 | bearish | midair | confirmed |
+| Three Black Crows | 2026-07-15 | bearish | midair | confirmed |
+| NR7 | 2026-07-16 | neutral | midair | neutral |
+| Three Black Crows | 2026-07-16 | bearish | midair | confirmed |
+| Three Black Crows | 2026-07-17 | bearish | at support | pending (last bar) |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Rising Wedge (bearish) | breakout 1988.18 | target n/a | volume weak | confidence low
+- **Chart pattern:** Double Bottom | breakout 2190.3 | target 2382.5 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 1612.1-1829.9 (Moderate, FRESH, 13.72% away) — quality Moderate
-- **Demand (weekly):** 1326.3-1609.9 (Moderate, FRESH, 29.26% away)
+- **Demand (daily):** 1612.1-1829.9 (Moderate, FRESH, 8.81% away) — quality Moderate
+- **Demand (weekly):** 1326.3-1609.9 (Moderate, FRESH, 23.68% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
 - **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
 - **Break of Structure (last):** bull @ 2188.0 on 2026-07-02
 - **Change of Character (last):** bull @ 1584.9 on 2026-06-05
-- **Bullish Order Block:** 1739.2-1778.0 (2026-06-17, UNMITIGATED)
+- **Bullish Order Block:** 2035.0-2089.0 (2026-07-06, mitigated)
 - **Bearish Order Block:** 2088.0-2188.0 (2026-06-25, mitigated)
-- **Fair Value Gaps:** 11 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 2036.0-2041.0 (2026-07-02) · nearest bear FVG above none
+- **Fair Value Gaps:** 10 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 1829.9-1972.6 (2026-06-22) · nearest bear FVG above 2056.0-2080.1 (2026-07-17)
 - **Liquidity:** buy-side above none | sell-side below 1262.75 | equal-highs 2 / equal-lows 1 | swept: none
-- **Premium/Discount:** **Premium** (price at 88.5% of range 1033.0–2217.0)
+- **Premium/Discount:** **Premium** (price at 78.5% of range 1033.0–2253.5)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (101.4% above 52w low, above EMA200: True)
+- **Prior uptrend:** True (92.7% above 52w low, above EMA200: True)
 - **Contractions (3):** C1:-10.3%/6b | C2:-6.2%/4b | C3:-9.0%/2b
-- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** False (vol ratio 1.88)
-- **Near 52w high:** True | **Pivot:** 2188.0 | **% from pivot:** -4.89%
-- **Breakout vol ratio (today/50d):** 1.83 | **close pos in range:** 0.14
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone n/a
+- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** False (vol ratio 1.02)
+- **Near 52w high:** False | **Pivot:** 2248.0 | **% from pivot:** -11.43%
+- **Breakout vol ratio (today/50d):** 1.33 | **close pos in range:** 0.28
+- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 1033.0 on 2026-01-27):** 1x1=1540.43 2x1=2047.86 1x2=1286.71 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 2103.77 · T2 2126.77 · T3 2173.13 (support S1 2058.15, S2 2035.53)
-- **Time cycles:** 108 days since swing low → next Gann cycle at 120d (12d away); near cycle: False
-- **Octave position:** 8/8 (52w high) | levels 4/8=1625.0 6/8=1921.0 7/8=2069.0
-- **Cardinal square:** nearest perfect-square 2116 (1.69% away); near: True
+- **Angles (auto-scaled from swing low 1033.0 on 2026-01-27):** 1x1=1604.5 2x1=2176.01 1x2=1318.75 → **strong (>1x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 2013.47 · T2 2035.97 · T3 2081.34 (support S1 1968.85, S2 1946.73)
+- **Time cycles:** 118 days since swing low → next Gann cycle at 120d (2d away); near cycle: True
+- **Octave position:** 7/8 (exhaustion) | levels 4/8=1643.25 6/8=1948.38 7/8=2100.94
+- **Cardinal square:** nearest perfect-square 2025 (1.7% away); near: True

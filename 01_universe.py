@@ -21,7 +21,13 @@ def get(url, tries=5, **kw):
 
 
 def nse_universe():
-    url = "https://archives.nseindia.com/content/equities/EQUITY_L.csv"
+    # Old host archives.nseindia.com now 503s from many IPs (Akamai edge block);
+    # nsearchives.* is the live mirror. Warm cookies via the homepage first or it blocks.
+    try:
+        get("https://www.nseindia.com", timeout=15)
+    except Exception:
+        pass
+    url = "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"
     df = pd.read_csv(io.StringIO(get(url).text))
     df.columns = [c.strip() for c in df.columns]
     df = df.rename(columns={

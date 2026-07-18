@@ -1,80 +1,80 @@
 # GANDHAR — Gandhar Oil Refinery (India) Limited (NSE)
-**Sector:** Energy | **6m return:** 27.84% | **Close:** ₹159.34 | **Cap:** Small | **Bars:** 354
+**Sector:** Energy | **6m return:** 35.73% | **Close:** ₹207.93 | **Cap:** n/a | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 6.8, confluence medium)
-Leading 3.3 | Lagging 4.0 | Candles -1.0 | Price-action 0.5
+## 🏁 SCORECARD: **BULLISH**  (score 13.7, confluence high)
+Leading 2.7 | Lagging 7.5 | Candles 1.0 | Price-action 2.5
 
 ## A. Leading indicators
-- **RSI(14):** 55.6 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 31.7 / %D 38.5, cross none, neutral, div none
-- **Bollinger(20,2):** above_mid, width 16.96%, SQUEEZE
+- **RSI(14):** 72.9 (overbought), trend rising, divergence none
+- **Stochastic(14,3,3):** %K 83.8 / %D 86.1, cross bear, overbought, div none
+- **Bollinger(20,2):** above_mid, width 24.49%, contracting
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 1.4 (above0)
-- **Williams %R(14):** -67.8 (neutral)
+- **CCI(20):** 68.8 (above0)
+- **Williams %R(14):** -25.3 (neutral)
 - **OBV:** trend rising, divergence none
-- **MFI(14):** 72.1 (neutral)
+- **MFI(14):** 81.9 (overbought)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** below_signal, hist -0.882 (expanding_neg), cross none, zero-line above
+- **MACD(12,26,9):** above_signal, hist 1.347 (contracting_pos), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 26.8 (trending), +DI>-DI, falling
+- **ADX(14):** 61.6 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 7.32 (4.59% of price, contracting)
-- **VWAP(20):** px below, dist -1.85%
-- **Pivots:** daily P 158.41 R1 160.92 S1 156.84; weekly position mid_range
+- **ATR(14):** 8.15 (3.92% of price, expanding)
+- **VWAP(20):** px above, dist 8.42%
+- **Pivots:** daily P 207.62 R1 212.71 S1 202.84; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Bearish Pin Bar | 2026-05-22 | bearish | at S/R confluence | failed |
-| Bearish Engulfing | 2026-05-26 | bearish | at S/R confluence | failed |
-| Tweezer Top | 2026-05-26 | bearish | at S/R confluence | failed |
-| Outside Bar | 2026-05-26 | neutral | at S/R confluence | neutral |
-| Doji | 2026-05-28 | neutral | at S/R confluence | neutral |
-| Inside Bar | 2026-05-28 | neutral | at S/R confluence | neutral |
-| Outside Bar | 2026-05-29 | neutral | at resistance | neutral |
-| Bullish Harami | 2026-06-01 | bullish | at resistance | failed |
-| Long-legged Doji | 2026-06-03 | neutral | at resistance | neutral |
-| NR4 | 2026-06-03 | neutral | at resistance | neutral |
-| Three White Soldiers | 2026-06-04 | bullish | at resistance | failed |
-| Inside Bar | 2026-06-05 | neutral | at resistance | neutral |
-| Bullish Harami | 2026-06-09 | bullish | at resistance | pending (last bar) |
-| Tweezer Bottom | 2026-06-09 | bullish | at resistance | pending (last bar) |
-| NR4 | 2026-06-09 | neutral | at resistance | pending (last bar) |
+| Inside Bar | 2026-06-30 | neutral | at resistance | neutral |
+| Long-legged Doji | 2026-07-03 | neutral | at resistance | neutral |
+| Bullish Pin Bar | 2026-07-03 | bullish | at resistance | confirmed |
+| NR4 | 2026-07-03 | neutral | at resistance | neutral |
+| Morning Star | 2026-07-03 | bullish | at resistance | confirmed |
+| Long-legged Doji | 2026-07-06 | neutral | midair | neutral |
+| Outside Bar | 2026-07-07 | neutral | midair | neutral |
+| Three White Soldiers | 2026-07-07 | bullish | midair | failed |
+| Bearish Harami | 2026-07-08 | bearish | midair | failed |
+| Inside Bar | 2026-07-08 | neutral | midair | neutral |
+| Inside Bar | 2026-07-13 | neutral | midair | neutral |
+| Three White Soldiers | 2026-07-13 | bullish | midair | failed |
+| Bearish Harami | 2026-07-14 | bearish | midair | failed |
+| Inside Bar | 2026-07-14 | neutral | midair | neutral |
+| NR7 | 2026-07-14 | neutral | midair | neutral |
 
 ## D. Price-action / chart patterns
 - **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Head & Shoulders | breakout 141.13 | target 112.27 | volume no | confidence medium
+- **Chart pattern:** Bull Flag / Pennant | breakout 210.95 | target 268.71 | volume no | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 136.25-141.8 (Moderate, tested, 12.37% away) — quality Moderate
-- **Demand (weekly):** 120.56-147.38 (Moderate, tested, 8.12% away)
+- **Demand (daily):** 155.71-164.7 (Moderate, FRESH, 26.25% away) — quality Moderate
+- **Demand (weekly):** 120.56-147.38 (Moderate, tested, 41.08% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
-- **Market structure:** daily bullish (HH/HL) | weekly ranging | aligned: False
-- **Break of Structure (last):** bull @ 165.2 on 2026-05-25
+- **Market structure:** daily ranging | weekly ranging | aligned: True
+- **Break of Structure (last):** bull @ 209.8 on 2026-07-16
 - **Change of Character (last):** bull @ 133.29 on 2026-04-08
-- **Bullish Order Block:** 139.51-142.71 (2026-05-13, UNMITIGATED)
+- **Bullish Order Block:** 155.71-159.5 (2026-06-17, UNMITIGATED)
 - **Bearish Order Block:** 165.5-172.2 (2026-05-25, mitigated)
-- **Fair Value Gaps:** 4 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 144.9-147.5 (2026-05-18) · nearest bear FVG above none
-- **Liquidity:** buy-side above 165.3 | sell-side below 147.86 | equal-highs 2 / equal-lows 3 | swept: buy-side swept (bearish stop-hunt)
-- **Premium/Discount:** **Premium** (price at 69.3% of range 115.0–178.95)
+- **Fair Value Gaps:** 7 unfilled bullish, 0 unfilled bearish · nearest bull FVG below 196.8-200.4 (2026-07-13) · nearest bear FVG above none
+- **Liquidity:** buy-side above none | sell-side below 147.86 | equal-highs 2 / equal-lows 3 | swept: none
+- **Premium/Discount:** **Premium** (price at 90.2% of range 115.0–218.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (38.6% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-4.9%/6b | C2:-14.9%/4b | C3:-11.7%/6b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** False (vol ratio 0.93)
-- **Near 52w high:** False | **Pivot:** 169.5 | **% from pivot:** -5.99%
-- **Breakout vol ratio (today/50d):** 0.36 | **close pos in range:** 0.84
-- **🏆 VCP QUALITY: No VCP** | **3rd-leg status: forming / still basing** | entry zone n/a
+- **Prior uptrend:** True (80.8% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-9.4%/5b | C2:-3.3%/3b | C3:-5.8%/2b
+- **Depths decreasing:** False | **Duration decreasing:** True | **Volume dry-up (VDU):** True (vol ratio 0.7)
+- **Near 52w high:** True | **Pivot:** 185.0 | **% from pivot:** 12.39%
+- **Breakout vol ratio (today/50d):** 0.55 | **close pos in range:** 0.55
+- **🏆 VCP QUALITY: Moderate VCP** | **3rd-leg status: extended past pivot** | entry zone 185.0-194.25
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 115.0 on 2026-03-30):** 1x1=127.84 2x1=140.69 1x2=121.42 → **very strong (>2x1)** (above 1x1: True)
-- **Square-of-9 targets:** T1 165.71 · T2 172.21 · T3 185.59 (support S1 153.09, S2 146.97)
-- **Time cycles:** 48 days since swing low → next Gann cycle at 60d (12d away); near cycle: True
-- **Octave position:** 6/8 (75%) | levels 4/8=148.71 6/8=165.57 7/8=174.0
-- **Cardinal square:** nearest perfect-square 169 (6.06% away); near: False
+- **Angles (auto-scaled from swing low 115.0 on 2026-03-30):** 1x1=146.06 2x1=177.13 1x2=130.53 → **very strong (>2x1)** (above 1x1: True)
+- **Square-of-9 targets:** T1 215.2 · T2 222.6 · T3 237.77 (support S1 200.78, S2 193.76)
+- **Time cycles:** 76 days since swing low → next Gann cycle at 90d (14d away); near cycle: False
+- **Octave position:** 8/8 (52w high) | levels 4/8=166.5 6/8=192.25 7/8=205.12
+- **Cardinal square:** nearest perfect-square 196 (5.74% away); near: False

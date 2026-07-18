@@ -1,56 +1,56 @@
 # SBC — SBC Exports Limited (NSE)
-**Sector:** Industrials | **6m return:** 46.52% | **Close:** ₹42.14 | **Cap:** Small | **Bars:** 353
+**Sector:** Industrials | **6m return:** 46.36% | **Close:** ₹42.27 | **Cap:** n/a | **Bars:** 352
 
-## 🏁 SCORECARD: **BULLISH**  (score 12.5, confluence medium)
-Leading 3.5 | Lagging 7.5 | Candles -1.0 | Price-action 2.5
+## 🏁 SCORECARD: **BULLISH**  (score 5.3, confluence low)
+Leading 2.3 | Lagging 5.0 | Candles -1.0 | Price-action -1.0
 
 ## A. Leading indicators
-- **RSI(14):** 66.2 (neutral), trend falling, divergence none
-- **Stochastic(14,3,3):** %K 64.6 / %D 62.8, cross bull, neutral, div none
-- **Bollinger(20,2):** above_mid, width 25.85%, expanding
+- **RSI(14):** 64.6 (neutral), trend falling, divergence none
+- **Stochastic(14,3,3):** %K 53.7 / %D 53.6, cross bull, neutral, div bearish
+- **Bollinger(20,2):** above_mid, width 5.12%, SQUEEZE
 - **Ichimoku:** price above cloud, Tenkan/Kijun bullish, Chikou above, kumo-twist-ahead none
-- **CCI(20):** 90.0 (above0)
-- **Williams %R(14):** -35.5 (neutral)
-- **OBV:** trend rising, divergence none
-- **MFI(14):** 84.9 (overbought)
+- **CCI(20):** 2.8 (above0)
+- **Williams %R(14):** -44.1 (neutral)
+- **OBV:** trend rising, divergence bearish
+- **MFI(14):** 43.7 (neutral)
 
 ## B. Lagging indicators
-- **MACD(12,26,9):** above_signal, hist 0.062 (contracting_pos), cross none, zero-line above
+- **MACD(12,26,9):** below_signal, hist -0.19 (expanding_neg), cross none, zero-line above
 - **EMA:** alignment bullish; px vs E20 above, E50 above, E200 above; E200 slope rising
-- **ADX(14):** 27.0 (trending), +DI>-DI, rising
+- **ADX(14):** 34.6 (trending), +DI>-DI, rising
 - **Supertrend(7,3):** green_buy (recent flip: none)
-- **ATR(14):** 1.24 (2.95% of price, contracting)
-- **VWAP(20):** px above, dist 5.26%
-- **Pivots:** daily P 42.25 R1 42.69 S1 41.69; weekly position mid_range
+- **ATR(14):** 0.81 (1.91% of price, contracting)
+- **VWAP(20):** px above, dist 0.05%
+- **Pivots:** daily P 42.25 R1 42.43 S1 42.08; weekly position mid_range
 
 ## C. Candlestick patterns (last 20 daily candles)
 | Pattern | Date | Dir | Context | Confirmation |
 |---|---|---|---|---|
-| Inside Bar | 2026-06-22 | neutral | at resistance | neutral |
-| Three White Soldiers | 2026-06-22 | bullish | at resistance | failed |
-| Evening Star | 2026-06-23 | bearish | midair | failed |
-| NR4 | 2026-06-24 | neutral | midair | neutral |
-| Tweezer Top | 2026-06-25 | bearish | midair | failed |
-| NR7 | 2026-06-25 | neutral | midair | neutral |
-| Tweezer Top | 2026-06-29 | bearish | midair | confirmed |
-| Bearish Marubozu | 2026-06-30 | bearish | midair | failed |
-| Bearish Engulfing | 2026-06-30 | bearish | midair | failed |
-| Outside Bar | 2026-06-30 | neutral | midair | neutral |
-| Piercing Line | 2026-07-01 | bullish | midair | confirmed |
-| Outside Bar | 2026-07-01 | neutral | midair | neutral |
-| Tweezer Top | 2026-07-02 | bearish | midair | failed |
-| Inside Bar | 2026-07-02 | neutral | midair | neutral |
-| Tweezer Bottom | 2026-07-03 | bullish | midair | pending (last bar) |
+| Bearish Pin Bar | 2026-07-10 | bearish | at resistance | confirmed |
+| Bearish Engulfing | 2026-07-13 | bearish | at support | failed |
+| Doji | 2026-07-14 | neutral | at S/R confluence | neutral |
+| Shooting Star | 2026-07-14 | bearish | at S/R confluence | confirmed |
+| Bearish Pin Bar | 2026-07-14 | bearish | at S/R confluence | confirmed |
+| Bullish Harami | 2026-07-14 | bullish | at S/R confluence | failed |
+| Tweezer Top | 2026-07-14 | bearish | at S/R confluence | confirmed |
+| Shooting Star | 2026-07-15 | bearish | at support | failed |
+| Bearish Engulfing | 2026-07-15 | bearish | at support | failed |
+| Tweezer Top | 2026-07-15 | bearish | at support | failed |
+| Outside Bar | 2026-07-15 | neutral | at support | neutral |
+| Long-legged Doji | 2026-07-16 | neutral | at S/R confluence | neutral |
+| Inside Bar | 2026-07-16 | neutral | at S/R confluence | neutral |
+| NR7 | 2026-07-16 | neutral | at S/R confluence | neutral |
+| Tweezer Top | 2026-07-17 | bearish | at S/R confluence | pending (last bar) |
 
 ## D. Price-action / chart patterns
-- **Trend structure:** Uptrend (HH/HL)
-- **Chart pattern:** Rounding Bottom (saucer) | breakout 44.09 | target n/a | volume no | confidence low
+- **Trend structure:** Sideways / range-bound
+- **Chart pattern:** Double Top | breakout 42.06 | target 41.95 | volume weak | confidence medium
 
 ---
 ## PHASE 3 — Supply/Demand + Smart Money Concepts
 ### A. Supply & Demand zones
-- **Demand (daily):** 36.94-40.7 (Moderate, FRESH, 3.54% away) — quality Moderate · PRICE NEAR
-- **Demand (weekly):** 33.0-40.45 (Moderate, FRESH, 4.18% away)
+- **Demand (daily):** 36.94-40.7 (Moderate, FRESH, 3.86% away) — quality Moderate · PRICE NEAR
+- **Demand (weekly):** 33.0-40.45 (Moderate, FRESH, 4.5% away)
 - **Supply (daily, overhead):** none
 - **Supply (weekly):** none
 ### B. Smart Money Concepts
@@ -61,20 +61,20 @@ Leading 3.5 | Lagging 7.5 | Candles -1.0 | Price-action 2.5
 - **Bearish Order Block:** 43.61-44.87 (2026-06-22, UNMITIGATED)
 - **Fair Value Gaps:** 8 unfilled bullish, 1 unfilled bearish · nearest bull FVG below 40.7-43.61 (2026-06-22) · nearest bear FVG above 41.96-43.61 (2026-06-24)
 - **Liquidity:** buy-side above none | sell-side below 33.02 | equal-highs 1 / equal-lows 3 | swept: none
-- **Premium/Discount:** **Premium** (price at 86.2% of range 24.27–45.0)
+- **Premium/Discount:** **Premium** (price at 86.8% of range 24.27–45.0)
 
 ---
 ## PHASE 4 — VCP + Gann
 ### A. Volatility Contraction Pattern (Minervini)
-- **Prior uptrend:** True (191.0% above 52w low, above EMA200: True)
-- **Contractions (3):** C1:-4.7%/3b | C2:-4.6%/2b | C3:-8.0%/5b
-- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.62)
-- **Near 52w high:** True | **Pivot:** 44.87 | **% from pivot:** -6.08%
-- **Breakout vol ratio (today/50d):** 0.71 | **close pos in range:** 0.34
-- **🏆 VCP QUALITY: Moderate VCP** | **3rd-leg status: forming / still basing** | entry zone 44.87-47.11
+- **Prior uptrend:** True (180.9% above 52w low, above EMA200: True)
+- **Contractions (3):** C1:-4.7%/3b | C2:-4.6%/2b | C3:-8.0%/6b
+- **Depths decreasing:** False | **Duration decreasing:** False | **Volume dry-up (VDU):** True (vol ratio 0.64)
+- **Near 52w high:** True | **Pivot:** 43.27 | **% from pivot:** -2.31%
+- **Breakout vol ratio (today/50d):** 0.65 | **close pos in range:** 0.6
+- **🏆 VCP QUALITY: Moderate VCP** | **3rd-leg status: AT PIVOT (actionable)** | entry zone 43.27-45.43
 ### B. Gann Theory
-- **Angles (auto-scaled from swing low 22.19 on 2025-10-14):** 1x1=43.75 2x1=65.31 1x2=32.97 → **moderate (>1x2)** (above 1x1: False)
-- **Square-of-9 targets:** T1 45.45 · T2 48.88 · T3 56.12 (support S1 38.96, S2 35.9)
-- **Time cycles:** 178 days since swing low → next Gann cycle at 180d (2d away); near cycle: True
-- **Octave position:** 8/8 (52w high) | levels 4/8=29.74 6/8=37.37 7/8=41.18
-- **Cardinal square:** nearest perfect-square 36 (14.57% away); near: False
+- **Angles (auto-scaled from swing low 23.19 on 2025-10-29):** 1x1=44.46 2x1=65.74 1x2=33.83 → **moderate (>1x2)** (above 1x1: False)
+- **Square-of-9 targets:** T1 45.58 · T2 49.02 · T3 56.27 (support S1 39.08, S2 36.02)
+- **Time cycles:** 179 days since swing low → next Gann cycle at 180d (1d away); near cycle: True
+- **Octave position:** 8/8 (52w high) | levels 4/8=30.03 6/8=37.51 7/8=41.26
+- **Cardinal square:** nearest perfect-square 36 (14.83% away); near: False

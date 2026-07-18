@@ -1,0 +1,6 @@
+# Vercel only needs the self-contained dashboard (all data is embedded in it).
+# Exclude everything else so raw CSVs / pickles / scripts / reports are neither
+# uploaded nor publicly served, and the deploy stays small.
+*
+!alphafinder_dashboard.html
+!vercel.json

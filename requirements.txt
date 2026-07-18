@@ -1,0 +1,6 @@
+# AlphaFinder pipeline + alert server runtime deps (pinned to local versions).
+# alert_server.py itself is stdlib-only; these are for run_pipeline.py on Render.
+pandas==2.1.4
+numpy==1.26.4
+requests==2.32.4
+curl_cffi==0.15.0
