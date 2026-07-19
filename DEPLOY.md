@@ -56,7 +56,7 @@ auto-redeploys the latest dashboard.
 
 1. render.com → **New → Blueprint** → connect this repo. Render reads `render.yaml`
    and proposes a single **web** service (`alphafinder-alerts`). No secrets needed.
-2. **Apply.** The service comes up at `https://alphafinder-alerts.onrender.com`.
+2. **Apply.** The service comes up at `https://alphafinder-mrye.onrender.com`.
    - This exact URL is already baked into the deployed dashboard's "Add alert"
      button. **If you rename the service, rebuild the dashboard with the new URL**
      (see the refresh command below) so the button keeps working.
@@ -76,7 +76,7 @@ the deployed "Add alert" button keeps working:
 
 ```powershell
 # PowerShell (Windows)
-$env:ALPHAFINDER_BACKEND_URL = "https://alphafinder-alerts.onrender.com"
+$env:ALPHAFINDER_BACKEND_URL = "https://alphafinder-mrye.onrender.com"
 python run_pipeline.py
 git add -A
 git commit -m "chore: data refresh"
@@ -118,7 +118,7 @@ locally against the repo's own `ALERTS_CONFIG.csv`.
 
 ```powershell
 # rebuild everything (bake the Render URL so the deployed button works), then push
-$env:ALPHAFINDER_BACKEND_URL = "https://alphafinder-alerts.onrender.com"
+$env:ALPHAFINDER_BACKEND_URL = "https://alphafinder-mrye.onrender.com"
 python run_pipeline.py
 python alert_server.py          # http://localhost:8777/alphafinder_dashboard.html
 ```

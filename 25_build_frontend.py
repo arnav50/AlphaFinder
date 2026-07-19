@@ -793,8 +793,10 @@ $("#modal").onclick=e=>{if(e.target.id=="modal")$("#modal").classList.remove("op
 </script></body></html>"""
 
 out = HTML.replace("__DATA__", json.dumps(DATA, separators=(",",":")))
-# Inject the deployed backend base URL (Render) at build time. Empty locally -> the
-# JS falls back to same-origin (if http-served) or the local helper on :8777.
-out = out.replace("__ALPHA_BACKEND__", os.environ.get("ALPHAFINDER_BACKEND_URL", "").rstrip("/"))
+# Inject the deployed backend base URL (Render) at build time. Defaults to the
+# live Render web service so the deployed "Add alert" button works without setting
+# any env var; override with ALPHAFINDER_BACKEND_URL if the service is renamed.
+_DEFAULT_BACKEND = "https://alphafinder-mrye.onrender.com"
+out = out.replace("__ALPHA_BACKEND__", os.environ.get("ALPHAFINDER_BACKEND_URL", _DEFAULT_BACKEND).rstrip("/"))
 open("alphafinder_dashboard.html","w",encoding="utf-8").write(out)
 print(f"Wrote alphafinder_dashboard.html ({len(out)//1024} KB) | master={len(DATA['master'])} watchlist={len(DATA['watchlist'])} fingerprint={len(DATA['fingerprint'])}")

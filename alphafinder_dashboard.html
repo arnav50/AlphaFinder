@@ -369,7 +369,7 @@ buildTable($("#t_fp"), DATA.fingerprint, [
   const rec={expiry:g("#ab_exp"),strike:g("#ab_strike"),side:g("#ab_side"),metric:g("#ab_metric"),op:g("#ab_op"),value:g("#ab_val"),tf:g("#ab_tf"),note:g("#ab_note")};
   const line=[rec.expiry,rec.strike,rec.side,rec.metric,rec.op,rec.value,rec.tf,rec.note].join(",");
   const out=$("#ab_out"); out.innerHTML='<span class="muted">Adding…</span>';
-  const host=("https://alphafinder-alerts.onrender.com"||(location.protocol==='http:'?'':'http://localhost:8777'));   // build-time backend URL, else same-origin / local helper
+  const host=("https://alphafinder-mrye.onrender.com"||(location.protocol==='http:'?'':'http://localhost:8777'));   // build-time backend URL, else same-origin / local helper
   fetch(host+"/add-alert",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(rec)})
    .then(r=>r.json()).then(j=>{
      out.innerHTML = j.ok
