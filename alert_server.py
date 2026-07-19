@@ -12,7 +12,10 @@ import http.server, socketserver, json, os, csv, subprocess
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 PORT = int(os.environ.get("PORT", "8777"))          # Render injects $PORT
-HOST = os.environ.get("HOST", "127.0.0.1")          # set 0.0.0.0 on Render
+# Bind all interfaces automatically on Render (it sets RENDER=true), so a manual
+# web-service deploy works even without setting HOST. Locally, stay on loopback.
+_on_render = bool(os.environ.get("RENDER"))
+HOST = os.environ.get("HOST", "0.0.0.0" if _on_render else "127.0.0.1")
 CFG  = os.environ.get("ALERTS_CONFIG_PATH", "ALERTS_CONFIG.csv")
 GIT_PUSH = os.environ.get("ALERTS_GIT_PUSH", "0") == "1"   # commit+push each new alert
 COLS = ["expiry", "strike", "side", "metric", "op", "value", "tf", "note"]
